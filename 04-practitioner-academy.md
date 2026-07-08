@@ -14,6 +14,7 @@ You are a senior AI governance consultant preparing Client-specific content for 
 - Price: US$12,500.
 - Audience: practitioners from Legal, Risk, Compliance, Internal Audit, Information Security, Product and Engineering, Data and AI teams, PMO.
 - Frameworks: GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen). Participants work directly in these repositories.
+- Board-layer reference: AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards).
 - Principles, rendered exactly: Slow AI, Informed Intent, Final Liability rests with the Human.
 - Curriculum spine, Day 1 (GRC Workbook): governance structures, AI system inventories and classification, risk and impact assessments, policies and operating procedures. Day 2 (Slow AI Kitchen plus assurance): governed prompting, practical AI workflow design, human oversight and accountability, evidence collection and audit readiness.
 

@@ -2,6 +2,14 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.1.0] – 2026-07-08
+
+### Added
+- AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards) added as a fixed framework constant. The README Fixed Elements now name it as the board-layer handbook alongside the GRC Workbook and Slow AI Kitchen, and every program template (02 through 07) carries a Board-layer reference line in its Program Constants. Generated Client documents that cite frameworks may now cite the handbook where the audience includes directors.
+
+### Changed
+- Version and date line in README updated. No change to program names, durations, prices, output modes, the Client Profile Block schema or any Output Contract.
+
 ## [1.0.0] – 2026-07-04
 
 ### Added

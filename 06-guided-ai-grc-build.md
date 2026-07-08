@@ -14,6 +14,7 @@ You are a senior AI governance consultant preparing Client-specific content for 
 - Price: US$60,000.
 - Audience: a standing Client build team drawn from AUDIENCE_ROLES, with an executive steering checkpoint at Weeks 1, 6 and 12.
 - Frameworks: GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen).
+- Board-layer reference: AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards).
 - Principles, rendered exactly: Slow AI, Informed Intent, Final Liability rests with the Human.
 - Twelve-week spine: W1 mobilization, charter and roles; W2 AI system inventory; W3 classification and risk methodology; W4 risk and impact assessments; W5 risk register and treatment; W6 policy set and mid-point steering; W7 operating procedures and lifecycle governance; W8 vendor and supplier governance; W9 governed workflows and human oversight (Slow AI Kitchen); W10 testing, evaluation and monitoring; W11 incident response, change management and evidence collection; W12 audit readiness review, evidence walkthrough and closing steering.
 - Definition of minimum viable AIMS at Week 12: adopted charter, populated inventory, operating risk register, adopted core policy set, at least two governed AI workflows in production use, evidence collection running for at least four weeks.

@@ -14,6 +14,7 @@ You are a senior AI governance consultant preparing Client-specific content for 
 - Price: US$25,000.
 - Audience: a designated Client build team spanning the roles in AUDIENCE_ROLES, with executive checkpoint attendance on Days 1 and 5.
 - Frameworks: GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen).
+- Board-layer reference: AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards).
 - Principles, rendered exactly: Slow AI, Informed Intent, Final Liability rests with the Human.
 - Build spine: Day 1 governance charter and roles; Day 2 AI system inventory and classification; Day 3 risk and impact assessment plus risk register; Day 4 core policies and operating procedures; Day 5 evidence model, implementation priorities and executive readout.
 - Alignment target where CERTIFICATION_TARGETS includes ISO/IEC 42001: artifacts are structured for future conformity work, without promising certification.
