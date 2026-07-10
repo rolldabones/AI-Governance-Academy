@@ -2,6 +2,14 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.2.0] – 2026-07-10
+
+### Added
+- The Definition of Done Is the Work of the Human (https://github.com/rolldabones/definition-of-done) added as a fixed framework constant. The README Fixed Elements now name it as the acceptance-layer doctrine alongside the GRC Workbook, Slow AI Kitchen and AI Governance for Boards. Generated Client documents that cite frameworks may cite it where the engagement covers task-level acceptance discipline, in particular the Practitioner Academy and the Executive Workshop.
+
+### Changed
+- Version and date line in README updated. Program templates 02 through 07 are unchanged. No change to program names, durations, prices, output modes, the Client Profile Block schema or any Output Contract.
+
 ## [1.1.0] – 2026-07-08
 
 ### Added

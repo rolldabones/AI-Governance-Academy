@@ -1,6 +1,6 @@
 # AI Governance Academy – Client Content Prompt Pack
 
-Version 1.1.0 | 2026-07-08 | Status: draft | Model-agnostic
+Version 1.2.0 | 2026-07-10 | Status: draft | Model-agnostic
 
 ## Purpose
 
@@ -35,7 +35,7 @@ This pack contains prompt templates for generating Client-specific sales and del
 ## Fixed Elements (all templates)
 
 - Program names, durations and prices are constants. No template may alter them.
-- Framework names and URLs are constants: GRC Workbook (https://github.com/rolldabones/grc-workbook), Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen) and the board-layer handbook AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards).
+- Framework names and URLs are constants: GRC Workbook (https://github.com/rolldabones/grc-workbook), Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen), the board-layer handbook AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards) and the acceptance-layer doctrine The Definition of Done (https://github.com/rolldabones/definition-of-done).
 - The three principles are always rendered exactly: Slow AI, Informed Intent, Final Liability rests with the Human.
 - The closing line "Human-made, for Easy Work, Simply Done." appears once at the end of Client-facing documents.
 
