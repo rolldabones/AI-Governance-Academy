@@ -2,6 +2,15 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.3.0] – 2026-07-15
+
+### Added
+- Part of the ecosystem section in the README linking the canonical ECOSYSTEM.md in the profile repository plus the four framework constants as nearest neighbors (grc-workbook, slow-ai-kitchen, ai-governance-for-boards, definition-of-done), placed before License.
+- README Contents note documenting sounds-good.md, the client-facing publication *Sounds Good* (9 July 2026). Retroactive record: the file entered the repository around its publication date without a changelog entry, a lockstep breach corrected as of this release; no Output Contract applies to it.
+
+### Changed
+- Version and date line in README updated. Program templates 01 through 07 are unchanged. No change to program names, durations, prices, output modes, the Client Profile Block schema or any Output Contract.
+
 ## [1.2.0] – 2026-07-10
 
 ### Added

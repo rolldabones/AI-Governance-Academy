@@ -1,6 +1,6 @@
 # AI Governance Academy – Client Content Prompt Pack
 
-Version 1.2.0 | 2026-07-10 | Status: draft | Model-agnostic
+Version 1.3.0 | 2026-07-15 | Status: draft | Model-agnostic
 
 ## Purpose
 
@@ -17,6 +17,8 @@ This pack contains prompt templates for generating Client-specific sales and del
 | 05-implementation-accelerator.md | Implementation Accelerator | 5 days | US$25,000 |
 | 06-guided-ai-grc-build.md | Guided AI GRC Build | 12 weeks | US$60,000 |
 | 07-fractional-advisor.md | Fractional AI Governance Advisor | 12 months | US$10,000/month |
+
+The repository also carries one client-facing publication alongside the templates: [sounds-good.md](sounds-good.md), *Sounds Good* (9 July 2026), on why AI outputs should be characterized as "sounds good" rather than "right" and what this requires of professional users. It is not a program template and no Output Contract applies to it.
 
 ## Workflow
 
@@ -45,6 +47,16 @@ This pack contains prompt templates for generating Client-specific sales and del
 - Capitalize Client throughout.
 - Currency as US$ with comma separators.
 - No superlatives without evidence. No invented statistics, testimonials or case studies.
+
+## Part of the ecosystem
+
+This pack is one component of a larger body of AI governance, risk management and compliance work. The canonical map of all repositories is [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md) in the profile repository.
+
+Nearest neighbors:
+- [grc-workbook](https://github.com/rolldabones/grc-workbook): framework constant in every template; the build instrument the Guided AI GRC Build program delivers
+- [slow-ai-kitchen](https://github.com/rolldabones/slow-ai-kitchen): framework constant; the method the Practitioner Academy teaches
+- [ai-governance-for-boards](https://github.com/rolldabones/ai-governance-for-boards): framework constant; the board-layer handbook cited where the audience includes directors
+- [definition-of-done](https://github.com/rolldabones/definition-of-done): framework constant; the acceptance-layer doctrine cited where the engagement covers task-level acceptance discipline
 
 ## License
 
