@@ -2,7 +2,7 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
-## [1.4.0] – [COMMIT DATE]
+## [1.4.0] – 2026-07-30
 
 ### Added
 - the-turtle-and-the-phoenix.md, the client-facing publication *The Turtle and the Phoenix*: a teaching fable on human capability in the age of AI, with the facilitation kit for using it in governance rooms. The kit carries two tellings, the practice cut for telling aloud and the practitioner cut for circulation, plus the one-minute miniature, module timings, a thirteen-row handle map, eight discussion prompts, facilitation notes and the afterword. It is not a program template and no Output Contract applies to it.

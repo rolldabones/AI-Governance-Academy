@@ -4,7 +4,7 @@
 
 Son-U Michael Paik · General Counsel, BABL AI Inc. · CEO, GRC Solutions Korea
 
-[COMMIT DATE]
+July 30, 2026
 
 ---
 

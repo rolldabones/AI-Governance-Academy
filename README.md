@@ -1,6 +1,6 @@
 # AI Governance Academy – Client Content Prompt Pack
 
-Version 1.4.0 | [COMMIT DATE] | Status: draft | Model-agnostic
+Version 1.4.0 | 2026-07-30 | Status: draft | Model-agnostic
 
 ## Purpose
 
@@ -18,7 +18,7 @@ This pack contains prompt templates for generating Client-specific sales and del
 | 06-guided-ai-grc-build.md | Guided AI GRC Build | 12 weeks | US$60,000 |
 | 07-fractional-advisor.md | Fractional AI Governance Advisor | 12 months | US$10,000/month |
 
-The repository also carries two client-facing publications alongside the templates: [sounds-good.md](sounds-good.md), *Sounds Good* (9 July 2026), on why AI outputs should be characterized as "sounds good" rather than "right" and what this requires of professional users, and [the-turtle-and-the-phoenix.md](the-turtle-and-the-phoenix.md), *The Turtle and the Phoenix* ([COMMIT DATE]), a teaching fable on human capability in the age of AI with the facilitation kit for using it in governance rooms. Neither is a program template and no Output Contract applies to either.
+The repository also carries two client-facing publications alongside the templates: [sounds-good.md](sounds-good.md), *Sounds Good* (9 July 2026), on why AI outputs should be characterized as "sounds good" rather than "right" and what this requires of professional users, and [the-turtle-and-the-phoenix.md](the-turtle-and-the-phoenix.md), *The Turtle and the Phoenix* (30 July 2026), a teaching fable on human capability in the age of AI with the facilitation kit for using it in governance rooms. Neither is a program template and no Output Contract applies to either.
 
 ## Workflow
 
