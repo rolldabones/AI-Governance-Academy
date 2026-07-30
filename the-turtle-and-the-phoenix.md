@@ -27,7 +27,7 @@ July 30, 2026
 
 This is a story written to be told aloud in the opening minutes of a briefing, a workshop or a board session. It converts a governance vocabulary into narrative before any framework is named, so that when the instruments arrive they land as common sense the room has already agreed to. The story is the handshake. The frameworks are the contract. The kit that follows, a second telling for circulation, a one-minute miniature, module timings, a handle map, discussion prompts and facilitation notes, is the conversion table between the two.
 
-Two tellings are carried here and they are not interchangeable. Section 2 is the practice cut, shaped for the voice. Section 3 is the practitioner cut, shaped for the page and carrying the working customs a governance room can act on. Tell section 2. Circulate section 3. The closing annex in section 10 addresses the readers who design and build the arrangements.
+Two tellings are carried here and they are not interchangeable. Section 2 is the practice cut, shaped for the voice. Section 3 is the practitioner cut, shaped for the page: the same story, carrying the working customs a governance room can act on and the craft of the workshops that kept them. Tell section 2. Circulate section 3. The closing annex in section 10 takes the customs of section 3 and names the build discipline each one stands for.
 
 ## 2. The Practice Cut
 
@@ -115,7 +115,7 @@ By remembering.
 
 ## 3. The Practitioner Cut
 
-*Read rather than told, about thirteen minutes aloud. This is the circulation text: the same story, carrying the customs a working room can use.*
+*Read rather than told, about twenty minutes aloud. This is the circulation text: the same story, carrying the working customs of a governance room and the craft of the people who build the arrangements.*
 
 The oldest creature in the valley was a turtle.
 
@@ -186,6 +186,28 @@ Some listened.
 They built workshops where people learned alongside the phoenix instead of surrendering to it. The dull work flew away and the deciding remained, and the deciding was worth more than it had ever been. They invested in schools, in questions and in rules worth keeping. They stumbled too, for everyone stumbles. But their stumbles were small, and they kept the scratches where they could read them. The phoenix made them faster, but the turtle made them wiser.
 
 Their workshops kept small customs that outsiders mistook for superstition. No errand flew that could not be undone unless a second road home was found first, for a promise can be flown out in a morning and some promises cannot be flown back. The pace was set by the weight of the errand, not the wish of the sender: greetings raced, deeds walked. And before any flight, three questions were asked aloud: what belongs to the bird, what belongs to the mill wheels the valley already trusts and what stays in human hands.
+
+Inside the workshops, the customs deepened into craft.
+
+The turtle's shell had long been the valley's ledger, and around it the keepers built a shelf of pages: roads walked, prices paid, promises kept and broken. No satchel could carry the shelf. So each dawn came the choosing, which was its own craft: which pages served this one errand and no other. A satchel packed with everything is a satchel packed with nothing. And the keepers learned the shelf's one trick: it answers every question in yesterday's voice. For what a thing was, the shelf. For what a thing is, the bird went to the well itself, the morning of the flight.
+
+The packers learned an order and kept it. The errand first, then the road, then the name, then what a good landing looked like. Beneath these, the chosen pages from the shelf. And on top, in the largest hand, the things the bird must not do, because what sits on top of the satchel is what the bird sees first and holds hardest. Some things were never packed at all. What the mill wheel owned, the wheel kept, for a rule sent by satchel is kept beautifully and differently every morning.
+
+On the longest errands the day itself grew heavy, each hour adding particulars until the morning's telling was buried under the afternoon's. So the fliers were taught to land at noon and write the morning into one small page, and to carry the page onward instead of the morning. A flight broken at dusk could then rise again from noon, and not from dawn.
+
+Not every errand wanted the great bird. The workshops kept sparrows, cheap to feed and quick to rise, for the short flights, and saved the phoenix for the errands that earned it. And on the longest flights the phoenix itself learned to loose sparrows from its back at a fork in the road, wait upon their small answers and fold what they brought back into the greater errand. The fliers counted the sparrows home, every one, and when a sparrow did not return, its silence was written into the errand rather than wished away.
+
+In the early days every mill, gate and ferry had its own horn, and a bird had to learn them all, and most birds knew only a few doors. Then the valley cut its horns to one bore. After that any bird could call at any door, and opening a new door to the birds meant making one horn, not training every bird again. One law traveled with the horns: what came back through a horn was cargo, never command, for a bird that takes orders from a door soon belongs to the door.
+
+No bird flew a new kind of errand over the valley first. It flew over the meadow, with straw parcels, while a keeper counted the landings and wrote them down. Nine good landings in ten earned bread runs. Bread, in time, earned letters. Letters, in more time and only in more time, earned deeds. And the counting never stopped, even for old birds on old errands, because a bird that lands well in spring may drift by autumn, and not always because the bird has changed. Roads move. Wells run dry. The valley drifts beneath steady wings.
+
+Where the aviary met the road stood a gate, and at the gate the manifest was read aloud before any flight that mattered: the errand, the name, the satchel's list, the second road home and the word that would call the bird down to ask before going on. What could not be read aloud did not fly. An errand with no stopping word was not a flight at all. It was a release. The reading felt like ceremony and worked like a lock.
+
+A boy on the granary tower kept the flight book: which bird, what hour, what weather, how the landing looked. Most pages were dull. The book was kept for the pages that were not, and because a dull page, signed, is how a valley proves its dull days later. The keepers held one thing about customs: a custom that left no page behind was not a custom. It was a story, and the valley did not govern by stories.
+
+Even the great bird had gray mornings when it flew low and wide of the mark, and no one could say why, and by the next burning the grayness was gone. The workshops kept bread in the cellar and feet under the table for such mornings, and the valley did not forget that it had legs. And because the grayness came without warning, the keepers never took a quiet flight for proof. A morning with no trouble in it was a morning, not a proof.
+
+And over all of it stood the oldest rule, the turtle's own: any flight, however high, had to be one a person with feet could afterward walk again on the ground, step by step, from the ledger alone. A flight that could not be walked again had not been governed. It had only been survived.
 
 Others ignored him.
 
@@ -329,7 +351,7 @@ Choose three.
 ## 8. Facilitation Notes
 
 1. Tell it clean, with no slides during the telling. One bridge line after: "Everything this practice formalizes is already in that valley." Then convert handles into instruments, using the map as the conversion table.
-2. Tell section 2 and circulate section 3. Reading the practitioner cut aloud costs roughly thirteen minutes and buries the payload under craft the room has not yet asked for. Sending the practice cut as a handout gives a reader a script with the working customs stripped out.
+2. Tell section 2 and circulate section 3. Reading the practitioner cut aloud costs roughly twenty minutes and buries the payload under craft the room has not yet asked for. Sending the practice cut as a handout gives a reader a script with the working customs stripped out.
 3. The story opens the frameworks and never replaces them. If the room bonds to turtle-and-phoenix vocabulary and the session never converts the handles into named instruments with owners, the fable has substituted charm for governance. Every telling ends in at least one instrument: a name written, a door listed or a first errand scoped.
 4. The disloyal-hearts king is the sharpest beat and the default is to tell it, in every audience. It is self-contained and cuts cleanly where it would read as pointed, and that judgment belongs to the facilitator in the room, not to the text. If it is cut, the doors-stay-shut handle arrives through the second king's counsel.
 5. The afterword is written for the back of a printed handout, with the story on the front.
@@ -351,7 +373,7 @@ AI will continue to improve regardless of what we do. The more important questio
 
 ## 10. Annex: For Those Who Build
 
-For the readers who design the arrangements rather than authorize them: architects, engineers and the practitioners who govern builds. Each row takes an element of the story and names the build discipline it stands for. The vocabulary is limited to publicly documented concepts and to the author's own doctrines.
+For the readers who design the arrangements rather than authorize them: architects, engineers and the practitioners who govern builds. Each row takes an element of the story, most of them customs of the workshops in section 3, and names the build discipline it stands for. The vocabulary is limited to publicly documented concepts and to the author's own doctrines.
 
 | Story element | Build discipline |
 |---|---|
