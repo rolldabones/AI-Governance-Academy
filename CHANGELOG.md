@@ -2,6 +2,14 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.4.1] – 2026-07-30
+
+### Fixed
+- Commit-date placeholders resolved. The publication byline, the README version line, the README Contents note entry for the publication and the v1.4.0 changelog heading each carried an unfilled placeholder token when v1.4.0 was tagged. All four now read 30 July 2026, in the date format each location uses. The v1.4.0 tag archive retains the placeholder version as the record of what shipped under that tag.
+
+### Changed
+- Version and date line in README updated in lockstep. No change to the publication text, the handle map, the discussion prompts, the annex, program templates 01 through 07, sounds-good.md, LICENSE.md, program names, durations, prices, output modes, the Client Profile Block schema or any Output Contract.
+
 ## [1.4.0] – 2026-07-30
 
 ### Added
