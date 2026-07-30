@@ -2,6 +2,14 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.5.0] – 2026-07-30
+
+### Added
+- Ten workshop paragraphs in the practitioner cut of the-turtle-and-the-phoenix.md, nested inside the scene of those who listened, after the customs paragraph and before the failure scenes. The shelf and the choosing, the packing order, the noon page, the sparrows, the one bore of horn, the rehearsal meadow, the gate and the manifest, the flight book, the gray mornings and the walked-again rule. The story arc, the failure scenes, the kings and the classroom are unchanged.
+
+### Changed
+- Section 1 framing, the section 3 register note, facilitation note 2 and the annex preamble updated for the added material. The practitioner cut now reads at about twenty minutes aloud rather than thirteen, and the closing annex now names build disciplines for customs the reader has already met. Version and date line in README updated in lockstep. The practice cut in section 2, the miniature, the module timings, the thirteen-row handle map, the eight discussion prompts, the afterword, program templates 01 through 07, sounds-good.md, LICENSE.md, program names, durations, prices, output modes, the Client Profile Block schema and every Output Contract are unchanged.
+
 ## [1.4.1] – 2026-07-30
 
 ### Fixed
