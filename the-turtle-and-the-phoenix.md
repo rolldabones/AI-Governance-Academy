@@ -29,6 +29,8 @@ This is a story written to be told aloud in the opening minutes of a briefing, a
 
 Two tellings are carried here and they are not interchangeable. Section 2 is the practice cut, shaped for the voice. Section 3 is the practitioner cut, shaped for the page: the same story, carrying the working customs a governance room can act on and the craft of the workshops that kept them. Tell section 2. Circulate section 3. The closing annex in section 10 takes the customs of section 3 and names the build discipline each one stands for.
 
+The story alone, without the kit, is published as an essay: [*The Turtle and the Phoenix*](https://redcaps.substack.com/p/the-turtle-and-the-phoenix), 30 July 2026. That telling is the general-audience cut and is the text this kit is built on.
+
 ## 2. The Practice Cut
 
 *Told aloud, about eight to nine minutes. Core I plus Core II plus the Close runs about five and a half. This is the telling cut. For circulation, use section 3.*
