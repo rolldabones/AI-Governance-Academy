@@ -2,6 +2,16 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.6.0] – 2026-07-30
+
+### Added
+- Section 8, The Closing Exercise, in the-turtle-and-the-phoenix.md. Twenty minutes, three required artifacts (one name written, one door listed, one errand scoped) and an acceptance test read aloud before the room leaves. The kit previously promised in its facilitation notes that every telling would end in at least one instrument and gave the facilitator no mechanism to make that happen; the exercise is that mechanism, and it applies the same acceptance rule the story argues for.
+- Fourth column on the handle map, naming the artifact each row produces, so a row can be assigned rather than only discussed. One row of thirteen is marked Principle, meaning it changes how people think rather than what they file.
+- One paragraph in the practitioner cut, in the scene of the reckless and the fearful, where the turtle's own caution once cost a neighbor her stores. The practice cut, the miniature and the published essay are unchanged, so the canon text stands as published.
+
+### Changed
+- Sections renumbered from the insertion of section 8: Facilitation Notes to 9, Afterword to 10, Annex to 11, with the Contents list and both internal cross-references updated. Facilitation note 3 now points at the exercise instead of stating an outcome the kit could not enforce. Version and date line in README updated in lockstep. The story arc, the miniature, the module timings, the discussion prompts, the annex, the afterword, program templates 01 through 07, sounds-good.md, LICENSE.md, program names, durations, prices, output modes, the Client Profile Block schema and every Output Contract are unchanged.
+
 ## [1.5.1] – 2026-07-30
 
 ### Added
