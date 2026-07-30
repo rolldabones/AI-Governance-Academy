@@ -2,6 +2,14 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.3.1] – 2026-07-30
+
+### Added
+- LICENSE.md, formalizing the CC BY-NC-SA 4.0 terms already stated in the README License section. The terms are mirrored, not changed: attribution to Son-U Michael Paik, non-commercial use, ShareAlike on derivatives and prior written permission for commercial use. Filename follows the account majority convention (LICENSE.md, fourteen repositories, against LICENSE in five).
+
+### Changed
+- Version and date line in README updated in lockstep. Program templates 01 through 07, sounds-good.md, program names, durations, prices, output modes, the Client Profile Block schema and every Output Contract are unchanged.
+
 ## [1.3.0] – 2026-07-15
 
 ### Added
