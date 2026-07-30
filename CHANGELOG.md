@@ -2,6 +2,14 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.5.1] – 2026-07-30
+
+### Added
+- Link from the-turtle-and-the-phoenix.md and from the README Contents note to the published essay at https://redcaps.substack.com/p/the-turtle-and-the-phoenix, the general-audience telling of the story this kit is built on. The canonical Substack URL is used rather than a share link, so no tracking parameters enter the repository.
+
+### Changed
+- Version and date line in README updated in lockstep. No change to the story text in either telling, the miniature, the module timings, the handle map, the discussion prompts, the facilitation notes, the afterword, the annex, program templates 01 through 07, sounds-good.md, LICENSE.md, program names, durations, prices, output modes, the Client Profile Block schema or any Output Contract.
+
 ## [1.5.0] – 2026-07-30
 
 ### Added
