@@ -17,9 +17,10 @@ July 30, 2026
 - [5. Modules and Timings](#5-modules-and-timings)
 - [6. The Handle Map](#6-the-handle-map)
 - [7. Discussion Prompts](#7-discussion-prompts)
-- [8. Facilitation Notes](#8-facilitation-notes)
-- [9. Afterword](#9-afterword)
-- [10. Annex: For Those Who Build](#10-annex-for-those-who-build)
+- [8. The Closing Exercise](#8-the-closing-exercise)
+- [9. Facilitation Notes](#9-facilitation-notes)
+- [10. Afterword](#10-afterword)
+- [11. Annex: For Those Who Build](#11-annex-for-those-who-build)
 
 ---
 
@@ -27,7 +28,7 @@ July 30, 2026
 
 This is a story written to be told aloud in the opening minutes of a briefing, a workshop or a board session. It converts a governance vocabulary into narrative before any framework is named, so that when the instruments arrive they land as common sense the room has already agreed to. The story is the handshake. The frameworks are the contract. The kit that follows, a second telling for circulation, a one-minute miniature, module timings, a handle map, discussion prompts and facilitation notes, is the conversion table between the two.
 
-Two tellings are carried here and they are not interchangeable. Section 2 is the practice cut, shaped for the voice. Section 3 is the practitioner cut, shaped for the page: the same story, carrying the working customs a governance room can act on and the craft of the workshops that kept them. Tell section 2. Circulate section 3. The closing annex in section 10 takes the customs of section 3 and names the build discipline each one stands for.
+Two tellings are carried here and they are not interchangeable. Section 2 is the practice cut, shaped for the voice. Section 3 is the practitioner cut, shaped for the page: the same story, carrying the working customs a governance room can act on and the craft of the workshops that kept them. Tell section 2. Circulate section 3. The closing annex in section 11 takes the customs of section 3 and names the build discipline each one stands for.
 
 The story alone, without the kit, is published as an essay: [*The Turtle and the Phoenix*](https://redcaps.substack.com/p/the-turtle-and-the-phoenix), 30 July 2026. That telling is the general-audience cut and is the text this kit is built on.
 
@@ -225,6 +226,8 @@ The turtle grieved for the reckless and the fearful alike.
 
 "Too fast and never are the same mistake in different coats," he said. "Both let the pace do the choosing. There is no right speed written in the sky. There is only a person who chooses the pace, and answers for the choosing."
 
+He said it as one who had paid. In a hard winter long before the phoenix, a neighbor had asked him whether to carry her stores to higher ground before the river rose, and he had told her to wait until he understood the water. He understood it three days later. The river had understood it first, and it took the grain and the roof above it. He kept that scratch where he could read it, and he did not tell the story to excuse the reckless. He told it because the cost of waiting is always paid by someone, and the someone is seldom the one who chose to wait.
+
 Not long afterward, rulers from distant kingdoms came seeking counsel.
 
 One king leaned close and asked the phoenix to look into the hearts of his people and report which of them were disloyal.
@@ -319,23 +322,23 @@ Core I and Core II carry the payload and are never cut. Executive audiences and 
 
 ## 6. The Handle Map
 
-Thirteen rows. Each links a line in the story to the shorthand it gives the room and to the instrument that shorthand opens. Lines marked (practitioner cut) appear in section 3 only.
+Thirteen rows. Each links a line in the story to the shorthand it gives the room, to the instrument that shorthand opens and to the artifact a room can be asked to produce. Where the fourth column reads Principle, the row changes how people think rather than what they file, and it should be taught that way rather than assigned. Lines marked (practitioner cut) appear in section 3 only.
 
-| Line in the story | Handle for the room | What it opens |
-|---|---|---|
-| "decide which problems deserve solving... what you will not accept" | what you want and what you will not accept | Informed Intent: pre-deployment authorization with explicit specification, held by a named human |
-| "write down the name... the name must" | whose name is on the flight | Final Liability rests with the Human: exactly one named holder, never zero |
-| "easy work, simply done, one errand at a time" | turtle-sized tasks | Tiny Servants: narrow purpose, clear boundaries, a human owner |
-| "keep more than one road to every place you must reach"; "no errand flew that could not be undone unless a second road home was found first" (practitioner cut) | more than one road | GRCnext™: optionality as the core safety property (Services, Tolerances, Pipes, Switches, Exits), and reversibility before capability, no irreversible action without a tested way back |
-| "a person who chooses the pace, and answers for the choosing"; the turtle's own pace and the shell he can still read | who chooses the pace | Slow AI: velocity as a governed judgment rather than a race, moving at the pace of understanding and keeping a record that can be read back |
-| "kept the scratches where they could read them" | keep the scratch | Evidence and auditability: records as the only continuity |
-| "the fire kept the particulars" | the fire keeps the particulars | Statelessness: remediation lands on the scaffolding and the people, never on the bird |
-| "waiting keeps no ledger" | the cost of waiting | Proportionality: refusal is also a failure mode, and its costs go uncounted |
-| "this is a door, and it stays shut" | doors, not dials | The prohibited tier: some uses are refused, never balanced |
-| "grown, the way a shell is grown" | grown, not given | The competence precondition: capability as the validity condition for accountability |
-| "the satchel had a bottom, and a thing left out of the satchel was a thing that had never happened" (practitioner cut) | what is in the satchel | What enters the day's telling is all the system knows for that task: the errand, the constraints, the name and what done looks like. Capacity is finite |
-| "what belongs to the bird, what belongs to the mill wheels the valley already trusts and what stays in human hands" (practitioner cut) | the three questions | Ownership decided before the flight: what the system carries, what existing tools already carry and what stays with people |
-| "a flock is not a bird... it wants reins of its own, and the reins were never made" (practitioner cut) | a flock is not a bird | Composition is its own risk: arrangements of many systems need governance of their own, not the sum of each bird's |
+| Line in the story | Handle for the room | What it opens | Artifact it produces |
+|---|---|---|---|
+| "decide which problems deserve solving... what you will not accept" | what you want and what you will not accept | Informed Intent: pre-deployment authorization with explicit specification, held by a named human | A signed authorization naming purpose, scope, limits and what will not be accepted |
+| "write down the name... the name must" | whose name is on the flight | Final Liability rests with the Human: exactly one named holder, never zero | One named person recorded against the deployment, with the date and the scope of what they answer for |
+| "easy work, simply done, one errand at a time" | turtle-sized tasks | Tiny Servants: narrow purpose, clear boundaries, a human owner | A one-task scope note: the task, its boundaries, what done looks like and the owner |
+| "keep more than one road to every place you must reach"; "no errand flew that could not be undone unless a second road home was found first" (practitioner cut) | more than one road | GRCnext™: optionality as the core safety property (Services, Tolerances, Pipes, Switches, Exits), and reversibility before capability, no irreversible action without a tested way back | A rollback path that someone has actually walked, with the date they walked it |
+| "a person who chooses the pace, and answers for the choosing"; the turtle's own pace and the shell he can still read | who chooses the pace | Slow AI: velocity as a governed judgment rather than a race, moving at the pace of understanding and keeping a record that can be read back | A recorded pace decision for one initiative: who set it, on what basis, and when it is revisited |
+| "kept the scratches where they could read them" | keep the scratch | Evidence and auditability: records as the only continuity | The record set itself: decision notes, versions and logs a reviewer can request without warning |
+| "the fire kept the particulars" | the fire keeps the particulars | Statelessness: remediation lands on the scaffolding and the people, never on the bird | Principle. It changes where remediation lands rather than producing a document |
+| "waiting keeps no ledger" | the cost of waiting | Proportionality: refusal is also a failure mode, and its costs go uncounted | A cost-of-inaction estimate for one deferred use, with the person who owns the deferral |
+| "this is a door, and it stays shut" | doors, not dials | The prohibited tier: some uses are refused, never balanced | A written prohibited-use list with an approver and a date |
+| "grown, the way a shell is grown" | grown, not given | The competence precondition: capability as the validity condition for accountability | A competence record for each named holder: what they were trained on, when, and what they may authorize |
+| "the satchel had a bottom, and a thing left out of the satchel was a thing that had never happened" (practitioner cut) | what is in the satchel | What enters the day's telling is all the system knows for that task: the errand, the constraints, the name and what done looks like. Capacity is finite | A context specification for one task, stating what is included and what is deliberately left out |
+| "what belongs to the bird, what belongs to the mill wheels the valley already trusts and what stays in human hands" (practitioner cut) | the three questions | Ownership decided before the flight: what the system carries, what existing tools already carry and what stays with people | A delegation table for one workflow: system, existing tooling, human, and the owner of each handoff |
+| "a flock is not a bird... it wants reins of its own, and the reins were never made" (practitioner cut) | a flock is not a bird | Composition is its own risk: arrangements of many systems need governance of their own, not the sum of each bird's | An inventory of multi-system arrangements, each with one named owner for the arrangement itself |
 
 ## 7. Discussion Prompts
 
@@ -350,16 +353,30 @@ Choose three.
 7. What is in today's satchel for this task, and what have we left out that we are assuming the system knows?
 8. For the next irreversible action in this process, what is the second road home, and has anyone walked it?
 
-## 8. Facilitation Notes
+## 8. The Closing Exercise
+
+*Twenty minutes. This is what makes the session a workshop rather than a briefing.*
+
+The room leaves with three artifacts or the session is not finished. Each is small enough to complete in the room and specific enough to fail.
+
+1. **One name written.** Take a live initiative in this organization. Write the single person who answers for where it lands, with the date and the scope of what they answer for.
+2. **One door listed.** Name one use this organization refuses regardless of the value on offer. Record who approved the refusal.
+3. **One errand scoped.** Take one candidate deployment and write it as easy work, simply done: the task, its boundaries, what a good landing looks like and the owner.
+
+**Acceptance test.** Read the three back aloud to the room before anyone leaves. A name that is a team rather than a person fails. A door phrased as a preference rather than a refusal fails. An errand with no stated boundary or no stated landing fails. Anything that fails is reworked in the room, not circulated afterward.
+
+The test is the point. This practice does not accept work because it was done. It accepts work when a named person confirms it against a standard set before the work began, which is the same rule the story spends eight minutes arguing for.
+
+## 9. Facilitation Notes
 
 1. Tell it clean, with no slides during the telling. One bridge line after: "Everything this practice formalizes is already in that valley." Then convert handles into instruments, using the map as the conversion table.
 2. Tell section 2 and circulate section 3. Reading the practitioner cut aloud costs roughly twenty minutes and buries the payload under craft the room has not yet asked for. Sending the practice cut as a handout gives a reader a script with the working customs stripped out.
-3. The story opens the frameworks and never replaces them. If the room bonds to turtle-and-phoenix vocabulary and the session never converts the handles into named instruments with owners, the fable has substituted charm for governance. Every telling ends in at least one instrument: a name written, a door listed or a first errand scoped.
+3. The story opens the frameworks and never replaces them. If the room bonds to turtle-and-phoenix vocabulary and the session never converts the handles into named instruments with owners, the fable has substituted charm for governance. Section 8 is how that is enforced rather than hoped for: every telling ends in three instruments, tested aloud before the room leaves.
 4. The disloyal-hearts king is the sharpest beat and the default is to tell it, in every audience. It is self-contained and cuts cleanly where it would read as pointed, and that judgment belongs to the facilitator in the room, not to the text. If it is cut, the doors-stay-shut handle arrives through the second king's counsel.
 5. The afterword is written for the back of a printed handout, with the story on the front.
-6. The annex in section 10 is for readers who build. It is not material for the room and is not told.
+6. The annex in section 11 is for readers who build. It is not material for the room and is not told.
 
-## 9. Afterword
+## 10. Afterword
 
 At its heart, The Turtle and the Phoenix is not a story about artificial intelligence. It is a story about human capability. The phoenix is AI: continually renewed, increasingly capable, extraordinary at speed. The turtle is what does not scale with computing power: judgment, wisdom, memory, ethics and accountability. As AI grows more powerful, these capacities become more valuable, not less.
 
@@ -373,7 +390,7 @@ AI will continue to improve regardless of what we do. The more important questio
 
 **Final Liability rests with the Human.**
 
-## 10. Annex: For Those Who Build
+## 11. Annex: For Those Who Build
 
 For the readers who design the arrangements rather than authorize them: architects, engineers and the practitioners who govern builds. Each row takes an element of the story, most of them customs of the workshops in section 3, and names the build discipline it stands for. The vocabulary is limited to publicly documented concepts and to the author's own doctrines.
 
