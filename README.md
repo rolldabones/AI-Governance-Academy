@@ -1,6 +1,6 @@
 # AI Governance Academy – Client Content Prompt Pack
 
-Version 1.6.0 | 2026-07-30 | Status: draft | Model-agnostic
+Version 1.6.1 | 2026-08-13 | Status: final | Model-agnostic
 
 ## Purpose
 

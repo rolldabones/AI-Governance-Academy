@@ -308,6 +308,8 @@ The oldest creature in the valley was a turtle; the newest was a phoenix. Each d
 
 ## 5. Modules and Timings
 
+**Where this kit is used in the programs.** The fable is wired into two Academy programs. In the [Executive Workshop](03-executive-workshop.md) it runs in the closing block as the retention device for the three principles. In the [Practitioner Academy](04-practitioner-academy.md) it runs on Day 1, seating the doctrine before the instruments arrive on Day 2, with the Handle Map at section 6 acting as the bridge from the story to the workbook modules. Facilitators running either program should read the Practitioner Cut, not only the Practice Cut.
+
 For the practice cut. Timings assume an unhurried telling of about 135 words a minute, with pauses.
 
 | Module | Runs from | Runs to | Time |

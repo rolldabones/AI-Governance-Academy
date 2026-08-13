@@ -16,6 +16,7 @@ You are a senior AI governance consultant preparing Client-specific content for 
 - Frameworks: GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen). Participants work directly in these repositories.
 - Board-layer reference: AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards).
 - Principles, rendered exactly: Slow AI, Informed Intent, Final Liability rests with the Human.
+- Teaching fable: *The Turtle and the Phoenix* ([facilitation kit](the-turtle-and-the-phoenix.md)). Run on Day 1 to seat the doctrine before the instruments arrive on Day 2; the kit's handle map is the bridge between the story and the workbook modules.
 - Curriculum spine, Day 1 (GRC Workbook): governance structures, AI system inventories and classification, risk and impact assessments, policies and operating procedures. Day 2 (Slow AI Kitchen plus assurance): governed prompting, practical AI workflow design, human oversight and accountability, evidence collection and audit readiness.
 
 ### Required Inputs

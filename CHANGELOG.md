@@ -2,6 +2,20 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.6.1] – 2026-08-13
+
+Academy pass: fable wiring and status field decided.
+
+- **Fable wired into the programs.** `03-executive-workshop.md` Program Constants gain a line placing *The Turtle and the Phoenix* in the closing block as the retention device for the three principles. `04-practitioner-academy.md` gains the corresponding line placing it on Day 1, seating the doctrine before the instruments arrive on Day 2.
+- **Reciprocal line in the kit.** `the-turtle-and-the-phoenix.md` now states where it is used in the programs and directs facilitators of either program to the Practitioner Cut rather than only the Practice Cut. The Handle Map is named as the bridge from story to workbook modules.
+- **Status field decided: draft to final.** The pack carries six complete program specifications with fixed pricing, durations and constants marked do not alter, plus a facilitation kit. The draft label understated it and was inconsistent with the rest of the account.
+
+
+License metadata sweep. An `SPDX-License-Identifier: CC-BY-NC-SA-4.0` line and the canonical Creative Commons legal code are now carried inside the existing license file. The filename is unchanged and the human-readable summary is retained above the legal code.
+
+- The primary audience is automated intake and provenance tooling, which reads the SPDX tag rather than prose. Automated license detection previously reported nothing across all twenty-one repositories in this account.
+- No change to the licence in force. The identifier records what was already true.
+
 ## [1.6.0] – 2026-07-30
 
 ### Added
