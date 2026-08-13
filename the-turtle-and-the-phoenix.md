@@ -2,7 +2,7 @@
 
 **A teaching fable on human capability in the age of AI, with the facilitation kit for using it in governance rooms**
 
-Son-U Michael Paik · General Counsel, BABL AI Inc. · CEO, GRC Solutions Korea
+Son-U Michael Paik · former General Counsel, BABL AI Inc. · CEO, GRC Solutions Korea
 
 July 30, 2026
 

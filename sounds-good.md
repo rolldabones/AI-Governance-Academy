@@ -2,7 +2,7 @@
 
 **Why AI outputs should be characterized as "sounds good" rather than "right," and what this requires of professional users**
 
-Son-U Michael Paik · General Counsel, BABL AI Inc. · CEO, GRC Solutions Korea
+Son-U Michael Paik · former General Counsel, BABL AI Inc. · CEO, GRC Solutions Korea
 
 July 9, 2026
 
