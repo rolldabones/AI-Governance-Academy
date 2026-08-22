@@ -2,6 +2,14 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.7.0] – 2026-08-22
+
+### Added
+- law-firm-ai-deployment-spec.md, the client-facing publication *Law Firm AI Deployment Spec v2*: a 90-day specification for building a governed, useful and auditable AI capability in a law firm, from the economic incentive to participate through a bounded production workflow to a Day 90 Definition of Done. The Slow AI Kitchen is the method beneath it, with the build mapped to the Feast and every deployed workflow to Steps 1 through 9, and the Practice Primer is the architecture reference for the architect or Chief AI Officer. Version lineage is stated in the document: Version 1 is Seth Fenster's (Founder & CEO, Litvue) LinkedIn post of August 2026, credited with its canonical link; Version 2 is an independent answer to the same brief, built on the frameworks maintained across this account. Every external link in the publication was verified live on 22 August 2026 (KST) before commit. It is not a program template and no Output Contract applies to it.
+
+### Changed
+- README Contents note now records three client-facing publications rather than two. Version and date line updated in lockstep. Program templates 01 through 07, sounds-good.md, the-turtle-and-the-phoenix.md, LICENSE.md, program names, durations, prices, output modes, the Client Profile Block schema and every Output Contract are unchanged.
+
 ## [1.6.1] – 2026-08-13
 
 Academy pass: fable wiring and status field decided.
@@ -70,40 +78,4 @@ License metadata sweep. An `SPDX-License-Identifier: CC-BY-NC-SA-4.0` line and t
 ## [1.3.0] – 2026-07-15
 
 ### Added
-- Part of the ecosystem section in the README linking the canonical ECOSYSTEM.md in the profile repository plus the four framework constants as nearest neighbors (grc-workbook, slow-ai-kitchen, ai-governance-for-boards, definition-of-done), placed before License.
-- README Contents note documenting sounds-good.md, the client-facing publication *Sounds Good* (9 July 2026). Retroactive record: the file entered the repository around its publication date without a changelog entry, a lockstep breach corrected as of this release; no Output Contract applies to it.
-
-### Changed
-- Version and date line in README updated. Program templates 01 through 07 are unchanged. No change to program names, durations, prices, output modes, the Client Profile Block schema or any Output Contract.
-
-## [1.2.0] – 2026-07-10
-
-### Added
-- The Definition of Done Is the Work of the Human (https://github.com/rolldabones/definition-of-done) added as a fixed framework constant. The README Fixed Elements now name it as the acceptance-layer doctrine alongside the GRC Workbook, Slow AI Kitchen and AI Governance for Boards. Generated Client documents that cite frameworks may cite it where the engagement covers task-level acceptance discipline, in particular the Practitioner Academy and the Executive Workshop.
-
-### Changed
-- Version and date line in README updated. Program templates 02 through 07 are unchanged. No change to program names, durations, prices, output modes, the Client Profile Block schema or any Output Contract.
-
-## [1.1.0] – 2026-07-08
-
-### Added
-- AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards) added as a fixed framework constant. The README Fixed Elements now name it as the board-layer handbook alongside the GRC Workbook and Slow AI Kitchen, and every program template (02 through 07) carries a Board-layer reference line in its Program Constants. Generated Client documents that cite frameworks may now cite the handbook where the audience includes directors.
-
-### Changed
-- Version and date line in README updated. No change to program names, durations, prices, output modes, the Client Profile Block schema or any Output Contract.
-
-## [1.0.0] – 2026-07-04
-
-### Added
-- 00-README.md: pack overview, workflow, variable conventions, fixed elements, inherited style rules, license (CC BY-NC-SA 4.0), versioning policy.
-- 01-client-intake.md: shared intake template producing the Client Profile Block v1.0 (18 fields, halt condition at greater than 50 percent Unknown).
-- 02-executive-briefing.md: 4 output modes (Proposal, Agenda, Talking Points, Follow-Up).
-- 03-executive-workshop.md: 5 output modes including Decision Log Template and Pre-Work Packet; four-block day structure.
-- 04-practitioner-academy.md: 5 output modes including Curriculum and Exercise Pack and Participant Workbook; eight-session two-day spine.
-- 05-implementation-accelerator.md: 4 output modes including Artifact Starter Set and Executive Readout Template; five-day AIMS build spine.
-- 06-guided-ai-grc-build.md: 5 output modes including Twelve-Week Syllabus with gate questions and Evidence Tracker; immutable minimum viable AIMS definition (six elements).
-- 07-fractional-advisor.md: 5 output modes including Annual Advisory Plan and Renewal and Handover; explicit out-of-scope list.
-
-### Known Limitations
-- Program spines (workshop blocks, session counts, weekly sequence) are structural inferences pending verification against actual delivery design.
-- Renewal and exit terms in template 07 are placeholders for external counsel.
+- Part of the ecosystem section in the README linking the canonical ECOSYSTEM.md in the profile repository plus the four framework constants as nearest neighbors (grc-workbook, slow-ai-kitchen, ai-governance-for-boards, definition-of-done), pla
