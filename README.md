@@ -1,6 +1,6 @@
 # AI Governance Academy – Client Content Prompt Pack
 
-Version 1.7.0 | 2026-08-22 | Status: final | Model-agnostic
+Version 1.7.1 | 2026-09-06 | Status: final | Model-agnostic
 
 ## Purpose
 
@@ -57,6 +57,12 @@ Nearest neighbors:
 - [slow-ai-kitchen](https://github.com/rolldabones/slow-ai-kitchen): framework constant; the method the Practitioner Academy teaches
 - [ai-governance-for-boards](https://github.com/rolldabones/ai-governance-for-boards): framework constant; the board-layer handbook cited where the audience includes directors
 - [definition-of-done](https://github.com/rolldabones/definition-of-done): framework constant; the acceptance-layer doctrine cited where the engagement covers task-level acceptance discipline
+
+## How to Cite
+
+> Paik, Son-U Michael. *AI Governance Academy – Client Content Prompt Pack*, v1.7.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
+
+A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
 ## License
 
