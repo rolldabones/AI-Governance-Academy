@@ -2,6 +2,10 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.7.2] – 2026-09-06
+
+Cross-link only. The slow-ai-kitchen nearest-neighbor line now names the Consultant Workbook published in that repository at v2.8.0, the delivery instrument for a 30-day initial engagement on one priority workflow, and records that the engagement is not a program option of this pack and carries no price constant here. Version line, How to Cite and `CITATION.cff` move to 1.7.2 in lockstep. Program templates 01 through 07, the three client-facing publications, LICENSE.md, program names, durations, prices, output modes, the Client Profile Block schema and every Output Contract are unchanged.
+
 ## [1.7.1] – 2026-09-06
 
 Citation infrastructure, doctrine citation line and lockstep maintenance. Session C of the September 2026 improvement pack, one patch release per repository across all 21 public repositories.
