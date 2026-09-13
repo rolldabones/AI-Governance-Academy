@@ -1,6 +1,6 @@
 # Prompt Template 07 – Fractional AI Governance Advisor
 
-Version 1.0.0 | 2026-07-04 | License: CC BY-NC-SA 4.0 | Program constants: 12 Months | US$10,000 per month
+Version 1.1.0 | 2026-07-08 | License: CC BY-NC-SA 4.0 | Program constants: 12 Months | US$10,000 per month
 
 ---
 
