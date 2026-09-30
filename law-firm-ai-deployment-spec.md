@@ -338,7 +338,7 @@ The 90-day build is the Feast, constructed once at firm scale. Every workflow it
 
 The Kitchen's warning holds at both scales: a gate that is skipped does not disappear; it becomes a liability.
 
-A guided implementation of the twelve steps runs at [slow-ai-kitchen.msagent.ai](https://slow-ai-kitchen.msagent.ai/).
+A guided implementation of the twelve steps runs at [kitchen.grcskorea.com](https://kitchen.grcskorea.com/).
 
 ## Day 90: Definition of Done
 

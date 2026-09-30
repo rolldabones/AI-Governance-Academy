@@ -2,6 +2,13 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.7.4] – 2026-09-30
+
+Link correction.
+
+- **`law-firm-ai-deployment-spec.md`**: the guided implementation of the twelve steps is repointed from `slow-ai-kitchen.msagent.ai` to https://kitchen.grcskorea.com/, where the Slow AI Kitchen application now runs.
+- Version line, How to Cite and `CITATION.cff` move to 1.7.4 in lockstep. Program templates, publications' substance, LICENSE.md and every Output Contract are unchanged.
+
 ## [1.7.3] – 2026-09-13
 
 Two corrections of substance: changelog history restored and program template version lines corrected.
