@@ -1,6 +1,6 @@
 # AI Governance Academy – Client Content Prompt Pack
 
-Version 1.7.4 | 2026-09-30 | Status: final | Model-agnostic
+Version 1.8.0 | 2026-10-06 | Status: final | Model-agnostic
 
 ## Purpose
 
@@ -18,7 +18,7 @@ This pack contains prompt templates for generating Client-specific sales and del
 | 06-guided-ai-grc-build.md | Guided AI GRC Build | 12 weeks | US$60,000 |
 | 07-fractional-advisor.md | Fractional AI Governance Advisor | 12 months | US$10,000/month |
 
-The repository also carries three client-facing publications alongside the templates: [sounds-good.md](sounds-good.md), *Sounds Good* (9 July 2026), on why AI outputs should be characterized as "sounds good" rather than "right" and what this requires of professional users, and [the-turtle-and-the-phoenix.md](the-turtle-and-the-phoenix.md), *The Turtle and the Phoenix* (30 July 2026), a teaching fable on human capability in the age of AI with the facilitation kit for using it in governance rooms, whose story is also published as an essay at https://redcaps.substack.com/p/the-turtle-and-the-phoenix, and [law-firm-ai-deployment-spec.md](law-firm-ai-deployment-spec.md), *Law Firm AI Deployment Spec v2* (22 August 2026), a 90-day specification for building a governed, useful and auditable AI capability in a law firm, written as an independent answer to the brief posed in Seth Fenster's LinkedIn post, which the document credits as its Version 1. None is a program template and no Output Contract applies to any of them.
+The repository also carries four client-facing publications alongside the templates: [sounds-good.md](sounds-good.md), *Sounds Good* (9 July 2026), on why AI outputs should be characterized as "sounds good" rather than "right" and what this requires of professional users, and [the-turtle-and-the-phoenix.md](the-turtle-and-the-phoenix.md), *The Turtle and the Phoenix* (30 July 2026), a teaching fable on human capability in the age of AI with the facilitation kit for using it in governance rooms, whose story is also published as an essay at https://redcaps.substack.com/p/the-turtle-and-the-phoenix, and [law-firm-ai-deployment-spec.md](law-firm-ai-deployment-spec.md), *Law Firm AI Deployment Spec v2* (22 August 2026), a 90-day specification for building a governed, useful and auditable AI capability in a law firm, written as an independent answer to the brief posed in Seth Fenster's LinkedIn post, which the document credits as its Version 1, and [slow-ai-for-the-chief-legal-officer.md](slow-ai-for-the-chief-legal-officer.md), *Slow AI for the Chief Legal Officer* (6 October 2026), a practical primer for legal leadership built on the partner-guardian tension and a four-cell map of known and unknown risk, with the Slow AI Kitchen as the method beneath it and a section on how an authorization survives a change of model, agent design or architecture; an I by IMD article was the occasion and is credited in the document as a starting point only. None is a program template and no Output Contract applies to any of them.
 
 ## Workflow
 
@@ -60,7 +60,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *AI Governance Academy – Client Content Prompt Pack*, v1.7.4. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
+> Paik, Son-U Michael. *AI Governance Academy – Client Content Prompt Pack*, v1.8.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
