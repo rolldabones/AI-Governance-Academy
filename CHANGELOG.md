@@ -2,6 +2,18 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.9.0] – 2026-10-12
+
+### Added
+- the-compression-and-the-harness.md, the client-facing publication *The Compression and the Harness*: a discussion piece in nine sections with ten questions for a governance room. Sections 1 to 3 read a language model as a lossy, frequency-weighted compression of the record, index the four cells of known and unknown by knower (the reader, the record and the model) and argue that discovery beyond the record belongs to a model paired with a check that someone wrote, with a paragraph on deterministic tools in everyday harnesses. Sections 4 to 6 read the software around a model as a harness, which transmits power before it restrains, and set out five places where the horse-and-carriage picture breaks. Section 7 applies the eight elements of computational drafting to the everyday act of instructing a model. Section 8 states the objections to the piece's own argument. Section 9 places the destination and the confirmation with the driver.
+- The piece adds no doctrine, step, gate, tier or form. The doctrines are used as stated in DOCTRINE.md v1.1.1: Informed Intent with its four elements, Slow AI with its three tests and Final Liability with the allocation lifecycle. *The Human* is capitalized only as the defined term, read with The Definition of Done as the person who defines and confirms. A closing table maps each section to the instrument in the account that already carries it.
+- The occasion was Stephen Wolfram's interview with Jon Hernandez, "The future with AI will be very different from what we're being sold", credited with its link in a note recording that the piece paraphrases and does not quote, that the paraphrases were checked against the auto-generated captions on 12 October 2026 (KST) and that neither has any involvement in or endorses the piece.
+- Two legal references carry status tags under DOCTRINE.md section 7.5. Articles 14(4)(b) and 26(2) of Regulation (EU) 2024/1689 are cited as in force and not yet applicable, with the application date read in Regulation (EU) 2026/1744 on the Official Journal page. *Collier v. Zambito*, 1 N.Y.3d 444 (2004), and *Flanders v. Goodfellow*, 44 N.Y.3d 57 (2025), are cited from the New York Court of Appeals official reporter pages as an analogy only and not as authority on AI.
+- Prepared against Slow AI Kitchen v2.11.1 at commit `05253ac` and computational-drafting v1.4.0 at commit `9b3c12a`. On 12 October 2026 (KST) every link into the account was resolved, anchor included, against clones of the linked repositories. The document's source note records, source by source, what was read directly and what was not. The publication is not a program template and no Output Contract applies to it.
+
+### Changed
+- README Contents note now records five client-facing publications rather than four. Version line, How to Cite and `CITATION.cff` move to 1.9.0 in lockstep. Program templates 01 through 07, sounds-good.md, the-turtle-and-the-phoenix.md, law-firm-ai-deployment-spec.md, slow-ai-for-the-chief-legal-officer.md, LICENSE.md, program names, durations, prices, output modes, the Client Profile Block schema and every Output Contract are unchanged.
+
 ## [1.8.0] – 2026-10-06
 
 ### Added
