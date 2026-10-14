@@ -2,7 +2,7 @@
 
 **How to Build a Governed, Useful and Auditable AI Capability in 90 Days**
 
-Son-U Michael Paik · former General Counsel, BABL AI Inc. · CEO, GRC Solutions Korea
+Son-U Michael Paik · CEO, GRC Solutions Korea
 
 August 22, 2026
 

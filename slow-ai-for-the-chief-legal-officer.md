@@ -2,7 +2,7 @@
 
 **A Practical Primer for Legal Leadership**
 
-Son-U Michael Paik · former General Counsel, BABL AI Inc. · CEO, GRC Solutions Korea
+Son-U Michael Paik · CEO, GRC Solutions Korea
 
 October 6, 2026
 

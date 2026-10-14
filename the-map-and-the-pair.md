@@ -2,7 +2,7 @@
 
 **A working vocabulary for reading claims that a model has discovered something**
 
-Son-U Michael Paik · former General Counsel, BABL AI Inc. · CEO, GRC Solutions Korea
+Son-U Michael Paik · CEO, GRC Solutions Korea
 
 October 15, 2026
 

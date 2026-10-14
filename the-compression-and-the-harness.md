@@ -2,7 +2,7 @@
 
 **A discussion piece on what a language model is, what a harness does and what stays with the Human**
 
-Son-U Michael Paik · former General Counsel, BABL AI Inc. · CEO, GRC Solutions Korea
+Son-U Michael Paik · CEO, GRC Solutions Korea
 
 October 12, 2026
 
