@@ -2,6 +2,13 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.11.2] – 2026-10-15
+
+Byline correction, on the author's instruction of 15 October 2026 (KST).
+
+- **Masthead byline, six publications** (`law-firm-ai-deployment-spec.md`, `slow-ai-for-the-chief-legal-officer.md`, `sounds-good.md`, `the-compression-and-the-harness.md`, `the-map-and-the-pair.md`, `the-turtle-and-the-phoenix.md`), line 5: "Son-U Michael Paik · former General Counsel, BABL AI Inc. · CEO, GRC Solutions Korea" now reads "Son-U Michael Paik · CEO, GRC Solutions Korea". The account no longer carries the BABL AI role in byline or credit positions, so the ruling of 6 September 2026 that "BABL AI Inc." was a permitted expansion of the byline form is moot. Biography prose that names the former role is unchanged.
+- **Recorded out of sequence.** The six edits were committed and pushed as `f80ac64` ahead of this entry and without a version move. This release carries that commit and brings the changelog, version line, How to Cite and `CITATION.cff` into lockstep at 1.11.2. Program templates 01 through 07, the body of every publication, LICENSE.md, program names, durations, prices, output modes, the Client Profile Block schema and every Output Contract are unchanged.
+
 ## [1.11.1] – 2026-10-15
 
 Source note confirmation.
