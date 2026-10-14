@@ -2,6 +2,17 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.10.0] – 2026-10-15
+
+### Added
+- the-map-and-the-pair.md, the client-facing publication *The Map and the Pair*: a discussion piece in ten sections with a one-page vocabulary table and ten questions for a governance room. Sections 1 to 3 state the question (whether a model has reached something unknown to everyone), define the map as the record and place every checked result in one of four positions: a road, higher ground on a known hill, a valley or an undrawn mountain. Sections 4 and 5 read discovery as the work of a pair, proposer and verifier, set out what a proof assistant checks and what it leaves to a human reader, name the asterisk as the boundary of a partial check and introduce three navigation terms, dead reckoning, the fix and distance to fix. Section 6 treats problem provenance as evidence and lists six disclosures a laboratory should make. Section 7 states the author's objection that no result is unrelated to the record and draws the consequence that the first clause of the test is a direction while the second and third are operable. Section 8 places Base Camp at the confirmation moment of the Final Liability lifecycle. Section 9 carries the argument to professional work, where the verifier is a court. Section 10 states the objections to the piece's own argument.
+- The piece adds no doctrine, step, gate, tier or form. The doctrines are used as stated in DOCTRINE.md v1.1.1: Final Liability with the allocation lifecycle, and *the Human* capitalized only as the defined term, at Base Camp. The vocabulary and the one-line test are the author's, first posted on LinkedIn on 14 October 2026 and credited with the post's link. A closing table maps each section to the instrument in the account that already carries it.
+- The occasion was OpenAI's openai/math repository (initial commit 6 October 2026, UTC), read directly at the initial commit and at main: the README, history.md, the scope notes for families 017, 088 and 249, the formalization catalogue and the Comparator challenge files, with commit timestamps read from the GitHub API. The manuscripts themselves were not read and the piece takes no position on the mathematics. The Erdős problems episode of October 2025 and OpenAI's ten results of 1 August 2026 are read through dated press reports and one arXiv preprint, each named in the source note with what was read and what was not.
+- Prepared against DOCTRINE.md v1.1.1, ECOSYSTEM.md v1.7.25, Slow AI Kitchen v2.11.1 at commit `05253ac`, computational-drafting v1.4.0 at commit `9b3c12a` and The Definition of Done v1.2.2 at commit `4bdc2cd`. On 15 October 2026 (KST) every link into the account was resolved, anchor included, against clones of the linked repositories. The publication is not a program template and no Output Contract applies to it.
+
+### Changed
+- README Contents note now records six client-facing publications rather than five. Version line, How to Cite and `CITATION.cff` move to 1.10.0 in lockstep. Program templates 01 through 07, sounds-good.md, the-turtle-and-the-phoenix.md, law-firm-ai-deployment-spec.md, slow-ai-for-the-chief-legal-officer.md, the-compression-and-the-harness.md, LICENSE.md, program names, durations, prices, output modes, the Client Profile Block schema and every Output Contract are unchanged.
+
 ## [1.9.0] – 2026-10-12
 
 ### Added
