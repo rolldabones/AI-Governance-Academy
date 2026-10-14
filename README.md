@@ -1,6 +1,6 @@
 # AI Governance Academy – Client Content Prompt Pack
 
-Version 1.11.0 | 2026-10-15 | Status: final | Model-agnostic
+Version 1.11.1 | 2026-10-15 | Status: final | Model-agnostic
 
 ## Purpose
 
@@ -60,7 +60,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *AI Governance Academy – Client Content Prompt Pack*, v1.11.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
+> Paik, Son-U Michael. *AI Governance Academy – Client Content Prompt Pack*, v1.11.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

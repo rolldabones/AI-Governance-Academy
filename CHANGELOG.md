@@ -2,6 +2,13 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.11.1] – 2026-10-15
+
+Source note confirmation.
+
+- **`the-map-and-the-pair.md`**: the Swanson entry in Source basis and attribution now records that the author clicked through to the PubMed listing of DiGiacomo, Kremer and Shah (PMID 2536517) and to Swanson's 1990 article at PMC on 15 October 2026 (KST), both of which had refused automated access from the session that prepared the second edition, and confirmed the journal, the year, that the trial's abstract reports a benefit and that the 1990 abstract describes the trial as supporting the hypothesis. The two hedges that rested on the pages being unread (journal and year from general knowledge; benefit resting on the sibling publication's reading and secondary accounts) are removed as discharged. One sentence in the Second edition paragraph records the patch. Sections 1 to 10, the table, the questions and every link are unchanged.
+- Version line, How to Cite and `CITATION.cff` move to 1.11.1 in lockstep. Program templates 01 through 07, the five other client-facing publications, LICENSE.md, program names, durations, prices, output modes, the Client Profile Block schema and every Output Contract are unchanged.
+
 ## [1.11.0] – 2026-10-15
 
 Second edition of *The Map and the Pair*, revised on the day of publication after a review of the first edition.
