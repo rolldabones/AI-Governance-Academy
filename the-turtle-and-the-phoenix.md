@@ -320,7 +320,7 @@ For the practice cut. Timings assume an unhurried telling of about 135 words a m
 | Education | "Years later" | "the way a shell is grown" | ~1.5 min |
 | Close | "Evening settled" | end | ~0.5 min |
 
-Core I and Core II carry the payload and are never cut. Executive audiences and boards: Core I + Core II + Close, about five and a half minutes. Policy audiences: add Government. Universities and training programs: add Education, or tell the whole, about eight and a half minutes. Within the Academy program options, the story suits the opening of the Executive Briefing and the Executive Workshop, and the full version suits the first session of the Practitioner Academy.
+Core I and Core II carry the payload and are never cut. Executive audiences and boards: Core I + Core II + Close, about five and a half minutes. Policy audiences: add Government. Universities and training programs: add Education, or tell the whole, about eight and a half minutes. Within the Academy program options, the story runs in the closing block of the Executive Workshop and the full version runs on Day 1 of the Practitioner Academy, as set out at the head of this section.
 
 ## 6. The Handle Map
 
@@ -328,18 +328,18 @@ Thirteen rows. Each links a line in the story to the shorthand it gives the room
 
 | Line in the story | Handle for the room | What it opens | Artifact it produces |
 |---|---|---|---|
-| "decide which problems deserve solving... what you will not accept" | what you want and what you will not accept | Informed Intent: pre-deployment authorization with explicit specification, held by a named human | A signed authorization naming purpose, scope, limits and what will not be accepted |
+| "decide which problems deserve solving... what you will not accept" | what you want and what you will not accept | Informed Intent: pre-deployment authorization with explicit specification, held by a named human | A signed authorization naming its purpose, authority, boundaries and exit, with what will not be accepted |
 | "write down the name... the name must" | whose name is on the flight | Final Liability rests with the Human: exactly one named holder, never zero | One named person recorded against the deployment, with the date and the scope of what they answer for |
 | "easy work, simply done, one errand at a time" | turtle-sized tasks | Tiny Servants: narrow purpose, clear boundaries, a human owner | A one-task scope note: the task, its boundaries, what done looks like and the owner |
 | "keep more than one road to every place you must reach"; "no errand flew that could not be undone unless a second road home was found first" (practitioner cut) | more than one road | GRCnext™: optionality as the core safety property (Services, Tolerances, Pipes, Switches, Exits), and reversibility before capability, no irreversible action without a tested way back | A rollback path that someone has actually walked, with the date they walked it |
-| "a person who chooses the pace, and answers for the choosing"; the turtle's own pace and the shell he can still read | who chooses the pace | Slow AI: velocity as a governed judgment rather than a race, moving at the pace of understanding and keeping a record that can be read back | A recorded pace decision for one initiative: who set it, on what basis, and when it is revisited |
+| "a person who chooses the pace, and answers for the choosing"; the turtle's own pace and the shell he can still read | who chooses the pace | Slow AI: a precondition, not a speed limit; what cannot be governed, explained and audited is not deployed, and the record can be read back | A recorded go or no-go decision for one initiative against the three tests: who made it, on what basis and when it is revisited |
 | "kept the scratches where they could read them" | keep the scratch | Evidence and auditability: records as the only continuity | The record set itself: decision notes, versions and logs a reviewer can request without warning |
 | "the fire kept the particulars" | the fire keeps the particulars | Statelessness: remediation lands on the scaffolding and the people, never on the bird | Principle. It changes where remediation lands rather than producing a document |
 | "waiting keeps no ledger" | the cost of waiting | Proportionality: refusal is also a failure mode, and its costs go uncounted | A cost-of-inaction estimate for one deferred use, with the person who owns the deferral |
 | "this is a door, and it stays shut" | doors, not dials | The prohibited tier: some uses are refused, never balanced | A written prohibited-use list with an approver and a date |
-| "grown, the way a shell is grown" | grown, not given | The competence precondition: capability as the validity condition for accountability | A competence record for each named holder: what they were trained on, when, and what they may authorize |
+| "grown, the way a shell is grown" | grown, not given | The competence precondition: capability as the validity condition for accountability | A competence record for each named holder: what they were trained on and when, and what they may authorize |
 | "the satchel had a bottom, and a thing left out of the satchel was a thing that had never happened" (practitioner cut) | what is in the satchel | What enters the day's telling is all the system knows for that task: the errand, the constraints, the name and what done looks like. Capacity is finite | A context specification for one task, stating what is included and what is deliberately left out |
-| "what belongs to the bird, what belongs to the mill wheels the valley already trusts and what stays in human hands" (practitioner cut) | the three questions | Ownership decided before the flight: what the system carries, what existing tools already carry and what stays with people | A delegation table for one workflow: system, existing tooling, human, and the owner of each handoff |
+| "what belongs to the bird, what belongs to the mill wheels the valley already trusts and what stays in human hands" (practitioner cut) | the three questions | Ownership decided before the flight: what the system carries, what existing tools already carry and what stays with people | A delegation table for one workflow: system, existing tooling and human, with the owner of each handoff |
 | "a flock is not a bird... it wants reins of its own, and the reins were never made" (practitioner cut) | a flock is not a bird | Composition is its own risk: arrangements of many systems need governance of their own, not the sum of each bird's | An inventory of multi-system arrangements, each with one named owner for the arrangement itself |
 
 ## 7. Discussion Prompts
@@ -390,8 +390,6 @@ For education, the next generation will not compete with AI on speed, memory or 
 
 AI will continue to improve regardless of what we do. The more important question is whether we will improve alongside it. The future will not belong to those with the most capable machines. It will belong to those who best combine human judgment with machine intelligence.
 
-**Final Liability rests with the Human.**
-
 ## 11. Annex: For Those Who Build
 
 For the readers who design the arrangements rather than authorize them: architects, engineers and the practitioners who govern builds. Each row takes an element of the story, most of them customs of the workshops in section 3, and names the build discipline it stands for. The vocabulary is limited to publicly documented concepts and to the author's own doctrines.
@@ -428,3 +426,5 @@ For the readers who design the arrangements rather than authorize them: architec
 ---
 
 *First published in this repository. © 2026 Son-U Michael Paik. Licensed under the repository license, CC BY-NC-SA 4.0, as set out in the README.*
+
+**Final Liability rests with the Human.**

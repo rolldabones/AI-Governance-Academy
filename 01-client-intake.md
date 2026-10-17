@@ -1,6 +1,6 @@
-# Prompt Template 01 – Shared Client Intake
+# Prompt Template 01: Shared Client Intake
 
-Version 1.0.0 | 2026-07-04 | License: CC BY-NC-SA 4.0 | Run this template first. Its output feeds every program template in this pack.
+Version 1.11.3 | 2026-10-17 | License: CC BY-NC-SA 4.0 | Run this template first. Its output feeds every program template in this pack.
 
 ---
 
@@ -34,7 +34,7 @@ COMPANY_SIZE: (headcount and revenue band if stated)
 AI_USE_CASES: (deployed, piloting and planned, labeled as such)
 AI_MATURITY: (one of: Exploring / Piloting / Deploying / Scaling / Unknown)
 REGULATORY_DRIVERS: (named statutes, regulations or standards the Client cited)
-CERTIFICATION_TARGETS: (e.g. ISO/IEC 42001, SOC 2, or Unknown)
+CERTIFICATION_TARGETS: (e.g. ISO/IEC 42001, SOC 2 or Unknown)
 AUDIENCE_ROLES: (who will attend or consume the engagement)
 SPONSOR: (name and title of economic buyer if stated)
 STATED_OBJECTIVES: (in the Client's own words where possible)
@@ -60,3 +60,7 @@ CONFIDENCE_NOTES: (fields where the source was ambiguous)
 2. Every field is present, populated or marked `Unknown`.
 3. No fact appears in the block that cannot be traced to the raw material.
 4. Halt condition triggered correctly if more than half the fields are `Unknown`.
+
+---
+
+**Final Liability rests with the Human.**

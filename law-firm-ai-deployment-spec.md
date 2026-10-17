@@ -42,9 +42,9 @@ The objective is not maximum AI adoption. It is to create an AI capability that 
 
 The governing principles are simple:
 
-**Informed Intent.** Know what we are trying to accomplish, why AI is appropriate, on whose authority it acts, within what boundaries and with what exit, before we build.
+**Informed Intent.** No AI system acts without prior authorization stating its purpose, authority, boundaries and exit, given by a human who meets the five authorizer conditions ([DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md#8-short-forms)). Before we build, we also know why AI is appropriate.
 
-**Slow AI.** Move deliberately where consequences matter. Make material AI use visible, controlled, explainable, testable and auditable.
+**Slow AI.** AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit. Where consequences matter, material AI use is made visible and testable.
 
 **Final Liability rests with the Human.** Every material AI system, workflow and output has a named human owner with decision rights, oversight and the power to intervene.
 
@@ -160,7 +160,7 @@ Engineers do not need to be senior lawyers.
 
 They do need enough understanding of legal work to know when the technology has crossed from assisting a lawyer into exercising judgment or taking consequential action.
 
-The same test applies to the architect. The [Practice Primer](https://github.com/rolldabones/slow-ai-kitchen/blob/main/enterprise-ai-architecture-primer.md), the Kitchen's companion architecture reference, organizes the role as ten competencies, from workflow architecture to enterprise systems thinking, with governance by design as the spine running through the other nine. Its organizing claim is the hiring standard: the gap between an AI engineer and an enterprise AI architect is not technical depth but scope of accountability. An engineer optimizes the system in front of them. An architect decides whether the system should exist, who owns it, what it costs over three years, what evidence it produces, who is answerable when it is wrong and what survives when it is switched off.
+The same test applies to the architect. The [Enterprise AI Architecture Primer](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/README.md), the Kitchen's companion architecture reference, organizes the role as ten competencies, from workflow architecture to enterprise systems thinking, with governance by design as the spine running through the other nine. Its organizing claim is the hiring standard: the gap between an AI engineer and an enterprise AI architect is not technical depth but scope of accountability. An engineer optimizes the system in front of them. An architect decides whether the system should exist, who owns it, what it costs over three years, what evidence it produces, who is answerable when it is wrong and what survives when it is switched off.
 
 If the firm hires a Chief AI Officer, that is the job description.
 
@@ -178,7 +178,7 @@ Where possible, leave authoritative information in governed systems and retrieve
 
 The goal is centralized intelligence, not necessarily centralized copies.
 
-This is where most retrieval programs actually fail: not at the model but at the estate. The Practice Primer treats it as two competencies of its own, knowledge architecture and data architecture, with quality, lineage and residency as preconditions rather than afterthoughts.
+This is where most retrieval programs actually fail: not at the model but at the estate. The Primer treats it as two competencies of its own, knowledge architecture and data architecture, with quality, lineage and residency as preconditions rather than afterthoughts.
 
 ## 8. Establish a centralized AI gateway.
 
@@ -272,7 +272,7 @@ Record the results.
 
 The operating rule is in [Sounds Good](sounds-good.md), this repository's companion memorandum: AI output is optimized to sound good, correctness is a byproduct rather than a property, and verification is a human obligation wherever generated content enters the work product.
 
-Where consequences are material, require explicit acceptance thresholds and human approval before deployment. In the Kitchen this is Gate 6, Taste Before Service, and no plate reaches Gate 7, the human release decision, without passing it. The Practice Primer's Practice Layer supplies the review instruments: a twelve-question sequence for interrogating a proposed or live system and a defect catalog pairing each failure mode with its symptom and its architectural fix.
+Where consequences are material, require explicit acceptance thresholds and human approval before deployment. In the Kitchen this is Step 8, Taste Before Service (Gate 6: Verification and Validation); no plate reaches Gate 7, the human release decision, without passing it. The Primer's Practice Layer supplies the review instruments: a twelve-question sequence for interrogating a proposed or live system and a defect catalog pairing each failure mode with its symptom and its architectural fix.
 
 Slow AI does not mean slow technology.
 
@@ -318,7 +318,7 @@ For every material system, retain enough evidence to reconstruct:
 
 **What did we intend? What did we build? What information could it access? What model was used? What controls applied? How was it tested? What happened? Who reviewed it? Who decided?**
 
-That evidence is what converts governance from assertion into something auditable. The Practice Primer's evidence register is the instrument for it: the artifact that proves each control exists, named in advance.
+That evidence is what converts governance from assertion into something auditable. The Primer's evidence register is the instrument for it: the artifact that proves each control exists, named in advance.
 
 Slow AI's audit test is that the evidence exists before it is asked for, not after. Gate 10 of the Kitchen, the Operational Audit and Review Cycle, is where the firm proves it on a schedule rather than under subpoena.
 
@@ -331,7 +331,7 @@ The 90-day build is the Feast, constructed once at firm scale. Every workflow it
 | This specification | Slow AI Kitchen |
 |---|---|
 | Sections 1 through 5 and 11: intent, inventory, classification, data baseline, governance system, use-case selection | Step 10: Plan the Menu (Gate 8: Authorized Tool Registry) |
-| Sections 7 through 10: information architecture, gateway, identity, knowledge layer | The Practice Primer, the Feast's companion architecture reference |
+| Sections 7 through 10: information architecture, gateway, identity, knowledge layer | The Primer, the Feast's companion architecture reference |
 | Sections 0, 6 and 12: incentives, roles, rubrics | Step 11: Staff the Brigade (Gate 9: Competency and Authorization Record) |
 | Sections 13 through 16 and Day 90: testing, bounded deployment, measurement, evidence | Step 12: Run the Event (Gate 10: Operational Audit and Review Cycle) |
 | Every production workflow deployed under Section 14 | Steps 1 through 9 (Gates 1 through 7), per task |
@@ -368,8 +368,8 @@ The instruments referenced throughout are maintained and mapped in [ECOSYSTEM.md
 
 That is the foundation worth building in the first 90 days.
 
-**Final Liability rests with the Human.**
-
 ---
 
 *This document is provided for general informational purposes regarding the governance of AI deployment in professional services organizations. It does not constitute legal advice with respect to any specific matter, jurisdiction or engagement.*
+
+**Final Liability rests with the Human.**

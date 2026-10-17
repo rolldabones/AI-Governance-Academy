@@ -1,6 +1,6 @@
-# Prompt Template 04 – Practitioner Academy
+# Prompt Template 04: Practitioner Academy
 
-Version 1.6.1 | 2026-08-13 | License: CC BY-NC-SA 4.0 | Program constants: 2 Days | US$12,500
+Version 1.11.3 | 2026-10-17 | License: CC BY-NC-SA 4.0 | Program constants: 2 Days | US$12,500
 
 ---
 
@@ -29,13 +29,13 @@ Paste the Client Profile Block below. Halt with `PARTIAL INPUT – Awaiting [fie
 
 **MODE A – PROPOSAL.** Two-page proposal to the SPONSOR: situation summary, why hands-on practitioner capability fits this Client now, the two-day curriculum spine tailored with Client-specific worked examples drawn from AI_USE_CASES, deliverables (started inventory, draft risk register entries, at least two governed workflows), logistics and price, next step.
 
-**MODE B – CURRICULUM AND EXERCISE PACK.** For each of the eight sessions: learning objective, instruction segment outline, hands-on exercise using the Client's own AI_USE_CASES as the working material, the artifact each exercise produces, and the specific GRC Workbook module or Slow AI Kitchen pattern used. Exercises must be executable inside the Client's confidentiality constraints; where STATED_CONSTRAINTS prohibit real data, specify a sanitized analog.
+**MODE B – CURRICULUM AND EXERCISE PACK.** For each of the eight sessions: learning objective, instruction segment outline, hands-on exercise using the Client's own AI_USE_CASES as the working material, the artifact each exercise produces and the specific GRC Workbook module or Slow AI Kitchen pattern used. Exercises must be executable inside the Client's confidentiality constraints; where STATED_CONSTRAINTS prohibit real data, specify a sanitized analog.
 
-**MODE C – PARTICIPANT WORKBOOK.** A participant-facing packet: welcome page, schedule, per-session worksheets with fill-in fields matching Mode B exercises, a glossary of no more than 20 terms defined plainly, and a completion checklist mapping each artifact started during the two days to the person who owns finishing it.
+**MODE C – PARTICIPANT WORKBOOK.** A participant-facing packet: welcome page, schedule, per-session worksheets with fill-in fields matching Mode B exercises, a glossary of no more than 20 terms defined plainly and a completion checklist mapping each artifact started during the two days to the person who owns finishing it.
 
 **MODE D – PRE-WORK PACKET.** Pre-reading pointers into the two repositories (specific files or sections, by name), a request list for materials participants should bring (list of AI systems in their area, existing policies, one live workflow they want governed) and a 15-item baseline self-assessment.
 
-**MODE E – FOLLOW-UP REPORT.** Post-program report template: artifacts produced per session, capability observations by role group, gaps identified, a 30-60-90 day continuation plan using the repositories unaided, and the recommended next program (Implementation Accelerator US$25,000 or Guided AI GRC Build US$60,000) with rationale.
+**MODE E – FOLLOW-UP REPORT.** Post-program report template: artifacts produced per session, capability observations by role group, gaps identified, a 30-60-90 day continuation plan using the repositories unaided and the recommended next program (Implementation Accelerator US$25,000 or Guided AI GRC Build US$60,000) with rationale.
 
 ### Method
 
@@ -69,3 +69,7 @@ Professional prose for narrative sections; worksheets may use structured fields.
 5. Worked examples trace to AI_USE_CASES in the Profile Block.
 6. Confidentiality handling explicit.
 7. Closing line present in Client-facing modes (A, C, E).
+
+---
+
+**Final Liability rests with the Human.**

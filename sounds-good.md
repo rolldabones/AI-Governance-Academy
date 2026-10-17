@@ -95,8 +95,6 @@ Two cautions apply to the use of this framing. First, it should not be overstate
 
 It is accurate, and technically grounded, to characterize AI outputs as "sounding good" rather than being right. The systems are optimized to produce plausible text, correctness is a byproduct rather than a property, and every augmentation now on the market wraps rather than replaces that mechanism. The professional consequence is constant across configurations: verification is a human obligation that attaches wherever generated content enters the work product, and no degree of fluency, grounding or autonomy transfers that obligation to the machine.
 
-**Final Liability rests with the Human.**
-
 ---
 
 ## Sources and Authorities
@@ -110,3 +108,5 @@ It is accurate, and technically grounded, to characterize AI outputs as "soundin
 ---
 
 *This document is provided for general informational purposes regarding the appropriate professional use of AI systems. It does not constitute legal advice with respect to any specific matter, jurisdiction or engagement.*
+
+**Final Liability rests with the Human.**

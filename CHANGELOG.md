@@ -2,6 +2,20 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.11.3] – 2026-10-17
+
+Doctrine short forms and the mechanical train, session T3 of the whole-account review of 15 October 2026 (KST); reviewer report 09 and review doc sections 1 and 8.
+
+- **Template headers lockstepped (ruling 8 of 15 October 2026).** The header lines of templates 01 to 07 now read `Version 1.11.3 | 2026-10-17`, the pack version; they had read 1.0.0, 1.1.0 and 1.6.1. The README's Versioning section states the lockstep; no per-file version exception exists in this repository. Template titles and the README title lose their en dash ("Prompt Template 01: Shared Client Intake"; "AI Governance Academy: Client Content Prompt Pack"), because GitHub drops an en dash from a heading slug; How to Cite and `CITATION.cff` carry the new title.
+- **Amendment note, template 06, 17 October 2026 (KST).** The twelve-week spine now starts evidence collection in W8 ("W8 vendor and supplier governance and the start of evidence collection") and W11 reads "incident response, change management and evidence review". The spine had placed evidence collection at W11, which contradicted the Week 12 definition (evidence collection running for at least four weeks) and Acceptance Checklist item 6 (no later than Week 8). Program names, durations, prices, output modes, the Client Profile Block schema and every Output Contract are unchanged.
+- **House style in templates 01 to 07.** Fourteen serial commas removed (01, 02, 03, 04, 05, 06, 07); one list in 02 Mode D and one in 07 Mode E reworded so the list reads without it. The README's US$10,000/month reads US$10,000 per month, as template 07 does.
+- **Doctrine compressions conformed to DOCTRINE.md v1.2.0 section 8.** `law-firm-ai-deployment-spec.md`: the Informed Intent and Slow AI paragraphs of the governing principles now carry the sentence forms (Informed Intent had omitted purpose; Slow AI had read "move deliberately" and five tests). `slow-ai-for-the-chief-legal-officer.md`: "visible, explainable and auditable" reads "governed, explained and audited". `the-compression-and-the-harness.md`: the sentence that had Slow AI slowing the horse "to the pace" now states the precondition. `the-turtle-and-the-phoenix.md`, handle map: the Informed Intent artifact names purpose, authority, boundaries and exit (it had read "purpose, scope, limits"), and the Slow AI row states the precondition instead of "velocity as a governed judgment"; the story's own line "who chooses the pace" is unchanged. The README's description of the law-firm spec names the three tests. The three dated source notes gain a line recording the re-verification against DOCTRINE.md v1.2.0; the original preparation records are unchanged.
+- **Pointers and names.** `law-firm-ai-deployment-spec.md` and `slow-ai-for-the-chief-legal-officer.md` link the Primer's rendered index (`primer/README.md`) instead of the 1.7 MB single file, and name it as ECOSYSTEM.md does, the Enterprise AI Architecture Primer, on first mention and "the Primer" after (they had used "Practice Primer" and "Architecture Primer"). The law-firm spec's Kitchen reference reads "Step 8, Taste Before Service (Gate 6: Verification and Validation)"; it had called Taste Before Service Gate 6. The fable kit's section 5 now states the placements the programs wire (Executive Workshop closing block; Practitioner Academy Day 1); it had said the opening of the Executive Briefing and the Executive Workshop.
+- **House style in the publications.** "catalogue" reads "catalog" in the author's prose of `the-map-and-the-pair.md` (twelve instances); the quotation from the openai/math README keeps its spelling. Two serial commas removed or reworded in the fable kit's handle map and one in the CLO primer; three instances of *Human* used as a common noun in the CLO primer lowercased under the DOCTRINE.md section 6 capitalization rule.
+- **Neighbor pointer returned.** The README's Part of the ecosystem list names the-ai-generalist, which names this repository (ECOSYSTEM.md protocol item 9); the pointers from AI-Impact-Assessment-Tool and origami-method are not returned, for the five-neighbor cap, and ECOSYSTEM.md records why.
+- **Closing line.** Added, last, to README.md, this changelog and templates 01 to 07; moved to the last line of the six publications, after the disclaimer, and in the fable after section 11.
+- Version line, How to Cite and `CITATION.cff` move to 1.11.3 in lockstep. LICENSE.md is unchanged.
+
 ## [1.11.2] – 2026-10-15
 
 Byline correction, on the author's instruction of 15 October 2026 (KST).
@@ -201,3 +215,7 @@ License metadata sweep. An `SPDX-License-Identifier: CC-BY-NC-SA-4.0` line and t
 ### Known Limitations
 - Program spines (workshop blocks, session counts, weekly sequence) are structural inferences pending verification against actual delivery design.
 - Renewal and exit terms in template 07 are placeholders for external counsel.
+
+---
+
+**Final Liability rests with the Human.**

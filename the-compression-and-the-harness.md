@@ -147,7 +147,7 @@ The metaphor fails in five places. Each one marks a piece of governance work.
 
 **The horse can be swapped overnight.** A driver knows a horse over years. A vendor replaces the model on its own schedule. A change of model is a material change, and what was tested on the old one has to be tested again. The Enterprise AI Architecture Primer treats a model swap as a code deployment and [gates it like one](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/02-part-2-solution-architecture-to-2-8-entry-points-and.md#the-eval-gate-on-a-model-swap). The Chief Legal Officer's version of the question is whether the thing running today is the thing that was approved.
 
-**The numbers do not match.** One driver manages one team of horses. One person can launch a thousand instances of a model, and human attention does not scale with them. An error a person would have caught is complete before any person can look. This is the ground **Slow AI** stands on. Its rule is that a system that cannot be governed, explained and audited should not be deployed ([DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md#1-slow-ai)). Slow AI slows the horse only to the pace at which the Human can follow it and intervene where intervention matters.
+**The numbers do not match.** One driver manages one team of horses. One person can launch a thousand instances of a model, and human attention does not scale with them. An error a person would have caught is complete before any person can look. This is the ground **Slow AI** stands on. Its rule is that a system that cannot be governed, explained and audited should not be deployed ([DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md#1-slow-ai)). Slow AI is a precondition, not a speed limit: the horse is put to work only where the Human can follow it and intervene where intervention matters.
 
 **The horse was never a library.** A horse knows the way home and little else. The driver supplies the destination. A model supplies force and knowledge together, and often knows the terrain better than the driver does. The temptation to let it choose the destination has only a faint equivalent on a carriage, the horse that turns for home. The compression is what makes the animal worth harnessing, and it is also what makes the driver inclined to defer to it.
 
@@ -274,6 +274,8 @@ The Slow AI Kitchen also runs as a guided web application at [kitchen.grcskorea.
 
 ## Source basis and attribution
 
+Doctrine statements re-verified on 17 October 2026 (KST) against DOCTRINE.md v1.2.0, which adds the short forms of section 8 and changes no rule; one sentence of section 2 restated to the canon.
+
 Prepared on 12 October 2026 (KST) against DOCTRINE.md v1.1.1 and ECOSYSTEM.md v1.7.24, Slow AI Kitchen v2.11.1 at commit [`05253ac`](https://github.com/rolldabones/slow-ai-kitchen/tree/05253ac6b4ae4ea51c17e8939b9390868bd4a64b) and computational-drafting v1.4.0 at commit [`9b3c12a`](https://github.com/rolldabones/computational-drafting/tree/9b3c12af7eebae2ea408efd8c78cf545dff8aa5d). The other repositories linked were read at these releases: the book repository v1.7.0, *The Ungoverned Channel* v1.4.4, The Definition of Done v1.2.2, GRCnext-Copilot v2.2.5, RedCap-00 v1.1.4, The AI Generalist v1.1.2, the AI Impact Assessment Tool v1.2.10, AI Governance for Boards v1.5.3 and the sibling publications in this repository as at v1.8.0. Every link into the account was resolved against those releases, anchor included.
 
 The doctrines are used as stated in DOCTRINE.md. *The Human* is capitalized only where it denotes the named owner of section 3 of that file, who in this piece is the driver: the person who states the destination and confirms the arrival, following The Definition of Done, where the Human holds both moments, define and confirm. Elsewhere *human* is the common noun.
@@ -296,8 +298,8 @@ Sources outside this account, each read on 12 October 2026 (KST) unless noted:
 - [*Collier v. Zambito*](https://www.nycourts.gov/reporter/3dseries/2004/2004_00960.htm), 1 N.Y.3d 444 (2004), and [*Flanders v. Goodfellow*](https://www.nycourts.gov/reporter/3dseries/2025/2025_02261.htm), 44 N.Y.3d 57 (2025), New York Court of Appeals, both read on the court's official reporter pages. *Dickson v. McCoy*, 39 N.Y. 400 (1868), is cited as quoted in *Collier* and as described in *Flanders* and was not read directly.
 - ["Horse harness"](https://en.wikipedia.org/wiki/Horse_harness), Wikipedia, for the collar, traces, breeching, blinkers and reins. That a driver slows and stops through the reins, and what horses do at cliffs and on the way home, are general knowledge and are not drawn from the article. The mapping of each part to a component around a model is the author's.
 
-**Final Liability rests with the Human.**
-
 ---
 
 *This document is provided for general informational and discussion purposes regarding the governance and use of AI. It does not constitute legal advice with respect to any specific matter, jurisdiction or engagement.*
+
+**Final Liability rests with the Human.**

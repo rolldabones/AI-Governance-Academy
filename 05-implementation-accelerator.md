@@ -1,6 +1,6 @@
-# Prompt Template 05 – Implementation Accelerator
+# Prompt Template 05: Implementation Accelerator
 
-Version 1.1.0 | 2026-07-08 | License: CC BY-NC-SA 4.0 | Program constants: 5 Days | US$25,000
+Version 1.11.3 | 2026-10-17 | License: CC BY-NC-SA 4.0 | Program constants: 5 Days | US$25,000
 
 ---
 
@@ -29,7 +29,7 @@ Paste the Client Profile Block below. Halt with `PARTIAL INPUT – Awaiting [fie
 
 **MODE A – PROPOSAL.** Two- to three-page proposal to the SPONSOR: situation summary, why an intensive AIMS foundation build fits the Client's DECISION_TIMELINE and CERTIFICATION_TARGETS, the five-day build spine tailored to the Client, the named artifact list the Client owns at close, team composition asked of the Client, logistics and price, next step.
 
-**MODE B – FIVE-DAY WORKPLAN.** For each day: objectives, morning working session plan, afternoon build block plan, inputs required from the Client that day, the artifacts completed or drafted by end of day, and the acceptance criterion for each artifact. Include a running Artifact Register table listing every artifact, its owner, its status vocabulary (draft, reviewed, adopted) and where it will live in the Client's document system.
+**MODE B – FIVE-DAY WORKPLAN.** For each day: objectives, morning working session plan, afternoon build block plan, inputs required from the Client that day, the artifacts completed or drafted by end of day and the acceptance criterion for each artifact. Include a running Artifact Register table listing every artifact, its owner, its status vocabulary (draft, reviewed, adopted) and where it will live in the Client's document system.
 
 **MODE C – ARTIFACT STARTER SET.** Client-tailored skeletons for the core artifacts: governance charter (purpose, scope, roles, decision rights, meeting cadence), AI system inventory schema with classification fields populated with the Client's known AI_USE_CASES as first entries, risk register schema with five to eight seeded risk statements grounded in AI_USE_CASES and RISK_EVENTS, policy outline set (acceptable use, lifecycle governance, vendor and supplier governance, incident response and change management) and an evidence index mapping each artifact to the assurance question it answers.
 
@@ -67,3 +67,7 @@ Professional prose for narrative sections; workplans and registers may use table
 5. Seeded content labeled draft for validation.
 6. Readiness language only; no certification promises.
 7. Closing line present in Client-facing modes (A, D).
+
+---
+
+**Final Liability rests with the Human.**

@@ -10,7 +10,7 @@ October 6, 2026
 
 **Debts.** Two influences are acknowledged in Sections 1 and 2: Benjamin W. Heineman Jr. and Donald Rumsfeld. The readings of both are the author's own and imply no endorsement by, or association with, either.
 
-**For:** the Chief Legal Officer (CLO), the General Counsel and the lawyers who prepare them. The method beneath this primer is the [Slow AI Kitchen](https://github.com/rolldabones/slow-ai-kitchen) and the doctrine is [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md). The primer restates both at CLO altitude, says what to ask to see and points to the instrument that already holds the answer. It adds a reading path, not a form, and no doctrine.
+**For:** the Chief Legal Officer (CLO), the General Counsel and the lawyers who prepare them. The method beneath this primer is the [Slow AI Kitchen](https://github.com/rolldabones/slow-ai-kitchen) and the doctrine is [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md). The primer restates both at CLO altitude, says what to ask to see and points to the instrument that already holds the answer. It adds a reading path and no doctrine; it adds no form.
 
 **Durability.** The primer names no model, no vendor and no agent framework. Whatever is current when you read it will have been replaced. [Section 10](#10-govern-change-as-well-as-state) says how the governance survives the replacement.
 
@@ -64,7 +64,7 @@ That is what I call **Slow AI**.
 
 Slow AI does not mean slow technology or slow adoption.
 
-It means governed AI: visible, explainable and auditable by design, with human agency preserved where consequences matter.
+It means AI that can be governed, explained and audited before it is deployed, with human agency preserved where consequences matter.
 
 The rule beneath it is blunt: AI that cannot be governed, explained and audited should not be deployed, however fast it would make the business.
 
@@ -135,7 +135,7 @@ If the answer is "the AI committee," keep asking.
 
 Committees coordinate.
 
-A named Human decides.
+A named human decides.
 
 **Ask to see:** the role assignment matrix and the escalation chain to a named executive, which are the outputs of [Step 11](https://github.com/rolldabones/slow-ai-kitchen#step-11-staff-the-brigade-gate-9-competency-and-authorization-record).
 
@@ -253,7 +253,7 @@ Those statements may describe what happened.
 
 They do not answer who was responsible for allowing it to happen.
 
-Somewhere in every consequential chain of action there should be an identifiable Human principal with decision rights, oversight and the power to intervene, named before the work begins.
+Somewhere in every consequential chain of action there should be an identifiable human principal with decision rights, oversight and the power to intervene, named before the work begins.
 
 In the Slow AI Kitchen this is Gate 5. If no one owns the outcome, the process stops. And the Owner cannot be the AI.
 
@@ -291,7 +291,7 @@ The vendor is not the owner. A vendor can assume contractual risk between the pa
 
 So reserve liability language for where legal liability genuinely lands. Do not write that responsibility is "shared" without saying how it is divided and what happens when the division is contested. And do not let an indemnity stand in for an owner.
 
-Divide ownership by layer instead. The vendor owns the model. The organization owns the version it runs, the instructions it gives, the tools and permissions it grants, the knowledge it retrieves from and the behavior of all of it in context. The Architecture Primer sets out the [layers](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/05-part-4-governance-by-design.md#ownership-when-the-vendor-owns-the-model).
+Divide ownership by layer instead. The vendor owns the model. The organization owns the version it runs, the instructions it gives, the tools and permissions it grants, the knowledge it retrieves from and the behavior of all of it in context. The Enterprise AI Architecture Primer sets out the [layers](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/05-part-4-governance-by-design.md#ownership-when-the-vendor-owns-the-model).
 
 **Ask to see:** the named Owner of each Tier 3 use, the deputy and the last time either of them stopped something. The record is [W04](https://github.com/rolldabones/slow-ai-kitchen/blob/main/consultant-workbook.md#w04-accountability-and-oversight).
 
@@ -478,7 +478,7 @@ Governance therefore needs to address both state and change.
 
 **Hold constant what the technology cannot change.** The verb, the boundary, the consequence, the evidence and the named Human. A new model does not alter what the organization permitted. A new agent design does not alter who answers for the result.
 
-**Treat an approval as attaching to a configuration, not a product.** What was authorized is a particular combination: the instructions, the model and its version, the tools and their permissions, the knowledge it retrieves from, the routing, the guardrails and the tests it passed. The Architecture Primer calls this the [release tuple](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/03-2-9-the-ai-architecture-decision-record-to-solution.md#rollback-when-the-artifact-is-a-prompt-and-a-model-version). Change one field and the thing that was approved no longer exists in the form in which it was approved.
+**Treat an approval as attaching to a configuration, not a product.** What was authorized is a particular combination: the instructions, the model and its version, the tools and their permissions, the knowledge it retrieves from, the routing, the guardrails and the tests it passed. The Primer calls this the [release tuple](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/03-2-9-the-ai-architecture-decision-record-to-solution.md#rollback-when-the-artifact-is-a-prompt-and-a-model-version). Change one field and the thing that was approved no longer exists in the form in which it was approved.
 
 Three kinds of change deserve a CLO's attention, because each arrives looking like a technical upgrade.
 
@@ -500,7 +500,7 @@ Nine events reopen the question. Each should be a monitored event, not a policy 
 8. the departure of the named Owner of a high-stakes use
 9. the lapse of the review period
 
-The list is the Architecture Primer's set of [re-tiering triggers](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/05-part-4-governance-by-design.md#tier-drift-self-tiering-and-re-tiering-triggers).
+The list is the Primer's set of [re-tiering triggers](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/05-part-4-governance-by-design.md#tier-drift-self-tiering-and-re-tiering-triggers).
 
 Four rules keep this honest.
 
@@ -510,7 +510,7 @@ Four rules keep this honest.
 
 **A setting that removes a human checkpoint is a control change.** It needs the approval that removing the control would need, however small the technical change looks.
 
-**An exit nobody has rehearsed is a document.** The model provider is a critical third party. Decide by tier how quickly the organization must be able to substitute it, and note that the test set is what makes substitution possible: without one, nobody can say whether the substitute is acceptable. A pinned version without an expiry date and a named owner is a deferral, not a control. The Architecture Primer covers [retirement](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/03-2-9-the-ai-architecture-decision-record-to-solution.md#model-deprecation-as-a-standing-architectural-risk) and [substitution](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/05-part-4-governance-by-design.md#concentration-and-substitutability).
+**An exit nobody has rehearsed is a document.** The model provider is a critical third party. Decide by tier how quickly the organization must be able to substitute it, and note that the test set is what makes substitution possible: without one, nobody can say whether the substitute is acceptable. A pinned version without an expiry date and a named owner is a deferral, not a control. The Primer covers [retirement](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/03-2-9-the-ai-architecture-decision-record-to-solution.md#model-deprecation-as-a-standing-architectural-risk) and [substitution](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/05-part-4-governance-by-design.md#concentration-and-substitutability).
 
 Two matters here belong on the CLO's own desk.
 
@@ -545,7 +545,7 @@ Then apply exactly the same questions.
 
 For lawyers the verb also carries the duty. The rules of professional conduct already classify work by consequence, and the AI classification should land in the same places.
 
-Privilege needs its own attention. Confidentiality and privilege are different obligations, and a design that protects the first does not automatically protect the second. Whether routing content through a vendor bears on privilege is a legal question in each jurisdiction where the organization may litigate. The facts that shape the answer are configuration facts: retention, training use, the subprocessor chain, where processing happens and who at the vendor can read the content. The Architecture Primer sets out those [design choices](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/05-part-4-governance-by-design.md#413-privilege-and-confidentiality) and the questions to settle.
+Privilege needs its own attention. Confidentiality and privilege are different obligations, and a design that protects the first does not automatically protect the second. Whether routing content through a vendor bears on privilege is a legal question in each jurisdiction where the organization may litigate. The facts that shape the answer are configuration facts: retention, training use, the subprocessor chain, where processing happens and who at the vendor can read the content. The Primer sets out those [design choices](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/05-part-4-governance-by-design.md#413-privilege-and-confidentiality) and the questions to settle.
 
 Record the purpose and the direction of AI-assisted legal work at the time, not afterward. And treat the instructions lawyers write for these systems as sensitive: they can reflect strategy.
 
@@ -683,7 +683,7 @@ Before consequential AI is deployed, the CLO should be able to ask the five open
 2. What exactly may the AI do, and on whose authority?
 3. Where are its boundaries, and what is the exit?
 4. What evidence will tell us whether it is working as intended?
-5. Which named Human owns the outcome, with the decision rights, oversight and power to intervene?
+5. Which named human owns the outcome, with the decision rights, oversight and power to intervene?
 
 And one more, asked again every time the system changes:
 
@@ -747,16 +747,18 @@ And an organization that remains capable of understanding what it is doing, chan
 
 ## Source basis and attribution
 
+Doctrine statements re-verified on 17 October 2026 (KST) against DOCTRINE.md v1.2.0, which adds the short forms of section 8 and changes no rule.
+
 Prepared against Slow AI Kitchen v2.9.2 at repository commit [`c2f8ccd`](https://github.com/rolldabones/slow-ai-kitchen/tree/c2f8ccddf5c2246981d39e6e0ade456638b62a2f) and DOCTRINE.md v1.1.1, reviewed on 6 October 2026 (KST).
 
-This primer applies the Slow AI Kitchen for one reader. The tiers, roles, steps and gates are the Kitchen README's. The authorization, evidence, change and stop records are the [Consultant Workbook](https://github.com/rolldabones/slow-ai-kitchen/blob/main/consultant-workbook.md)'s. The agent tests and the service ticket are from [Take-Out, Delivery & Vending Machines](https://github.com/rolldabones/slow-ai-kitchen/blob/main/take-out-delivery-and-vending-machines.md) and [Newton's Kitchen](https://github.com/rolldabones/slow-ai-kitchen/blob/main/newtons-kitchen.md). The release tuple, the re-tiering triggers, the ownership layers, the model-swap gate, the legal hold and the privilege design choices are the [Enterprise AI Architecture Primer](https://github.com/rolldabones/slow-ai-kitchen/blob/main/enterprise-ai-architecture-primer.md)'s, which is grounded in one vendor's platform; on method questions the Kitchen README controls. The doctrines are stated normatively in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md), including the allocation lifecycle and the drafting rule on liability language used in Section 5.
+This primer applies the Slow AI Kitchen for one reader. The tiers, roles, steps and gates are the Kitchen README's. The authorization, evidence, change and stop records are the [Consultant Workbook](https://github.com/rolldabones/slow-ai-kitchen/blob/main/consultant-workbook.md)'s. The agent tests and the service ticket are from [Take-Out, Delivery & Vending Machines](https://github.com/rolldabones/slow-ai-kitchen/blob/main/take-out-delivery-and-vending-machines.md) and [Newton's Kitchen](https://github.com/rolldabones/slow-ai-kitchen/blob/main/newtons-kitchen.md). The release tuple, the re-tiering triggers, the ownership layers, the model-swap gate, the legal hold and the privilege design choices are the [Enterprise AI Architecture Primer](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/README.md)'s, which is grounded in one vendor's platform; on method questions the Kitchen README controls. The doctrines are stated normatively in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md), including the allocation lifecycle and the drafting rule on liability language used in Section 5.
 
 Sources for Sections 1 and 2, checked on 6 October 2026 (KST): Ben W. Heineman Jr., *High Performance with High Integrity* (Harvard Business Press, 2008); Ben W. Heineman Jr., *The Inside Counsel Revolution: Resolving the Partner-Guardian Tension* (Ankerwycke, 2016), and his summary of it at the Harvard Law School Forum on Corporate Governance (29 March 2016), linked in Section 1; United States Department of Defense, news briefing by Secretary Rumsfeld and General Myers, 12 February 2002. The briefing transcript is cited by date and not linked, because the Department's archive could not be confirmed as live. The application of the four cells to the in-house lawyer, and to AI, is the author's.
 
 Other instruments: [The Definition of Done](https://github.com/rolldabones/definition-of-done), the acceptance doctrine; the [AI Impact Assessment Tool](https://github.com/rolldabones/AI-Impact-Assessment-Tool), the Informed Intent gate in tool form; [GRCnext-Copilot](https://github.com/rolldabones/GRCnext-Copilot), which scores whether Switches and Exits would execute; the [Contract Mechanism Review Assistant](https://github.com/rolldabones/Contract-Mechanism-Review-Assistant), which reads the agreements those Exits depend on; and [AI Governance for Boards](https://github.com/rolldabones/ai-governance-for-boards), for the conversation in which the CLO helps the board see what it is being asked to accept. All are mapped in [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md).
 
-**Final Liability rests with the Human.**
-
 ---
 
 *This document is provided for general informational purposes regarding the governance of AI in organizations and legal departments. It does not constitute legal advice with respect to any specific matter, jurisdiction or engagement.*
+
+**Final Liability rests with the Human.**

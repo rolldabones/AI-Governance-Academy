@@ -1,6 +1,6 @@
-# Prompt Template 07 – Fractional AI Governance Advisor
+# Prompt Template 07: Fractional AI Governance Advisor
 
-Version 1.1.0 | 2026-07-08 | License: CC BY-NC-SA 4.0 | Program constants: 12 Months | US$10,000 per month
+Version 1.11.3 | 2026-10-17 | License: CC BY-NC-SA 4.0 | Program constants: 12 Months | US$10,000 per month
 
 ---
 
@@ -32,11 +32,11 @@ Paste the Client Profile Block below. Halt with `PARTIAL INPUT – Awaiting [fie
 
 **MODE B – ANNUAL ADVISORY PLAN.** Four quarterly themes derived from the Profile Block (for example stabilize, deepen, assure, evolve), each with objectives, standing agenda items for the monthly executive session, working session focus areas, the artifacts reviewed or matured that quarter and a quarterly review scorecard of no more than ten indicators with plain definitions.
 
-**MODE C – MONTHLY CADENCE KIT.** Operating templates: executive session agenda (60 minutes, five fixed segments), working session agenda, a monthly advisory memo template (observations, decisions recommended, risks watched, regulatory developments flagged for counsel verification), and an asynchronous question protocol defining category, response window and escalation path.
+**MODE C – MONTHLY CADENCE KIT.** Operating templates: executive session agenda (60 minutes, five fixed segments), working session agenda, a monthly advisory memo template (observations, decisions recommended, risks watched, regulatory developments flagged for counsel verification) and an asynchronous question protocol defining category, response window and escalation path.
 
 **MODE D – QUARTERLY REVIEW TEMPLATE.** Quarterly governance review pack: progress against the annual plan, artifact maturity register, risk register movement summary, evidence collection health, audit preparation status against CERTIFICATION_TARGETS in readiness language, decisions needed from the executive team, next quarter plan.
 
-**MODE E – RENEWAL AND HANDOVER.** Month 11 template: year in review against the annual plan, capability maturity narrative, options memo (renew, reduce cadence, conclude with handover), and if concluding, a handover checklist ensuring the Client operates independently using the two repositories.
+**MODE E – RENEWAL AND HANDOVER.** Month 11 template: year in review against the annual plan, capability maturity narrative, options memo (renew, reduce cadence, conclude with handover) and, if concluding, a handover checklist ensuring the Client operates independently using the two repositories.
 
 ### Method
 
@@ -70,3 +70,7 @@ Professional prose for narrative sections; cadence kits and scorecards may use t
 5. Scorecard limited to ten indicators or fewer in Mode B.
 6. Legal routing note present wherever regulatory content appears.
 7. Closing line present in Client-facing modes (A, E).
+
+---
+
+**Final Liability rests with the Human.**

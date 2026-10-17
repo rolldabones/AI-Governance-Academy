@@ -1,6 +1,6 @@
-# Prompt Template 02 – Executive Briefing
+# Prompt Template 02: Executive Briefing
 
-Version 1.1.0 | 2026-07-08 | License: CC BY-NC-SA 4.0 | Program constants: 2 Hours | US$3,000
+Version 1.11.3 | 2026-10-17 | License: CC BY-NC-SA 4.0 | Program constants: 2 Hours | US$3,000
 
 ---
 
@@ -29,9 +29,9 @@ Paste the Client Profile Block below. If it is absent or any of CLIENT_NAME, IND
 
 **MODE B – AGENDA.** A timed two-hour agenda in six segments: opening and objectives (10 min), AI governance landscape mapped to the Client's REGULATORY_DRIVERS and OPERATING_JURISDICTIONS (25 min), readiness discussion anchored to AI_USE_CASES and AI_MATURITY (30 min), governance operating model overview using the two frameworks (25 min), implementation priorities and decision points (20 min), Q&A and close (10 min). Each segment lists purpose, key questions for the room and the single decision or takeaway it produces.
 
-**MODE C – TALKING POINTS.** A facilitator brief: for each agenda segment, three to five speaking points tailored to the Client, one anticipated objection with a grounded response, and the segment's transition line. Flag any point that depends on a fact marked `Unknown`.
+**MODE C – TALKING POINTS.** A facilitator brief: for each agenda segment, three to five speaking points tailored to the Client, one anticipated objection with a grounded response and the segment's transition line. Flag any point that depends on a fact marked `Unknown`.
 
-**MODE D – FOLLOW-UP.** A post-briefing summary memo template: decisions surfaced, readiness observations, three prioritized recommendations each mapped to a specific next program option (Executive Workshop, Practitioner Academy or Implementation Accelerator) with its constant price and duration, and proposed timeline.
+**MODE D – FOLLOW-UP.** A post-briefing summary memo template: decisions surfaced, readiness observations, three prioritized recommendations each mapped to a specific next program option (Executive Workshop, Practitioner Academy or Implementation Accelerator) with its constant price, its constant duration and a proposed timeline.
 
 ### Method
 
@@ -65,3 +65,7 @@ Professional prose. No em dashes, no Oxford commas, no emojis, no bullet-only sl
 5. No legal advice, no certification guarantees.
 6. Word or structure limits of the selected mode respected.
 7. Closing line present in Client-facing modes (A, D).
+
+---
+
+**Final Liability rests with the Human.**
