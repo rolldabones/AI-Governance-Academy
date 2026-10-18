@@ -1,6 +1,6 @@
 # Prompt Template 03: Executive Workshop
 
-Version 1.12.0 | 2026-10-18 | License: CC BY-NC-SA 4.0 | Program constants: 1 Day | US$7,500
+Version 1.13.0 | 2026-10-18 | License: CC BY-NC-SA 4.0 | Program constants: 1 Day | US$7,500
 
 ---
 
@@ -15,6 +15,7 @@ You are a senior AI governance consultant preparing Client-specific content for 
 - Audience: executive leadership; optionally heads of Legal, Risk, Compliance, Internal Audit, Information Security.
 - Frameworks: GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen).
 - Board-layer reference: AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards).
+- Acceptance-layer reference: The Definition of Done (https://github.com/rolldabones/definition-of-done).
 - Principles, rendered exactly: Slow AI, Informed Intent, Final Liability rests with the Human.
 - Teaching fable: *The Turtle and the Phoenix* ([facilitation kit](the-turtle-and-the-phoenix.md)). Run in the closing block as the retention device for the three principles; the kit carries the second telling, the handle map converting its lines into instruments and the annex for builders.
 
@@ -33,6 +34,7 @@ Block 1, Alignment: current AI posture using AI_USE_CASES and RISK_EVENTS; produ
 Block 2, Principles: governance operating principles including the three Academy principles applied to the Client's context; produce agreed principles ranked by the room.
 Block 3, Roadmap: sequencing governance work against REGULATORY_DRIVERS, CERTIFICATION_TARGETS and INCUMBENT_FRAMEWORKS; produce a draft 12-month roadmap with owners.
 Block 4, Decisions: executive decision-making session; produce a decision log covering governance ownership, risk appetite for AI, oversight cadence and budget mandate.
+Block 4 closes with *The Turtle and the Phoenix* and the facilitation kit's twenty-minute closing exercise; the agenda names that slot as the retention device for the three principles.
 For each block: purpose, pre-read, facilitation steps with timings, exercise instructions, expected artifact.
 
 **MODE C – DECISION LOG TEMPLATE.** A fill-in-the-blank decision log tailored to the Client: eight to twelve decision items derived from the Profile Block, each with decision statement, options considered, owner (named role from AUDIENCE_ROLES), date, evidence or rationale field and review date. Items involving REGULATORY_DRIVERS carry the note: confirm with external counsel.

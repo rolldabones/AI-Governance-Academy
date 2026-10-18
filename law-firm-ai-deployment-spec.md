@@ -8,6 +8,8 @@ August 22, 2026
 
 **Version note.** Version 1 of this specification is Seth Fenster's LinkedIn post "If an Am Law 100 firm hired me as their Chief AI Officer tomorrow, here's exactly what I'd do in the first 90 days" (Founder & CEO, Litvue; August 2026): [original post](https://www.linkedin.com/posts/seth-fenster_if-an-am-law-100-firm-hired-me-as-their-chief-share-7496334818847248384-etxj/). Credit for the inspiration and for the 90-day brief belongs there. Version 2 is this document: an independent answer to the same brief, built on the governance frameworks maintained at [github.com/rolldabones](https://github.com/rolldabones).
 
+**Amended 18 October 2026 (KST):** phase table added; no other text changed.
+
 ---
 
 ## Contents
@@ -31,6 +33,16 @@ August 22, 2026
 - [16. Preserve the evidence](#16-preserve-the-evidence)
 - [The 90 Days and the Slow AI Kitchen](#the-90-days-and-the-slow-ai-kitchen)
 - [Day 90: Definition of Done](#day-90-definition-of-done)
+
+## Phases
+
+The sixteen sections run in three phases of thirty days each. The table states the phase, the sections it covers and what the firm holds at its close.
+
+| Phase | Sections | Work of the phase |
+|---|---|---|
+| Days 1 to 30 | 0 to 5 | The economic incentive, Informed Intent, the inventory of actual AI use, classification by what the AI does, the data-processing baseline and the minimum governance system |
+| Days 31 to 60 | 6 to 12 | The small engineering team, the information architecture map, the centralized AI gateway, identity and authorization, the governed knowledge layer, the expensive bottlenecks and the evaluation rubrics |
+| Days 61 to 90 | 13 to 16 | Testing before trusting; the bounded production workflow; the measurement of economics, quality and risk together; the preserved evidence; the Day 90 Definition of Done |
 
 ---
 

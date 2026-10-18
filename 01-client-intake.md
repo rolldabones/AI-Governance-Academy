@@ -1,6 +1,6 @@
 # Prompt Template 01: Shared Client Intake
 
-Version 1.12.0 | 2026-10-18 | License: CC BY-NC-SA 4.0 | Run this template first. Its output feeds every program template in this pack.
+Version 1.13.0 | 2026-10-18 | License: CC BY-NC-SA 4.0 | Run this template first. Its output feeds every program template in this pack.
 
 ---
 
