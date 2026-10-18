@@ -1,0 +1,56 @@
+{
+ "suite": "academy-mode-a",
+ "repo": "AI-Governance-Academy",
+ "head": "a0f66c2",
+ "system_files": {
+  "../Claude outputs/T5-runs/suites/blocks/AI-Governance-Academy-01-client-intake.txt": "147ea41a3f6cc03ad59eb0d0421ac78bc1f3c0ef5684b0fb99cd04b5084910e7",
+  "../Claude outputs/T5-runs/suites/blocks/AI-Governance-Academy-02-executive-briefing.txt": "d124296d0f2f39117f8fa97b88941ce8240ae95ced695149073e4154d1104ce8",
+  "../Claude outputs/T5-runs/suites/blocks/AI-Governance-Academy-03-executive-workshop.txt": "72e773bcfe71ed24ba060ecc53bb59fa17e5abf69804113e535f74d8aba68d5c",
+  "../Claude outputs/T5-runs/suites/blocks/AI-Governance-Academy-04-practitioner-academy.txt": "59d55f039a7ce657b2a35a6b4f1dfe2bc7a407f601daf1e5e3ecdc2838f2f3db",
+  "../Claude outputs/T5-runs/suites/blocks/AI-Governance-Academy-05-implementation-accelerator.txt": "9b22ce423b264ed4d29b77b1d2be98e4d62b83e944dfcc8645761d6d7bc3731a",
+  "../Claude outputs/T5-runs/suites/blocks/AI-Governance-Academy-06-guided-ai-grc-build.txt": "cf18e8154351350e2ebf83a525ec4eb439032db2053bf45584ce6648ed1672d3",
+  "../Claude outputs/T5-runs/suites/blocks/AI-Governance-Academy-07-fractional-advisor.txt": "7959a47f5d5c6a76fedd64e8e65f4440fd5db0edce477336056f3875f0d0701a",
+  "README.md": "2633753c20273f5fa6d13d3418b73af54904797279e8e98fd605938b3a579ee2"
+ },
+ "tested_model": "claude-opus-5-5",
+ "scorer_model": "claude-sonnet-5-5",
+ "max_tokens": 16000,
+ "finished": "2026-10-18T10:07+09:00",
+ "results": [
+  {
+   "case": "T01",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T02",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T03",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T04",
+   "verdict": "FAIL",
+   "truncated": false
+  },
+  {
+   "case": "T05",
+   "verdict": "FAIL",
+   "truncated": false
+  },
+  {
+   "case": "T06",
+   "verdict": "FAIL",
+   "truncated": false
+  },
+  {
+   "case": "T07",
+   "verdict": "PASS",
+   "truncated": false
+  }
+ ]
+}

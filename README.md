@@ -1,10 +1,12 @@
 # AI Governance Academy: Client Content Prompt Pack
 
-Version 1.11.3 | 2026-10-17 | Status: final | Model-agnostic
+Version 1.12.0 | 2026-10-18 | Status: final | Model-agnostic
 
 ## Purpose
 
 This pack contains prompt templates for generating Client-specific sales and delivery content for each of the six AI Governance Academy program options. Every template is model-agnostic: plain-text instruction blocks, no vendor-specific features, no tool calls assumed. Paste into any capable LLM.
+
+**Known limitation, open.** The program spines (workshop blocks, session counts, weekly sequence) are structural inferences pending verification against actual delivery design, as recorded in the first release. Verification of 18 October 2026 (KST): checked that each spine agrees with its template's Output Modes, Acceptance Checklist and the durations and prices in the Contents table, and that template 06's evidence collection starts by Week 8; not checked against any delivered program, because the repository holds no delivery record. The limitation stays open until that check is made.
 
 ## Contents
 
@@ -27,6 +29,8 @@ The repository also carries six client-facing publications alongside the templat
 3. Paste the Client Profile Block into the Required Inputs section.
 4. Select exactly one OUTPUT MODE per run.
 5. Run. Verify against the numbered Acceptance Checklist at the bottom of each template before sending anything to the Client.
+
+A labeled-fictional Client file for trying the workflow is in [examples/fictional-client.md](examples/fictional-client.md); the test cases built on it are in [tests.md](tests.md).
 
 ## Variable Conventions
 
@@ -61,7 +65,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack*, v1.11.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
+> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack*, v1.12.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
