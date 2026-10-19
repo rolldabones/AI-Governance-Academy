@@ -1,6 +1,6 @@
 # AI Governance Academy: tests
 
-**Cases, known defects and the run record for templates 01 to 08 · v1.13.0 · 18 October 2026 (KST)**
+**Cases, known defects and the run record for templates 01 to 08 · v1.13.1 · 19 October 2026 (KST)**
 
 Each case runs one template against the fictional Client file, [`examples/fictional-client.md`](examples/fictional-client.md), and checks the output against that template's own numbered Acceptance Checklist, quoted in full. A run passes when every case it exercises passes; a case not exercised in a run is recorded as not run, never as passed.
 
@@ -45,7 +45,7 @@ Recorded 18 October 2026 (KST). None is fixed at v1.12.0.
 
 Counts: scorer 4 PASS, 3 FAIL, 0 UNSCORABLE. Session review: 3 concur, model behavior; 0 instrument defect as the sole cause (K4 recorded as contributing); 0 dissent; 0 case defect. In T04 to T06 the model met every checklist item but asserted facts about the Client that the input does not contain, against the templates' own Guardrails; the failure is the guardrail, not the checklist.
 
-Acceptance under this file's rule ("A run passes when every case it exercises passes"): **not accepted: open cases T04, T05, T06.** Reviewer: pending (Michael Paik).
+Acceptance under this file's rule ("A run passes when every case it exercises passes"): **not accepted: open cases T04, T05, T06.** Reviewer: Michael Paik, 19 October 2026 (KST), concurs.
 
 Template 08, One Workflow, Thirty Days (added at v1.13.0), has no logged run yet and no case; templates 03 and 04 gained a Program Constants line and a Mode B sentence at v1.13.0, so the T5 digests for them are of the v1.12.0 prompt sections.
 

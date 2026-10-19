@@ -2,6 +2,13 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.13.1] – 2026-10-19
+
+Patch, from the weekly maintenance sweep of 19 October 2026 (KST) and Michael Paik's review of the T5 runs, completed 19 October 2026 (KST), on which he concurs with the scoring as recorded. No template content changes.
+
+- **Logged run T5 reviewed.** `tests.md` Acceptance records the reviewer. Not accepted, as before: T04, T05 and T06 open.
+- Every template masthead, the README masthead and How to Cite, the `tests.md` masthead and `CITATION.cff` to v1.13.1 in lockstep.
+
 ## [1.13.0] – 2026-10-18
 
 Front door in two halves and template 08, session T7 of the whole-account review of 15 October 2026 (KST); review doc section 9 (change 4) and reviewer report 09 (items A3, A12, B1, B2, B3, B4, B5, B7, C7; B1 to B5 and B7 deferred here from T5).
