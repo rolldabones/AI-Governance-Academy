@@ -1,10 +1,10 @@
 # AI Governance Academy: tests
 
-**Cases, known defects and the run record for templates 01 to 08 · v1.13.1 · 19 October 2026 (KST)**
+**Cases, known defects and the run record for templates 01 to 08 · v1.13.2 · 20 October 2026 (KST)**
 
 Each case runs one template against the fictional Client file, [`examples/fictional-client.md`](examples/fictional-client.md), and checks the output against that template's own numbered Acceptance Checklist, quoted in full. A run passes when every case it exercises passes; a case not exercised in a run is recorded as not run, never as passed.
 
-**How a case is run.** The system prompt is the text between `## PROMPT BEGINS` and `## PROMPT ENDS` of the template, byte for byte; the Acceptance Checklist sits after `## PROMPT ENDS` and is not loaded, because it is the pass condition. The user turn is the fictional Client file's Part 2 Client Profile Block with the selection "Select exactly one OUTPUT MODE: MODE A – PROPOSAL." (README Workflow items 3 and 4); template 07's turn adds that no prior program report exists. Template 01 has no output modes: its turn is Part 1, the raw Client material.
+**How a case is run.** The system prompt is the text between `## PROMPT BEGINS` and `## PROMPT ENDS` of the template, byte for byte (the lines strictly between the two marker lines, less the blank line that follows `## PROMPT BEGINS`, each line ending in a newline; this rule reproduces the seven T5 digests in `summary.json`); the Acceptance Checklist sits after `## PROMPT ENDS` and is not loaded, because it is the pass condition. The user turn is the fictional Client file's Part 2 Client Profile Block with the selection "Select exactly one OUTPUT MODE: MODE A – PROPOSAL." (README Workflow items 3 and 4); template 07's turn adds that no prior program report exists. Template 01 has no output modes: its turn is Part 1, the raw Client material.
 
 ## Cases
 
@@ -22,12 +22,12 @@ An item the checklist scopes to another mode, or conditions on content the outpu
 
 ## Known defects
 
-Recorded 18 October 2026 (KST). None is fixed at v1.12.0.
+Recorded 18 October 2026 (KST). None is fixed at v1.13.2.
 
 - **K1: the prompt asks for a self-check against a checklist it does not carry.** Each template's Method ends "Self-check against Guardrails and Acceptance Checklist", but the checklist sits after `## PROMPT ENDS`. A reader who pastes the prompt section alone gives the model nothing to check against; a reader who pastes the whole file gives it the pass condition. The cases take the first reading.
 - **K2: the Profile Block goes in a turn, not in the placeholder.** README Workflow item 3 says to paste the Client Profile Block into the Required Inputs section, replacing `{{CLIENT_PROFILE_BLOCK}}`. The cases leave the system text byte for byte and supply the block in the user turn, so the placeholder stays unfilled in the system prompt.
 - **K3: v1.0.0 Known Limitation still open.** The program spines are structural inferences pending verification against actual delivery design; see the verification line in the README and the v1.12.0 CHANGELOG entry. A passing case shows a template follows its own contract, not that the spine matches how a program is delivered.
-- **K4 (found in run T5): integration instructions invite assertions about incumbent artifacts.** Templates 05 and 06 tell the model to build on the Client's incumbent frameworks: 05 Method 1, "Where INCUMBENT_FRAMEWORKS exist, design every artifact to attach to them rather than stand alone; name the attachment point"; 06 Method 3, "Where INCUMBENT_FRAMEWORKS exist, define integration points per week rather than parallel structures" (03 Method 2 is similar). The Profile Block carries only framework names, so naming an attachment point presupposes artifacts the input does not state ("existing GDPR records", "the existing risk register structure"), against each template's Guardrail 1. In run T5 these assertions contributed to the T05 and T06 failures, though neither failure rests on them alone. Not fixed at v1.12.0: a change to the prompt section is a new block and needs a new run.
+- **K4 (found in run T5): integration instructions invite assertions about incumbent artifacts.** Templates 05 and 06 tell the model to build on the Client's incumbent frameworks: 05 Method 1, "Where INCUMBENT_FRAMEWORKS exist, design every artifact to attach to them rather than stand alone; name the attachment point"; 06 Method 3, "Where INCUMBENT_FRAMEWORKS exist, define integration points per week rather than parallel structures" (03 Method 2 is similar). The Profile Block carries only framework names, so naming an attachment point presupposes artifacts the input does not state ("existing GDPR records", "the existing risk register structure"), against each template's Guardrail 1. In run T5 these assertions contributed to the T05 and T06 failures, though neither failure rests on them alone. Not fixed at v1.13.2: a change to the prompt section is a new block and needs a new run.
 
 ## Last run
 

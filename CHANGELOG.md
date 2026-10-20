@@ -2,6 +2,22 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.13.2] – 2026-10-20
+
+Patch, from the repository audit of 20 October 2026 (KST). Corrections only: no prompt section of any template changes, and the T5 digests for templates 01, 02, 05, 06 and 07 still match their prompt sections. Findings that need the author's judgment, a prompt change or a new run are not in this release.
+
+- **`law-firm-ai-deployment-spec.md`.** The phase table's lead sentence read "The sixteen sections"; the spec has seventeen, 0 to 16, and now says so. Phases added to the Contents; one serial comma removed; "Day 90" capitalized in Section 14. The amendment line records the four changes.
+- **`the-turtle-and-the-phoenix.md`.** Annex row "The walked-again rule" conformed to DOCTRINE.md section 1: the three Slow AI tests are conjunctive and "governed" is one of them, not a definition of the other two. Section 1 lists the closing exercise among the kit's contents. The handle map marks "keep more than one road to every place you must reach" as the practice cut's line. The title italicized in the Afterword.
+- **`the-map-and-the-pair.md`.** "This piece stays with the fourth cell" now reads "that last cell": the two sibling pieces the same sentence links define the fourth cell as the unknown knowns, and the sentence means the unknown unknowns. The paraphrase of the computational-drafting instrument restores its "frequently". The Durability paragraph says the source note points to the record of what changed, as it has since v1.13.0. One serial comma removed.
+- **`the-compression-and-the-harness.md`.** The re-verification line said "one sentence of section 2"; the sentence restated at v1.11.3 is in Section 6. OWASP spelled out on first use. One serial comma removed.
+- **`sounds-good.md`.** NIST spelled out on first use. One serial comma removed.
+- **`slow-ai-for-the-chief-legal-officer.md`.** The spec's title italicized, as in the same sentence's other title and in the README.
+- **`tests.md`.** "How a case is run" states the extraction rule exactly: the lines strictly between the marker lines, less the blank line after `## PROMPT BEGINS`. The rule reproduces the seven T5 digests in `summary.json`. The known-defect lines read "None is fixed at v1.13.2" and "Not fixed at v1.13.2".
+- **Examples.** The labels of the three failing outputs (templates 04, 05 and 06) showed the link text `../tests.md` for the target `../../tests.md`; the text now matches the target. Model output is untouched.
+- **README.** LLM and RFP spelled out on first use. The grc-workbook neighbor line reads "every program template", since template 01 carries no framework constant.
+- **Publications table.** Unchanged: each word count still rounds to its stated hundred.
+- Every template masthead, the README masthead, How to Cite and the six publication citations, the `tests.md` masthead and `CITATION.cff` to v1.13.2 in lockstep. LICENSE.md is unchanged.
+
 ## [1.13.1] – 2026-10-19
 
 Patch, from the weekly maintenance sweep of 19 October 2026 (KST) and Michael Paik's review of the T5 runs, completed 19 October 2026 (KST), on which he concurs with the scoring as recorded. No template content changes.

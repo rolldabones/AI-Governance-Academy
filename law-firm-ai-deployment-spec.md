@@ -8,12 +8,13 @@ August 22, 2026
 
 **Version note.** Version 1 of this specification is Seth Fenster's LinkedIn post "If an Am Law 100 firm hired me as their Chief AI Officer tomorrow, here's exactly what I'd do in the first 90 days" (Founder & CEO, Litvue; August 2026): [original post](https://www.linkedin.com/posts/seth-fenster_if-an-am-law-100-firm-hired-me-as-their-chief-share-7496334818847248384-etxj/). Credit for the inspiration and for the 90-day brief belongs there. Version 2 is this document: an independent answer to the same brief, built on the governance frameworks maintained at [github.com/rolldabones](https://github.com/rolldabones).
 
-**Amended 18 October 2026 (KST):** phase table added; no other text changed.
+**Amended 18 October 2026 (KST):** phase table added; no other text changed. **Amended 20 October 2026 (KST):** section count corrected to seventeen; Phases added to the Contents; one comma removed; "Day 90" capitalized.
 
 ---
 
 ## Contents
 
+- [Phases](#phases)
 - [0. Create the economic incentive to participate](#0-create-the-economic-incentive-to-participate)
 - [1. Establish Informed Intent](#1-establish-informed-intent)
 - [2. Inventory actual AI use](#2-inventory-actual-ai-use)
@@ -36,7 +37,7 @@ August 22, 2026
 
 ## Phases
 
-The sixteen sections run in three phases of thirty days each. The table states the phase, the sections it covers and what the firm holds at its close.
+The seventeen sections run in three phases of thirty days each. The table states the phase, the sections it covers and what the firm holds at its close.
 
 | Phase | Sections | Work of the phase |
 |---|---|---|
@@ -282,7 +283,7 @@ Measure both capability and failure.
 
 Record the results.
 
-The operating rule is in [Sounds Good](sounds-good.md), this repository's companion memorandum: AI output is optimized to sound good, correctness is a byproduct rather than a property, and verification is a human obligation wherever generated content enters the work product.
+The operating rule is in [Sounds Good](sounds-good.md), this repository's companion memorandum: AI output is optimized to sound good, correctness is a byproduct rather than a property and verification is a human obligation wherever generated content enters the work product.
 
 Where consequences are material, require explicit acceptance thresholds and human approval before deployment. In the Kitchen this is Step 8, Taste Before Service (Gate 6: Verification and Validation); no plate reaches Gate 7, the human release decision, without passing it. The Primer's Practice Layer supplies the review instruments: a twelve-question sequence for interrogating a proposed or live system and a defect catalog pairing each failure mode with its symptom and its architectural fix.
 
@@ -292,7 +293,7 @@ It means slowing down at the decision points where errors become consequential.
 
 ## 14. Deploy a bounded production workflow.
 
-By approximately day 90, deploy one useful production workflow with:
+By approximately Day 90, deploy one useful production workflow with:
 
 a defined objective, approved information sources, bounded permissions, tested models, evaluation thresholds, logging, escalation rules and a named human owner.
 

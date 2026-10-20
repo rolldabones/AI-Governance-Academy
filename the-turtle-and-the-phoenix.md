@@ -26,7 +26,7 @@ July 30, 2026
 
 ## 1. Purpose
 
-This is a story written to be told aloud in the opening minutes of a briefing, a workshop or a board session. It converts a governance vocabulary into narrative before any framework is named, so that when the instruments arrive they land as common sense the room has already agreed to. The story is the handshake. The frameworks are the contract. The kit that follows, a second telling for circulation, a one-minute miniature, module timings, a handle map, discussion prompts and facilitation notes, is the conversion table between the two.
+This is a story written to be told aloud in the opening minutes of a briefing, a workshop or a board session. It converts a governance vocabulary into narrative before any framework is named, so that when the instruments arrive they land as common sense the room has already agreed to. The story is the handshake. The frameworks are the contract. The kit that follows, a second telling for circulation, a one-minute miniature, module timings, a handle map, discussion prompts, a closing exercise and facilitation notes, is the conversion table between the two.
 
 Two tellings are carried here and they are not interchangeable. Section 2 is the practice cut, shaped for the voice. Section 3 is the practitioner cut, shaped for the page: the same story, carrying the working customs a governance room can act on and the craft of the workshops that kept them. Tell section 2. Circulate section 3. The closing annex in section 11 takes the customs of section 3 and names the build discipline each one stands for.
 
@@ -331,7 +331,7 @@ Thirteen rows. Each links a line in the story to the shorthand it gives the room
 | "decide which problems deserve solving... what you will not accept" | what you want and what you will not accept | Informed Intent: pre-deployment authorization with explicit specification, held by a named human | A signed authorization naming its purpose, authority, boundaries and exit, with what will not be accepted |
 | "write down the name... the name must" | whose name is on the flight | Final Liability rests with the Human: exactly one named holder, never zero | One named person recorded against the deployment, with the date and the scope of what they answer for |
 | "easy work, simply done, one errand at a time" | turtle-sized tasks | Tiny Servants: narrow purpose, clear boundaries, a human owner | A one-task scope note: the task, its boundaries, what done looks like and the owner |
-| "keep more than one road to every place you must reach"; "no errand flew that could not be undone unless a second road home was found first" (practitioner cut) | more than one road | GRCnext™: optionality as the core safety property (Services, Tolerances, Pipes, Switches, Exits), and reversibility before capability, no irreversible action without a tested way back | A rollback path that someone has actually walked, with the date they walked it |
+| "keep more than one road to every place you must reach" (practice cut); "no errand flew that could not be undone unless a second road home was found first" (practitioner cut) | more than one road | GRCnext™: optionality as the core safety property (Services, Tolerances, Pipes, Switches, Exits), and reversibility before capability, no irreversible action without a tested way back | A rollback path that someone has actually walked, with the date they walked it |
 | "a person who chooses the pace, and answers for the choosing"; the turtle's own pace and the shell he can still read | who chooses the pace | Slow AI: a precondition, not a speed limit; what cannot be governed, explained and audited is not deployed, and the record can be read back | A recorded go or no-go decision for one initiative against the three tests: who made it, on what basis and when it is revisited |
 | "kept the scratches where they could read them" | keep the scratch | Evidence and auditability: records as the only continuity | The record set itself: decision notes, versions and logs a reviewer can request without warning |
 | "the fire kept the particulars" | the fire keeps the particulars | Statelessness: remediation lands on the scaffolding and the people, never on the bird | Principle. It changes where remediation lands rather than producing a document |
@@ -380,7 +380,7 @@ The test is the point. This practice does not accept work because it was done. I
 
 ## 10. Afterword
 
-At its heart, The Turtle and the Phoenix is not a story about artificial intelligence. It is a story about human capability. The phoenix is AI: continually renewed, increasingly capable, extraordinary at speed. The turtle is what does not scale with computing power: judgment, wisdom, memory, ethics and accountability. As AI grows more powerful, these capacities become more valuable, not less.
+At its heart, *The Turtle and the Phoenix* is not a story about artificial intelligence. It is a story about human capability. The phoenix is AI: continually renewed, increasingly capable, extraordinary at speed. The turtle is what does not scale with computing power: judgment, wisdom, memory, ethics and accountability. As AI grows more powerful, these capacities become more valuable, not less.
 
 For enterprises, advantage will come less from acquiring AI than from developing people who use it well. AI amplifies both strengths and weaknesses. Organizations that invest in human capability alongside technological capability will outperform those that pursue automation alone.
 
@@ -407,7 +407,7 @@ For the readers who design the arrangements rather than authorize them: architec
 | The gate, the read-aloud manifest and the stopping word | Release gating, and **Informed Intent**: pre-deployment authorization with explicit specification, read aloud before the flight. Stopping criteria and turn budgets, so a run halts and asks rather than running unbounded |
 | The flight book, no page no custom | Observability and logging as routine practice, not incident response. Every control produces an artifact a reviewer can ask for; a control with no artifact is an assertion |
 | Gray mornings, bread and feet | Fallback paths and graceful degradation, with preserved human capability as the ultimate fallback |
-| The walked-again rule | Auditability and reproducibility from records. **Slow AI**'s test: governed means explainable and auditable after the fact |
+| The walked-again rule | Auditability and reproducibility from records. **Slow AI**'s three tests are conjunctive: governed, explained and audited, and audited means the evidence exists before it is asked for |
 | The three questions asked aloud | Delegation decided before build: what the system carries, what existing tooling carries and what stays with people |
 | The second road home | Reversibility as a design precondition for any high-stakes automation |
 | The name before the flight | **Final Liability rests with the Human**: accountability assigned to a named person before anything flies |

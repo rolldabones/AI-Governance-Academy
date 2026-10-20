@@ -553,7 +553,7 @@ Then train and educate, which are different jobs. The lawyers need training: eno
 
 Legal should demonstrate governed adoption, not merely prescribe it to everyone else.
 
-**Ask to see:** the legal department's own entries in the register and one piece of AI-assisted legal work with its review record. The build detail for a legal organization is in the [Law Firm AI Deployment Spec v2](law-firm-ai-deployment-spec.md), and the verification discipline is in [*Sounds Good*](sounds-good.md).
+**Ask to see:** the legal department's own entries in the register and one piece of AI-assisted legal work with its review record. The build detail for a legal organization is in the [*Law Firm AI Deployment Spec v2*](law-firm-ai-deployment-spec.md), and the verification discipline is in [*Sounds Good*](sounds-good.md).
 
 ---
 
