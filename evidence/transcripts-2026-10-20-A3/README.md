@@ -8,7 +8,7 @@
 
 **Two executions; the first is not kept.** The A3 harness was executed twice on 20 October 2026 (KST), into the same output folder and the same log name. The second execution was suggested by the Cowork session A3; its reason was not recorded. The first execution's transcripts, scores and `summary.json` were overwritten and are not kept. Its console summary survives only in Michael Paik's Terminal scrollback, pasted into the audit session on 20 October 2026 (KST): 13 of 24 samples PASS, 1 of 8 cases PASS (T02); by sample, T01 PASS, PASS, FAIL; T02 PASS, PASS, PASS; T03 FAIL, FAIL, FAIL; T04 PASS, PASS, FAIL; T05 FAIL, PASS, PASS; T06 PASS, PASS, FAIL; T07 PASS, FAIL, PASS; T08 FAIL, FAIL, FAIL (s1, s2, s3). The session's run report described the second execution only. Everything filed here is the second execution. Recorded at v1.14.4.
 
-**Files.** Each transcript is copied byte for byte from the harness output; only the closing line below was appended. `summary.json`, `scores/` and `harness/` are copied unchanged.
+**Files.** Each transcript is copied byte for byte from the harness output; only the closing line below was appended. `summary.json`, `scores/` and `harness/` are copied unchanged. Because `harness/` is kept as run, the docstring of `harness/a3_run.py` still calls it a "Session tool, not shipped in any repository", which it was when it ran; it is filed here as run evidence. Its usage lines still name `t5_run.py`, the T5 harness it was copied from; the command for this run is `python3 a3_run.py`.
 
 | File | Case and sample | Scorer verdict | SHA-256 as produced |
 | --- | --- | --- | --- |

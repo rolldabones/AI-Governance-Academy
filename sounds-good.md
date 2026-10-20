@@ -4,7 +4,7 @@
 
 Son-U Michael Paik · CEO, GRC Solutions Korea
 
-July 9, 2026
+9 July 2026
 
 ---
 

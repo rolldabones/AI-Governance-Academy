@@ -4,9 +4,9 @@
 
 Son-U Michael Paik · CEO, GRC Solutions Korea
 
-October 6, 2026
+6 October 2026
 
-**Starting point.** The occasion for this primer was "AI and the Chief Legal Officer: Redefining legal leadership" by Esteban Mezzano (Vice President, General Counsel Corporate Operations and Sustainability, Nestlé), Konstantinos Trantopoulos (Advisor and Research Fellow, IMD) and Michael R. Wade (Professor of Strategy and Digital, IMD), published in I by IMD on October 5, 2026 in its "AI and the CxO" series: [original article](https://www.imd.org/ibyimd/artificial-intelligence/ai-and-the-chief-legal-officer-redefining-legal-leadership/). Credit for the occasion belongs to its authors. The article is a starting point only. This primer does not follow its structure or adopt its priorities, data or regulatory summary, and it reproduces none of its text. The authors and IMD have no involvement in it, have not reviewed it and do not endorse it. The article was read in full on 6 October 2026 (KST) and is not covered by this repository's license.
+**Starting point.** The occasion for this primer was "AI and the Chief Legal Officer: Redefining legal leadership" by Esteban Mezzano (Vice President, General Counsel Corporate Operations and Sustainability, Nestlé), Konstantinos Trantopoulos (Advisor and Research Fellow, IMD) and Michael R. Wade (Professor of Strategy and Digital, IMD), published in I by IMD on October 5, 2026 in its "AI and the CxO" series: [original article](https://www.imd.org/ibyimd/artificial-intelligence/ai-and-the-chief-legal-officer-redefining-legal-leadership/). Credit for the occasion belongs to its authors. The article is a starting point only. This primer does not follow its structure or adopt its priorities, data or regulatory summary, and it reproduces none of its text. The authors and IMD have no involvement in it, have not reviewed it and do not endorse it. The article was read in full on 6 October 2026 (Korea Standard Time, KST) and is not covered by this repository's license.
 
 **Debts.** Two influences are acknowledged in Sections 1 and 2: Benjamin W. Heineman Jr. and Donald Rumsfeld. The readings of both are the author's own and imply no endorsement by, or association with, either.
 
@@ -632,7 +632,7 @@ Do not begin by trying to build the perfect AI governance framework.
 
 Build a functioning one.
 
-**Days 1–30: Ask, Look & Listen** (unknown knowns into known knowns)
+**Days 1 to 30: Ask, Look & Listen** (unknown knowns into known knowns)
 
 - Identify actual AI use.
 - Find the important systems, shadow uses and existing controls.
@@ -642,7 +642,7 @@ Build a functioning one.
 
 *By day 30:* a working inventory, a list of the consequential decisions AI already touches and a short list of gaps the sponsor must decide.
 
-**Days 31–60: Establish Informed Intent** (systems for the known knowns)
+**Days 31 to 60: Establish Informed Intent** (systems for the known knowns)
 
 - Classify material use cases by tier.
 - Name owners and deputies.
@@ -654,7 +654,7 @@ Build a functioning one.
 
 *By day 60:* a tiered register with its prohibited list, a role assignment matrix, an escalation chain to a named executive and signed authorizations for the Tier 3 uses.
 
-**Days 61–90: Build the operating system** (tests for the known unknowns, slack for the rest)
+**Days 61 to 90: Build the operating system** (tests for the known unknowns, slack for the rest)
 
 - Bring the AI register into operation, with owners, evidence and status kept current.
 - Implement proportionate approval and evidence requirements.

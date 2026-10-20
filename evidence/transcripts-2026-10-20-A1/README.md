@@ -8,7 +8,7 @@
 
 **Attempt 1, superseded.** The first attempt read each case's pass condition from the T5 results table of `tests.md` instead of the Cases table, because both tables carry rows in the form `| T0n |`. Its manifest and builder are kept as `attempt-1-superseded/academy-a1.v1-defective.json` and `build_a1_manifest.v1-defective.py`; its verdicts (4 PASS, 3 FAIL, 1 UNSCORABLE, on different samples) are not a run of record. The second attempt reads the Cases table only and asserts that it did. Both are kept so that no attempt is lost.
 
-**Files.** Each transcript is copied byte for byte from the harness output; only the closing line below was appended. `summary.json`, `scores/` and `harness/` are copied unchanged.
+**Files.** Each transcript is copied byte for byte from the harness output; only the closing line below was appended. `summary.json`, `scores/` and `harness/` are copied unchanged. Because `harness/` is kept as run, the docstring of `harness/a1_run.py` still calls it a "Session tool, not shipped in any repository", which it was when it ran; it is filed here as run evidence. Its usage lines still name `t5_run.py`, the T5 harness it was copied from; the command for this run is `python3 a1_run.py`.
 
 | File | Case | Scorer verdict | SHA-256 as produced |
 | --- | --- | --- | --- |

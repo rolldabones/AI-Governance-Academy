@@ -4,11 +4,11 @@
 
 Son-U Michael Paik · CEO, GRC Solutions Korea
 
-August 22, 2026
+22 August 2026
 
 **Version note.** Version 1 of this specification is Seth Fenster's LinkedIn post "If an Am Law 100 firm hired me as their Chief AI Officer tomorrow, here's exactly what I'd do in the first 90 days" (Founder & CEO, Litvue; August 2026): [original post](https://www.linkedin.com/posts/seth-fenster_if-an-am-law-100-firm-hired-me-as-their-chief-share-7496334818847248384-etxj/). Credit for the inspiration and for the 90-day brief belongs there. Version 2 is this document: an independent answer to the same brief, built on the governance frameworks maintained at [github.com/rolldabones](https://github.com/rolldabones).
 
-**Amended 18 October 2026 (KST):** phase table added; no other text changed. **Amended 20 October 2026 (KST):** section count corrected to seventeen; Phases added to the Contents; one comma removed; "Day 90" capitalized. **Amended 20 October 2026 (KST), v1.14.0:** Final Liability line set to its canon short form; phase table wording aligned; three acronyms spelled out; AI GRC Copilot named as now titled.
+**Amended 18 October 2026 (Korea Standard Time, KST):** phase table added; no other text changed. **Amended 20 October 2026 (KST):** section count corrected to seventeen; Phases added to the Contents; one comma removed; "Day 90" capitalized. **Amended 20 October 2026 (KST), v1.14.0:** Final Liability line set to its canon short form; phase table wording aligned; three acronyms spelled out; AI GRC Copilot named as now titled.
 
 ---
 

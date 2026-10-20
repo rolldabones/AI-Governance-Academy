@@ -259,7 +259,7 @@ The Slow AI Kitchen also runs as a guided web application at [kitchen.grcskorea.
 
 ## Source basis and attribution
 
-Doctrine statements re-verified on 17 October 2026 (KST) against DOCTRINE.md v1.2.0, which adds the short forms of section 8 and changes no rule.
+Doctrine statements re-verified on 17 October 2026 (Korea Standard Time, KST) against DOCTRINE.md v1.2.0, which adds the short forms of section 8 and changes no rule.
 
 Prepared and revised on 15 October 2026 (KST) against DOCTRINE.md v1.1.1 and ECOSYSTEM.md v1.7.26, Slow AI Kitchen v2.11.1 at commit `05253ac`, computational-drafting v1.4.0 at commit `9b3c12a`, The Definition of Done v1.2.2 at commit `4bdc2cd`, GRCnext-Copilot v2.5.0 and AI Governance for Boards v1.5.3, and the sibling publications in this repository as at v1.10.0. Every link into the account was resolved against those releases, anchor included, on first publication; this edition adds no link into the account and changes none.
 

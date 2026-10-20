@@ -6,7 +6,7 @@
 
 **System text.** The eight SHA-256 digests in `summary.json` equal the v1.14.1 prompt sections at `11981fc`, extracted by the rule in `tests.md`.
 
-**Files.** Each transcript is copied byte for byte from the harness output; only the closing line below was appended. `summary.json`, `scores/` and `harness/` are copied unchanged.
+**Files.** Each transcript is copied byte for byte from the harness output; only the closing line below was appended. `summary.json`, `scores/` and `harness/` are copied unchanged. Because `harness/` is kept as run, the docstring of `harness/a2_run.py` still calls it a "Session tool, not shipped in any repository", which it was when it ran; it is filed here as run evidence. Its usage lines still name `t5_run.py`, the T5 harness it was copied from; the command for this run is `python3 a2_run.py`.
 
 | File | Case and sample | Scorer verdict | SHA-256 as produced |
 | --- | --- | --- | --- |

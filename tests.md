@@ -1,6 +1,6 @@
 # AI Governance Academy: tests
 
-**Cases, known defects and the run record for templates 01 to 08 · v1.14.4 · 20 October 2026 (KST)**
+**Cases, known defects and the run record for templates 01 to 08 · v1.14.4 · 20 October 2026 (Korea Standard Time, KST)**
 
 Each case runs one template against the fictional Client file, [`examples/fictional-client.md`](examples/fictional-client.md), and checks the output against that template's own numbered Acceptance Checklist, quoted in full. A run passes when every case it exercises passes; a case not exercised in a run is recorded as not run, never as passed.
 
@@ -29,7 +29,7 @@ An item the checklist scopes to another mode, or conditions on content the outpu
 
 ## Known defects
 
-Recorded 18 October 2026 (KST); K5 and K6 recorded 20 October 2026 (KST). Status at v1.14.3: K1, K2 and K4 fixed, with no recurrence in run A3; K5 residual; K6 resolved for templates 03 and 08 by removing the rule and residual for template 02; K3 open. Residual defects are controlled at README Workflow item 5.
+Recorded 18 October 2026 (KST); K5 and K6 recorded 20 October 2026 (KST). Status at v1.14.4: K1, K2 and K4 fixed, with no recurrence in run A3; K5 residual; K6 resolved for templates 03 and 08 by removing the rule and residual for template 02; K3 open. Residual defects are controlled at README Workflow item 5.
 
 - **K1: the prompt asks for a self-check against a checklist it does not carry.** Each template's Method ended "Self-check against Guardrails and Acceptance Checklist", but the checklist sits after `## PROMPT ENDS`. A reader who pastes the prompt section alone gives the model nothing to check against; a reader who pastes the whole file gives it the pass condition. The cases take the first reading. **Fixed in text at v1.14.0:** the Method step of templates 02 to 08 reads "Self-check against the Style Rules and Guardrails below", which the prompt section carries; the checklist stays outside it as the pass condition. Run A1 attributed no failure to K1.
 - **K2: the Profile Block goes in a turn, not in the placeholder.** README Workflow item 3 said to paste the Client Profile Block into the Required Inputs section, replacing `{{CLIENT_PROFILE_BLOCK}}`. The cases leave the system text byte for byte and supply the block in the user turn, so the placeholder stays unfilled in the system prompt. **Fixed in text at v1.14.0:** README Workflow item 3 names both forms and says the cases use the second.

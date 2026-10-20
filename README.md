@@ -8,9 +8,9 @@ This repository has two halves. The first is the Client Content Prompt Pack: eig
 
 ### Purpose
 
-This pack contains prompt templates for generating Client-specific sales and delivery content for each of the seven AI Governance Academy program options. Every template is model-agnostic: plain-text instruction blocks, no vendor-specific features, no tool calls assumed. Paste into any capable large language model (LLM).
+This pack contains prompt templates for generating Client-specific sales and delivery content for each of the seven AI Governance Academy program options. Every template is model-agnostic: plain-text instruction blocks, no vendor-specific features, no tool calls assumed. Paste into any capable large language model (LLM). In the program name Guided AI GRC Build, GRC stands for governance, risk management and compliance.
 
-**Known limitation, open.** The program spines (workshop blocks, session counts, weekly sequence) are structural inferences pending verification against actual delivery design, as recorded in the first release. Verification of 18 October 2026 (KST): checked that each spine agrees with its template's Output Modes, Acceptance Checklist and the durations and prices in the Contents table, and that template 06's evidence collection starts by Week 8; not checked against any delivered program, because the repository holds no delivery record. The limitation stays open until that check is made.
+**Known limitation, open.** The program spines (workshop blocks, session counts, weekly sequence) are structural inferences pending verification against actual delivery design, as recorded in the first release. Verification of 18 October 2026 (Korea Standard Time, KST): checked that each spine agrees with its template's Output Modes, Acceptance Checklist and the durations and prices in the Contents table, and that template 06's evidence collection starts by Week 8; not checked against any delivered program, because the repository holds no delivery record. The limitation stays open until that check is made.
 
 **Test status, open.** No template at this version is accepted under [tests.md](tests.md): in runs A2 and A3 of 20 October 2026 (KST), three samples per case, the model still inferred relations between Client facts the Profile Block does not state (known defect K5) and used lists in template 02's prose-only letter (K6). These residual defects are controlled at Workflow item 5, by the human who verifies each output before it reaches the Client.
 
@@ -53,6 +53,8 @@ GRCnext™: [GRCnext-Copilot](https://github.com/rolldabones/GRCnext-Copilot) an
 5. Run. Before sending anything to the Client, verify the output against the numbered Acceptance Checklist at the bottom of the template and against its Guardrails, and remove or render `Unknown` any Client fact or relation the Profile Block does not state. This check is the control for the residual defects recorded in [tests.md](tests.md).
 
 A labeled-fictional Client file for trying the workflow is in [examples/fictional-client.md](examples/fictional-client.md); the test cases built on it are in [tests.md](tests.md).
+
+**Evidence and examples.** Most of this repository by size is the record of the test runs in [tests.md](tests.md). Each run has two folders: `evidence/transcripts-<date>-<run>/` holds the transcripts, the scores, `summary.json` and, from run A1, the harness, with a README that says what was run, when and how; `examples/transcripts-<date>-<run>/` holds the same generated outputs, labeled, as examples. The runs are T5 of 18 October 2026 and A1, A2 and A3 of 20 October 2026: [evidence/transcripts-2026-10-18-T5/](evidence/transcripts-2026-10-18-T5/), [evidence/transcripts-2026-10-20-A1/](evidence/transcripts-2026-10-20-A1/), [evidence/transcripts-2026-10-20-A2/](evidence/transcripts-2026-10-20-A2/) and [evidence/transcripts-2026-10-20-A3/](evidence/transcripts-2026-10-20-A3/). Read the evidence README of a run before its transcripts.
 
 ### Variable Conventions
 
