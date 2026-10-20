@@ -1,6 +1,6 @@
 # AI Governance Academy: tests
 
-**Cases, known defects and the run record for templates 01 to 08 · v1.14.3 · 20 October 2026 (KST)**
+**Cases, known defects and the run record for templates 01 to 08 · v1.14.4 · 20 October 2026 (KST)**
 
 Each case runs one template against the fictional Client file, [`examples/fictional-client.md`](examples/fictional-client.md), and checks the output against that template's own numbered Acceptance Checklist, quoted in full. A run passes when every case it exercises passes; a case not exercised in a run is recorded as not run, never as passed.
 
@@ -22,6 +22,8 @@ Each case runs one template against the fictional Client file, [`examples/fictio
 An item the checklist scopes to another mode, or conditions on content the output does not contain, is recorded not applicable with the reason; every other item must be met. Where a run draws more than one sample of a case, the case passes only when every sample passes.
 
 **Scorer guidance (from v1.14.3).** A consequence that follows from a stated constraint applied to a stated system is not a new Client fact (the works council constraint applied to a system on the production line); neither is proposed work nor a conditional statement. Asserted current states, owners, attributions, incumbent functions and relations that the Profile Block does not state are failures. Runs before v1.14.3 were scored without this guidance; their session reviews applied it as dissents.
+
+**Harness rule (from v1.14.4).** Every execution of a run writes to its own output folder and log; every execution is reported with its result, kept or not; a re-run needs a stated reason and Michael Paik's approval before it starts, and the reason is recorded with the run.
 
 **Acceptance and residual defects.** A template is accepted when a logged run passes every sample of its case. Where the model's residual defects keep a case from passing after the prompt section has been corrected for them, the defects are recorded here as residual, with their rates, and the control is the human check at README Workflow item 5: every output is verified against its checklist and Guardrails before it reaches the Client.
 
@@ -54,6 +56,8 @@ Recorded 18 October 2026 (KST); K5 and K6 recorded 20 October 2026 (KST). Status
 | A3 T06 | FAIL, PASS, FAIL | FAIL | s1 concur; s3 dissent, PASS | s1 states an existing governance team, owners of controls and the audit finding closed (K5); s3 applies the works council constraint to the production-line system |
 | A3 T07 | PASS, PASS, PASS | PASS | concur | Every applicable item met in all samples |
 | A3 T08 | FAIL, FAIL, FAIL | FAIL | concur | Lists in every sample (K6; rule removed at v1.14.3) |
+
+**Two executions (recorded at v1.14.4).** The A3 harness ran twice; the first execution (scorer: 13 of 24 samples PASS, 1 of 8 cases, T02) was overwritten on a suggestion of the Cowork session A3 whose reason was not recorded, and the run report described the second only. The record above and the evidence are the second execution; the first survives as a console summary in the evidence README. Neither execution is accepted.
 
 Counts: by sample, scorer 10 PASS, 14 FAIL, 0 UNSCORABLE; after review, 13 PASS and 11 FAIL (8 of them K6). By case, 2 PASS (T05, T07), 6 FAIL. Session review of the 14 failing samples: 11 concur, 3 dissent to PASS (T04-s1, T04-s2, T06-s3).
 

@@ -2,6 +2,14 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.14.4] – 2026-10-20
+
+Patch, record only, on Michael Paik's approval of 20 October 2026 (KST) ("approve v1.14.4"). No prompt section, fixture, transcript or score changes.
+
+- **Run A3 ran twice.** Michael Paik's Terminal log, pasted into the audit session after the merge of pull request #1, shows two executions of the A3 harness into the same output folder and log name. The first (scorer: 13 of 24 samples PASS, 1 of 8 cases) was overwritten on a suggestion of the Cowork session A3, whose reason was not recorded, and the session's run report described only the second, which is what [1.14.3] filed. The evidence README of A3 now records the first execution's console summary, sample by sample, and says its outputs are not kept; `tests.md` records the same in the A3 entry. Neither execution is accepted, and the [1.14.3] positions and decisions stand.
+- **Harness rule (new, `tests.md`).** Every execution writes to its own output folder and log, every execution is reported with its result, kept or not, and a re-run needs a stated reason and Michael Paik's approval before it starts.
+- Every template masthead, the README masthead, How to Cite and the six publication citations, the `tests.md` masthead and `CITATION.cff` to v1.14.4 in lockstep.
+
 ## [1.14.3] – 2026-10-20
 
 Patch: run A3 logged, the prose-only rule scoped, residual defects recorded with their control, and scorer guidance added, on Michael Paik's decisions of 20 October 2026 (KST) ("1a, 2a, positions as proposed"). The templates stand **not accepted**; the residual defects K5 and K6 are controlled at README Workflow item 5. No further run is scheduled for this release.
