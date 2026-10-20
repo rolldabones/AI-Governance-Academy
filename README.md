@@ -1,6 +1,6 @@
 # AI Governance Academy
 
-Version 1.14.1 | 2026-10-20 | Status: final (one known limitation open; see Purpose) | Model-agnostic
+Version 1.14.2 | 2026-10-20 | Status: final (one known limitation open; see Purpose) | Model-agnostic
 
 This repository has two halves. The first is the Client Content Prompt Pack: eight prompt templates that generate Client-specific sales and delivery content for the AI Governance Academy program options. The second is the Publications: six client-facing pieces, from an essay on how to characterize AI output to a working vocabulary for reading discovery claims, published here as the text of record. The halves share one version number, one license and one closing line.
 
@@ -92,17 +92,17 @@ The date is the masthead date of first publication; *The Map and the Pair* is in
 
 ### How to cite a publication
 
-> Paik, Son-U Michael. *Sounds Good*. In AI Governance Academy, v1.14.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/sounds-good.md
+> Paik, Son-U Michael. *Sounds Good*. In AI Governance Academy, v1.14.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/sounds-good.md
 
-> Paik, Son-U Michael. *The Turtle and the Phoenix*. In AI Governance Academy, v1.14.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md
+> Paik, Son-U Michael. *The Turtle and the Phoenix*. In AI Governance Academy, v1.14.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md
 
-> Paik, Son-U Michael. *Law Firm AI Deployment Spec v2*. In AI Governance Academy, v1.14.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/law-firm-ai-deployment-spec.md
+> Paik, Son-U Michael. *Law Firm AI Deployment Spec v2*. In AI Governance Academy, v1.14.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/law-firm-ai-deployment-spec.md
 
-> Paik, Son-U Michael. *Slow AI for the Chief Legal Officer*. In AI Governance Academy, v1.14.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/slow-ai-for-the-chief-legal-officer.md
+> Paik, Son-U Michael. *Slow AI for the Chief Legal Officer*. In AI Governance Academy, v1.14.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/slow-ai-for-the-chief-legal-officer.md
 
-> Paik, Son-U Michael. *The Compression and the Harness*. In AI Governance Academy, v1.14.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-compression-and-the-harness.md
+> Paik, Son-U Michael. *The Compression and the Harness*. In AI Governance Academy, v1.14.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-compression-and-the-harness.md
 
-> Paik, Son-U Michael. *The Map and the Pair*. In AI Governance Academy, v1.14.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-map-and-the-pair.md
+> Paik, Son-U Michael. *The Map and the Pair*. In AI Governance Academy, v1.14.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-map-and-the-pair.md
 
 ## Part of the ecosystem
 
@@ -117,7 +117,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.14.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
+> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.14.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

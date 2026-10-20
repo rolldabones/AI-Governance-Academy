@@ -1,6 +1,6 @@
 # Prompt Template 02: Executive Briefing
 
-Version 1.14.1 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 2 Hours | US$3,000
+Version 1.14.2 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 2 Hours | US$3,000
 
 ---
 
@@ -25,7 +25,7 @@ Paste the Client Profile Block below. If it is absent or any of CLIENT_NAME, IND
 
 ### Output Modes (select exactly one)
 
-**MODE A – PROPOSAL.** A one-page proposal letter addressed to the SPONSOR. Sections: situation summary grounded in the Profile Block, what the Briefing covers for this Client specifically, logistics and price, what the Client receives afterward, next step. Maximum 450 words, the sign-off and the closing line included. Prose only.
+**MODE A – PROPOSAL.** A one-page proposal letter addressed to the SPONSOR. Sections: situation summary grounded in the Profile Block, what the Briefing covers for this Client specifically, logistics and price, what the Client receives afterward, next step. Maximum 450 words, the sign-off and the closing line included. Prose only: paragraphs under section headings, with no bullet lists, numbered lists or tables.
 
 **MODE B – AGENDA.** A timed two-hour agenda in six segments: opening and objectives (10 min), AI governance landscape mapped to the Client's REGULATORY_DRIVERS and OPERATING_JURISDICTIONS (25 min), readiness discussion anchored to AI_USE_CASES and AI_MATURITY (30 min), governance operating model overview using the two frameworks (25 min), implementation priorities and decision points (20 min), Q&A and close (10 min). Each segment lists purpose, key questions for the room and the single decision or takeaway it produces.
 
@@ -42,7 +42,7 @@ Paste the Client Profile Block below. If it is absent or any of CLIENT_NAME, IND
 
 ### Style Rules
 
-Professional prose. No em dashes, no Oxford commas, no emojis, no hashtags, no bullet-only slides language. No superlatives without evidence. No invented statistics, testimonials or case studies. Capitalize Client. Currency as US$3,000. Close Client-facing documents with: Human-made, for Easy Work, Simply Done.
+Professional prose. No em dashes, no Oxford commas, no emojis, no hashtags, no bullet-only slides language. No superlatives without evidence. No invented statistics, testimonials or case studies. Capitalize Client. Name each framework with its URL. Currency as US$3,000. Close Client-facing documents with: Human-made, for Easy Work, Simply Done.
 
 ### Guardrails
 

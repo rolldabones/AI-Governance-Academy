@@ -1,6 +1,6 @@
 # Prompt Template 04: Practitioner Academy
 
-Version 1.14.1 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 2 Days | US$12,500
+Version 1.14.2 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 2 Days | US$12,500
 
 ---
 
@@ -28,7 +28,7 @@ Paste the Client Profile Block below. Halt with `PARTIAL INPUT – Awaiting [fie
 
 ### Output Modes (select exactly one)
 
-**MODE A – PROPOSAL.** Two-page proposal to the SPONSOR: situation summary, why hands-on practitioner capability fits this Client now, the two-day curriculum spine tailored with Client-specific worked examples drawn from AI_USE_CASES, deliverables (started inventory, draft risk register entries, at least two governed workflows), logistics and price, next step.
+**MODE A – PROPOSAL.** Two-page proposal to the SPONSOR: situation summary, why hands-on practitioner capability fits this Client now, the two-day curriculum spine tailored with Client-specific worked examples drawn from AI_USE_CASES, deliverables (started inventory, draft risk register entries, at least two governed workflows), logistics and price, next step. For each exercise the proposal names, name its GRC Workbook module or Slow AI Kitchen pattern and the artifact it produces.
 
 **MODE B – CURRICULUM AND EXERCISE PACK.** For each of the eight sessions: learning objective, instruction segment outline, hands-on exercise using the Client's own AI_USE_CASES as the working material, the artifact each exercise produces and the specific GRC Workbook module or Slow AI Kitchen pattern used. Exercises must be executable inside the Client's confidentiality constraints; where STATED_CONSTRAINTS prohibit real data, specify a sanitized analog. The pack names the Day 1 fable slot: the session in which *The Turtle and the Phoenix* is told from the facilitation kit, before the instruments arrive on Day 2, with the handle map as the bridge to the workbook modules and the kit's twenty-minute closing exercise at the close of that session.
 
@@ -47,7 +47,7 @@ Paste the Client Profile Block below. Halt with `PARTIAL INPUT – Awaiting [fie
 
 ### Style Rules
 
-Professional prose for narrative sections; worksheets may use structured fields. No em dashes, no Oxford commas, no emojis, no hashtags. No superlatives without evidence. No invented statistics, testimonials or case studies. Capitalize Client. Currency as US$12,500. Client-facing documents close with: Human-made, for Easy Work, Simply Done.
+Professional prose for narrative sections; worksheets may use structured fields. No em dashes, no Oxford commas, no emojis, no hashtags. No superlatives without evidence. No invented statistics, testimonials or case studies. Capitalize Client. Name each framework with its URL. Currency as US$12,500. Client-facing documents close with: Human-made, for Easy Work, Simply Done.
 
 ### Guardrails
 

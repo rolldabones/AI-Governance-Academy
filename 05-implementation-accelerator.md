@@ -1,6 +1,6 @@
 # Prompt Template 05: Implementation Accelerator
 
-Version 1.14.1 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 5 Days | US$25,000
+Version 1.14.2 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 5 Days | US$25,000
 
 ---
 
@@ -44,7 +44,7 @@ Paste the Client Profile Block below. Halt with `PARTIAL INPUT – Awaiting [fie
 
 ### Style Rules
 
-Professional prose for narrative sections; workplans and registers may use tables. No em dashes, no Oxford commas, no emojis, no hashtags. No superlatives without evidence. No invented statistics, testimonials or case studies. Capitalize Client. Currency as US$25,000. Client-facing documents close with: Human-made, for Easy Work, Simply Done.
+Professional prose for narrative sections; workplans and registers may use tables. No em dashes, no Oxford commas, no emojis, no hashtags. No superlatives without evidence. No invented statistics, testimonials or case studies. Capitalize Client. Name each framework with its URL. Currency as US$25,000. Client-facing documents close with: Human-made, for Easy Work, Simply Done.
 
 ### Guardrails
 

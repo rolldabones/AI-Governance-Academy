@@ -2,6 +2,19 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.14.2] – 2026-10-20
+
+Patch: run A2 logged, the fixture's Part 2 corrected for a case defect it found, and corrections to the prompt sections of templates 02 to 08, taken on Michael Paik's instruction of 20 October 2026 (KST) ("positions as proposed, approve v1.14.2"). No template at this version is accepted until a run of cases T01 to T08 against these prompt sections and the corrected Part 2 is logged.
+
+- **Run A2 (new), 20 October 2026 (KST).** Cases T01 to T08 against the v1.14.1 prompt sections at `11981fc`, three samples per case, `claude-opus-5-5` scored by `claude-sonnet-5-5`: by sample 8 PASS, 16 FAIL; by case T01 and T07 PASS, the other six FAIL. Session review of the 16 failing samples: 11 concur as model behavior, 4 case defect C1, 1 dissent to PASS (T05-s3), with dissents on single indicators in T04-s2 and T06-s2. Not accepted. Transcripts, `summary.json`, the scorer's JSON and the harness, with its diff from the A1 harness, are in `evidence/transcripts-2026-10-20-A2/`; the 24 outputs are filed, labeled, in `examples/transcripts-2026-10-20-A2/`.
+- **C1, case defect: the fixture's Part 2.** It had dropped three attributions that Part 1 states and that template 01's outputs in runs T5 and A1 carry: the Sponsor as budget holder, the speaker of STATED_OBJECTIVES and the attendees in SOURCE_MATERIAL. Part 2 now carries them, and `fictional-client.md` says so. Earlier runs used the earlier Part 2; their evidence is unchanged.
+- **K6 (new known defect): "Prose only" did not hold.** Every T03 and T08 sample and one T02 sample used lists. Mode A of templates 02, 03 and 08 now reads "Prose only: paragraphs under section headings, with no bullet lists, numbered lists or tables."
+- **URLs.** The checklists require URLs where frameworks are cited, and no prompt section said so; T02-s1 and T03-s3 failed on it. The Style Rules of templates 02 to 08 add "Name each framework with its URL."
+- **Template 04, Mode A.** For each exercise the proposal names, the module or pattern and the artifact it produces, which checklist item 4 requires; T04-s1 and T04-s3 failed on it.
+- **`tests.md`.** K5 updated with the A2 result; K6 and C1 added; instrument notes on the scorer's uneven reading of template 04's item 4, a `Unknown` counted as a failure and two stated consequences read as unstated. Last run is A2, with A1 and T5 under Earlier runs.
+- **Pull request.** `incoming/A2-runs/`, the transfer folder, is removed; its content is filed as above.
+- Every template masthead, the README masthead, How to Cite and the six publication citations, the `tests.md` masthead and `CITATION.cff` to v1.14.2 in lockstep.
+
 ## [1.14.1] – 2026-10-20
 
 Patch: run A1 logged, and corrections to the prompt sections of templates 02 to 08 for the defects it found, taken on Michael Paik's instruction of 20 October 2026 (KST) ("positions as proposed, approve v1.14.1"). No template at this version is accepted until a run of cases T01 to T08 against these prompt sections is logged; the next run draws three samples per case.
