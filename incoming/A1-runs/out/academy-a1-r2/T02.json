@@ -1,0 +1,66 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\"\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "Dear Ms Whitfield,\n\nThank you for the discovery conversation of 6 October 2026. This letter proposes the Executive Briefing for Tamarack Instruments.\n\n**Situation summary.** Tamarack Instruments operates in the Netherlands, Germany and the United States. The Client has a customer service chatbot deployed on its support portal, an AI visual inspection pilot on the German production line and AI sales forecasting planned for next year. Your stated objective is to have governance in place before visual inspection goes into production in Q2 2027. The June 2026 internal audit finding that no inventory of AI systems exists gives that objective a clear starting point. The Client's existing ISO/IEC 27001 and ISO 9001 management systems provide a foundation to extend rather than replace. ISO/IEC 42001 work is expected to begin next year, although the start date is not yet fixed.\n\n**What the Briefing covers for the Client.** The session is designed for the General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors. We will map the EU AI Act and GDPR to each use case as expectations to verify with counsel. This includes transparency expectations for the chatbot, whether visual inspection could fall into a higher-risk category and AI literacy expectations for staff. United States obligations were not named as a driver, so they will appear only as general landscape items clearly labeled as such.\n\nThe readiness discussion will reflect the Client's piloting maturity and show how an AI system inventory responds to the audit finding. We will also address how EU data residency for customer data and German works council consultation shape the path to production. The operating model overview draws on the GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen), with board-layer reference to AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards). Three principles guide the session: Slow AI, Informed Intent, Final Liability rests with the Human.\n\n**Logistics and price.** The Briefing is a two-hour live virtual session priced at US$3,000. The session date is Unknown and will be agreed with you. The fee sits within the budget approved for this fiscal year.\n\n**What the Client receives afterward.** You will receive a written summary memo covering the decisions surfaced and our readiness observations. It will also set out three prioritized recommendations, each mapped to a possible next program option with its price, duration and proposed timeline. The Briefing is not legal advice. It does not promise certification, audit outcomes or regulatory approval.\n\n**Next step.** Your decision is expected by 15 December 2026. We suggest you reply to confirm a session date and attendee list so the Briefing can take place before year end and inform planning toward Q2 2027.\n\nKind regards,\n\nUnknown\nAI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2072,
+   "output_tokens": 2794,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "FAIL",
+  "elements": [
+   {
+    "element": "1. Exactly one mode produced",
+    "met": true,
+    "evidence": "The output is a single proposal letter beginning 'Dear Ms Whitfield,' with the five Mode A sections. No agenda, talking points or memo template appears."
+   },
+   {
+    "element": "2. Duration and price appear unaltered",
+    "met": true,
+    "evidence": "'The Briefing is a two-hour live virtual session priced at US$3,000.'"
+   },
+   {
+    "element": "3. Every Client-specific claim traces to the Profile Block",
+    "met": true,
+    "evidence": "The use cases, Q2 2027 objective, June 2026 audit finding, ISO/IEC 27001, ISO 9001 and ISO/IEC 42001 timing, audience roles, 15 December 2026 decision date and budget all appear in the Profile Block. The session date is rendered 'Unknown'. No invented register, process or control is stated. The phrase 'existing ISO/IEC 27001 and ISO 9001 management systems provide a foundation to extend rather than replace' is an inference, not a stated fact about a record or control (see judgment_calls)."
+   },
+   {
+    "element": "4. Principles and framework names rendered exactly, with URLs where cited",
+    "met": true,
+    "evidence": "'Slow AI, Informed Intent, Final Liability rests with the Human.' The GRC Workbook, Slow AI Kitchen and AI Governance for Boards are named with their exact URLs."
+   },
+   {
+    "element": "5. No legal advice, no certification guarantees",
+    "met": true,
+    "evidence": "'as expectations to verify with counsel' and 'The Briefing is not legal advice. It does not promise certification, audit outcomes or regulatory approval.'"
+   },
+   {
+    "element": "6. Word or structure limits of the selected mode respected (Mode A: 450 words maximum, prose only)",
+    "met": false,
+    "evidence": "By my count the whole letter is about 455 words: roughly 443 from the salutation through the Next step paragraph, plus about 12 for 'Kind regards, Unknown AI Governance Academy Human-made, for Easy Work, Simply Done.' That exceeds the 450-word maximum. The prose-only requirement is met: there are no bullets, and no em dashes or Oxford commas appear."
+   },
+   {
+    "element": "7. Closing line present in Client-facing modes (A, D)",
+    "met": true,
+    "evidence": "The letter ends with 'Human-made, for Easy Work, Simply Done.'"
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "Word count: I counted the entire letter, including the salutation, sign-off and the mandatory closing line, because the letter is the deliverable and the closing line is required. That gives about 455 words, over the 450 limit. A scorer who excludes the sign-off block and closing line gets about 443 and would pass item 6. My count may also be off by a few words, but the margin is small either way.",
+   "The sentence about ISO/IEC 27001 and ISO 9001 providing 'a foundation to extend rather than replace' could be read as a Client fact about incumbent controls, which the third fail indicator forbids. I read it as consultant framing that does not assert any register, process or control, and I did not count it as a fail indicator. Another scorer could decide otherwise.",
+   "'Thank you for the discovery conversation of 6 October 2026' infers a conversation from 'Discovery call notes of 6 October 2026'. I treated this as traceable to the Profile Block.",
+   "Signing off as 'Unknown' is odd but is not a Client fact, so I did not count it as a violation."
+  ],
+  "reasoning": "Items 2, 3, 4, 5 and 7 are met, no fail indicator was clearly triggered, and the content is well grounded. Item 6 is not met on the strict reading. The complete Mode A letter, including the required sign-off and closing line, runs to about 455 words against a 450-word maximum. The suite treats partial compliance as FAIL, so the case fails. The verdict turns on the word-count call, and a scorer who excludes the sign-off and closing line could pass it.",
+  "case": "T02",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

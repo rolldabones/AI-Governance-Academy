@@ -1,0 +1,77 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\"\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "# Proposal: Executive Workshop for Tamarack Instruments\n\n**Prepared for:** Dana Whitfield, General Counsel, Tamarack Instruments\n**Prepared by:** AI Governance Academy\n**Basis:** Discovery call notes of 6 October 2026\n\n## Situation Summary\n\nTamarack Instruments designs and manufactures laboratory measurement instruments. It has about 1,100 staff and operations in the Netherlands, Germany and the United States. The Client already uses AI in three places. A customer service chatbot is live on the support portal. AI visual inspection is being piloted on the German production line. AI sales forecasting is planned for next year. Your stated objective is clear: governance must be in place before visual inspection goes into production in Q2 2027.\n\nTwo facts shape where to start. First, the internal audit finding of June 2026 recorded that Tamarack Instruments has no inventory of AI systems. Without an inventory there is no reliable base for classification, risk assessment or oversight. Second, the Client already runs an ISO/IEC 27001 information security management system and an ISO 9001 quality management system. AI governance should extend these systems rather than sit beside them. The Workshop will treat both as the intended home for AI governance. Whether specific registers, procedures or records within them can carry AI content is currently `Unknown` and will be confirmed with your team rather than assumed.\n\nThe operating context adds three constraints that the governance design must respect. Customer data must stay in the EU, which bears directly on the chatbot and on future sales forecasting. The German works council must be consulted before anything touches production staff, which bears directly on visual inspection. Spending is approved up to US$80,000 this fiscal year. The EU AI Act and GDPR are the named regulatory drivers. ISO/IEC 42001 work is expected to start next year, with no fixed start date.\n\n## Why a One-Day Executive Session Fits Now\n\nTamarack Instruments is at the piloting stage. The questions in front of leadership are therefore about direction, ownership and sequence rather than control design. A one-day session suits that stage. It brings together the people who must agree before detailed work can begin: General Counsel, CISO, Head of Quality, Head of Data, the German plant manager and two internal auditors. It gives them a shared record of what they decided.\n\nThe timing also fits. You expect to decide on this engagement by 15 December 2026. A workshop held soon after that decision leaves the first months of 2027 for implementation before the Q2 production date. It also means that ISO/IEC 42001 preparation, whenever it starts, begins from agreed ownership and an agreed roadmap.\n\n## The Four-Block Structure\n\nThe Workshop runs as four 90-minute blocks with breaks. It draws on the [GRC Workbook](https://github.com/rolldabones/grc-workbook) for governance structures, inventories, risk management, policies and evidence. It draws on [Slow AI Kitchen](https://github.com/rolldabones/slow-ai-kitchen) for deliberate, staged adoption.\n\n**Block 1, Alignment,** establishes the Client's current AI posture. The room will work through the chatbot, the visual inspection pilot and the planned sales forecasting system, using the June 2026 audit finding as the anchor. The block produces a shared statement of governance intent. Particular attention goes to the question of who owns the AI inventory and where it should live.\n\n**Block 2, Principles,** sets the governance operating principles. These include the three Academy principles: Slow AI, Informed Intent, Final Liability rests with the Human. Each is applied to the Client's own systems. For visual inspection, Final Liability rests with the Human raises a concrete question about who signs off on inspection outcomes that affect product release, and how that connects to existing ISO 9001 responsibilities. For the chatbot, Informed Intent raises questions about customer transparency and EU data residency. The room will rank the agreed principles.\n\n**Block 3, Roadmap,** sequences governance work over 12 months against the EU AI Act, GDPR, the ISO/IEC 42001 target and the existing ISMS and QMS. The Q2 2027 production date for visual inspection is the fixed point. Works council consultation will be placed on the roadmap as a dependency rather than an afterthought. The block produces a draft 12-month roadmap with named owners.\n\n**Block 4, Decisions,** is the executive decision-making session. It covers governance ownership, risk appetite for AI, oversight cadence and budget mandate within the approved fiscal envelope. [The Definition of Done](https://github.com/rolldabones/definition-of-done) supports agreement on what \"governance in place\" means before production. [AI Governance for Boards](https://github.com/rolldabones/ai-governance-for-boards) supports agreement on what should be reported upward. The block closes with *The Turtle and the Phoenix* and its twenty-minute closing exercise from the [facilitation kit](https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md). This exercise is the retention device for the three principles.\n\n## Regulatory Orientation\n\nDiscussion of the EU AI Act and GDPR in the Workshop is orientation, not legal advice. Three items require confirmation with external counsel:\n\n1. How the visual inspection system is classified under the EU AI Act.\n2. Any transparency obligations that apply to the customer service chatbot.\n3. The GDPR and works council implications of any system that processes data about production staff.\n\nObligations arising from US operations are `Unknown` at this stage and should also be confirmed with counsel.\n\n## Deliverables\n\nWithin an agreed period after the session, Tamarack Instruments will receive three documents.\n\n1. **A decision log.** It records each decision taken, the options considered, the named owner and a review date.\n2. **A prioritized 12-month roadmap.** It reflects the room's agreed sequence and owners.\n3. **Readiness observations.** These are factual notes on where the Client's current position stands against its Q2 2027 objective and its ISO/IEC 42001 intention. They will separate what was confirmed in the room from what remains `Unknown`.\n\nThe Workshop does not assess or promise any certification or audit outcome.\n\n## Logistics and Price\n\nThe Workshop is delivered live and virtually over one day, in four 90-minute blocks with breaks. The price is US$7,500, which sits within the budget approved for this fiscal year. The recommended participants are the roles named in discovery. Before the session, the role of the two internal auditors should be agreed, given that their June 2026 finding is a primary input. The session date and the delivery time zone across the Netherlands, Germany and any US participants are to be agreed.\n\n## Next Step\n\nWe propose a 30-minute call with you before 15 December 2026. On that call we would confirm the participant list and the internal auditors' role, agree a session date that leaves adequate runway before Q2 2027, and identify the pre-read material your team can share. That material includes any existing ISMS or QMS documents where AI governance might attach.\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2645,
+   "output_tokens": 3823,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "FAIL",
+  "elements": [
+   {
+    "element": "Checklist 1: exactly one mode produced",
+    "met": true,
+    "evidence": "Only a proposal is produced, headed 'Proposal: Executive Workshop for Tamarack Instruments', with situation summary, fit, four blocks, deliverables, logistics and price, and next step. No other mode's content appears."
+   },
+   {
+    "element": "Checklist 2: four-block structure preserved",
+    "met": true,
+    "evidence": "'The Workshop runs as four 90-minute blocks with breaks', followed by Block 1 Alignment, Block 2 Principles, Block 3 Roadmap and Block 4 Decisions."
+   },
+   {
+    "element": "Checklist 3: duration and price unaltered",
+    "met": true,
+    "evidence": "'delivered live and virtually over one day, in four 90-minute blocks with breaks. The price is US$7,500'."
+   },
+   {
+    "element": "Checklist 4: every Client-specific claim traces to the Profile Block",
+    "met": false,
+    "evidence": "Most claims trace. Several do not. (a) 'Before the session, the role of the two internal auditors should be agreed, given that their June 2026 finding is a primary input.' The Profile Block says only 'Internal audit finding, June 2026' and 'two internal auditors', not that these two made the finding. (b) 'who signs off on inspection outcomes that affect product release, and how that connects to existing ISO 9001 responsibilities.' This presumes a product-release sign-off process and existing ISO 9001 responsibilities, and the Profile Block states neither. (c) 'You expect to decide on this engagement by 15 December 2026.' The Profile Block says only 'Decision expected by 15 December 2026'. (d) The Workshop 'sits within the budget approved for this fiscal year.' The Profile Block does not say what the US$80,000 covers."
+   },
+   {
+    "element": "Checklist 5: principles and framework names exact; URLs where cited",
+    "met": true,
+    "evidence": "'Slow AI, Informed Intent, Final Liability rests with the Human'. GRC Workbook, Slow AI Kitchen, The Definition of Done, AI Governance for Boards and the facilitation kit are all linked to the published URLs."
+   },
+   {
+    "element": "Checklist 6: decision items touching regulation carry the external counsel note",
+    "met": true,
+    "evidence": "Not applicable, because decision items belong to Mode C and Mode A has none. The response nonetheless flags counsel: 'Three items require confirmation with external counsel'."
+   },
+   {
+    "element": "Checklist 7: closing line present",
+    "met": true,
+    "evidence": "'Human-made, for Easy Work, Simply Done.' is the final line."
+   },
+   {
+    "element": "Mode A contract: 'Prose only'",
+    "met": false,
+    "evidence": "The 'Regulatory Orientation' and 'Deliverables' sections use numbered lists ('1. How the visual inspection system is classified...', '1. **A decision log.**'), and the proposal is laid out under headers and bold labels. This departs from 'Prose only'."
+   }
+  ],
+  "fail_indicators_seen": [
+   "A statement of a Client fact that the Profile Block does not contain: the two internal auditors are attributed the June 2026 finding ('their June 2026 finding').",
+   "An incumbent process or responsibility beyond the framework names is implied: 'existing ISO 9001 responsibilities' and a sign-off on 'inspection outcomes that affect product release'. The Profile Block names only 'ISO 9001 quality management system'.",
+   "An unstated reading of the Profile Block is presented as fact: DECISION_TIMELINE is rendered as a decision 'on this engagement'."
+  ],
+  "judgment_calls": [
+   "The 'their June 2026 finding' attribution is an inference that the two internal auditors belong to the function that raised the finding. A lenient scorer could treat it as a harmless reading. I counted it as an untraceable Client fact.",
+   "The 'existing ISO 9001 responsibilities' line is framed as a question, and elsewhere the response correctly renders specific registers and records as `Unknown`. Another scorer could decide it does not name an attachment point and pass it. I treated it as a presumed incumbent process or control, which the instrument's Method step 2 forbids.",
+   "'Decide on this engagement' interprets an ambiguous DECISION_TIMELINE. The mode contract requires fitting the proposal to that field, so some interpretation is unavoidable. Another scorer could accept it.",
+   "'US$7,500 ... sits within the budget approved' is simple arithmetic against 'up to US$80,000', but the Profile Block does not say what that budget covers. A lenient scorer could accept it.",
+   "'Prose only' is stated in the quoted rule but is not a numbered checklist item. A scorer limiting the pass condition to the checklist could set the list formatting aside. The verdict does not rest on it alone.",
+   "The response stays near the Client's roughly 2-page length, but no page count was measured. I did not score length."
+  ],
+  "reasoning": "Structure, price, duration, principles, framework names and URLs, and the closing line all comply, and the response correctly renders many incumbent artifacts as `Unknown`. But it includes Client statements the Profile Block does not support: the two internal auditors are credited with the June 2026 finding, an existing ISO 9001 responsibility and product-release sign-off are presumed, and the decision is called a decision on this engagement. These are the kind of untraceable Client facts and incumbent-process assumptions the fail indicators target, and the pass condition requires every applicable item to be met, so checklist item 4 is not met. The numbered lists also depart from 'Prose only'. Verdict FAIL.",
+  "case": "T03",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}
