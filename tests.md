@@ -48,7 +48,7 @@ Counts: scorer 4 PASS, 3 FAIL, 0 UNSCORABLE. Session review: 3 concur, model beh
 
 Acceptance under this file's rule ("A run passes when every case it exercises passes"): **not accepted: open cases T04, T05, T06.** Reviewer: Michael Paik, 19 October 2026 (KST), concurs.
 
-Templates 03 and 04 gained a Program Constants line and a Mode B sentence at v1.13.0, and every prompt section of templates 01 to 08 changed at v1.14.0 (K1, K4, the intake rule on required fields and `None`, and the Style Rules), so no T5 digest matches the current text: run T5 records the v1.12.0 prompt sections only. Template 08 gained case T08 at v1.14.0 and has no logged run. **Next run: T6, cases T01 to T08, pending** (Michael Paik's harness); until it is logged, no template at v1.14.0 is accepted.
+Templates 03 and 04 gained a Program Constants line and a Mode B sentence at v1.13.0, and every prompt section of templates 01 to 08 changed at v1.14.0 (K1, K4, the intake rule on required fields and `None`, and the Style Rules), so no T5 digest matches the current text: run T5 records the v1.12.0 prompt sections only. Template 08 gained case T08 at v1.14.0 and has no logged run. **Next run: cases T01 to T08 against the v1.14.0 prompt sections, pending** (Michael Paik's harness). A run takes the name of the session that makes it, as run T5 did; the review sessions T1 to T9 of 15 October 2026 were completed by 19 October 2026 (KST), before v1.14.0, so none of them ran these prompt sections. Until the run is logged, no template at v1.14.0 is accepted.
 
 History: no earlier run of any template is published. Whether the templates were run against a Client file before 18 October 2026 is Unknown.
 
