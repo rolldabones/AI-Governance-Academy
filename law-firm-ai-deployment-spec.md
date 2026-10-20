@@ -89,7 +89,7 @@ For each proposed use case ask:
 
 The last question is not optional. DOCTRINE.md states it plainly: an authorization missing its exit is not an authorization; it is a hope.
 
-Informed Intent is also a user skill, and it is trainable. Teach lawyers to state intent to the model before the work begins: the task, the audience, the constraints, the form of the answer and what done looks like. Prefer workflows that force that clarification before any output is produced. The Kitchen opens this way by design, Define the Dish and then Mise en Place with a Definition of Done before AI touches the task, and a well-built operating prompt halts on missing inputs rather than inventing them.
+Informed Intent is as stated in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md), the account's single normative statement of the three doctrines. Stating intent to the model is a user skill that serves it, and it is trainable. Teach lawyers to state intent to the model before the work begins: the task, the audience, the constraints, the form of the answer and what done looks like. Prefer workflows that force that clarification before any output is produced. The Kitchen opens this way by design, Define the Dish and then Mise en Place with a Definition of Done before AI touches the task, and a well-built operating prompt halts on missing inputs rather than inventing them.
 
 The [AI Impact Assessment Tool](https://github.com/rolldabones/AI-Impact-Assessment-Tool) is the Informed Intent gate in tool form, aligned to the EU AI Act, the National Institute of Standards and Technology AI Risk Management Framework (NIST AI RMF), ISO/IEC 42001 and ISO/IEC 42005.
 

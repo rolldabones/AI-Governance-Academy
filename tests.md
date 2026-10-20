@@ -1,6 +1,6 @@
 # AI Governance Academy: tests
 
-**Cases, known defects and the run record for templates 01 to 08 · v1.14.4 · 20 October 2026 (Korea Standard Time, KST)**
+**Cases, known defects and the run record for templates 01 to 08 · v1.14.5 · 20 October 2026 (Korea Standard Time, KST)**
 
 Each case runs one template against the fictional Client file, [`examples/fictional-client.md`](examples/fictional-client.md), and checks the output against that template's own numbered Acceptance Checklist, quoted in full. A run passes when every case it exercises passes; a case not exercised in a run is recorded as not run, never as passed.
 
@@ -25,11 +25,11 @@ An item the checklist scopes to another mode, or conditions on content the outpu
 
 **Harness rule (from v1.14.4).** Every execution of a run writes to its own output folder and log; every execution is reported with its result, kept or not; a re-run needs a stated reason and Michael Paik's approval before it starts, and the reason is recorded with the run.
 
-**Acceptance and residual defects.** A template is accepted when a logged run passes every sample of its case. Where the model's residual defects keep a case from passing after the prompt section has been corrected for them, the defects are recorded here as residual, with their rates, and the control is the human check at README Workflow item 5: every output is verified against its checklist and Guardrails before it reaches the Client.
+**Acceptance and residual defects.** A template is accepted when a logged run passes every sample of its case and the reviewer's decision recorded with that run accepts it; a case that passes every sample without that decision stays open. Where the model's residual defects keep a case from passing after the prompt section has been corrected for them, the defects are recorded here as residual, with their rates, and the control is the human check at README Workflow item 5: every output is verified against its checklist and Guardrails before it reaches the Client.
 
 ## Known defects
 
-Recorded 18 October 2026 (KST); K5 and K6 recorded 20 October 2026 (KST). Status at v1.14.4: K1, K2 and K4 fixed, with no recurrence in run A3; K5 residual; K6 resolved for templates 03 and 08 by removing the rule and residual for template 02; K3 open. Residual defects are controlled at README Workflow item 5.
+Recorded 18 October 2026 (KST); K5 and K6 recorded 20 October 2026 (KST). Status at v1.14.5: K1, K2 and K4 fixed, with no recurrence in run A3; K5 residual; K6 resolved for templates 03 and 08 by removing the rule and residual for template 02; K3 open. Residual defects are controlled at README Workflow item 5.
 
 - **K1: the prompt asks for a self-check against a checklist it does not carry.** Each template's Method ended "Self-check against Guardrails and Acceptance Checklist", but the checklist sits after `## PROMPT ENDS`. A reader who pastes the prompt section alone gives the model nothing to check against; a reader who pastes the whole file gives it the pass condition. The cases take the first reading. **Fixed in text at v1.14.0:** the Method step of templates 02 to 08 reads "Self-check against the Style Rules and Guardrails below", which the prompt section carries; the checklist stays outside it as the pass condition. Run A1 attributed no failure to K1.
 - **K2: the Profile Block goes in a turn, not in the placeholder.** README Workflow item 3 said to paste the Client Profile Block into the Required Inputs section, replacing `{{CLIENT_PROFILE_BLOCK}}`. The cases leave the system text byte for byte and supply the block in the user turn, so the placeholder stays unfilled in the system prompt. **Fixed in text at v1.14.0:** README Workflow item 3 names both forms and says the cases use the second.
@@ -57,11 +57,13 @@ Recorded 18 October 2026 (KST); K5 and K6 recorded 20 October 2026 (KST). Status
 | A3 T07 | PASS, PASS, PASS | PASS | concur | Every applicable item met in all samples |
 | A3 T08 | FAIL, FAIL, FAIL | FAIL | concur | Lists in every sample (K6; rule removed at v1.14.3) |
 
-**Two executions (recorded at v1.14.4).** The A3 harness ran twice; the first execution (scorer: 13 of 24 samples PASS, 1 of 8 cases, T02) was overwritten on a suggestion of the Cowork session A3 whose reason was not recorded, and the run report described the second only. The record above and the evidence are the second execution; the first survives as a console summary in the evidence README. Neither execution is accepted.
+**Two executions (recorded at v1.14.4).** The A3 harness ran twice; the first execution (scorer: 13 of 24 samples PASS, 1 of 8 cases, T02) was overwritten on a suggestion of the Claude session that prepared run A3, whose reason was not recorded, and the run report described the second only. The record above and the evidence are the second execution; the first survives as a console summary in the evidence README. Neither execution is accepted.
 
 Counts: by sample, scorer 10 PASS, 14 FAIL, 0 UNSCORABLE; after review, 13 PASS and 11 FAIL (8 of them K6). By case, 2 PASS (T05, T07), 6 FAIL. Session review of the 14 failing samples: 11 concur, 3 dissent to PASS (T04-s1, T04-s2, T06-s3).
 
 Acceptance: **not accepted: open cases T01, T02, T03, T04, T06, T08.** Reviewer: Michael Paik, 20 October 2026 (KST), concurs with the positions as recorded.
+
+Independent review, 20 October 2026: T05 and T07 passed every sample in this run, but the reviewer's decision above does not accept templates 05 and 07, so under the acceptance rule they also stay open; no template is accepted (README Purpose, Test status).
 
 **Correction to run A2's record.** At v1.14.2 this file said that A2's T01 result "also describes v1.14.2", because template 01 and its input were unchanged. A3's T01-s1 failed on the same prompt section and input: a run's result does not carry over to another run, because each sample is drawn anew.
 

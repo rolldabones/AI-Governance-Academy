@@ -8,6 +8,8 @@
 
 **Files.** Each transcript is copied byte for byte from the harness output; only the closing line below was appended. `summary.json`, `scores/` and `harness/` are copied unchanged. Because `harness/` is kept as run, the docstring of `harness/a2_run.py` still calls it a "Session tool, not shipped in any repository", which it was when it ran; it is filed here as run evidence. Its usage lines still name `t5_run.py`, the T5 harness it was copied from; the command for this run is `python3 a2_run.py`.
 
+**Not reproducible from this repository.** The harness is filed as a record of how the run was made, not as a tool that runs from a clone. `a2_run.py` resolves its root to the folder above the clone (the run's working folder, not shipped), reads its suite manifest from `harness/suites/` (the manifest is filed as `harness/academy-a2.json`, outside that folder) and stops unless the clone's HEAD is `11981fc` (v1.14.1). `build_a2_manifest.py` reads the T5 suite manifest `Claude Outputs/T5-runs/suites/academy-mode-a.json` and writes system-text paths under `Claude Outputs/A2-runs/suites/blocks/`; neither is shipped, and the T5 harness `t5_run.py` is not shipped either. The digests in `summary.json` let a reader check that the system text equals the prompt sections, extracted by the rule in `tests.md`; the run cannot be reproduced from the repository.
+
 | File | Case and sample | Scorer verdict | SHA-256 as produced |
 | --- | --- | --- | --- |
 | T01-s1.md | 01 Shared Client Intake, sample 1 | PASS | `16dd49a85bbc2db1d7de3134bea419802ec88342e33a39f637ecb4b8d93ec7ee` |

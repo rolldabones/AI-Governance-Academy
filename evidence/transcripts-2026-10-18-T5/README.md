@@ -2,7 +2,7 @@
 
 **What.** The transcripts and scores of suite `academy-mode-a` (cases T01 to T07 of [`../../tests.md`](../../tests.md)), with the run's `summary.json`. The generated outputs are also filed, labeled, in [`../../examples/transcripts-2026-10-18-T5/`](../../examples/transcripts-2026-10-18-T5/).
 
-**When and how.** Run in Michael Paik's Terminal on 18 October 2026, finished 10:07 KST, by the session T5 harness (`t5_run.py`, not shipped in this repository): API system prompt, no tools, max_tokens 16000, one user turn per case. Tested model `claude-opus-5-5`; scorer `claude-sonnet-5-5`, a different model scoring each transcript against the template's Acceptance Checklist and the case's fail indicators. LLM scoring is developer testing, not independent assurance.
+**When and how.** Run in Michael Paik's Terminal on 18 October 2026, finished 10:07 KST, by the session T5 harness (`t5_run.py`, not shipped in this repository, nor its suite manifest; the run cannot be reproduced from the repository): API system prompt, no tools, max_tokens 16000, one user turn per case. Tested model `claude-opus-5-5`; scorer `claude-sonnet-5-5`, a different model scoring each transcript against the template's Acceptance Checklist and the case's fail indicators. LLM scoring is developer testing, not independent assurance.
 
 **System text.** For each template, the text between `## PROMPT BEGINS` and `## PROMPT ENDS`, extracted byte for byte; the Acceptance Checklist was not loaded. The seven SHA-256 digests are in `summary.json`. `summary.json` records HEAD `a0f66c2`, the commit before v1.12.0; the prompt sections run are unchanged by v1.12.0, which changed only the header lines outside them.
 

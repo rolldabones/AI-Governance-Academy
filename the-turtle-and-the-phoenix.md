@@ -26,7 +26,7 @@ July 30, 2026
 
 ## 1. Purpose
 
-This is a story written to be told aloud in the opening minutes of a briefing, a workshop or a board session. It converts a governance vocabulary into narrative before any framework is named, so that when the instruments arrive they land as common sense the room has already agreed to. The story is the handshake. The frameworks are the contract. The kit that follows, a second telling for circulation, a one-minute miniature, module timings, a handle map, discussion prompts, a closing exercise and facilitation notes, is the conversion table between the two.
+This is a story written to be told aloud in an opening or a closing block of a briefing, a workshop or a board session; section 5 says where each Academy program runs it. Told in an opening block, it converts a governance vocabulary into narrative before any framework is named, so that when the instruments arrive they land as common sense the room has already agreed to. The story is the handshake. The frameworks are the contract. The kit that follows, a second telling for circulation, a one-minute miniature, module timings, a handle map, discussion prompts, a closing exercise and facilitation notes, is the conversion table between the two.
 
 Two tellings are carried here and they are not interchangeable. Section 2 is the practice cut, shaped for the voice. Section 3 is the practitioner cut, shaped for the page: the same story, carrying the working customs a governance room can act on and the craft of the workshops that kept them. Tell section 2. Circulate section 3. The closing annex in section 11 takes the customs of section 3 and names the build discipline each one stands for.
 
