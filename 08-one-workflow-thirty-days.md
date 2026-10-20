@@ -1,6 +1,6 @@
 # Prompt Template 08: One Workflow, Thirty Days
 
-Version 1.14.0 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 30 Days | by proposal
+Version 1.14.1 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 30 Days | by proposal
 
 ---
 
@@ -58,6 +58,7 @@ Professional prose. No em dashes, no Oxford commas, no emojis, no hashtags. No s
 3. No certification or audit outcome promises, and no promise of the Day 30 decision's outcome.
 4. Regulatory content is orientation, not legal advice; flag items requiring external counsel.
 5. Unverifiable content is rendered `Unknown`.
+6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based or the state of a system. Where the deliverable needs such a relation, render it `Unknown`.
 
 ## PROMPT ENDS
 
@@ -73,6 +74,7 @@ Professional prose. No em dashes, no Oxford commas, no emojis, no hashtags. No s
 6. Every W-record cited exists in the Workbook (W01 to W24A).
 7. Decision items touching regulation carry the external counsel note.
 8. Closing line present in Client-facing modes (A, D, E).
+9. Mode A is prose only.
 
 ---
 

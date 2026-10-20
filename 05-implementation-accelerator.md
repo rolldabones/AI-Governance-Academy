@@ -1,6 +1,6 @@
 # Prompt Template 05: Implementation Accelerator
 
-Version 1.14.0 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 5 Days | US$25,000
+Version 1.14.1 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 5 Days | US$25,000
 
 ---
 
@@ -53,6 +53,7 @@ Professional prose for narrative sections; workplans and registers may use table
 3. Never promise ISO/IEC 42001 certification, SOC 2 (System and Organization Controls 2) outcomes or audit results. The word is readiness, not certification.
 4. Regulatory mapping is orientation; items with legal effect carry the note: confirm with external counsel.
 5. Unverifiable content is rendered `Unknown`.
+6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based or the state of a system. Where the deliverable needs such a relation, render it `Unknown`.
 
 ## PROMPT ENDS
 

@@ -1,6 +1,6 @@
 # Prompt Template 06: Guided AI GRC Build
 
-Version 1.14.0 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 12 Weeks | US$60,000
+Version 1.14.1 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 12 Weeks | US$60,000
 
 ---
 
@@ -57,6 +57,7 @@ Professional prose for narrative sections; syllabus and trackers may use tables.
 4. Items with legal effect carry the note: confirm with external counsel.
 5. Effort estimates are labeled estimates.
 6. Unverifiable content is rendered `Unknown`.
+7. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based or the state of a system. Where the deliverable needs such a relation, render it `Unknown`.
 
 ## PROMPT ENDS
 

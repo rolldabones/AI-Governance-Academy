@@ -2,6 +2,19 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.14.1] – 2026-10-20
+
+Patch: run A1 logged, and corrections to the prompt sections of templates 02 to 08 for the defects it found, taken on Michael Paik's instruction of 20 October 2026 (KST) ("positions as proposed, approve v1.14.1"). No template at this version is accepted until a run of cases T01 to T08 against these prompt sections is logged; the next run draws three samples per case.
+
+- **Run A1 (new), 20 October 2026 (KST).** Cases T01 to T08 against the v1.14.0 prompt sections at `e4f3a97`, the head of pull request #1 before merge; `claude-opus-5-5` scored by `claude-sonnet-5-5`, one sample per case: T01 and T05 PASS; T02, T03, T04, T06, T07 and T08 FAIL. Session review: concur on all eight. Not accepted. Transcripts, `summary.json`, the scorer's JSON and the harness are in `evidence/transcripts-2026-10-20-A1/`, copied byte for byte with a closing line appended to each transcript; the eight outputs are filed, labeled, in `examples/transcripts-2026-10-20-A1/`. A first attempt, which read its pass conditions from the T5 results table, is kept there as superseded with the reason.
+- **K5 (new known defect).** The model infers relations between Profile Block facts that the block does not state: who raised the audit finding, who holds the incumbent systems, where participants are based, the pilot's state. Templates 02 to 08 gain a final Guardrail against it.
+- **K4 scope.** Templates 02 and 07 had not received the v1.14.0 rule that framework names are not evidence of any register, process, control or record; T07 failed on that ground. Both now carry it in Guardrail 1, so all seven program templates do.
+- **Template 02.** Mode A reads "Maximum 450 words, the sign-off and the closing line included", settling the reading on which A1 T02 turned (455 words with them, 443 without).
+- **Templates 03 and 08.** The Acceptance Checklist gains "Mode A is prose only" (03 item 8, 08 item 9): A1's scorer could not score the Mode A rule, because the checklist did not carry it. Cases T03 and T08 read the new item counts.
+- **`tests.md`.** K4 updated with the A1 result; K5 added; Last run is A1, with T5 under Earlier runs; result rows are labeled by run and case ("A1 T01"), because A1's first attempt read the T5 result rows as case rows; a case with several samples passes only when every sample passes.
+- **Pull request.** `incoming/A1-runs/`, the transfer folder for the run files, is removed; its content is filed as above.
+- Every template masthead, the README masthead, How to Cite and the six publication citations, the `tests.md` masthead and `CITATION.cff` to v1.14.1 in lockstep.
+
 ## [1.14.0] – 2026-10-20
 
 Minor, from the Class B findings of the repository audit of 20 October 2026 (KST), taken on Michael Paik's instruction of the same day accepting the audit's recommendations. Every prompt section of templates 01 to 08 changes, so no T5 digest matches the current text and no template at this version is accepted until a run of cases T01 to T08 against these prompt sections is logged. The Client Profile Block gains a permitted value, `None`, and no field; existing blocks stay valid, so the change is not breaking.
