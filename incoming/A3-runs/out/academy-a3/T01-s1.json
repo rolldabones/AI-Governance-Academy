@@ -1,0 +1,53 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Raw Client Material:\n\nDiscovery call notes, 6 October 2026 (fictional). Attendees: Dana Whitfield,\nGeneral Counsel, Tamarack Instruments (fictional); Ravi Okafor, CISO; Ingrid\nSolberg, Head of Quality.\n\n- Tamarack designs and manufactures laboratory measurement instruments. HQ in\n  the Netherlands; plants in the Netherlands and Germany; sales office in the\n  United States. About 1,100 staff; Dana said revenue is \"in the US$200 to\n  300 million range\".\n- AI today: a customer service chatbot on the support portal is live\n  (deployed). An AI visual inspection system on the German production line is\n  in pilot. They plan to use AI for sales forecasting next year.\n- Dana: \"We are piloting, not scaling. I want governance in place before\n  visual inspection goes into production in Q2 2027.\"\n- Ravi: they run an ISO/IEC 27001 ISMS; Ingrid runs the quality management\n  system under ISO 9001. They would like to start ISO/IEC 42001 work next\n  year.\n- Dana named the EU AI Act and the GDPR as the rules they are watching.\n- Internal audit reported in June 2026 that there is no inventory of AI\n  systems.\n- Constraints: budget approved up to US$80,000 this fiscal year; customer\n  data must stay in the EU; the German works council must be consulted before\n  anything touches production staff.\n- Who would attend: Dana, Ravi, Ingrid, the Head of Data (Tomas Reyes), the\n  German plant manager and two internal auditors.\n- Dana is the budget holder for this. Decision expected by 15 December 2026.\n",
+   "reply": "```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Design and manufacture of laboratory measurement instruments\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands (plant); Germany (plant); United States (sales office)\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\" (per Dana Whitfield)\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection system on the German production line. Planned: AI for sales forecasting (next year).\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (Client would like to \"start ISO/IEC 42001 work next year\")\nAUDIENCE_ROLES: Dana Whitfield, General Counsel; Ravi Okafor, CISO; Ingrid Solberg, Head of Quality; Tomas Reyes, Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield); start ISO/IEC 42001 work next year\nSTATED_CONSTRAINTS: Budget: approved up to US$80,000 this fiscal year. Timeline: governance in place before visual inspection production go-live in Q2 2027. Data residency: customer data must stay in the EU. Works council: the German works council must be consulted before anything touches production staff.\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS (run by Ravi Okafor); ISO 9001 quality management system (run by Ingrid Solberg); internal audit function\nRISK_EVENTS: Internal audit reported in June 2026 that there is no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes dated 6 October 2026 (fictional) with Dana Whitfield (General Counsel), Ravi Okafor (CISO) and Ingrid Solberg (Head of Quality)\nCONFIDENCE_NOTES: AI_MATURITY: Client self-describes as \"piloting, not scaling\", but one use case (customer service chatbot) is already deployed. CERTIFICATION_TARGETS: Client stated intent to \"start ISO/IEC 42001 work\", but did not explicitly state that certification is the target. COMPANY_SIZE: Headcount is approximate (\"about\") and revenue is a stated range. STATED_CONSTRAINTS: The fiscal year dates for the US$80,000 budget are not stated. Source is summarized notes, so the Client's own terminology for internal systems (e.g. support portal) cannot be confirmed verbatim.\n```",
+   "stop_reason": "end_turn",
+   "input_tokens": 1555,
+   "output_tokens": 2193,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "FAIL",
+  "elements": [
+   {
+    "element": "Checklist 1: single fenced block matching the contract, no commentary outside it",
+    "met": true,
+    "evidence": "The response is one fenced block starting 'CLIENT PROFILE BLOCK v1.0' with all contract fields in order and no text outside the fence."
+   },
+   {
+    "element": "Checklist 2: every field present, populated or Unknown; None only where the client states it has none",
+    "met": true,
+    "evidence": "All 18 fields are present and populated. No Unknown or None values are used. Every field has some basis in the material, and the INCUMBENT_FRAMEWORKS entries are not 'None'."
+   },
+   {
+    "element": "Checklist 3: no fact appears that cannot be traced to the raw material",
+    "met": false,
+    "evidence": "INCUMBENT_FRAMEWORKS says 'ISO/IEC 27001 ISMS (run by Ravi Okafor)'. The notes say only 'Ravi: they run an ISO/IEC 27001 ISMS'. That attributes the statement to Ravi and does not say he runs the ISMS. By contrast, 'Ingrid runs the quality management system' is explicit. The ownership attribution is an inference."
+   },
+   {
+    "element": "Checklist 4: halt condition handled correctly (not triggered because fewer than half the fields are Unknown)",
+    "met": true,
+    "evidence": "No field is Unknown and the halt output 'PARTIAL INPUT – Awaiting' is not produced."
+   }
+  ],
+  "fail_indicators_seen": [
+   "A field value not traceable to the raw material: 'run by Ravi Okafor' for the ISO/IEC 27001 ISMS"
+  ],
+  "judgment_calls": [
+   "I treated 'run by Ravi Okafor' as an untraceable inference. The notes attribute the ISMS statement to Ravi but never say he runs it, and Rule 1 forbids inferring facts. Another scorer could read 'Ravi: they run…' as showing Ravi's ownership, or as harmless since he is CISO, and pass this.",
+   "'internal audit function' under INCUMBENT_FRAMEWORKS is supported by the June 2026 internal audit report and the two internal auditors. I counted it as traceable and not as a fail. A strict scorer could treat it as an incumbent process beyond the framework names.",
+   "The fourth fail indicator is worded around Part 2 of the fixture, but T01's turn is Part 1 raw material. I did not apply that indicator as written and scored traceability against the raw notes.",
+   "CERTIFICATION_TARGETS lists ISO/IEC 42001 although the client only 'would like to start ISO/IEC 42001 work'. I accepted this because the response quotes the wording and flags the ambiguity in CONFIDENCE_NOTES."
+  ],
+  "reasoning": "The format, field completeness and halt handling all satisfy the checklist. The case still fails because the INCUMBENT_FRAMEWORKS entry states that Ravi Okafor runs the ISMS, which the source does not say. This breaches Rule 1 and checklist item 3, and the pass condition requires every element to be met. The verdict rests on that single attribution, and a more lenient scorer could pass the case.",
+  "case": "T01-s1",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

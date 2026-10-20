@@ -1,0 +1,64 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "**To:** Dana Whitfield, General Counsel, Tamarack Instruments\n**Re:** Executive Briefing Proposal\n\n## Situation Summary\n\nTamarack Instruments designs and manufactures laboratory measurement instruments and operates in the Netherlands, Germany and the United States. The Client has deployed a customer service chatbot on its support portal, is piloting AI visual inspection on the German production line and plans AI sales forecasting next year. Your stated objective is to have governance in place before visual inspection goes into production in Q2 2027. A June 2026 internal audit finding recorded no inventory of AI systems. ISO/IEC 42001 work is expected to start next year, though the start date is not fixed.\n\n## What the Briefing Covers for Tamarack Instruments\n\nThe Briefing maps the EU AI Act and GDPR to your three use cases. These are expectations to verify with counsel, not legal advice.\n\n* **Chatbot:** We review transparency expectations toward users and the handling of customer data, including the stated constraint that customer data stay in the EU.\n* **Visual inspection:** We examine how risk classification under the EU AI Act may apply to a production system.\n* **United States:** No US driver is listed, so US matters appear only as general landscape items.\n\nWe then outline a governance operating model using the GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen). Board-level considerations draw on AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards).\n\nWe also discuss how the inventory finding and the incumbent ISO/IEC 27001 and ISO 9001 frameworks may bear on ISO/IEC 42001 preparation. We make no promise of certification or audit outcomes. Because the German works council is consulted before anything touches production staff, that consultation becomes a decision point for the inspection timeline. Throughout, we apply three principles: Slow AI, Informed Intent, Final Liability rests with the Human.\n\n## Logistics and Price\n\nThe Executive Briefing is a two-hour live virtual session for executive leadership and board-level attendees. The price is US$3,000. The roles listed for the audience are General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors. Session date: Unknown.\n\n## What You Receive Afterward\n\nAfter the session you receive a written summary memo. It records the decisions surfaced, readiness observations and three prioritized recommendations. Each recommendation is mapped to a possible next program option with its price, duration and a proposed timeline.\n\n## Next Step\n\nYour decision is expected by 15 December 2026. We suggest confirming a session date and the final attendee list before then. On your approval we will send scheduling options.\n\nKind regards,\n\nSenior AI Governance Consultant\nAI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2294,
+   "output_tokens": 3259,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "FAIL",
+  "elements": [
+   {
+    "element": "1. Exactly one mode produced",
+    "met": true,
+    "evidence": "Only a proposal letter addressed to Dana Whitfield is produced, with the Mode A sections: situation, coverage, logistics and price, afterward, next step."
+   },
+   {
+    "element": "2. Duration and price unaltered",
+    "met": true,
+    "evidence": "\"two-hour live virtual session\" and \"The price is US$3,000.\""
+   },
+   {
+    "element": "3. Every Client-specific claim traces to the Profile Block",
+    "met": true,
+    "evidence": "The chatbot, the visual inspection pilot, the June 2026 audit finding, the 15 December 2026 decision date and the works council constraint all match the block. The framework names are not described as registers or controls, and the session date is rendered \"Unknown\"."
+   },
+   {
+    "element": "4. Principles and framework names rendered exactly, with URLs where cited",
+    "met": true,
+    "evidence": "\"Slow AI, Informed Intent, Final Liability rests with the Human\"; the GRC Workbook, Slow AI Kitchen and AI Governance for Boards are each given with their URLs."
+   },
+   {
+    "element": "5. No legal advice, no certification guarantees",
+    "met": true,
+    "evidence": "\"These are expectations to verify with counsel, not legal advice.\" and \"We make no promise of certification or audit outcomes.\""
+   },
+   {
+    "element": "6. Word or structure limits of the selected mode respected (450 words including sign-off and closing line; prose only, no bullet lists)",
+    "met": false,
+    "evidence": "The word count is about 430, which is within the limit. But the \"What the Briefing Covers\" section contains a bullet list: \"* **Chatbot:** We review transparency expectations...\", \"* **Visual inspection:**...\", \"* **United States:**...\". Mode A requires prose only, with no bullet lists."
+   },
+   {
+    "element": "7. Closing line present in Client-facing modes (A, D)",
+    "met": true,
+    "evidence": "The letter ends with \"Human-made, for Easy Work, Simply Done.\""
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "My word count is a manual estimate of about 430 to 435, counting the To/Re lines, headings, URLs, sign-off and closing line. Another scorer might count slightly differently, but the result would stay under 450 and does not change the verdict.",
+   "The 'US matters appear only as general landscape items' bullet is a sensible handling of an absent driver. I did not treat it as an invented Client fact."
+  ],
+  "reasoning": "Checklist item 6 is read against Mode A's contract, which allows paragraphs under section headings only and no bullet lists. The response puts three bulleted items in the coverage section, so the structure limit is breached. Partial compliance is a FAIL. No Client facts were invented, and the program name, duration and price are unaltered, so no listed fail indicator appears. The case still fails on item 6.",
+  "case": "T02-s1",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}
