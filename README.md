@@ -1,6 +1,6 @@
 # AI Governance Academy
 
-Version 1.14.2 | 2026-10-20 | Status: final (one known limitation open; see Purpose) | Model-agnostic
+Version 1.14.3 | 2026-10-20 | Status: final (known limitation and test status open; see Purpose) | Model-agnostic
 
 This repository has two halves. The first is the Client Content Prompt Pack: eight prompt templates that generate Client-specific sales and delivery content for the AI Governance Academy program options. The second is the Publications: six client-facing pieces, from an essay on how to characterize AI output to a working vocabulary for reading discovery claims, published here as the text of record. The halves share one version number, one license and one closing line.
 
@@ -11,6 +11,8 @@ This repository has two halves. The first is the Client Content Prompt Pack: eig
 This pack contains prompt templates for generating Client-specific sales and delivery content for each of the seven AI Governance Academy program options. Every template is model-agnostic: plain-text instruction blocks, no vendor-specific features, no tool calls assumed. Paste into any capable large language model (LLM).
 
 **Known limitation, open.** The program spines (workshop blocks, session counts, weekly sequence) are structural inferences pending verification against actual delivery design, as recorded in the first release. Verification of 18 October 2026 (KST): checked that each spine agrees with its template's Output Modes, Acceptance Checklist and the durations and prices in the Contents table, and that template 06's evidence collection starts by Week 8; not checked against any delivered program, because the repository holds no delivery record. The limitation stays open until that check is made.
+
+**Test status, open.** No template at this version is accepted under [tests.md](tests.md): in runs A2 and A3 of 20 October 2026 (KST), three samples per case, the model still inferred relations between Client facts the Profile Block does not state (known defect K5) and used lists in template 02's prose-only letter (K6). These residual defects are controlled at Workflow item 5, by the human who verifies each output before it reaches the Client.
 
 ### Contents
 
@@ -48,7 +50,7 @@ GRCnext™: [GRCnext-Copilot](https://github.com/rolldabones/GRCnext-Copilot) an
 2. Open the template for the program option under discussion.
 3. Supply the Client Profile Block: paste it into the Required Inputs section in place of `{{CLIENT_PROFILE_BLOCK}}`, or give the template's prompt section as the system prompt and the Profile Block as the user message. The test cases in [tests.md](tests.md) use the second form.
 4. Select exactly one OUTPUT MODE per run.
-5. Run. Verify against the numbered Acceptance Checklist at the bottom of each template before sending anything to the Client.
+5. Run. Before sending anything to the Client, verify the output against the numbered Acceptance Checklist at the bottom of the template and against its Guardrails, and remove or render `Unknown` any Client fact or relation the Profile Block does not state. This check is the control for the residual defects recorded in [tests.md](tests.md).
 
 A labeled-fictional Client file for trying the workflow is in [examples/fictional-client.md](examples/fictional-client.md); the test cases built on it are in [tests.md](tests.md).
 
@@ -92,17 +94,17 @@ The date is the masthead date of first publication; *The Map and the Pair* is in
 
 ### How to cite a publication
 
-> Paik, Son-U Michael. *Sounds Good*. In AI Governance Academy, v1.14.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/sounds-good.md
+> Paik, Son-U Michael. *Sounds Good*. In AI Governance Academy, v1.14.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/sounds-good.md
 
-> Paik, Son-U Michael. *The Turtle and the Phoenix*. In AI Governance Academy, v1.14.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md
+> Paik, Son-U Michael. *The Turtle and the Phoenix*. In AI Governance Academy, v1.14.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md
 
-> Paik, Son-U Michael. *Law Firm AI Deployment Spec v2*. In AI Governance Academy, v1.14.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/law-firm-ai-deployment-spec.md
+> Paik, Son-U Michael. *Law Firm AI Deployment Spec v2*. In AI Governance Academy, v1.14.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/law-firm-ai-deployment-spec.md
 
-> Paik, Son-U Michael. *Slow AI for the Chief Legal Officer*. In AI Governance Academy, v1.14.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/slow-ai-for-the-chief-legal-officer.md
+> Paik, Son-U Michael. *Slow AI for the Chief Legal Officer*. In AI Governance Academy, v1.14.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/slow-ai-for-the-chief-legal-officer.md
 
-> Paik, Son-U Michael. *The Compression and the Harness*. In AI Governance Academy, v1.14.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-compression-and-the-harness.md
+> Paik, Son-U Michael. *The Compression and the Harness*. In AI Governance Academy, v1.14.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-compression-and-the-harness.md
 
-> Paik, Son-U Michael. *The Map and the Pair*. In AI Governance Academy, v1.14.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-map-and-the-pair.md
+> Paik, Son-U Michael. *The Map and the Pair*. In AI Governance Academy, v1.14.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-map-and-the-pair.md
 
 ## Part of the ecosystem
 
@@ -117,7 +119,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.14.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
+> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.14.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

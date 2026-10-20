@@ -1,6 +1,6 @@
 # Prompt Template 03: Executive Workshop
 
-Version 1.14.2 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 1 Day | US$7,500
+Version 1.14.3 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 1 Day | US$7,500
 
 ---
 
@@ -27,7 +27,7 @@ Paste the Client Profile Block below. Halt with `PARTIAL INPUT – Awaiting [fie
 
 ### Output Modes (select exactly one)
 
-**MODE A – PROPOSAL.** A two-page proposal to the SPONSOR: situation summary, why a one-day executive session fits this Client's AI_MATURITY and DECISION_TIMELINE, the four-block structure with Client-specific emphasis, deliverables (decision log, prioritized roadmap, readiness observations), logistics and price, next step. Prose only: paragraphs under section headings, with no bullet lists, numbered lists or tables.
+**MODE A – PROPOSAL.** A two-page proposal to the SPONSOR: situation summary, why a one-day executive session fits this Client's AI_MATURITY and DECISION_TIMELINE, the four-block structure with Client-specific emphasis, deliverables (decision log, prioritized roadmap, readiness observations), logistics and price, next step.
 
 **MODE B – AGENDA AND FACILITATION GUIDE.** Four 90-minute blocks:
 Block 1, Alignment: current AI posture using AI_USE_CASES and RISK_EVENTS; produce a shared statement of governance intent.
@@ -76,7 +76,6 @@ Professional prose. No em dashes, no Oxford commas, no emojis, no hashtags. No s
 5. Principles and framework names exact; URLs where cited.
 6. Decision items touching regulation carry the external counsel note.
 7. Closing line present in Client-facing modes (A, D, E).
-8. Mode A is prose only.
 
 ---
 

@@ -1,6 +1,6 @@
 # Prompt Template 08: One Workflow, Thirty Days
 
-Version 1.14.2 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 30 Days | by proposal
+Version 1.14.3 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 30 Days | by proposal
 
 ---
 
@@ -30,7 +30,7 @@ Paste the Client Profile Block below. Halt with `PARTIAL INPUT – Awaiting [fie
 
 ### Output Modes (select exactly one)
 
-**MODE A – PROPOSAL.** A two-page proposal to the SPONSOR: situation summary, the one workflow proposed from AI_USE_CASES and why it fits this Client's AI_MATURITY and DECISION_TIMELINE (the final selection is made in W02 against the benefit scale, and the proposal says so), the five periods of the spine with Client-specific emphasis, deliverables (the signed W01 charter, the evidence register and decision pack W14, the results record W17, the Day 30 recommendation and decision W23 and the handover W24), the Day 30 decision stated as expand the specified scope, revise or stop, logistics and the note that price and headcount are by proposal, next step. Prose only: paragraphs under section headings, with no bullet lists, numbered lists or tables.
+**MODE A – PROPOSAL.** A two-page proposal to the SPONSOR: situation summary, the one workflow proposed from AI_USE_CASES and why it fits this Client's AI_MATURITY and DECISION_TIMELINE (the final selection is made in W02 against the benefit scale, and the proposal says so), the five periods of the spine with Client-specific emphasis, deliverables (the signed W01 charter, the evidence register and decision pack W14, the results record W17, the Day 30 recommendation and decision W23 and the handover W24), the Day 30 decision stated as expand the specified scope, revise or stop, logistics and the note that price and headcount are by proposal, next step.
 
 **MODE B – ENGAGEMENT PLAN.** The thirty-day calendar mapped to the working records W01 to W24A for this Client: for each of the five periods, the days it covers, the Consultant and Client work, the records started, signed or made current and the Client roles from AUDIENCE_ROLES who own them; the sponsor reports at Days 15, 20 and 28 and the weekly clinics named on their days; the Day 30 decision (W23) and handover (W24, W24A) as the close. Cite each record by its number as the Workbook names it.
 
@@ -74,7 +74,6 @@ Professional prose. No em dashes, no Oxford commas, no emojis, no hashtags. No s
 6. Every W-record cited exists in the Workbook (W01 to W24A).
 7. Decision items touching regulation carry the external counsel note.
 8. Closing line present in Client-facing modes (A, D, E).
-9. Mode A is prose only.
 
 ---
 

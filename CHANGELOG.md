@@ -2,6 +2,19 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.14.3] – 2026-10-20
+
+Patch: run A3 logged, the prose-only rule scoped, residual defects recorded with their control, and scorer guidance added, on Michael Paik's decisions of 20 October 2026 (KST) ("1a, 2a, positions as proposed"). The templates stand **not accepted**; the residual defects K5 and K6 are controlled at README Workflow item 5. No further run is scheduled for this release.
+
+- **Run A3 (new), 20 October 2026 (KST).** Cases T01 to T08 against the v1.14.2 prompt sections and fixture at `7fe5751`, three samples per case, `claude-opus-5-5` scored by `claude-sonnet-5-5`: by sample 10 PASS and 14 FAIL, 13 and 11 after review; by case T05 and T07 PASS, the other six FAIL. Session review of the 14 failing samples: 11 concur, 3 dissent to PASS (T04-s1, T04-s2, T06-s3). Not accepted. Evidence in `evidence/transcripts-2026-10-20-A3/`; the 24 outputs, labeled, in `examples/transcripts-2026-10-20-A3/`. The three samples passed on review carry their own label.
+- **K6, decision 1a.** Over runs A2 and A3, the two-page proposals of templates 03 and 08 kept to prose in 0 of 12 samples. The prose-only rule is removed from their Mode A and from their checklists (03 item 8, 08 item 9), and cases T03 and T08 read the shorter checklists. Template 02's one-page letter keeps the rule; there it is a residual defect (3 of 6 samples kept to prose).
+- **K5, decision 2a.** After review under the new scorer guidance, A3 shows one recurrence in 24 samples (T06-s1). Recorded as residual.
+- **Acceptance and control.** `tests.md` states that residual defects are recorded with their rates and controlled by the human check at Workflow item 5. README Workflow item 5 now names the Guardrails and the removal or `Unknown` rendering of any unstated fact or relation; the README carries a "Test status, open" paragraph under Purpose, and the masthead reads "Status: final (known limitation and test status open; see Purpose)".
+- **Scorer guidance.** `tests.md` states that a consequence of a stated constraint applied to a stated system, proposed work and conditional statements are not Client facts, and that asserted states, owners, attributions, incumbent functions and unstated relations are. The A3 scorer passed and failed the same constraint pairing in different samples. Later runs carry the guidance in the harness's scorer prompt.
+- **Correction.** `tests.md` at v1.14.2 said that A2's T01 result also describes v1.14.2; A3's T01-s1 failed on the same prompt section and input. The record now says that a run's result does not carry over to another run.
+- **Pull request.** `incoming/A3-runs/` removed; its content is filed as above.
+- Every template masthead, the README masthead, How to Cite and the six publication citations, the `tests.md` masthead and `CITATION.cff` to v1.14.3 in lockstep.
+
 ## [1.14.2] – 2026-10-20
 
 Patch: run A2 logged, the fixture's Part 2 corrected for a case defect it found, and corrections to the prompt sections of templates 02 to 08, taken on Michael Paik's instruction of 20 October 2026 (KST) ("positions as proposed, approve v1.14.2"). No template at this version is accepted until a run of cases T01 to T08 against these prompt sections and the corrected Part 2 is logged.
