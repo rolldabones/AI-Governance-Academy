@@ -1,0 +1,12 @@
+academy-a1: 8 cases, claude-opus-5-5 scored by claude-sonnet-5-5, system ../Claude Outputs/A1-runs/suites/blocks/AI-Governance-Academy-01-client-intake.txt (2450 chars)
+1 suites, 8 cases
+=== academy-a1 (8 cases)
+  T01: PASS
+  T02: PASS
+  T04: PASS
+  T03: FAIL
+  T07: UNSCORABLE
+  T05: FAIL
+  T06: FAIL
+  T08: PASS
+  academy-a1: 4 of 8 PASS

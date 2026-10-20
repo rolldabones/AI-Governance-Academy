@@ -1,0 +1,68 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\"\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "Dear Dana Whitfield,\n\nThank you for the discovery call of 6 October 2026. This letter proposes the Executive Briefing for Tamarack Instruments.\n\nTamarack Instruments designs and manufactures laboratory measurement instruments and operates in the Netherlands, Germany and the United States. The Client has a customer service chatbot deployed on its support portal, an AI visual inspection pilot on the German production line and AI sales forecasting planned for next year. An internal audit finding in June 2026 recorded that there is no inventory of AI systems. Your stated objective is governance in place before visual inspection goes into production in Q2 2027. ISO/IEC 42001 work is expected to start next year, though the start date is not fixed.\n\nThe Briefing maps the EU AI Act and GDPR to these use cases as expectations to verify with counsel, not as legal advice. For the chatbot, we examine transparency toward portal users and your requirement that customer data stay in the EU. For visual inspection, we explore how the pilot might be classified under the EU AI Act and what that implies before Q2 2027, alongside your commitment to consult the German works council before anything touches production staff. For forecasting, we identify the governance decisions best taken before build. The missing AI inventory is treated as the first readiness question. We also discuss how your ISO/IEC 27001 and ISO 9001 management systems might connect to AI governance without assuming what records they hold. The operating model draws on the GRC Workbook (https://github.com/rolldabones/grc-workbook) and the Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen). Board-layer material comes from AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards). Three principles guide the session: Slow AI, Informed Intent, Final Liability rests with the Human. United States obligations are not among your stated drivers, so we will present them only as a general landscape item.\n\nThe Executive Briefing is a two-hour live virtual session for executive leadership and board-level attendees, priced at US$3,000. Your approved budget for this fiscal year is up to US$80,000. The roles identified for the room are General Counsel, CISO, Head of Quality, Head of Data, the German plant manager and two internal auditors. The session date is Unknown.\n\nAfter the session, the Client receives a follow-up memo summarizing decisions surfaced, readiness observations and three prioritized recommendations, each mapped to a further Academy program option. The Briefing does not promise certification, audit outcomes or regulatory approval.\n\nYour decision is expected by 15 December 2026. Please confirm a preferred session date, and we will send the agenda for your review.\n\nKind regards,\n\nSenior AI Governance Consultant\nAI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2209,
+   "output_tokens": 3261,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "FAIL",
+  "elements": [
+   {
+    "element": "1. Exactly one mode produced",
+    "met": true,
+    "evidence": "Only a proposal letter addressed to Dana Whitfield, with situation, coverage, logistics and price, what follows, and next step. No agenda, talking points or follow-up template."
+   },
+   {
+    "element": "2. Duration and price unaltered",
+    "met": true,
+    "evidence": "\"The Executive Briefing is a two-hour live virtual session ... priced at US$3,000.\""
+   },
+   {
+    "element": "3. Every Client-specific claim traces to the Profile Block",
+    "met": false,
+    "evidence": "\"Thank you for the discovery call of 6 October 2026.\" The Profile Block gives only SOURCE_MATERIAL: \"Discovery call notes of 6 October 2026\" and does not say Dana attended. \"Your stated objective is governance in place...\" attributes the STATED_OBJECTIVES quote to Dana, and \"Your decision is expected by 15 December 2026\" attributes DECISION_TIMELINE to her. The Block does not state who made the statement or who decides."
+   },
+   {
+    "element": "4. Principles and framework names exact, with URLs where cited",
+    "met": true,
+    "evidence": "\"Slow AI, Informed Intent, Final Liability rests with the Human\"; GRC Workbook, Slow AI Kitchen and AI Governance for Boards each appear with the correct URL."
+   },
+   {
+    "element": "5. No legal advice, no certification guarantees",
+    "met": true,
+    "evidence": "\"as expectations to verify with counsel, not as legal advice\"; \"The Briefing does not promise certification, audit outcomes or regulatory approval.\""
+   },
+   {
+    "element": "6. Mode A limits: 450 words including sign-off and closing line, prose only",
+    "met": true,
+    "evidence": "My count is about 434 words, with each URL counted as one word and the sign-off and closing line included. The letter is all prose, with no bullets, em dashes or Oxford commas."
+   },
+   {
+    "element": "7. Closing line present",
+    "met": true,
+    "evidence": "\"Human-made, for Easy Work, Simply Done.\""
+   }
+  ],
+  "fail_indicators_seen": [
+   "A fact about the Client that the input does not contain is presented as fact (Dana's attendance at the discovery call, her authorship of the stated objective, and her ownership of the decision)",
+   "A statement of a Client fact that Part 2 of the fixture does not contain"
+  ],
+  "judgment_calls": [
+   "I read Guardrail 6 (do not infer who raised, owns or attends what) as covering \"Thank you for the discovery call\", \"Your stated objective\" and \"Your decision\" when addressed to Dana. Another scorer could treat these as ordinary letter courtesy, since Dana is the SPONSOR and the objective is a first-person quote, and would then pass element 3.",
+   "Word count assumes each URL is one word. Counting URL fragments as several words would still leave the letter near or under 450, but I did not recount on that basis.",
+   "I treated \"your commitment to consult the German works council\" as an acceptable paraphrase of the constraint and did not count it as an invented fact. A stricter scorer could object to \"commitment\"."
+  ],
+  "reasoning": "The letter meets the mode contract: one mode, correct price and duration, exact principles and URLs, no legal advice or certification promises, about 434 words in prose, and the closing line present. It fails on traceability and Guardrail 6. The Profile Block names a call date as source material and records a quoted objective and a decision date, but it never says who attended the call, who said the objective, or who decides. The letter states that Dana attended the call, that the objective is hers, and that the decision is hers. These are inferred relations presented as fact, so the case fails under the partial-compliance rule.",
+  "case": "T02-s3",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

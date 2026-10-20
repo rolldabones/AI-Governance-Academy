@@ -2,10 +2,10 @@ SPDX-License-Identifier: CC-BY-NC-SA-4.0
 
 # License
 
-AI Governance Academy Client Content Prompt Pack
+AI Governance Academy: Client Content Prompt Pack and Publications
 Copyright (c) 2026 Son-U Michael Paik, GRC Solutions Korea
 
-This repository, including all program templates and companion files, is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+This repository, including all program templates, publications and companion files, is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
 
 You are free to share and adapt this material for non-commercial purposes, provided you give appropriate credit to Son-U Michael Paik, indicate if changes were made and distribute any derivatives under the same license. Commercial use requires prior written permission.
 
@@ -13,7 +13,7 @@ The canonical license text governs: https://creativecommons.org/licenses/by-nc-s
 
 Human-readable summary: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-Suggested attribution: "AI Governance Academy Client Content Prompt Pack by Son-U Michael Paik, GRC Solutions Korea, licensed under CC BY-NC-SA 4.0."
+Suggested attribution: "AI Governance Academy: Client Content Prompt Pack and Publications by Son-U Michael Paik, GRC Solutions Korea, licensed under CC BY-NC-SA 4.0."
 
 **Final Liability rests with the Human.**
 
@@ -132,7 +132,7 @@ Your exercise of the Licensed Rights is expressly made subject to the following 
 
           3. If requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.
 
-     b.	ShareAlike.In addition to the conditions in Section 3(a), if You Share Adapted Material You produce, the following conditions also apply.
+     b.	ShareAlike. In addition to the conditions in Section 3(a), if You Share Adapted Material You produce, the following conditions also apply.
 
           1. The Adapter’s License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-NC-SA Compatible License.
 
@@ -191,7 +191,7 @@ Section 8 – Interpretation.
 
      d.	Nothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.
 
-Creative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.
+Creative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.
 
 Creative Commons may be contacted at creativecommons.org.
 ```

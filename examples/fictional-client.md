@@ -2,11 +2,11 @@
 
 # Fictional Client File: Tamarack Instruments
 
-Prepared 18 October 2026 (KST) | Test material for templates 01 to 07
+Prepared 18 October 2026 (KST) | Test material for templates 01 to 08
 
 ## Purpose
 
-This file is the fixed input for the pack's Mode A test runs. Part 1 is raw Client material of the kind template 01 takes. Part 2 is a Client Profile Block prepared by hand from Part 1 under template 01's rules, so that the runs of templates 02 to 07 do not depend on a run of template 01; the generated template 01 output of 18 October 2026 ([`mode-a-01-client-intake.md`](transcripts-2026-10-18-T5/mode-a-01-client-intake.md)) agrees in substance with Part 2 on every field and adds detail Part 2 omits: names in AUDIENCE_ROLES, the Q2 2027 date and the residency and works council items under STATED_CONSTRAINTS, the ISO/IEC 42001 start under STATED_OBJECTIVES, "No incidents or regulator contact mentioned" under RISK_EVENTS and four more confidence notes. No field contradicts Part 2. The seven generated outputs of that run are filed in [`transcripts-2026-10-18-T5/`](transcripts-2026-10-18-T5/) as `mode-a-<template>.md`, each labeled with model, date and verdict; the three that failed are marked as failing.
+This file is the fixed input for the pack's Mode A test runs. Part 1 is raw Client material of the kind template 01 takes. Part 2 is a Client Profile Block prepared by hand from Part 1 under template 01's rules, so that the runs of templates 02 to 08 do not depend on a run of template 01; the generated template 01 output of 18 October 2026 ([`mode-a-01-client-intake.md`](transcripts-2026-10-18-T5/mode-a-01-client-intake.md)) agrees in substance with Part 2 on every field and adds detail Part 2 omits: names in AUDIENCE_ROLES, the Q2 2027 date and the residency and works council items under STATED_CONSTRAINTS, the ISO/IEC 42001 start under STATED_OBJECTIVES, "No incidents or regulator contact mentioned" under RISK_EVENTS and four more confidence notes. No field contradicts Part 2. The seven generated outputs of that run are filed in [`transcripts-2026-10-18-T5/`](transcripts-2026-10-18-T5/) as `mode-a-<template>.md`, each labeled with model, date and verdict; the three that failed are marked as failing. At v1.14.2 Part 2 gained three attributions that Part 1 states and that template 01's outputs in runs T5 and A1 both carry: the Sponsor as budget holder, the speaker of STATED_OBJECTIVES and the attendees in SOURCE_MATERIAL. Their absence was a case defect found in run A2; see [`../tests.md`](../tests.md).
 
 ## Part 1. Raw Client material
 
@@ -55,13 +55,13 @@ AI_MATURITY: Piloting
 REGULATORY_DRIVERS: EU AI Act; GDPR
 CERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)
 AUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors
-SPONSOR: Dana Whitfield, General Counsel
-STATED_OBJECTIVES: "I want governance in place before visual inspection goes into production in Q2 2027."
+SPONSOR: Dana Whitfield, General Counsel (stated as budget holder)
+STATED_OBJECTIVES: "I want governance in place before visual inspection goes into production in Q2 2027." (Dana Whitfield)
 STATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff
 INCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system
 RISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems
 DECISION_TIMELINE: Decision expected by 15 December 2026
-SOURCE_MATERIAL: Discovery call notes of 6 October 2026
+SOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg
 CONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed
 ```
 <!-- fixture:profile:end -->

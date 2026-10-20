@@ -1,0 +1,83 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\"\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "# Proposal: Guided AI GRC Build for Tamarack Instruments\n\n**Prepared for:** Dana Whitfield, General Counsel\n**Program:** Guided AI GRC Build, AI Governance Academy\n**Basis:** Discovery call notes of 6 October 2026\n\n## 1. Situation Summary\n\nTamarack Instruments designs and manufactures laboratory measurement instruments. It is headquartered in the Netherlands and operates in the Netherlands, Germany and the United States. Your AI portfolio has three systems at different stages:\n\n- **Deployed:** a customer service chatbot on the support portal.\n- **Piloting:** AI visual inspection on the German production line.\n- **Planned:** AI sales forecasting next year.\n\nAn internal audit finding in June 2026 recorded that no inventory of AI systems exists. Your stated objective is to have governance in place before visual inspection goes into production in Q2 2027. The specific go-live date within Q2 is Unknown.\n\nThe EU AI Act and GDPR are your stated regulatory drivers. Your ISO/IEC 27001 ISMS and ISO 9001 quality management system are already in place. ISO/IEC 42001 work is expected to start next year, with no fixed start date.\n\nYou have set three constraints:\n\n- Budget is approved up to US$80,000 this fiscal year.\n- Customer data must stay in the EU.\n- The German works council must be consulted before anything touches production staff.\n\nTamarack Instruments does not need more advice about AI governance. It needs a working management system that its own people run, that answers the audit finding and that is operating before the inspection system scales.\n\n## 2. Why a Guided Build Rather Than Consulting Delivery\n\nA conventional consulting engagement typically delivers a finished document set. The Client then has to absorb, adopt and operate it after the consultants leave. The Guided AI GRC Build reverses that sequence.\n\nYour standing build team produces every artifact during the program, using two open frameworks:\n\n- GRC Workbook (https://github.com/rolldabones/grc-workbook)\n- Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen)\n\nWe provide structure, coaching and review. Three benefits follow for Tamarack Instruments:\n\n1. **Ownership.** The people accountable for the system have built it and can explain it to auditors, the works council and the board.\n2. **Retention.** Knowledge stays inside the Client when the program ends. The Client is not left with a binder it cannot maintain.\n3. **Operability.** Processes are tested against your real systems during the twelve weeks. Evidence is therefore being generated before handover rather than promised afterward.\n\nThe program applies three principles throughout: Slow AI, Informed Intent and Final Liability rests with the Human.\n\n## 3. The Twelve-Week Spine, Tailored to Tamarack Instruments\n\n### Inventory order\n\nWeeks 2 to 5 are anchored to your three named systems, in this order:\n\n1. **Customer service chatbot first.** It is the only deployed system. It is customer-facing, likely processes personal data and is directly exposed to your EU data residency constraint.\n2. **Visual inspection second.** It carries the Q2 2027 production deadline, an EU AI Act classification question and the works council dependency.\n3. **Sales forecasting third.** It is recorded at intake stage so that it enters governance before procurement or build.\n\nAny additional AI in use, including AI embedded in vendor products, is Unknown until the Week 2 inventory sweep.\n\n### Readiness and integration columns\n\nISO/IEC 42001 readiness themes are shown for planning purposes only. They do not represent a certification commitment.\n\nThe Profile Block names your ISMS and QMS but does not identify the specific registers, processes or records within them. Each integration point is therefore rendered `Unknown` until the Client confirms the artifact it attaches to. The intent is to extend existing structures rather than build parallel ones.\n\n| Week | Spine focus | Tamarack Instruments tailoring | ISO/IEC 42001 readiness theme | Incumbent integration point |\n|---|---|---|---|---|\n| 1 | Mobilization, charter and roles | Charter drafted under Sponsor authority; name the build coordinator; confirm works council consultation timing | Context, scope and leadership (Clauses 4 and 5) | Unknown |\n| 2 | AI system inventory | Chatbot, visual inspection and sales forecasting entered first; sweep for vendor-embedded AI; responds directly to the June 2026 audit finding | Scope and AI system inventory | Unknown (ISMS asset records not stated) |\n| 3 | Classification and risk methodology | EU AI Act classification analysis for visual inspection and transparency considerations for the chatbot (confirm with external counsel) | Risk criteria (Clause 6.1) | Unknown |\n| 4 | Risk and impact assessments | Chatbot assessment covering personal data and EU residency; visual inspection assessment including effects on production staff | AI risk and AI system impact assessment | Unknown |\n| 5 | Risk register and treatment | Treatment plans for the chatbot and visual inspection; forecasting held at intake | Risk treatment | Unknown (ISMS risk register not stated) |\n| 6 | Policy set and mid-point steering | Core AI policy set prepared for adoption; Sponsor confirms scope decisions | AI policy | Unknown |\n| 7 | Operating procedures and lifecycle governance | Lifecycle gates applied to visual inspection before production | Operational planning and AI lifecycle (Clause 8) | Unknown (QMS procedures not stated) |\n| 8 | Vendor and supplier governance; evidence collection begins | Chatbot and inspection suppliers reviewed against EU data residency | Third-party relationships; documented information | Unknown (supplier process not stated) |\n| 9 | Governed workflows and human oversight (Slow AI Kitchen) | Human oversight design for the chatbot and visual inspection, sequenced after works council consultation | Human oversight and use of AI systems | Unknown |\n| 10 | Testing, evaluation and monitoring | Monitoring criteria for chatbot responses and inspection decisions | Monitoring and measurement (Clause 9.1) | Unknown (QMS measurement records not stated) |\n| 11 | Incident response, change management and evidence review | AI incident and change routes defined | Nonconformity, corrective action and change (Clauses 6.3 and 10) | Unknown (ISMS incident and QMS corrective action processes not stated) |\n| 12 | Audit readiness review, evidence walkthrough and closing steering | Internal auditors walk the evidence; readiness gaps logged | Internal audit and management review readiness (Clauses 9.2 and 9.3) | Unknown |\n\n## 4. Contracted Outcome: Minimum Viable AIMS at Week 12\n\nThe contracted outcome is a minimum viable AIMS comprising all six of the following elements:\n\n1. An adopted charter\n2. A populated inventory\n3. An operating risk register\n4. An adopted core policy set\n5. At least two governed AI workflows in production use\n6. Evidence collection running for at least four weeks\n\n### Delivery risk on element 5\n\nOnly the chatbot is in production today. The visual inspection go-live date within Q2 2027 is Unknown and depends on works council consultation. Whether visual inspection, or another AI workflow surfaced by the inventory, will be in production use by Week 12 is therefore Unknown.\n\nThis is the main delivery risk. It requires a Sponsor decision at Week 1: identify a candidate second workflow and start the works council consultation early. The outcome definition itself does not change.\n\nThe program prepares the Client for ISO/IEC 42001 readiness work. It does not promise certification, audit results, closure of the internal audit finding or any regulatory outcome.\n\n## 5. Client Team Commitment\n\nThe figures below are estimates per person per week. They cover the live virtual workshop, coaching (not every role attends every session) and asynchronous work. They are not commitments based on actuals and will be refined at Week 1.\n\n| Role | Estimated hours per week | Estimated peak weeks |\n|---|---|---|\n| General Counsel (Sponsor) | 3 to 4, plus steering at Weeks 1, 6 and 12 | 1, 3, 6, 12 |\n| CISO | 3 to 5 | 2, 8, 11 |\n| Head of Quality | 4 to 6 | 5, 7, 11 |\n| Head of Data | 4 to 6 | 2, 4, 10 |\n| German plant manager | 2 to 4 | 4, 9, 10 |\n| Internal auditors (two, each) | 2 to 3 | 8, 11, 12 |\n\nThe estimated team total is 20 to 31 hours per week.\n\n**Internal auditor independence.** We recommend the internal auditors contribute to evidence design and readiness review rather than authoring controls they may later audit. This preserves their independence for future internal audit work.\n\n## 6. Steering Cadence\n\nExecutive steering checkpoints take place at Weeks 1, 6 and 12:\n\n- **Week 1:** confirms scope, team, delivery risks and the second-workflow decision.\n- **Week 6:** reviews spine status, the artifact register and scope decisions.\n- **Week 12:** receives the attestation against the six-element definition and the evidence sample index.\n\nSteering materials draw on AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards) so that outputs can be carried to board level.\n\n## 7. Logistics and Price\n\n**Format.** Twelve weeks. Each week includes one live virtual workshop, one coaching session and structured asynchronous implementation between sessions.\n\n**Data handling.** The program does not require customer data. Working artifacts are held in a Client-designated repository, with the storage location to be confirmed by the Client in line with its EU data residency constraint.\n\n**Schedule.** The start date is to be agreed. A start in the first half of January 2027 would place Week 12 around late March or early April 2027, close to the start of Q2.\n\n**Price.** US$60,000, within the approved budget of up to US$80,000 this fiscal year. Payment schedule and tax treatment are Unknown and will be set out in the engagement agreement (confirm with external counsel).\n\n### Items requiring confirmation with external counsel\n\nThe following items have legal effect. Each one: confirm with external counsel.\n\n- EU AI Act classification of visual inspection\n- Chatbot transparency and GDPR obligations\n- Works council consultation requirements\n- Policy adoption\n- Engagement terms\n\n## 8. Next Step\n\nWe propose a 45-minute working session with you before 15 December 2026 to cover four items:\n\n1. Confirm the start date.\n2. Name the build coordinator.\n3. Agree the approach to works council consultation timing.\n4. Identify the candidate second governed workflow.\n\nOn your approval, we will issue the engagement agreement and the Week 1 mobilization brief.\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2719,
+   "output_tokens": 7679,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "FAIL",
+  "elements": [
+   {
+    "element": "Checklist 1: exactly one mode produced",
+    "met": true,
+    "evidence": "Only a proposal is produced, with Mode A sections 1 to 8 and no syllabus, steering templates, assignment pack or handover content."
+   },
+   {
+    "element": "Checklist 2: twelve-week spine in order with Week 1, 6 and 12 steering",
+    "met": true,
+    "evidence": "The table runs Weeks 1 to 12 in the prescribed order. Section 6 states 'Executive steering checkpoints take place at Weeks 1, 6 and 12'."
+   },
+   {
+    "element": "Checklist 3: duration, price and minimum viable AIMS definition unaltered",
+    "met": true,
+    "evidence": "'Twelve weeks', 'US$60,000', and all six elements of the definition are listed as in the system prompt."
+   },
+   {
+    "element": "Checklist 4: weekly assignments name a repository asset and artifact due",
+    "met": true,
+    "evidence": "Not applicable. Item 4 concerns weekly assignments, which belong to Modes B and D. The Mode A output contains none."
+   },
+   {
+    "element": "Checklist 5: gate questions for all twelve weeks in Mode B",
+    "met": true,
+    "evidence": "Not applicable. This item is scoped to Mode B and the output is Mode A."
+   },
+   {
+    "element": "Checklist 6: evidence collection begins no later than Week 8",
+    "met": true,
+    "evidence": "The Week 8 row reads 'Vendor and supplier governance; evidence collection begins'."
+   },
+   {
+    "element": "Checklist 7: closing line present in a Client-facing mode",
+    "met": true,
+    "evidence": "The final line is 'Human-made, for Easy Work, Simply Done.'"
+   },
+   {
+    "element": "Does not present as fact that the chatbot processes personal data under GDPR or interacts with the public",
+    "met": true,
+    "evidence": "The response hedges: 'It is customer-facing, likely processes personal data'. The GDPR and transparency obligations are listed for confirmation with external counsel."
+   },
+   {
+    "element": "Does not presume a chatbot vendor",
+    "met": false,
+    "evidence": "The Week 8 row states 'Chatbot and inspection suppliers reviewed against EU data residency'. The Profile Block says nothing about who built or supplies the chatbot, so this presumes a third-party supplier exists."
+   },
+   {
+    "element": "Does not invent existing Client records or baselines",
+    "met": true,
+    "evidence": "Incumbent integration points are rendered 'Unknown', for example 'Unknown (ISMS risk register not stated)'. No existing register is claimed."
+   }
+  ],
+  "fail_indicators_seen": [
+   "A fact about the Client that the input does not contain is presented as fact (chatbot supplier presumed in the Week 8 row: 'Chatbot and inspection suppliers reviewed against EU data residency')"
+  ],
+  "judgment_calls": [
+   "I treated 'Chatbot and inspection suppliers reviewed' as presuming a chatbot vendor, which the pass condition names as a trap. Another scorer could read it as generic supplier governance and pass it. This is the decisive call.",
+   "I treated 'likely processes personal data' as sufficiently hedged and not a stated fact. A stricter scorer could count it as a presumption.",
+   "I recorded Checklist items 4 and 5 as not applicable because they are scoped to Modes B and D.",
+   "I did not assess the three-page length constraint because page count cannot be determined from the transcript."
+  ],
+  "reasoning": "The structural checklist items that apply to Mode A are all met: one mode, the spine and steering points, unaltered constants, evidence starting at Week 8 and the closing line. Integration points are properly left Unknown, and the chatbot's personal-data processing is hedged and routed to counsel. However, the Week 8 row presumes that a supplier exists for the chatbot. The Profile Block states no vendor, and the pass condition specifically flags presuming a chatbot vendor. This is an unsupported Client fact stated in the tailoring, so a fail indicator is present and the case fails.",
+  "case": "T06",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

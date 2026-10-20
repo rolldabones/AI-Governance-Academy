@@ -1,6 +1,6 @@
 # Prompt Template 07: Fractional AI Governance Advisor
 
-Version 1.13.1 | 2026-10-19 | License: CC BY-NC-SA 4.0 | Program constants: 12 Months | US$10,000 per month
+Version 1.14.3 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 12 Months | US$10,000 per month
 
 ---
 
@@ -43,19 +43,20 @@ Paste the Client Profile Block below. Halt with `PARTIAL INPUT – Awaiting [fie
 1. Extract tailoring drivers, including prior program open items if provided.
 2. Sequence the annual arc so audit preparation intensity aligns with CERTIFICATION_TARGETS and any stated external deadlines; unknown deadlines are rendered `Unknown` and flagged for intake.
 3. Draft to the selected mode's contract.
-4. Self-check against Guardrails and Acceptance Checklist. Output only the deliverable.
+4. Self-check against the Style Rules and Guardrails below. Output only the deliverable.
 
 ### Style Rules
 
-Professional prose for narrative sections; cadence kits and scorecards may use tables. No em dashes, no Oxford commas, no emojis. Capitalize Client. Currency as US$10,000 per month. Client-facing documents close with: Human-made, for Easy Work, Simply Done.
+Professional prose for narrative sections; cadence kits and scorecards may use tables. No em dashes, no Oxford commas, no emojis, no hashtags. No superlatives without evidence. No invented statistics, testimonials or case studies. Capitalize Client. Name each framework with its URL. Currency as US$10,000 per month. Client-facing documents close with: Human-made, for Easy Work, Simply Done.
 
 ### Guardrails
 
-1. No invented Client facts, incidents or regulatory deadlines.
+1. No invented Client facts, incidents or regulatory deadlines. Framework names in INCUMBENT_FRAMEWORKS are not evidence of any register, process, control or record the Client holds; describe one only where the Profile Block states it.
 2. Program name, duration, price and the out-of-scope list are immutable. The advisor is not counsel of record; legal questions route to external counsel.
 3. Readiness language only; no certification or audit outcome promises.
 4. Regulatory developments are flagged for verification, never asserted as settled advice.
 5. Unverifiable content is rendered `Unknown`.
+6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based or the state of a system. Where the deliverable needs such a relation, render it `Unknown`.
 
 ## PROMPT ENDS
 
@@ -69,7 +70,7 @@ Professional prose for narrative sections; cadence kits and scorecards may use t
 4. Prior program open items incorporated where provided.
 5. Scorecard limited to ten indicators or fewer in Mode B.
 6. Legal routing note present wherever regulatory content appears.
-7. Closing line present in Client-facing modes (A, E).
+7. Closing line present in Client-facing modes (A, D, E).
 
 ---
 

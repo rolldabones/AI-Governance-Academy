@@ -26,7 +26,7 @@ July 30, 2026
 
 ## 1. Purpose
 
-This is a story written to be told aloud in the opening minutes of a briefing, a workshop or a board session. It converts a governance vocabulary into narrative before any framework is named, so that when the instruments arrive they land as common sense the room has already agreed to. The story is the handshake. The frameworks are the contract. The kit that follows, a second telling for circulation, a one-minute miniature, module timings, a handle map, discussion prompts and facilitation notes, is the conversion table between the two.
+This is a story written to be told aloud in the opening minutes of a briefing, a workshop or a board session. It converts a governance vocabulary into narrative before any framework is named, so that when the instruments arrive they land as common sense the room has already agreed to. The story is the handshake. The frameworks are the contract. The kit that follows, a second telling for circulation, a one-minute miniature, module timings, a handle map, discussion prompts, a closing exercise and facilitation notes, is the conversion table between the two.
 
 Two tellings are carried here and they are not interchangeable. Section 2 is the practice cut, shaped for the voice. Section 3 is the practitioner cut, shaped for the page: the same story, carrying the working customs a governance room can act on and the craft of the workshops that kept them. Tell section 2. Circulate section 3. The closing annex in section 11 takes the customs of section 3 and names the build discipline each one stands for.
 
@@ -74,7 +74,7 @@ Others chased speed alone, and every mistake spread as rapidly as every success,
 
 They learned that intelligence without direction merely arrives at the wrong answer more efficiently.
 
-And a third sort watched the fast ones fall, drew the wrong lesson, and barred their gates entirely. Their caution wore the look of wisdom and carried the price of folly. Their sick waited. No one counted the cost of the waiting, because waiting keeps no ledger.
+And a third sort watched the fast ones fall, drew the wrong lesson and barred their gates entirely. Their caution wore the look of wisdom and carried the price of folly. Their sick waited. No one counted the cost of the waiting, because waiting keeps no ledger.
 
 The turtle grieved for the reckless and the fearful alike. "Too fast and never are the same mistake in different coats. There is no right speed written in the sky. There is only a person who chooses the pace, and answers for the choosing."
 
@@ -304,7 +304,7 @@ By remembering.
 
 *About one minute, for proposals and meetings.*
 
-The oldest creature in the valley was a turtle; the newest was a phoenix. Each dawn the phoenix rose from its own ashes more capable than the day before, remembering nothing of yesterday. The valley asked it for everything. The turtle offered one piece of advice: decide which problems deserve solving, ask for easy work simply done, and before it flies, write down the name of the person who answers for where it lands. The phoenix will not remember the flight. The name must. Those who listened grew wise as well as fast. Those who chased speed alone arrived at the wrong answers more efficiently. Those who barred their gates learned that waiting keeps no ledger. The future did not belong to the strongest wings. It belonged to those who knew where to fly.
+The oldest creature in the valley was a turtle; the newest was a phoenix. Each dawn the phoenix rose from its own ashes more capable than the day before, remembering nothing of yesterday. The valley asked it for everything. The turtle offered one piece of advice: decide which problems deserve solving, ask for easy work simply done and, before it flies, write down the name of the person who answers for where it lands. The phoenix will not remember the flight. The name must. Those who listened grew wise as well as fast. Those who chased speed alone arrived at the wrong answers more efficiently. Those who barred their gates learned that waiting keeps no ledger. The future did not belong to the strongest wings. It belonged to those who knew where to fly.
 
 ## 5. Modules and Timings
 
@@ -320,7 +320,7 @@ For the practice cut. Timings assume an unhurried telling of about 135 words a m
 | Education | "Years later" | "the way a shell is grown" | ~1.5 min |
 | Close | "Evening settled" | end | ~0.5 min |
 
-Core I and Core II carry the payload and are never cut. Executive audiences and boards: Core I + Core II + Close, about five and a half minutes. Policy audiences: add Government. Universities and training programs: add Education, or tell the whole, about eight and a half minutes. Within the Academy program options, the story runs in the closing block of the Executive Workshop and the full version runs on Day 1 of the Practitioner Academy, as set out at the head of this section.
+Core I and Core II carry the payload and are never cut. Executive audiences and boards: Core I + Core II + Close, about five and a half minutes. Policy audiences: add Government. Universities and training programs: add Education, or tell the whole, about eight and a half minutes. Within the Academy program options, the story runs in the closing block of the Executive Workshop and the whole practice cut runs on Day 1 of the Practitioner Academy, as set out at the head of this section.
 
 ## 6. The Handle Map
 
@@ -331,7 +331,7 @@ Thirteen rows. Each links a line in the story to the shorthand it gives the room
 | "decide which problems deserve solving... what you will not accept" | what you want and what you will not accept | Informed Intent: pre-deployment authorization with explicit specification, held by a named human | A signed authorization naming its purpose, authority, boundaries and exit, with what will not be accepted |
 | "write down the name... the name must" | whose name is on the flight | Final Liability rests with the Human: exactly one named holder, never zero | One named person recorded against the deployment, with the date and the scope of what they answer for |
 | "easy work, simply done, one errand at a time" | turtle-sized tasks | Tiny Servants: narrow purpose, clear boundaries, a human owner | A one-task scope note: the task, its boundaries, what done looks like and the owner |
-| "keep more than one road to every place you must reach"; "no errand flew that could not be undone unless a second road home was found first" (practitioner cut) | more than one road | GRCnext™: optionality as the core safety property (Services, Tolerances, Pipes, Switches, Exits), and reversibility before capability, no irreversible action without a tested way back | A rollback path that someone has actually walked, with the date they walked it |
+| "keep more than one road to every place you must reach" (practice cut); "no errand flew that could not be undone unless a second road home was found first" (practitioner cut) | more than one road | GRCnext™: optionality as the core safety property (Services, Tolerances, Pipes, Switches, Exits), and reversibility before capability, no irreversible action without a tested way back | A rollback path that someone has actually walked, with the date they walked it |
 | "a person who chooses the pace, and answers for the choosing"; the turtle's own pace and the shell he can still read | who chooses the pace | Slow AI: a precondition, not a speed limit; what cannot be governed, explained and audited is not deployed, and the record can be read back | A recorded go or no-go decision for one initiative against the three tests: who made it, on what basis and when it is revisited |
 | "kept the scratches where they could read them" | keep the scratch | Evidence and auditability: records as the only continuity | The record set itself: decision notes, versions and logs a reviewer can request without warning |
 | "the fire kept the particulars" | the fire keeps the particulars | Statelessness: remediation lands on the scaffolding and the people, never on the bird | Principle. It changes where remediation lands rather than producing a document |
@@ -374,13 +374,13 @@ The test is the point. This practice does not accept work because it was done. I
 1. Tell it clean, with no slides during the telling. One bridge line after: "Everything this practice formalizes is already in that valley." Then convert handles into instruments, using the map as the conversion table.
 2. Tell section 2 and circulate section 3. Reading the practitioner cut aloud costs roughly twenty minutes and buries the payload under craft the room has not yet asked for. Sending the practice cut as a handout gives a reader a script with the working customs stripped out.
 3. The story opens the frameworks and never replaces them. If the room bonds to turtle-and-phoenix vocabulary and the session never converts the handles into named instruments with owners, the fable has substituted charm for governance. Section 8 is how that is enforced rather than hoped for: every telling ends in three instruments, tested aloud before the room leaves.
-4. The disloyal-hearts king is the sharpest beat and the default is to tell it, in every audience. It is self-contained and cuts cleanly where it would read as pointed, and that judgment belongs to the facilitator in the room, not to the text. If it is cut, the doors-stay-shut handle arrives through the second king's counsel.
+4. The disloyal-hearts king is the sharpest beat and the default is to tell it wherever the Government module is told. It is self-contained and cuts cleanly where it would read as pointed, and that judgment belongs to the facilitator in the room, not to the text. If it is cut, the doors-stay-shut handle arrives through the second king's counsel. Where the Government module is not told, as in executive rooms and boards, the facilitator introduces the doors-stay-shut handle from its handle map row before the closing exercise, so that its second artifact has a line to stand on.
 5. The afterword is written for the back of a printed handout, with the story on the front.
 6. The annex in section 11 is for readers who build. It is not material for the room and is not told.
 
 ## 10. Afterword
 
-At its heart, The Turtle and the Phoenix is not a story about artificial intelligence. It is a story about human capability. The phoenix is AI: continually renewed, increasingly capable, extraordinary at speed. The turtle is what does not scale with computing power: judgment, wisdom, memory, ethics and accountability. As AI grows more powerful, these capacities become more valuable, not less.
+At its heart, *The Turtle and the Phoenix* is not a story about artificial intelligence. It is a story about human capability. The phoenix is AI: continually renewed, increasingly capable, extraordinary at speed. The turtle is what does not scale with computing power: judgment, wisdom, memory, ethics and accountability. As AI grows more powerful, these capacities become more valuable, not less.
 
 For enterprises, advantage will come less from acquiring AI than from developing people who use it well. AI amplifies both strengths and weaknesses. Organizations that invest in human capability alongside technological capability will outperform those that pursue automation alone.
 
@@ -407,11 +407,11 @@ For the readers who design the arrangements rather than authorize them: architec
 | The gate, the read-aloud manifest and the stopping word | Release gating, and **Informed Intent**: pre-deployment authorization with explicit specification, read aloud before the flight. Stopping criteria and turn budgets, so a run halts and asks rather than running unbounded |
 | The flight book, no page no custom | Observability and logging as routine practice, not incident response. Every control produces an artifact a reviewer can ask for; a control with no artifact is an assertion |
 | Gray mornings, bread and feet | Fallback paths and graceful degradation, with preserved human capability as the ultimate fallback |
-| The walked-again rule | Auditability and reproducibility from records. **Slow AI**'s test: governed means explainable and auditable after the fact |
+| The walked-again rule | Auditability and reproducibility from records. **Slow AI**'s three tests are conjunctive: governed, explained and audited, and audited means the evidence exists before it is asked for |
 | The three questions asked aloud | Delegation decided before build: what the system carries, what existing tooling carries and what stays with people |
 | The second road home | Reversibility as a design precondition for any high-stakes automation |
 | The name before the flight | **Final Liability rests with the Human**: accountability assigned to a named person before anything flies |
-| The large satchel, well ordered | Abundant context is a design variable, not a safety margin. Capacity is managed by ordering and selection for the errand at hand, not by watching a level; a larger window changes what must be chosen, never whether choosing is done |
+| The satchel with a bottom, packed in order | Abundant context is a design variable, not a safety margin. Capacity is managed by ordering and selection for the errand at hand, not by watching a level; a larger window changes what must be chosen, never whether choosing is done |
 | The quiet flight that proves nothing | Absence of observed failure is not evidence of control. Assurance comes from tests that could have failed and from records of them, never from an uneventful run |
 
 ### Prompts for a build review

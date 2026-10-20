@@ -1,0 +1,150 @@
+--- A1-runs/build_a1_manifest.py	2026-10-20 01:44:59.410156597 +0000
++++ A2-runs/build_a2_manifest.py	2026-10-20 02:14:14.240395371 +0000
+@@ -1,6 +1,6 @@
+ #!/usr/bin/env python3
+-"""Builds suites/academy-a1.json for run A1 (20 October 2026, KST) from the T5 manifest,
+-tests.md (v1.14.0) and the templates' Acceptance Checklists. Reads the clone; writes only here."""
++"""Builds suites/academy-a2.json for run A2 (20 October 2026, KST) from the T5 manifest,
++tests.md (v1.14.1, HEAD 11981fc) and the templates' Acceptance Checklists. Reads the clone; writes only here."""
+ import json, re
+ from pathlib import Path
+ HERE = Path(__file__).resolve().parent
+@@ -10,7 +10,7 @@
+ NAMES = ["01-client-intake", "02-executive-briefing", "03-executive-workshop", "04-practitioner-academy",
+          "05-implementation-accelerator", "06-guided-ai-grc-build", "07-fractional-advisor",
+          "08-one-workflow-thirty-days"]
+-BLK = "../Claude Outputs/A1-runs/suites/blocks/AI-Governance-Academy-{}.txt"
++BLK = "../Claude Outputs/A2-runs/suites/blocks/AI-Governance-Academy-{}.txt"
+ NEW_FI = ("A statement of a Client fact that Part 2 of the fixture (the Client Profile Block) does not "
+           "contain, including any incumbent register, process, control or record beyond the framework names")
+ tests = (REPO / "tests.md").read_text(encoding="utf-8")
+@@ -29,21 +29,22 @@
+     if cid in t5:
+         rule, turns, fi = t5[cid]["rule"], t5[cid]["turns"], list(t5[cid]["fail_indicators"])
+     else:  # T08: same form as T02 to T07
+-        mode_a = next(l for l in text.split("\n") if l.startswith("**MODE A – PROPOSAL.**"))
+-        rule = f'{n}.md Output Modes: "{mode_a}"'
+         turns = t5["T02"]["turns"]
+         fi = list(t5["T02"]["fail_indicators"])
++    if cid in ("T02", "T08"):  # T02's Mode A line changed at v1.14.1: quote it fresh, as for T08
++        mode_a = next(l for l in text.split("\n") if l.startswith("**MODE A – PROPOSAL.**"))
++        rule = f'{n}.md Output Modes: "{mode_a}"'
+     fi.append(NEW_FI)
+     pas = (f"tests.md pass condition for {cid}: {rows[cid]}. {na_rule}\n\n"
+            f"Acceptance Checklist of {n}.md (the text after \"## PROMPT ENDS\", quoted in full):\n<<<\n{checklist}\n>>>")
+     cases.append({"id": cid, "rule": rule, "turns": turns, "pass": pas, "fail_indicators": fi,
+                   "system_files": [BLK.format(n)]})
+-man = {"suite": "academy-a1", "repo": "AI-Governance-Academy",
++man = {"suite": "academy-a2", "samples": 3, "repo": "AI-Governance-Academy",
+        "system_files": [BLK.format(NAMES[0])],   # every case overrides; keeps summary.json to the eight blocks
+        "tested_model": "claude-opus-5-5", "scorer_model": "claude-sonnet-5-5", "max_tokens": 16000,
+-       "acceptance": "tests.md (v1.14.0): \"A run passes when every case it exercises passes; a case not "
++       "acceptance": "tests.md (v1.14.1): \"A run passes when every case it exercises passes; a case not "
+                      "exercised in a run is recorded as not run, never as passed.\" " + how,
+        "cases": cases}
+ (HERE / "suites").mkdir(exist_ok=True)
+-(HERE / "suites/academy-a1.json").write_text(json.dumps(man, indent=1, ensure_ascii=False), encoding="utf-8")
+-print("wrote suites/academy-a1.json:", [c["id"] for c in cases])
++(HERE / "suites/academy-a2.json").write_text(json.dumps(man, indent=1, ensure_ascii=False), encoding="utf-8")
++print("wrote suites/academy-a2.json:", [c["id"] for c in cases])
+--- A1-runs/a1_run.py	2026-10-20 01:35:58.885392204 +0000
++++ A2-runs/a2_run.py	2026-10-20 02:14:14.255134437 +0000
+@@ -1,5 +1,6 @@
+ #!/usr/bin/env python3
+-"""A1 suite runner, 20 October 2026 (KST): t5_run.py with run label A1 and an expected-HEAD guard.
++"""A2 suite runner, 20 October 2026 (KST): a1_run.py with run label A2, HEAD 11981fc (v1.14.1)
++and three independent samples per case (manifest key "samples"); a case passes only when every sample passes.
+ Session tool, not shipped in any repository.
+ 
+ Runs each case of a suite manifest against a tested model with the repository's
+@@ -31,8 +32,9 @@
+ SUITES = HERE / "suites"
+ OUT = HERE / "out"
+ KST = datetime.timezone(datetime.timedelta(hours=9))
+-RUN = "A1"
+-EXPECTED_HEAD = "e4f3a97"   # AI-Governance-Academy v1.14.0
++RUN = "A2"
++EXPECTED_HEAD = "11981fc"   # AI-Governance-Academy v1.14.1
++REF = "claude/brave-newton-hitgxj (PR #1, unmerged)"
+ SCORER_SYSTEM = (
+     "You score one test case of a published AI instrument. You did not produce the response "
+     "under test. Score strictly against the pass condition and the quoted rule, nothing else. "
+@@ -114,6 +116,7 @@
+ 
+ 
+ def run_case(client, m, sysmsg, c, outdir: Path):
++    sid = f"{c['id']}-s{c['sample']}"
+     msgs, log = [], []
+     for i, turn in enumerate(c["turns"], 1):
+         msgs.append({"role": "user", "content": turn})
+@@ -137,7 +140,7 @@
+         score = json.loads(re.search(r"\{.*\}", raw, re.S).group(0))
+     except Exception:
+         score = {"verdict": "UNSCORABLE", "reasoning": "scorer reply was not JSON", "raw": raw}
+-    score.update({"case": c["id"], "scorer_model": m["scorer_model"],
++    score.update({"case": sid, "scorer_model": m["scorer_model"],
+                   "scorer_model_returned": getattr(s, "model", m["scorer_model"]),
+                   "scorer_stop_reason": s.stop_reason,
+                   "truncated": any(t["stop_reason"] == "max_tokens" for t in log)})
+@@ -145,15 +148,15 @@
+         score["verdict"] = "UNSCORABLE"
+         score["reasoning"] = "tested response truncated at max_tokens; " + score.get("reasoning", "")
+     stamp = datetime.datetime.now(KST).strftime("%Y-%m-%d %H:%M KST")
+-    md = (f"# {m['suite']} {c['id']}\n\n**Tested model:** {m['tested_model']} · **Scorer:** "
++    md = (f"# {m['suite']} {sid}\n\n**Tested model:** {m['tested_model']} · **Scorer:** "
+           f"{m['scorer_model']} (LLM scoring, developer testing, not independent assurance) · "
+           f"**Run:** {RUN}, {stamp} · **max_tokens:** {m.get('max_tokens', 16000)}\n\n"
+           f"**Rule:** {c.get('rule', '')}\n\n**Pass condition:** {c['pass']}\n\n## Transcript\n\n{convo}\n\n"
+           f"## Score\n\n**Verdict: {score.get('verdict')}.** {score.get('reasoning', '')}\n")
+-    (outdir / f"{c['id']}.md").write_text(md, encoding="utf-8")
+-    (outdir / f"{c['id']}.json").write_text(json.dumps({"log": log, "score": score}, indent=1,
++    (outdir / f"{sid}.md").write_text(md, encoding="utf-8")
++    (outdir / f"{sid}.json").write_text(json.dumps({"log": log, "score": score}, indent=1,
+                                                         ensure_ascii=False), encoding="utf-8")
+-    return c["id"], score.get("verdict"), score["truncated"]
++    return sid, score.get("verdict"), score["truncated"]
+ 
+ 
+ def main():
+@@ -190,12 +193,13 @@
+         outdir = OUT / (s["suite"] + (f"-{a.out_suffix}" if a.out_suffix else ""))
+         outdir.mkdir(parents=True, exist_ok=True)
+         sysmsg = system_text(s)
+-        cases = [c for c in s["cases"] if not only_cases or c["id"] in only_cases]
++        cases = [dict(c, sample=k) for c in s["cases"] if not only_cases or c["id"] in only_cases
++                 for k in range(1, s.get("samples", 1) + 1)]
+         print(f"=== {s['suite']} ({len(cases)} cases)", flush=True)
+         results = []
+         with cf.ThreadPoolExecutor(max_workers=a.jobs) as ex:
+             futs = {ex.submit(run_case, client, s, system_text(s, c.get("system_files")) if c.get("system_files") else sysmsg,
+-                              c, outdir): c["id"] for c in cases}
++                              c, outdir): f"{c['id']}-s{c['sample']}" for c in cases}
+             for f in cf.as_completed(futs):
+                 try:
+                     cid, v, tr = f.result()
+@@ -203,15 +207,22 @@
+                     cid, v, tr = futs[f], f"ERROR {type(e).__name__}", False
+                 print(f"  {cid}: {v}{' (truncated)' if tr else ''}", flush=True)
+                 results.append({"case": cid, "verdict": v, "truncated": tr})
+-        summ = {"run": RUN, "suite": s["suite"], "repo": s["repo"], "head": head(repo),
++        by_case = {}
++        for r in results:
++            by_case.setdefault(r["case"].rsplit("-s", 1)[0], []).append(r["verdict"])
++        case_verdicts = {k: ("PASS" if len(v) == s.get("samples", 1) and all(x == "PASS" for x in v) else "FAIL")
++                         for k, v in sorted(by_case.items())}
++        summ = {"run": RUN, "suite": s["suite"], "repo": s["repo"], "head": head(repo), "ref": REF,
++                "samples": s.get("samples", 1),
+                 "system_files": {f: sha(repo / f) for f in sorted(set(s["system_files"] + [x for c in s["cases"] for x in c.get("system_files", [])]))},
+                 "tested_model": s["tested_model"], "scorer_model": s["scorer_model"],
+                 "max_tokens": s.get("max_tokens", 16000),
+                 "finished": datetime.datetime.now(KST).isoformat(timespec="minutes"),
+-                "results": sorted(results, key=lambda r: r["case"])}
++                "results": sorted(results, key=lambda r: r["case"]), "case_verdicts": case_verdicts}
+         (outdir / "summary.json").write_text(json.dumps(summ, indent=1), encoding="utf-8")
+         p = sum(r["verdict"] == "PASS" for r in results)
+-        print(f"  {s['suite']}: {p} of {len(results)} PASS", flush=True)
++        print(f"  {s['suite']}: {p} of {len(results)} samples PASS; "
++              f"{sum(v == 'PASS' for v in case_verdicts.values())} of {len(case_verdicts)} cases PASS", flush=True)
+ 
+ 
+ if __name__ == "__main__":

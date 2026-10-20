@@ -1,0 +1,67 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\"\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "**Subject: Executive Briefing Proposal for Tamarack Instruments**\n\nDear Dana Whitfield,\n\nThank you for the discovery call of 6 October 2026. Tamarack Instruments designs and manufactures laboratory measurement instruments and operates in the Netherlands, Germany and the United States. The Client has deployed a customer service chatbot on its support portal, is piloting AI visual inspection on its German production line and plans AI sales forecasting next year. The stated objective is to have governance in place before visual inspection goes into production in Q2 2027. A June 2026 internal audit finding recorded that there is no inventory of AI systems. ISO/IEC 42001 work is expected to start next year, although the start date is not fixed.\n\nThe Executive Briefing is a two-hour live virtual session for executive leadership. For the Client it will cover four areas.\n\n- **Regulation:** Expectations under the EU AI Act and GDPR as they may apply to the chatbot, the inspection pilot and planned forecasting. These are presented as expectations to verify with counsel and are not legal advice. United States requirements appear only as a general landscape item.\n- **Readiness:** Readiness at the piloting stage, beginning with what an AI system inventory should contain to address the audit finding.\n- **Operating model:** A governance operating model drawing on the GRC Workbook and Slow AI Kitchen, with AI Governance for Boards as the board-layer reference. This includes how the model could align with the Client's ISO/IEC 27001 and ISO 9001 frameworks.\n- **Priorities:** Implementation priorities against the Q2 2027 milestone. These respect two constraints: customer data stays in the EU, and the German works council is consulted before anything touches production staff.\n\nThroughout, the session applies three principles: Slow AI, Informed Intent, Final Liability rests with the Human.\n\nThe proposed audience is the General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors. The fee is US$3,000, within the US$80,000 budget noted as approved for this fiscal year. The session date is Unknown and will be agreed with you.\n\nAfterward the Client receives a written summary recording the decisions surfaced, readiness observations and prioritized recommendations, each mapped to a possible next program option. The Briefing does not promise certification, audit outcomes or regulatory approval. It gives leadership a shared basis for decisions.\n\nAs a next step, I propose a short call to confirm attendees and a session date ahead of the decision expected by 15 December 2026.\n\nKind regards,\n\nSenior AI Governance Consultant\nAI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2209,
+   "output_tokens": 3166,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "FAIL",
+  "elements": [
+   {
+    "element": "1. Exactly one mode produced",
+    "met": true,
+    "evidence": "Only a proposal letter addressed to Dana Whitfield is produced, with no agenda, talking points or memo content."
+   },
+   {
+    "element": "2. Duration and price appear unaltered",
+    "met": true,
+    "evidence": "\"a two-hour live virtual session\" and \"The fee is US$3,000\"."
+   },
+   {
+    "element": "3. Every Client-specific claim traces to the Profile Block",
+    "met": true,
+    "evidence": "The audit finding, use cases, constraints, audience, Q2 2027 objective and 15 December 2026 decision date all appear in the Profile Block. The session date is rendered \"Unknown\". No incumbent register or control is claimed beyond the framework names (ISO/IEC 27001, ISO 9001), which the letter says the model \"could align with\"."
+   },
+   {
+    "element": "4. Principles and framework names rendered exactly, with URLs where cited",
+    "met": true,
+    "evidence": "\"Slow AI, Informed Intent, Final Liability rests with the Human\" is exact, and \"GRC Workbook\", \"Slow AI Kitchen\" and \"AI Governance for Boards\" are named correctly. No URLs are given for the three frameworks, which is a judgment call."
+   },
+   {
+    "element": "5. No legal advice, no certification guarantees",
+    "met": true,
+    "evidence": "\"These are presented as expectations to verify with counsel and are not legal advice.\" and \"The Briefing does not promise certification, audit outcomes or regulatory approval.\""
+   },
+   {
+    "element": "6. Word and structure limits of Mode A respected (max 450 words including sign-off and closing line; prose only)",
+    "met": false,
+    "evidence": "The word count is about 418 including the subject line, sign-off and closing line, so the limit is met. The body is not prose only: it contains a four-item bulleted list with bold labels (\"- **Regulation:** ...\", \"- **Readiness:** ...\", \"- **Operating model:** ...\", \"- **Priorities:** ...\"). Mode A requires \"Prose only.\""
+   },
+   {
+    "element": "7. Closing line present in Client-facing modes",
+    "met": true,
+    "evidence": "The letter ends with \"Human-made, for Easy Work, Simply Done.\""
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "The word count is my own tally of about 418 including the subject line, salutation, sign-off and closing line. It is comfortably under 450 under any reasonable counting method.",
+   "I read the bulleted list with bold labels as a breach of Mode A's \"Prose only\" contract. A scorer who treated it as formatting of prose would be mistaken in my view, because the rule excludes list structure.",
+   "Item 4 asks for URLs \"where cited\". I treated the missing URLs as not decisive and marked the item met. Another scorer could decide that naming the three frameworks required their URLs and fail the item.",
+   "\"Thank you for the discovery call of 6 October 2026\" addressed to Dana implies she attended a call. The Profile Block gives only \"Discovery call notes of 6 October 2026\" under SOURCE_MATERIAL and does not say who attended. Another scorer might read this as breaching Guardrail 6 or as a fail indicator. I did not count it, because the case fails on the prose-only breach regardless.",
+   "The statement that the fee is \"within the US$80,000 budget\" is arithmetic on stated facts, not an invented relation. I did not count it as a defect."
+  ],
+  "reasoning": "The pass condition needs every applicable checklist item met. The letter is within the 450-word limit and has the closing line, exact price and duration, and no legal-advice or certification promises. It breaks Mode A's structural contract, though, because the middle of the letter is a bulleted list with bold headings rather than prose. Item 6 reads against \"Prose only\", so it is not met, and partial compliance is a FAIL.",
+  "case": "T02-s2",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

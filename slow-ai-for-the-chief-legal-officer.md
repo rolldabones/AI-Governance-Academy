@@ -80,7 +80,7 @@ It is to use AI deliberately enough that the organization can answer five questi
 
 Everything else follows from those questions.
 
-The framework beneath this primer is mine, and it is small. Three doctrines: Slow AI, **Informed Intent** and **Final Liability rests with the Human**. One method, the [Slow AI Kitchen](https://github.com/rolldabones/slow-ai-kitchen), with twelve steps, ten gates and one controlling rule: use AI at the speed of human verification, not at the speed of machine generation. And one question about the choices an organization keeps open, **GRCnext™**. It works with any model and under whatever standard the organization has adopted, whether ISO, COSO, NIST or another.
+The framework beneath this primer is mine, and it is small. Three doctrines: Slow AI, **Informed Intent** and **Final Liability rests with the Human**. One method, the [Slow AI Kitchen](https://github.com/rolldabones/slow-ai-kitchen), with twelve steps, ten gates and one controlling rule: use AI at the speed of human verification, not at the speed of machine generation. And one question about the choices an organization keeps open, **GRCnext™**. It works with any model and under whatever standard the organization has adopted, whether that of the International Organization for Standardization (ISO), the Committee of Sponsoring Organizations of the Treadway Commission (COSO), the National Institute of Standards and Technology (NIST) or another.
 
 Sections 1 to 13 each end with one thing to ask to see. If the record exists, read it. If it does not, that is the finding.
 
@@ -253,7 +253,7 @@ Those statements may describe what happened.
 
 They do not answer who was responsible for allowing it to happen.
 
-Somewhere in every consequential chain of action there should be an identifiable human principal with decision rights, oversight and the power to intervene, named before the work begins.
+Somewhere in every consequential chain of action there should be a human owner with decision rights, oversight and the power to intervene, named before the work begins.
 
 In the Slow AI Kitchen this is Gate 5. If no one owns the outcome, the process stops. And the Owner cannot be the AI.
 
@@ -553,7 +553,7 @@ Then train and educate, which are different jobs. The lawyers need training: eno
 
 Legal should demonstrate governed adoption, not merely prescribe it to everyone else.
 
-**Ask to see:** the legal department's own entries in the register and one piece of AI-assisted legal work with its review record. The build detail for a legal organization is in the [Law Firm AI Deployment Spec v2](law-firm-ai-deployment-spec.md), and the verification discipline is in [*Sounds Good*](sounds-good.md).
+**Ask to see:** the legal department's own entries in the register and one piece of AI-assisted legal work with its review record. The build detail for a legal organization is in the [*Law Firm AI Deployment Spec v2*](law-firm-ai-deployment-spec.md), and the verification discipline is in [*Sounds Good*](sounds-good.md).
 
 ---
 
@@ -683,7 +683,7 @@ Before consequential AI is deployed, the CLO should be able to ask the five open
 2. What exactly may the AI do, and on whose authority?
 3. Where are its boundaries, and what is the exit?
 4. What evidence will tell us whether it is working as intended?
-5. Which named human owns the outcome, with the decision rights, oversight and power to intervene?
+5. Which named human owns the outcome, with decision rights, oversight and the power to intervene?
 
 And one more, asked again every time the system changes:
 

@@ -1,6 +1,6 @@
 # AI Governance Academy
 
-Version 1.13.1 | 2026-10-19 | Status: final | Model-agnostic
+Version 1.14.3 | 2026-10-20 | Status: final (known limitation and test status open; see Purpose) | Model-agnostic
 
 This repository has two halves. The first is the Client Content Prompt Pack: eight prompt templates that generate Client-specific sales and delivery content for the AI Governance Academy program options. The second is the Publications: six client-facing pieces, from an essay on how to characterize AI output to a working vocabulary for reading discovery claims, published here as the text of record. The halves share one version number, one license and one closing line.
 
@@ -8,9 +8,11 @@ This repository has two halves. The first is the Client Content Prompt Pack: eig
 
 ### Purpose
 
-This pack contains prompt templates for generating Client-specific sales and delivery content for each of the seven AI Governance Academy program options. Every template is model-agnostic: plain-text instruction blocks, no vendor-specific features, no tool calls assumed. Paste into any capable LLM.
+This pack contains prompt templates for generating Client-specific sales and delivery content for each of the seven AI Governance Academy program options. Every template is model-agnostic: plain-text instruction blocks, no vendor-specific features, no tool calls assumed. Paste into any capable large language model (LLM).
 
 **Known limitation, open.** The program spines (workshop blocks, session counts, weekly sequence) are structural inferences pending verification against actual delivery design, as recorded in the first release. Verification of 18 October 2026 (KST): checked that each spine agrees with its template's Output Modes, Acceptance Checklist and the durations and prices in the Contents table, and that template 06's evidence collection starts by Week 8; not checked against any delivered program, because the repository holds no delivery record. The limitation stays open until that check is made.
+
+**Test status, open.** No template at this version is accepted under [tests.md](tests.md): in runs A2 and A3 of 20 October 2026 (KST), three samples per case, the model still inferred relations between Client facts the Profile Block does not state (known defect K5) and used lists in template 02's prose-only letter (K6). These residual defects are controlled at Workflow item 5, by the human who verifies each output before it reaches the Client.
 
 ### Contents
 
@@ -44,11 +46,11 @@ GRCnext™: [GRCnext-Copilot](https://github.com/rolldabones/GRCnext-Copilot) an
 
 ### Workflow
 
-1. Run 01-client-intake.md against raw Client information (notes, emails, RFP text, discovery call transcript). Output is a fenced **Client Profile Block**.
+1. Run 01-client-intake.md against raw Client information (notes, emails, request for proposal (RFP) text, discovery call transcript). Output is a fenced **Client Profile Block**.
 2. Open the template for the program option under discussion.
-3. Paste the Client Profile Block into the Required Inputs section.
+3. Supply the Client Profile Block: paste it into the Required Inputs section in place of `{{CLIENT_PROFILE_BLOCK}}`, or give the template's prompt section as the system prompt and the Profile Block as the user message. The test cases in [tests.md](tests.md) use the second form.
 4. Select exactly one OUTPUT MODE per run.
-5. Run. Verify against the numbered Acceptance Checklist at the bottom of each template before sending anything to the Client.
+5. Run. Before sending anything to the Client, verify the output against the numbered Acceptance Checklist at the bottom of the template and against its Guardrails, and remove or render `Unknown` any Client fact or relation the Profile Block does not state. This check is the control for the residual defects recorded in [tests.md](tests.md).
 
 A labeled-fictional Client file for trying the workflow is in [examples/fictional-client.md](examples/fictional-client.md); the test cases built on it are in [tests.md](tests.md).
 
@@ -65,7 +67,10 @@ A labeled-fictional Client file for trying the workflow is in [examples/fictiona
 - The three principles are always rendered exactly: Slow AI, Informed Intent, Final Liability rests with the Human.
 - The closing line "Human-made, for Easy Work, Simply Done." appears once at the end of Client-facing documents.
 
-### Style Rules Inherited by Every Template
+### Style Rules Carried by Every Program Template
+
+Templates 02 to 08 state these rules in their own Style Rules, because a model sees only the prompt section. Template 01 returns a fenced block and no prose.
+
 
 - Professional prose. No em dashes. No Oxford commas. No emojis. No hashtags.
 - Capitalize Client throughout.
@@ -80,33 +85,33 @@ Six client-facing publications sit beside the templates, each the text of record
 |---|---|---|---|---|---|
 | [sounds-good.md](sounds-good.md) | *Sounds Good* | 9 July 2026 | essay | 2,200 | none |
 | [the-turtle-and-the-phoenix.md](the-turtle-and-the-phoenix.md) | *The Turtle and the Phoenix* | 30 July 2026 | teaching fable with facilitation kit | 7,200 | none |
-| [law-firm-ai-deployment-spec.md](law-firm-ai-deployment-spec.md) | *Law Firm AI Deployment Spec v2* | 22 August 2026 | specification | 3,900 | Seth Fenster's LinkedIn post, credited as Version 1 |
+| [law-firm-ai-deployment-spec.md](law-firm-ai-deployment-spec.md) | *Law Firm AI Deployment Spec v2* | 22 August 2026 | specification | 4,000 | Seth Fenster's LinkedIn post, credited as Version 1 |
 | [slow-ai-for-the-chief-legal-officer.md](slow-ai-for-the-chief-legal-officer.md) | *Slow AI for the Chief Legal Officer* | 6 October 2026 | primer | 7,400 | I by IMD article by Mezzano, Trantopoulos and Wade |
 | [the-compression-and-the-harness.md](the-compression-and-the-harness.md) | *The Compression and the Harness* | 12 October 2026 | discussion piece | 7,800 | Stephen Wolfram's interview with Jon Hernandez |
 | [the-map-and-the-pair.md](the-map-and-the-pair.md) | *The Map and the Pair* | 15 October 2026 | discussion piece | 10,800 | OpenAI's openai/math release of October 2026 |
 
-The date is the masthead date of first publication; *The Map and the Pair* is in its second edition, revised the same day, and the CHANGELOG entries of 15 October 2026 record the changes. Words are counted with `wc -w` at v1.13.0 and rounded to the nearest hundred.
+The date is the masthead date of first publication; *The Map and the Pair* is in its second edition, revised the same day, and the CHANGELOG entries of 15 October 2026 record the changes. The story of *The Turtle and the Phoenix* is also published as an essay at https://redcaps.substack.com/p/the-turtle-and-the-phoenix; the file here adds the facilitation kit. Words are counted with `wc -w` at v1.14.0 and rounded to the nearest hundred.
 
 ### How to cite a publication
 
-> Paik, Son-U Michael. *Sounds Good*. In AI Governance Academy, v1.13.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/sounds-good.md
+> Paik, Son-U Michael. *Sounds Good*. In AI Governance Academy, v1.14.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/sounds-good.md
 
-> Paik, Son-U Michael. *The Turtle and the Phoenix*. In AI Governance Academy, v1.13.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md
+> Paik, Son-U Michael. *The Turtle and the Phoenix*. In AI Governance Academy, v1.14.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md
 
-> Paik, Son-U Michael. *Law Firm AI Deployment Spec v2*. In AI Governance Academy, v1.13.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/law-firm-ai-deployment-spec.md
+> Paik, Son-U Michael. *Law Firm AI Deployment Spec v2*. In AI Governance Academy, v1.14.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/law-firm-ai-deployment-spec.md
 
-> Paik, Son-U Michael. *Slow AI for the Chief Legal Officer*. In AI Governance Academy, v1.13.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/slow-ai-for-the-chief-legal-officer.md
+> Paik, Son-U Michael. *Slow AI for the Chief Legal Officer*. In AI Governance Academy, v1.14.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/slow-ai-for-the-chief-legal-officer.md
 
-> Paik, Son-U Michael. *The Compression and the Harness*. In AI Governance Academy, v1.13.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-compression-and-the-harness.md
+> Paik, Son-U Michael. *The Compression and the Harness*. In AI Governance Academy, v1.14.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-compression-and-the-harness.md
 
-> Paik, Son-U Michael. *The Map and the Pair*. In AI Governance Academy, v1.13.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-map-and-the-pair.md
+> Paik, Son-U Michael. *The Map and the Pair*. In AI Governance Academy, v1.14.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-map-and-the-pair.md
 
 ## Part of the ecosystem
 
 This pack is one component of a larger body of AI governance, risk management and compliance work. The canonical map of all repositories is [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md) in the profile repository.
 
 Nearest neighbors:
-- [grc-workbook](https://github.com/rolldabones/grc-workbook): framework constant in every template; the build instrument the Guided AI GRC Build program delivers
+- [grc-workbook](https://github.com/rolldabones/grc-workbook): framework constant in every program template; the build instrument the Guided AI GRC Build program delivers
 - [slow-ai-kitchen](https://github.com/rolldabones/slow-ai-kitchen): framework constant; the method the Practitioner Academy teaches. Its Consultant Workbook engagement, One Workflow, Thirty Days, is template 08 of this pack and carries no published price
 - [ai-governance-for-boards](https://github.com/rolldabones/ai-governance-for-boards): framework constant; the board-layer handbook cited where the audience includes directors
 - [definition-of-done](https://github.com/rolldabones/definition-of-done): framework constant; the acceptance-layer doctrine cited where the engagement covers task-level acceptance discipline
@@ -114,7 +119,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.13.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
+> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.14.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

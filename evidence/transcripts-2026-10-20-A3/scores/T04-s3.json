@@ -1,0 +1,68 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "# Proposal: Practitioner Academy for Tamarack Instruments\n\n**To:** Dana Whitfield, General Counsel (budget holder)\n**Program:** Practitioner Academy, AI Governance Academy\n**Basis:** Client Profile Block v1.0 and discovery call notes of 6 October 2026\n\n## 1. Situation Summary\n\nTamarack Instruments designs and manufactures laboratory measurement instruments. It has about 1,100 staff, is headquartered in the Netherlands and operates in the Netherlands, Germany and the United States. The Client has three AI use cases at different stages:\n\n- **Deployed:** a customer service chatbot on the support portal.\n- **Piloting:** AI visual inspection on the German production line.\n- **Planned:** AI sales forecasting next year.\n\nThe Client describes its AI maturity as Piloting. The regulatory drivers it names are the EU AI Act and GDPR. ISO/IEC 42001 work is targeted to start next year, but the start date is not fixed.\n\nAn internal audit finding in June 2026 recorded that no inventory of AI systems exists. Your stated objective is clear: \"I want governance in place before visual inspection goes into production in Q2 2027.\"\n\nThree constraints shape this proposal:\n\n- Customer data must stay in the EU.\n- The German works council must be consulted before anything touches production staff.\n- Budget is approved up to US$80,000 this fiscal year.\n\nThe Client lists ISO/IEC 27001 and ISO 9001 as incumbent frameworks. The specific registers, procedures and records the Client holds under them are Unknown. They will be confirmed during pre-work rather than assumed here.\n\n## 2. Why Hands-On Practitioner Capability Fits Now\n\nThe gap named by internal audit is practical: there is no inventory. The deadline you have set is also practical: governance must be in place before visual inspection reaches production. Both call for practitioners who can build and maintain governance artifacts themselves rather than receive them from outside.\n\nThe Practitioner Academy puts your participants directly inside two open frameworks:\n\n- GRC Workbook (https://github.com/rolldabones/grc-workbook)\n- Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen)\n\nParticipants leave with started artifacts and the knowledge of where each one lives. The named audience covers the functions this work depends on:\n\n- General Counsel\n- CISO\n- Head of Quality\n- Head of Data\n- German plant manager\n- Two internal auditors\n\nThe program is anchored in three principles: Slow AI, Informed Intent, Final Liability rests with the Human.\n\n## 3. Running Worked Examples\n\nWe have selected three of the Client's use cases as working material across both days.\n\n1. **AI visual inspection (primary).** This is the system tied to your Q2 2027 objective. It also carries the works council dependency, so it is the clearest test of governance before production.\n2. **Customer service chatbot (secondary).** It is the only deployed system. It exercises GDPR considerations and the EU data residency constraint.\n3. **AI sales forecasting (inventory and classification only).** It shows how a planned system enters the inventory before it is built.\n\n**Data handling.** All exercises use sanitized analogs: synthetic support queries, fictional defect scenarios and invented forecast inputs. No customer data, production system or production staff working arrangement is used or changed during the program. The status of works council consultation on visual inspection is Unknown. The artifacts therefore treat consultation as an explicit dependency.\n\n## 4. Two-Day Curriculum Spine\n\nThe program runs over two days. Each day has four 90-minute working sessions.\n\n**Day 1 seats the doctrine.** The first session opens with the teaching fable *The Turtle and the Phoenix*, told from its facilitation kit (https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md). The kit's handle map bridges the story to the GRC Workbook modules, and its twenty-minute closing exercise ends Session 1. This seats the doctrine before the Day 2 instruments arrive.\n\n### Day 1: GRC Workbook (https://github.com/rolldabones/grc-workbook)\n\n| Session | Exercise | Module | Artifact |\n|---|---|---|---|\n| 1 | Map decision rights for moving visual inspection from pilot to production. Accountable individuals are marked Unknown until the Client assigns them. | Governance structures | Draft decision-rights and roles map |\n| 2 | Enter the chatbot, visual inspection and sales forecasting as inventory records. Draft EU AI Act classification hypotheses for legal review. | AI system inventories and classification | Started AI system inventory (three entries) |\n| 3 | Assess risks and impacts for visual inspection and the chatbot. Cover the works council dependency, GDPR and EU data residency. | Risk and impact assessments | Draft risk register entries |\n| 4 | Draft an operating procedure for introducing an AI system to a production line. Include a works council consultation gate. | Policies and operating procedures | Draft operating procedure |\n\n### Day 2: Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen) plus assurance\n\n| Session | Exercise | Pattern or reference | Artifact |\n|---|---|---|---|\n| 5 | Design governed prompts for chatbot responses and escalation, using synthetic support queries. | Governed prompting pattern | Governed prompt set with stated intent and version |\n| 6 | Build a defect-review workflow for visual inspection, with the works council gate as a precondition to production use. | Practical AI workflow design pattern | Governed workflow 1 (visual inspection) and governed workflow 2 (chatbot escalation, from Session 5) |\n| 7 | Place oversight points, override and stop rights, and a named accountable role for each workflow. | Human oversight and accountability pattern, with acceptance criteria from The Definition of Done (https://github.com/rolldabones/definition-of-done) | Oversight and accountability map |\n| 8 | Define the evidence each artifact must generate. Prepare a summary structure for board reporting. | Evidence collection and audit readiness, with board-layer reference AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards) | Evidence index and audit-readiness checklist |\n\n## 5. Deliverables\n\nParticipants leave with:\n\n- A started AI system inventory covering the Client's three named use cases.\n- Draft risk register entries for visual inspection and the chatbot.\n- At least two governed workflows.\n- The supporting artifacts listed above.\n\nThese are drafts for the Client to complete and own. They are a starting response to the June 2026 audit finding, not a closure of it. They may inform later ISO/IEC 42001 work. This proposal makes no promise of any certification or audit outcome.\n\n## 6. Logistics and Price\n\n| Item | Detail |\n|---|---|\n| Format | Live virtual, two days, four 90-minute working sessions per day |\n| Participants | The roles listed in Section 2. Individual names are Unknown. |\n| Delivery dates | Unknown |\n| Price | US$12,500, within the stated budget ceiling of US$80,000 for this fiscal year |\n\n## 7. Next Step\n\nPlease confirm your decision by 15 December 2026. On confirmation, we will:\n\n1. Agree delivery dates against the Q2 2027 target.\n2. Confirm participant names.\n3. Issue the pre-work packet, which asks participants to bring their area's AI systems, relevant existing policies and one live workflow they want governed.\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2843,
+   "output_tokens": 5889,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "FAIL",
+  "elements": [
+   {
+    "element": "1. Exactly one mode produced",
+    "met": true,
+    "evidence": "Only a Mode A proposal addressed to the sponsor is produced: situation summary, rationale, worked examples, curriculum spine, deliverables, logistics and price, next step."
+   },
+   {
+    "element": "2. Eight-session spine preserved with Day 1 and Day 2 emphases intact",
+    "met": true,
+    "evidence": "Sessions 1-4 are GRC Workbook (governance structures, inventories and classification, risk and impact, policies and procedures). Sessions 5-8 are Slow AI Kitchen plus assurance (governed prompting, workflow design, oversight and accountability, evidence and audit readiness). The fable is placed on Day 1 before the Day 2 instruments."
+   },
+   {
+    "element": "3. Duration and price unaltered",
+    "met": true,
+    "evidence": "\"Live virtual, two days, four 90-minute working sessions per day\"; \"US$12,500\"."
+   },
+   {
+    "element": "4. Every exercise names its repository asset and its produced artifact",
+    "met": false,
+    "evidence": "All eight table exercises name a module or pattern and an artifact. The proposal also names the kit's exercise: \"its twenty-minute closing exercise ends Session 1\". It states no artifact for that exercise and no workbook module. The Session 5 and 6 patterns are named only by curriculum topic (\"Governed prompting pattern\")."
+   },
+   {
+    "element": "5. Worked examples trace to AI_USE_CASES",
+    "met": true,
+    "evidence": "The chatbot, visual inspection and sales forecasting are all drawn from AI_USE_CASES, with the selection and reasons stated in Section 3."
+   },
+   {
+    "element": "6. Confidentiality handling explicit",
+    "met": true,
+    "evidence": "\"All exercises use sanitized analogs: synthetic support queries, fictional defect scenarios and invented forecast inputs. No customer data, production system or production staff working arrangement is used or changed.\""
+   },
+   {
+    "element": "7. Closing line present",
+    "met": true,
+    "evidence": "Ends with \"Human-made, for Easy Work, Simply Done.\""
+   }
+  ],
+  "fail_indicators_seen": [
+   "A fact about the Client that the input does not contain is presented as fact: the proposal asserts that visual inspection \"carries the works council dependency\", and Sessions 3, 4 and 6 build a works council gate for it. The Profile Block says only that the works council is consulted \"before anything touches production staff\". It does not state that visual inspection does. This is an inferred relation between facts, contrary to Guardrail 6.",
+   "The proposal says the chatbot \"exercises GDPR considerations and the EU data residency constraint\". The Profile Block does not say the chatbot processes customer data. This is another inferred relation between facts."
+  ],
+  "judgment_calls": [
+   "Whether the kit's twenty-minute closing exercise counts as an exercise the proposal \"names\" for checklist item 4. I counted it, so item 4 fails on a strict reading. Another scorer could treat it as part of the fable slot and mark item 4 met.",
+   "Whether the works council and chatbot data-residency linkages are a Guardrail 6 violation or reasonable framing. The response hedged by marking the status of consultation Unknown, but it still asserts the dependency as fact. I scored it a fail indicator. Another scorer could read it as a tolerable planning assumption.",
+   "Whether naming Slow AI Kitchen patterns by curriculum topic (\"Governed prompting pattern\") satisfies \"specific pattern\". I accepted it as sufficient."
+  ],
+  "reasoning": "The structure, price, duration, closing line and sanitization handling are all correct. The case still fails under the rule that partial compliance is a FAIL. The proposal presents unstated relations as fact, namely that visual inspection falls under the works council constraint and that the chatbot handles customer data. It also names the kit's twenty-minute closing exercise without giving an artifact or repository module, which item 4 requires of any exercise the proposal names.",
+  "case": "T04-s3",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

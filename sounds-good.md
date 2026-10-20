@@ -75,7 +75,7 @@ Fine-tuning on domain data shifts which claims are well represented, improving a
 
 ## 5. Professional Obligations and Operational Rules
 
-Professional duty frameworks have already absorbed this analysis. The American Bar Association's Formal Opinion 512 provides that lawyers using generative AI must satisfy their duties of competence, confidentiality, communication and candor, and that the degree of independent verification required depends on the tool and the task, with the constant that the tool cannot substitute for the professional's own competent work. The NIST AI Risk Management Framework and its Generative AI Profile likewise treat confabulation as a distinct risk category requiring governance controls rather than a defect awaiting a technical fix. The common principle across these authorities is that fluency shifts none of the verification burden.
+Professional duty frameworks have already absorbed this analysis. The American Bar Association's Formal Opinion 512 provides that lawyers using generative AI must satisfy their duties of competence, confidentiality, communication and candor, and that the degree of independent verification required depends on the tool and the task, with the constant that the tool cannot substitute for the professional's own competent work. The National Institute of Standards and Technology (NIST) AI Risk Management Framework and its Generative AI Profile likewise treat confabulation as a distinct risk category requiring governance controls rather than a defect awaiting a technical fix. The common principle across these authorities is that fluency shifts none of the verification burden.
 
 The following operational rules translate the analysis into practice:
 
@@ -93,7 +93,7 @@ Two cautions apply to the use of this framing. First, it should not be overstate
 
 ## 7. Conclusion
 
-It is accurate, and technically grounded, to characterize AI outputs as "sounding good" rather than being right. The systems are optimized to produce plausible text, correctness is a byproduct rather than a property, and every augmentation now on the market wraps rather than replaces that mechanism. The professional consequence is constant across configurations: verification is a human obligation that attaches wherever generated content enters the work product, and no degree of fluency, grounding or autonomy transfers that obligation to the machine.
+It is accurate, and technically grounded, to characterize AI outputs as "sounding good" rather than being right. The systems are optimized to produce plausible text, correctness is a byproduct rather than a property and every augmentation now on the market wraps rather than replaces that mechanism. The professional consequence is constant across configurations: verification is a human obligation that attaches wherever generated content enters the work product, and no degree of fluency, grounding or autonomy transfers that obligation to the machine.
 
 ---
 

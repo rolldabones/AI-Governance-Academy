@@ -1,0 +1,75 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "# One Workflow, Thirty Days: Proposal to Tamarack Instruments\n\nPrepared for Dana Whitfield, General Counsel and Sponsor\n\n## Situation\n\nTamarack Instruments designs and manufactures laboratory measurement instruments and operates in the Netherlands, Germany and the United States. The Client's AI use is spread across three stages. A customer service chatbot is deployed on the support portal. AI visual inspection is being piloted on the German production line. AI sales forecasting is planned for next year.\n\nYour stated objective is direct: \"I want governance in place before visual inspection goes into production in Q2 2027.\" Three facts shape that objective. An internal audit finding of June 2026 recorded that the Client has no inventory of AI systems. The EU AI Act and GDPR are the regulatory drivers. Work toward ISO/IEC 42001 is expected to start next year, though its start date is not fixed. The Client has also stated three constraints: an approved budget for this fiscal year, customer data staying in the EU and consultation with the German works council before anything touches production staff. This proposal draws on the discovery call notes of 6 October 2026 with Dana Whitfield, Ravi Okafor and Ingrid Solberg. The roles of Ravi Okafor and Ingrid Solberg are `Unknown`.\n\n## The Workflow We Propose\n\nWe propose AI visual inspection on the German production line as the one workflow for the engagement. It is the workflow your objective names. It also fits the Client's maturity: at the piloting stage, the AI is in use but not yet in production. That is the point where a matched baseline and supervised AI cases can show whether the workflow should expand, be revised or stop before production depends on it.\n\nIt also fits your decision timeline. A decision on the engagement is expected by 15 December 2026. The Day 30 sponsor decision would then rest on evidence gathered before the production date you have set. The calendar date of Day 30 depends on a start date that is `Unknown` and will be fixed in the W01 charter.\n\nThe deployed chatbot is a credible alternative candidate. Both will be considered when the final selection is made in W02 against the Workbook's benefit scale. W02 scores each candidate on four factors: volume, active human effort per unit, rework and queue burden and the consequence of better or faster output. This proposal recommends a workflow. It does not make the selection.\n\nOne condition comes first. The Client requires German works council consultation before anything touches production staff. The status of that consultation is `Unknown`. If visual inspection is selected, it must be settled before the bounded rehearsal begins.\n\n## How the Thirty Days Run\n\nThe engagement follows the Consultant Workbook (https://github.com/rolldabones/slow-ai-kitchen/blob/main/consultant-workbook.md) and its thirty-day calendar. Elapsed days fall on Client working days. The Workbook plans the calendar for one workflow with five to six interviewees and 20 cases. That is the Workbook's planning default and not a headcount for this engagement.\n\n**Days 1 to 5 (scope, W01 to W05 and W15 started).** We agree the charter and select the workflow. We set the W15 thresholds the results will be judged against. For Tamarack Instruments, this period confirms the business owner of the workflow, its operators and reviewers, the technical owner and the receiving owner at handover. The Profile names the General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors. Which of them holds each of these roles is `Unknown` and will be recorded in W01.\n\n**Days 6 to 10 (bounded rehearsal authorized, W06 to W11, W12 and W22).** The rehearsal is authorized only within limits the Client signs. Here the emphasis is on the works council condition. If the inspection system or its records involve personal data, data handling also needs attention here. Whether they do is `Unknown`.\n\n**Days 11 to 20 (matched baseline and supervised AI cases, W13 to W19, sponsor reports at Days 15 and 20).** Cases worked without the AI are matched against supervised AI cases. You receive sponsor reports at Days 15 and 20. Each report informs a decision but is not one.\n\n**Days 21 to 25 (evidence challenged, W17 and W19 to W22 current).** The results record and the account of what failed and what was done are brought current and tested.\n\n**Days 26 to 30 (independent challenge, sponsor decision and handover, W23 and W24 signed).** The recommendation is independently challenged before you and the accountable owner sign the decision and the handover. Who performs the independent challenge is `Unknown` and will be named in W01.\n\n## Deliverables\n\nThe engagement produces five signed records:\n\n- the signed W01 charter\n- the evidence register and decision pack (W14)\n- the results record (W17)\n- the Day 30 recommendation and decision (W23)\n- the handover (W24) to the named receiving owner\n\nEach records what was done to one workflow and what the evidence showed. Because the engagement covers one workflow, it does not produce the AI system inventory the June 2026 audit finding calls for. The records do give a documented account of one AI system that the Client may use when it addresses that finding.\n\n## The Day 30 Decision\n\nOn Day 30 you decide on the evidence. The decision is one of three: expand the specified scope, revise or stop. We do not promise which outcome the evidence will support. A stop decision based on evidence is a valid result of the engagement. The engagement works under the principles of Slow AI, Informed Intent and Final Liability rests with the Human. The decision and its accountability remain with the Client.\n\n## Frameworks and Obligations\n\nThe engagement draws on the GRC Workbook (https://github.com/rolldabones/grc-workbook) and the Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen). For board reporting, AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards) is the reference. For acceptance, The Definition of Done (https://github.com/rolldabones/definition-of-done) is the reference.\n\nThe Client runs an ISO/IEC 27001 ISMS and an ISO 9001 quality management system. The engagement's records are intended to sit as evidence within those systems rather than duplicate them. The specific registers, processes or records they would attach to are `Unknown` until the Client identifies them. The records may also inform the planned ISO/IEC 42001 work. No certification or audit outcome is promised.\n\nRegulatory content in this engagement is orientation and not legal advice. Three questions should go to external counsel:\n\n- how the visual inspection system is classified under the EU AI Act\n- whether it processes personal data under GDPR\n- the scope of German works council consultation\n\n## Logistics\n\nDelivery runs on Client working days across the five periods above, with sponsor reports at Days 15, 20 and 28. Where the work takes place and how evidence is accessed are `Unknown` and will be fixed in W01. Price and headcount are by proposal and will be set against the budget constraint the Client has stated.\n\n## Next Step\n\nWe ask you to review this proposal ahead of the 15 December 2026 decision. If you proceed, the next step is to confirm four things:\n\n- a start date\n- the sponsor and business owner who will sign W01\n- the status of works council consultation\n- the evidence access the engagement will need\n\nWe will then send the pre-work packet so that Day 1 begins with the inputs in hand.\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 3473,
+   "output_tokens": 4942,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "FAIL",
+  "elements": [
+   {
+    "element": "Item 1: exactly one mode produced",
+    "met": true,
+    "evidence": "Only a Mode A proposal to Dana Whitfield is produced, with no other mode content."
+   },
+   {
+    "element": "Item 2: five-period spine and Day 30 decision preserved",
+    "met": true,
+    "evidence": "All five periods are named exactly, from 'Days 1 to 5 (scope, W01 to W05 and W15 started)' to 'Days 26 to 30 (independent challenge, sponsor decision and handover, W23 and W24 signed)'. The Day 30 section states 'expand the specified scope, revise or stop'."
+   },
+   {
+    "element": "Item 3: duration unaltered; price and headcount by proposal, no figure",
+    "met": true,
+    "evidence": "'Price and headcount are by proposal and will be set against the budget constraint the Client has stated.' The US$80,000 budget figure is not restated, and the 'five to six interviewees and 20 cases' is cited as the Workbook's planning default."
+   },
+   {
+    "element": "Item 4: every Client-specific claim traces to the Profile Block",
+    "met": true,
+    "evidence": "Unstated relations are rendered Unknown: 'The roles of Ravi Okafor and Ingrid Solberg are `Unknown`'; 'The status of that consultation is `Unknown`'; the registers and records within the ISO systems are `Unknown`. No incumbent artifact beyond the framework names is asserted."
+   },
+   {
+    "element": "Item 5: principles and framework names exact; URLs where cited",
+    "met": true,
+    "evidence": "'Slow AI, Informed Intent and Final Liability rests with the Human'. The GRC Workbook, Slow AI Kitchen, AI Governance for Boards and The Definition of Done are each given with their URLs."
+   },
+   {
+    "element": "Item 6: every W-record cited exists (W01 to W24A)",
+    "met": true,
+    "evidence": "The records cited are W01, W02, W05, W06, W11, W12, W13, W14, W15, W17, W19, W22, W23 and W24, all within W01 to W24A."
+   },
+   {
+    "element": "Item 7: decision items touching regulation carry the external counsel note",
+    "met": true,
+    "evidence": "'Regulatory content in this engagement is orientation and not legal advice. Three questions should go to external counsel' covers EU AI Act classification, GDPR and works council scope."
+   },
+   {
+    "element": "Item 8: closing line present",
+    "met": true,
+    "evidence": "The response ends 'Human-made, for Easy Work, Simply Done.'"
+   },
+   {
+    "element": "Item 9: Mode A is prose only (no bullet lists, numbered lists or tables)",
+    "met": false,
+    "evidence": "The Deliverables section has a five-item bullet list beginning '- the signed W01 charter'. The Frameworks and Obligations section has a three-item bullet list beginning '- how the visual inspection system is classified under the EU AI Act'. The Next Step section has a four-item bullet list beginning '- a start date'."
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "The 'Decision expected by 15 December 2026' field is read by the response as the decision on the engagement. A stricter scorer might see an inferred relation (Guardrail 6), but it is not needed for the verdict.",
+   "Calling all five deliverables 'signed records' could be read as an overstatement, since the Workbook may not have W14 and W17 signed. It does not change the verdict.",
+   "The prose-only breach is unambiguous, so no judgment is needed on item 9."
+  ],
+  "reasoning": "Mode A requires 'Prose only: paragraphs under section headings, with no bullet lists, numbered lists or tables', and checklist item 9 repeats it. The response uses bullet lists in three sections (Deliverables, the counsel questions and Next Step). The pass condition requires every applicable item to be met, so a single unmet item fails the case. Items 1 to 8 are met, and none of the three listed fail indicators appear, but item 9 fails and the verdict is FAIL.",
+  "case": "T08-s1",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

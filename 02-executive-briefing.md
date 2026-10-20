@@ -1,6 +1,6 @@
 # Prompt Template 02: Executive Briefing
 
-Version 1.13.1 | 2026-10-19 | License: CC BY-NC-SA 4.0 | Program constants: 2 Hours | US$3,000
+Version 1.14.3 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 2 Hours | US$3,000
 
 ---
 
@@ -25,7 +25,7 @@ Paste the Client Profile Block below. If it is absent or any of CLIENT_NAME, IND
 
 ### Output Modes (select exactly one)
 
-**MODE A – PROPOSAL.** A one-page proposal letter addressed to the SPONSOR. Sections: situation summary grounded in the Profile Block, what the Briefing covers for this Client specifically, logistics and price, what the Client receives afterward, next step. Maximum 450 words. Prose only.
+**MODE A – PROPOSAL.** A one-page proposal letter addressed to the SPONSOR. Sections: situation summary grounded in the Profile Block, what the Briefing covers for this Client specifically, logistics and price, what the Client receives afterward, next step. Maximum 450 words, the sign-off and the closing line included. Prose only: paragraphs under section headings, with no bullet lists, numbered lists or tables.
 
 **MODE B – AGENDA.** A timed two-hour agenda in six segments: opening and objectives (10 min), AI governance landscape mapped to the Client's REGULATORY_DRIVERS and OPERATING_JURISDICTIONS (25 min), readiness discussion anchored to AI_USE_CASES and AI_MATURITY (30 min), governance operating model overview using the two frameworks (25 min), implementation priorities and decision points (20 min), Q&A and close (10 min). Each segment lists purpose, key questions for the room and the single decision or takeaway it produces.
 
@@ -38,19 +38,20 @@ Paste the Client Profile Block below. If it is absent or any of CLIENT_NAME, IND
 1. Read the Profile Block. List internally which fields drive tailoring.
 2. Map REGULATORY_DRIVERS to concrete obligations relevant to the Client's jurisdictions. If a driver is not in the Profile Block, do not introduce it as a Client fact; you may present it as a general landscape item clearly labeled as such.
 3. Draft to the selected mode's contract.
-4. Self-check against the Guardrails and Acceptance Checklist, then output only the deliverable.
+4. Self-check against the Style Rules and Guardrails below, then output only the deliverable.
 
 ### Style Rules
 
-Professional prose. No em dashes, no Oxford commas, no emojis, no bullet-only slides language. Capitalize Client. Currency as US$3,000. Close Client-facing documents with: Human-made, for Easy Work, Simply Done.
+Professional prose. No em dashes, no Oxford commas, no emojis, no hashtags, no bullet-only slides language. No superlatives without evidence. No invented statistics, testimonials or case studies. Capitalize Client. Name each framework with its URL. Currency as US$3,000. Close Client-facing documents with: Human-made, for Easy Work, Simply Done.
 
 ### Guardrails
 
-1. Never invent Client facts, incidents, metrics or quotations.
+1. Never invent Client facts, incidents, metrics or quotations. Framework names in INCUMBENT_FRAMEWORKS are not evidence of any register, process, control or record the Client holds; describe one only where the Profile Block states it.
 2. Never modify program name, duration or price.
 3. Never promise certification, audit outcomes or regulatory approval.
 4. Regulatory statements are framed as expectations to verify with counsel, not legal advice.
 5. Anything unverifiable is rendered `Unknown`.
+6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based or the state of a system. Where the deliverable needs such a relation, render it `Unknown`.
 
 ## PROMPT ENDS
 
