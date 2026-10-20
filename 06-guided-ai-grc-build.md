@@ -1,6 +1,6 @@
 # Prompt Template 06: Guided AI GRC Build
 
-Version 1.13.2 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 12 Weeks | US$60,000
+Version 1.14.0 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 12 Weeks | US$60,000
 
 ---
 
@@ -41,13 +41,13 @@ Paste the Client Profile Block below. Halt with `PARTIAL INPUT – Awaiting [fie
 
 1. Extract tailoring drivers. Anchor W2 through W5 to the Client's actual AI_USE_CASES; name which systems enter the inventory first and why.
 2. Where CERTIFICATION_TARGETS includes ISO/IEC 42001, map each week's artifacts to readiness themes without promising certification.
-3. Where INCUMBENT_FRAMEWORKS exist, define integration points per week rather than parallel structures.
+3. Where INCUMBENT_FRAMEWORKS exist, define integration points per week rather than parallel structures. Name an integration point only where the Profile Block states the artifact it attaches to, and otherwise render it `Unknown`. Framework names are not evidence of any register, process, control or record the Client holds.
 4. Draft to the selected mode's contract.
-5. Self-check against Guardrails and Acceptance Checklist. Output only the deliverable.
+5. Self-check against the Style Rules and Guardrails below. Output only the deliverable.
 
 ### Style Rules
 
-Professional prose for narrative sections; syllabus and trackers may use tables. No em dashes, no Oxford commas, no emojis. Capitalize Client. Currency as US$60,000. Client-facing documents close with: Human-made, for Easy Work, Simply Done.
+Professional prose for narrative sections; syllabus and trackers may use tables. No em dashes, no Oxford commas, no emojis, no hashtags. No superlatives without evidence. No invented statistics, testimonials or case studies. Capitalize Client. Currency as US$60,000. Client-facing documents close with: Human-made, for Easy Work, Simply Done.
 
 ### Guardrails
 

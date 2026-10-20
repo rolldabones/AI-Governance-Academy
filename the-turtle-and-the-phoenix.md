@@ -74,7 +74,7 @@ Others chased speed alone, and every mistake spread as rapidly as every success,
 
 They learned that intelligence without direction merely arrives at the wrong answer more efficiently.
 
-And a third sort watched the fast ones fall, drew the wrong lesson, and barred their gates entirely. Their caution wore the look of wisdom and carried the price of folly. Their sick waited. No one counted the cost of the waiting, because waiting keeps no ledger.
+And a third sort watched the fast ones fall, drew the wrong lesson and barred their gates entirely. Their caution wore the look of wisdom and carried the price of folly. Their sick waited. No one counted the cost of the waiting, because waiting keeps no ledger.
 
 The turtle grieved for the reckless and the fearful alike. "Too fast and never are the same mistake in different coats. There is no right speed written in the sky. There is only a person who chooses the pace, and answers for the choosing."
 
@@ -304,7 +304,7 @@ By remembering.
 
 *About one minute, for proposals and meetings.*
 
-The oldest creature in the valley was a turtle; the newest was a phoenix. Each dawn the phoenix rose from its own ashes more capable than the day before, remembering nothing of yesterday. The valley asked it for everything. The turtle offered one piece of advice: decide which problems deserve solving, ask for easy work simply done, and before it flies, write down the name of the person who answers for where it lands. The phoenix will not remember the flight. The name must. Those who listened grew wise as well as fast. Those who chased speed alone arrived at the wrong answers more efficiently. Those who barred their gates learned that waiting keeps no ledger. The future did not belong to the strongest wings. It belonged to those who knew where to fly.
+The oldest creature in the valley was a turtle; the newest was a phoenix. Each dawn the phoenix rose from its own ashes more capable than the day before, remembering nothing of yesterday. The valley asked it for everything. The turtle offered one piece of advice: decide which problems deserve solving, ask for easy work simply done and, before it flies, write down the name of the person who answers for where it lands. The phoenix will not remember the flight. The name must. Those who listened grew wise as well as fast. Those who chased speed alone arrived at the wrong answers more efficiently. Those who barred their gates learned that waiting keeps no ledger. The future did not belong to the strongest wings. It belonged to those who knew where to fly.
 
 ## 5. Modules and Timings
 
@@ -320,7 +320,7 @@ For the practice cut. Timings assume an unhurried telling of about 135 words a m
 | Education | "Years later" | "the way a shell is grown" | ~1.5 min |
 | Close | "Evening settled" | end | ~0.5 min |
 
-Core I and Core II carry the payload and are never cut. Executive audiences and boards: Core I + Core II + Close, about five and a half minutes. Policy audiences: add Government. Universities and training programs: add Education, or tell the whole, about eight and a half minutes. Within the Academy program options, the story runs in the closing block of the Executive Workshop and the full version runs on Day 1 of the Practitioner Academy, as set out at the head of this section.
+Core I and Core II carry the payload and are never cut. Executive audiences and boards: Core I + Core II + Close, about five and a half minutes. Policy audiences: add Government. Universities and training programs: add Education, or tell the whole, about eight and a half minutes. Within the Academy program options, the story runs in the closing block of the Executive Workshop and the whole practice cut runs on Day 1 of the Practitioner Academy, as set out at the head of this section.
 
 ## 6. The Handle Map
 
@@ -374,7 +374,7 @@ The test is the point. This practice does not accept work because it was done. I
 1. Tell it clean, with no slides during the telling. One bridge line after: "Everything this practice formalizes is already in that valley." Then convert handles into instruments, using the map as the conversion table.
 2. Tell section 2 and circulate section 3. Reading the practitioner cut aloud costs roughly twenty minutes and buries the payload under craft the room has not yet asked for. Sending the practice cut as a handout gives a reader a script with the working customs stripped out.
 3. The story opens the frameworks and never replaces them. If the room bonds to turtle-and-phoenix vocabulary and the session never converts the handles into named instruments with owners, the fable has substituted charm for governance. Section 8 is how that is enforced rather than hoped for: every telling ends in three instruments, tested aloud before the room leaves.
-4. The disloyal-hearts king is the sharpest beat and the default is to tell it, in every audience. It is self-contained and cuts cleanly where it would read as pointed, and that judgment belongs to the facilitator in the room, not to the text. If it is cut, the doors-stay-shut handle arrives through the second king's counsel.
+4. The disloyal-hearts king is the sharpest beat and the default is to tell it wherever the Government module is told. It is self-contained and cuts cleanly where it would read as pointed, and that judgment belongs to the facilitator in the room, not to the text. If it is cut, the doors-stay-shut handle arrives through the second king's counsel. Where the Government module is not told, as in executive rooms and boards, the facilitator introduces the doors-stay-shut handle from its handle map row before the closing exercise, so that its second artifact has a line to stand on.
 5. The afterword is written for the back of a printed handout, with the story on the front.
 6. The annex in section 11 is for readers who build. It is not material for the room and is not told.
 
@@ -411,7 +411,7 @@ For the readers who design the arrangements rather than authorize them: architec
 | The three questions asked aloud | Delegation decided before build: what the system carries, what existing tooling carries and what stays with people |
 | The second road home | Reversibility as a design precondition for any high-stakes automation |
 | The name before the flight | **Final Liability rests with the Human**: accountability assigned to a named person before anything flies |
-| The large satchel, well ordered | Abundant context is a design variable, not a safety margin. Capacity is managed by ordering and selection for the errand at hand, not by watching a level; a larger window changes what must be chosen, never whether choosing is done |
+| The satchel with a bottom, packed in order | Abundant context is a design variable, not a safety margin. Capacity is managed by ordering and selection for the errand at hand, not by watching a level; a larger window changes what must be chosen, never whether choosing is done |
 | The quiet flight that proves nothing | Absence of observed failure is not evidence of control. Assurance comes from tests that could have failed and from records of them, never from an uneventful run |
 
 ### Prompts for a build review

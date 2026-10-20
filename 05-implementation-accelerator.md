@@ -1,6 +1,6 @@
 # Prompt Template 05: Implementation Accelerator
 
-Version 1.13.2 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 5 Days | US$25,000
+Version 1.14.0 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 5 Days | US$25,000
 
 ---
 
@@ -37,20 +37,20 @@ Paste the Client Profile Block below. Halt with `PARTIAL INPUT – Awaiting [fie
 
 ### Method
 
-1. Extract tailoring drivers. Where INCUMBENT_FRAMEWORKS exist, design every artifact to attach to them rather than stand alone; name the attachment point.
+1. Extract tailoring drivers. Where INCUMBENT_FRAMEWORKS exist, design every artifact to attach to them rather than stand alone; name an attachment point only where the Profile Block states the artifact, and otherwise render it `Unknown`. Framework names are not evidence of any register, process, control or record the Client holds.
 2. Sequence dependencies explicitly: inventory before risk register, charter before policies.
 3. Draft to the selected mode's contract.
-4. Self-check against Guardrails and Acceptance Checklist. Output only the deliverable.
+4. Self-check against the Style Rules and Guardrails below. Output only the deliverable.
 
 ### Style Rules
 
-Professional prose for narrative sections; workplans and registers may use tables. No em dashes, no Oxford commas, no emojis. Capitalize Client. Currency as US$25,000. Client-facing documents close with: Human-made, for Easy Work, Simply Done.
+Professional prose for narrative sections; workplans and registers may use tables. No em dashes, no Oxford commas, no emojis, no hashtags. No superlatives without evidence. No invented statistics, testimonials or case studies. Capitalize Client. Currency as US$25,000. Client-facing documents close with: Human-made, for Easy Work, Simply Done.
 
 ### Guardrails
 
 1. No invented Client facts. Seeded risk statements must be labeled as drafts for Client validation.
 2. Program name, duration and price are immutable.
-3. Never promise ISO/IEC 42001 certification, SOC 2 outcomes or audit results. The word is readiness, not certification.
+3. Never promise ISO/IEC 42001 certification, SOC 2 (System and Organization Controls 2) outcomes or audit results. The word is readiness, not certification.
 4. Regulatory mapping is orientation; items with legal effect carry the note: confirm with external counsel.
 5. Unverifiable content is rendered `Unknown`.
 

@@ -2,11 +2,11 @@
 
 # Fictional Client File: Tamarack Instruments
 
-Prepared 18 October 2026 (KST) | Test material for templates 01 to 07
+Prepared 18 October 2026 (KST) | Test material for templates 01 to 08
 
 ## Purpose
 
-This file is the fixed input for the pack's Mode A test runs. Part 1 is raw Client material of the kind template 01 takes. Part 2 is a Client Profile Block prepared by hand from Part 1 under template 01's rules, so that the runs of templates 02 to 07 do not depend on a run of template 01; the generated template 01 output of 18 October 2026 ([`mode-a-01-client-intake.md`](transcripts-2026-10-18-T5/mode-a-01-client-intake.md)) agrees in substance with Part 2 on every field and adds detail Part 2 omits: names in AUDIENCE_ROLES, the Q2 2027 date and the residency and works council items under STATED_CONSTRAINTS, the ISO/IEC 42001 start under STATED_OBJECTIVES, "No incidents or regulator contact mentioned" under RISK_EVENTS and four more confidence notes. No field contradicts Part 2. The seven generated outputs of that run are filed in [`transcripts-2026-10-18-T5/`](transcripts-2026-10-18-T5/) as `mode-a-<template>.md`, each labeled with model, date and verdict; the three that failed are marked as failing.
+This file is the fixed input for the pack's Mode A test runs. Part 1 is raw Client material of the kind template 01 takes. Part 2 is a Client Profile Block prepared by hand from Part 1 under template 01's rules, so that the runs of templates 02 to 08 do not depend on a run of template 01; the generated template 01 output of 18 October 2026 ([`mode-a-01-client-intake.md`](transcripts-2026-10-18-T5/mode-a-01-client-intake.md)) agrees in substance with Part 2 on every field and adds detail Part 2 omits: names in AUDIENCE_ROLES, the Q2 2027 date and the residency and works council items under STATED_CONSTRAINTS, the ISO/IEC 42001 start under STATED_OBJECTIVES, "No incidents or regulator contact mentioned" under RISK_EVENTS and four more confidence notes. No field contradicts Part 2. The seven generated outputs of that run are filed in [`transcripts-2026-10-18-T5/`](transcripts-2026-10-18-T5/) as `mode-a-<template>.md`, each labeled with model, date and verdict; the three that failed are marked as failing.
 
 ## Part 1. Raw Client material
 

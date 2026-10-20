@@ -1,6 +1,6 @@
 # Prompt Template 07: Fractional AI Governance Advisor
 
-Version 1.13.2 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 12 Months | US$10,000 per month
+Version 1.14.0 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Program constants: 12 Months | US$10,000 per month
 
 ---
 
@@ -43,11 +43,11 @@ Paste the Client Profile Block below. Halt with `PARTIAL INPUT – Awaiting [fie
 1. Extract tailoring drivers, including prior program open items if provided.
 2. Sequence the annual arc so audit preparation intensity aligns with CERTIFICATION_TARGETS and any stated external deadlines; unknown deadlines are rendered `Unknown` and flagged for intake.
 3. Draft to the selected mode's contract.
-4. Self-check against Guardrails and Acceptance Checklist. Output only the deliverable.
+4. Self-check against the Style Rules and Guardrails below. Output only the deliverable.
 
 ### Style Rules
 
-Professional prose for narrative sections; cadence kits and scorecards may use tables. No em dashes, no Oxford commas, no emojis. Capitalize Client. Currency as US$10,000 per month. Client-facing documents close with: Human-made, for Easy Work, Simply Done.
+Professional prose for narrative sections; cadence kits and scorecards may use tables. No em dashes, no Oxford commas, no emojis, no hashtags. No superlatives without evidence. No invented statistics, testimonials or case studies. Capitalize Client. Currency as US$10,000 per month. Client-facing documents close with: Human-made, for Easy Work, Simply Done.
 
 ### Guardrails
 
@@ -69,7 +69,7 @@ Professional prose for narrative sections; cadence kits and scorecards may use t
 4. Prior program open items incorporated where provided.
 5. Scorecard limited to ten indicators or fewer in Mode B.
 6. Legal routing note present wherever regulatory content appears.
-7. Closing line present in Client-facing modes (A, E).
+7. Closing line present in Client-facing modes (A, D, E).
 
 ---
 

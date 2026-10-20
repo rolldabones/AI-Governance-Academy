@@ -1,6 +1,6 @@
 # AI Governance Academy
 
-Version 1.13.2 | 2026-10-20 | Status: final | Model-agnostic
+Version 1.14.0 | 2026-10-20 | Status: final (one known limitation open; see Purpose) | Model-agnostic
 
 This repository has two halves. The first is the Client Content Prompt Pack: eight prompt templates that generate Client-specific sales and delivery content for the AI Governance Academy program options. The second is the Publications: six client-facing pieces, from an essay on how to characterize AI output to a working vocabulary for reading discovery claims, published here as the text of record. The halves share one version number, one license and one closing line.
 
@@ -46,7 +46,7 @@ GRCnext™: [GRCnext-Copilot](https://github.com/rolldabones/GRCnext-Copilot) an
 
 1. Run 01-client-intake.md against raw Client information (notes, emails, request for proposal (RFP) text, discovery call transcript). Output is a fenced **Client Profile Block**.
 2. Open the template for the program option under discussion.
-3. Paste the Client Profile Block into the Required Inputs section.
+3. Supply the Client Profile Block: paste it into the Required Inputs section in place of `{{CLIENT_PROFILE_BLOCK}}`, or give the template's prompt section as the system prompt and the Profile Block as the user message. The test cases in [tests.md](tests.md) use the second form.
 4. Select exactly one OUTPUT MODE per run.
 5. Run. Verify against the numbered Acceptance Checklist at the bottom of each template before sending anything to the Client.
 
@@ -65,7 +65,10 @@ A labeled-fictional Client file for trying the workflow is in [examples/fictiona
 - The three principles are always rendered exactly: Slow AI, Informed Intent, Final Liability rests with the Human.
 - The closing line "Human-made, for Easy Work, Simply Done." appears once at the end of Client-facing documents.
 
-### Style Rules Inherited by Every Template
+### Style Rules Carried by Every Program Template
+
+Templates 02 to 08 state these rules in their own Style Rules, because a model sees only the prompt section. Template 01 returns a fenced block and no prose.
+
 
 - Professional prose. No em dashes. No Oxford commas. No emojis. No hashtags.
 - Capitalize Client throughout.
@@ -80,26 +83,26 @@ Six client-facing publications sit beside the templates, each the text of record
 |---|---|---|---|---|---|
 | [sounds-good.md](sounds-good.md) | *Sounds Good* | 9 July 2026 | essay | 2,200 | none |
 | [the-turtle-and-the-phoenix.md](the-turtle-and-the-phoenix.md) | *The Turtle and the Phoenix* | 30 July 2026 | teaching fable with facilitation kit | 7,200 | none |
-| [law-firm-ai-deployment-spec.md](law-firm-ai-deployment-spec.md) | *Law Firm AI Deployment Spec v2* | 22 August 2026 | specification | 3,900 | Seth Fenster's LinkedIn post, credited as Version 1 |
+| [law-firm-ai-deployment-spec.md](law-firm-ai-deployment-spec.md) | *Law Firm AI Deployment Spec v2* | 22 August 2026 | specification | 4,000 | Seth Fenster's LinkedIn post, credited as Version 1 |
 | [slow-ai-for-the-chief-legal-officer.md](slow-ai-for-the-chief-legal-officer.md) | *Slow AI for the Chief Legal Officer* | 6 October 2026 | primer | 7,400 | I by IMD article by Mezzano, Trantopoulos and Wade |
 | [the-compression-and-the-harness.md](the-compression-and-the-harness.md) | *The Compression and the Harness* | 12 October 2026 | discussion piece | 7,800 | Stephen Wolfram's interview with Jon Hernandez |
 | [the-map-and-the-pair.md](the-map-and-the-pair.md) | *The Map and the Pair* | 15 October 2026 | discussion piece | 10,800 | OpenAI's openai/math release of October 2026 |
 
-The date is the masthead date of first publication; *The Map and the Pair* is in its second edition, revised the same day, and the CHANGELOG entries of 15 October 2026 record the changes. Words are counted with `wc -w` at v1.13.0 and rounded to the nearest hundred.
+The date is the masthead date of first publication; *The Map and the Pair* is in its second edition, revised the same day, and the CHANGELOG entries of 15 October 2026 record the changes. The story of *The Turtle and the Phoenix* is also published as an essay at https://redcaps.substack.com/p/the-turtle-and-the-phoenix; the file here adds the facilitation kit. Words are counted with `wc -w` at v1.14.0 and rounded to the nearest hundred.
 
 ### How to cite a publication
 
-> Paik, Son-U Michael. *Sounds Good*. In AI Governance Academy, v1.13.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/sounds-good.md
+> Paik, Son-U Michael. *Sounds Good*. In AI Governance Academy, v1.14.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/sounds-good.md
 
-> Paik, Son-U Michael. *The Turtle and the Phoenix*. In AI Governance Academy, v1.13.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md
+> Paik, Son-U Michael. *The Turtle and the Phoenix*. In AI Governance Academy, v1.14.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md
 
-> Paik, Son-U Michael. *Law Firm AI Deployment Spec v2*. In AI Governance Academy, v1.13.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/law-firm-ai-deployment-spec.md
+> Paik, Son-U Michael. *Law Firm AI Deployment Spec v2*. In AI Governance Academy, v1.14.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/law-firm-ai-deployment-spec.md
 
-> Paik, Son-U Michael. *Slow AI for the Chief Legal Officer*. In AI Governance Academy, v1.13.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/slow-ai-for-the-chief-legal-officer.md
+> Paik, Son-U Michael. *Slow AI for the Chief Legal Officer*. In AI Governance Academy, v1.14.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/slow-ai-for-the-chief-legal-officer.md
 
-> Paik, Son-U Michael. *The Compression and the Harness*. In AI Governance Academy, v1.13.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-compression-and-the-harness.md
+> Paik, Son-U Michael. *The Compression and the Harness*. In AI Governance Academy, v1.14.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-compression-and-the-harness.md
 
-> Paik, Son-U Michael. *The Map and the Pair*. In AI Governance Academy, v1.13.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-map-and-the-pair.md
+> Paik, Son-U Michael. *The Map and the Pair*. In AI Governance Academy, v1.14.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-map-and-the-pair.md
 
 ## Part of the ecosystem
 
@@ -114,7 +117,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.13.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
+> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.14.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

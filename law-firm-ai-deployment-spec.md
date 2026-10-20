@@ -8,7 +8,7 @@ August 22, 2026
 
 **Version note.** Version 1 of this specification is Seth Fenster's LinkedIn post "If an Am Law 100 firm hired me as their Chief AI Officer tomorrow, here's exactly what I'd do in the first 90 days" (Founder & CEO, Litvue; August 2026): [original post](https://www.linkedin.com/posts/seth-fenster_if-an-am-law-100-firm-hired-me-as-their-chief-share-7496334818847248384-etxj/). Credit for the inspiration and for the 90-day brief belongs there. Version 2 is this document: an independent answer to the same brief, built on the governance frameworks maintained at [github.com/rolldabones](https://github.com/rolldabones).
 
-**Amended 18 October 2026 (KST):** phase table added; no other text changed. **Amended 20 October 2026 (KST):** section count corrected to seventeen; Phases added to the Contents; one comma removed; "Day 90" capitalized.
+**Amended 18 October 2026 (KST):** phase table added; no other text changed. **Amended 20 October 2026 (KST):** section count corrected to seventeen; Phases added to the Contents; one comma removed; "Day 90" capitalized. **Amended 20 October 2026 (KST), v1.14.0:** Final Liability line set to its canon short form; phase table wording aligned; three acronyms spelled out; AI GRC Copilot named as now titled.
 
 ---
 
@@ -37,13 +37,13 @@ August 22, 2026
 
 ## Phases
 
-The seventeen sections run in three phases of thirty days each. The table states the phase, the sections it covers and what the firm holds at its close.
+The seventeen sections run in three phases of thirty days each. The table states the phase, the sections it covers and the work of the phase.
 
 | Phase | Sections | Work of the phase |
 |---|---|---|
 | Days 1 to 30 | 0 to 5 | The economic incentive, Informed Intent, the inventory of actual AI use, classification by what the AI does, the data-processing baseline and the minimum governance system |
 | Days 31 to 60 | 6 to 12 | The small engineering team, the information architecture map, the centralized AI gateway, identity and authorization, the governed knowledge layer, the expensive bottlenecks and the evaluation rubrics |
-| Days 61 to 90 | 13 to 16 | Testing before trusting; the bounded production workflow; the measurement of economics, quality and risk together; the preserved evidence; the Day 90 Definition of Done |
+| Days 61 to 90 | 13 to 16 | Testing before trusting; the bounded production workflow; the measurement of economics, quality and risk together; the preserved evidence; and the Day 90 Definition of Done |
 
 ---
 
@@ -59,7 +59,7 @@ The governing principles are simple:
 
 **Slow AI.** AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit. Where consequences matter, material AI use is made visible and testable.
 
-**Final Liability rests with the Human.** Every material AI system, workflow and output has a named human owner with decision rights, oversight and the power to intervene.
+**Final Liability rests with the Human.** Every material outcome attaches to a named human owner with decision rights, oversight and the power to intervene.
 
 The three doctrines are stated normatively in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md). This specification restates them at deployment altitude and adds instruments, not doctrine.
 
@@ -75,7 +75,7 @@ If experimentation competes with billable-hour expectations, experimentation wil
 
 Treat participation as productive firm work and measure the investment.
 
-Structured learning counts too. The [Slow AI Kitchen's workshop](https://github.com/rolldabones/slow-ai-kitchen#the-workshop) is a training method as much as a control architecture: it runs teams through the twelve steps on real tasks, so the discipline is learned by cooking rather than by policy memo. [The AI Generalist](https://github.com/rolldabones/the-ai-generalist) is the one-day on-ramp: LLM foundations, a repeatable prompting workflow and the minimum AI governance, risk management and compliance control set.
+Structured learning counts too. The [Slow AI Kitchen's workshop](https://github.com/rolldabones/slow-ai-kitchen#the-workshop) is a training method as much as a control architecture: it runs teams through the twelve steps on real tasks, so the discipline is learned by cooking rather than by policy memo. [The AI Generalist](https://github.com/rolldabones/the-ai-generalist) is the one-day on-ramp: large language model (LLM) foundations, a repeatable prompting workflow and the minimum AI governance, risk management and compliance control set.
 
 ## 1. Establish Informed Intent.
 
@@ -91,7 +91,7 @@ The last question is not optional. DOCTRINE.md states it plainly: an authorizati
 
 Informed Intent is also a user skill, and it is trainable. Teach lawyers to state intent to the model before the work begins: the task, the audience, the constraints, the form of the answer and what done looks like. Prefer workflows that force that clarification before any output is produced. The Kitchen opens this way by design, Define the Dish and then Mise en Place with a Definition of Done before AI touches the task, and a well-built operating prompt halts on missing inputs rather than inventing them.
 
-The [AI Impact Assessment Tool](https://github.com/rolldabones/AI-Impact-Assessment-Tool) is the Informed Intent gate in tool form, aligned to the EU AI Act, NIST AI RMF, ISO/IEC 42001 and ISO/IEC 42005.
+The [AI Impact Assessment Tool](https://github.com/rolldabones/AI-Impact-Assessment-Tool) is the Informed Intent gate in tool form, aligned to the EU AI Act, the National Institute of Standards and Technology AI Risk Management Framework (NIST AI RMF), ISO/IEC 42001 and ISO/IEC 42005.
 
 This becomes the baseline against which architecture, controls and return on investment are evaluated.
 
@@ -161,7 +161,7 @@ At minimum maintain:
 
 Governance should produce decisions and proof, not paperwork for its own sake.
 
-Two instruments shortcut the build. The [AI GRC Master List of Questions](https://github.com/rolldabones/AI-GRC-Master-List-of-Questions) captures the firm's facts once, in 17 sections of mostly yes/no answers, and the [AI GRC Spellbook Copilot](https://github.com/rolldabones/AI-GRC-Copilot) converts them into the 30 canonical AI governance artifacts with owners, evidence and systems of record. The [GRC Workbook's](https://github.com/rolldabones/grc-workbook) thirty-seven item Governance Test is then the audit of whether the resulting system actually governs.
+Two instruments shortcut the build. The [AI GRC Master List of Questions](https://github.com/rolldabones/AI-GRC-Master-List-of-Questions) captures the firm's facts once, in 17 sections of mostly yes/no answers, and the [AI GRC Copilot](https://github.com/rolldabones/AI-GRC-Copilot) converts them into the 30 canonical AI governance artifacts with owners, evidence and systems of record. The [GRC Workbook's](https://github.com/rolldabones/grc-workbook) thirty-seven item Governance Test is then the audit of whether the resulting system actually governs.
 
 ## 6. Build a small engineering team.
 
@@ -321,7 +321,7 @@ A cheaper workflow that introduces unacceptable professional risk is not an impr
 
 AI return on investment must include the cost of governing the AI.
 
-The GRC Workbook builds on OCEG's Principled Performance: the reliable achievement of objectives, the addressing of uncertainty and the conduct of business with integrity. Measured that way, governance cost is not overhead on the return. It is part of how the return is produced.
+The GRC Workbook builds on the Open Compliance and Ethics Group's (OCEG's) Principled Performance: the reliable achievement of objectives, the addressing of uncertainty and the conduct of business with integrity. Measured that way, governance cost is not overhead on the return. It is part of how the return is produced.
 
 The 90 days should also surface, without pretending to solve, the pricing question. AI compresses the time that hourly billing prices. Whether the firm bills the hour, the value or the outcome is a decision to make with Clients, not a default to inherit, and the internal credit code from Section 0 is not a substitute for that external answer.
 

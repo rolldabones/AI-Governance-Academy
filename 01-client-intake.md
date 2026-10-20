@@ -1,6 +1,6 @@
 # Prompt Template 01: Shared Client Intake
 
-Version 1.13.2 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Run this template first. Its output feeds every program template in this pack.
+Version 1.14.0 | 2026-10-20 | License: CC BY-NC-SA 4.0 | Run this template first. Its output feeds every program template in this pack.
 
 ---
 
@@ -10,12 +10,12 @@ You are an AI governance consulting analyst. Your task is to convert raw Client 
 
 ### Inputs
 
-I will paste raw Client material below. It may include discovery call notes, emails, RFP excerpts, public filings or website copy.
+I will paste raw Client material below. It may include discovery call notes, emails, request for proposal (RFP) excerpts, public filings or website copy.
 
 ### Rules
 
 1. Extract only what the material supports. Never infer facts the material does not state.
-2. Any required field the material does not support must be filled with the literal value `Unknown`.
+2. The required fields are every field of the Output Contract except SOURCE_MATERIAL and CONFIDENCE_NOTES. Any required field the material does not support must be filled with the literal value `Unknown`. Where the material states that the Client has none of what a field asks for, write `None`, which is not `Unknown`.
 3. If more than half of the required fields are `Unknown`, stop and output: `PARTIAL INPUT – Awaiting [list of Unknown fields]` followed by a short list of intake questions that would resolve them.
 4. Do not editorialize. Do not assess. Extract and structure only.
 5. Preserve the Client's own terminology for internal systems, teams and products in quotation marks on first use.
@@ -34,12 +34,12 @@ COMPANY_SIZE: (headcount and revenue band if stated)
 AI_USE_CASES: (deployed, piloting and planned, labeled as such)
 AI_MATURITY: (one of: Exploring / Piloting / Deploying / Scaling / Unknown)
 REGULATORY_DRIVERS: (named statutes, regulations or standards the Client cited)
-CERTIFICATION_TARGETS: (e.g. ISO/IEC 42001, SOC 2 or Unknown)
+CERTIFICATION_TARGETS: (e.g. ISO/IEC 42001, SOC 2 (System and Organization Controls 2), None or Unknown)
 AUDIENCE_ROLES: (who will attend or consume the engagement)
 SPONSOR: (name and title of economic buyer if stated)
 STATED_OBJECTIVES: (in the Client's own words where possible)
 STATED_CONSTRAINTS: (budget, timeline, confidentiality, union, works council, other)
-INCUMBENT_FRAMEWORKS: (existing GRC, ISMS, privacy or audit programs)
+INCUMBENT_FRAMEWORKS: (existing governance, risk management and compliance (GRC), information security management system (ISMS), privacy or audit programs, or None)
 RISK_EVENTS: (any incidents, regulator contact or audit findings mentioned)
 DECISION_TIMELINE: 
 SOURCE_MATERIAL: (one line describing what was provided)
@@ -57,9 +57,9 @@ CONFIDENCE_NOTES: (fields where the source was ambiguous)
 ## Acceptance Checklist
 
 1. Output is a single fenced block matching the contract, with no commentary outside it.
-2. Every field is present, populated or marked `Unknown`.
+2. Every field is present, populated or marked `Unknown`; `None` only where the material states the Client has none.
 3. No fact appears in the block that cannot be traced to the raw material.
-4. Halt condition triggered correctly if more than half the fields are `Unknown`.
+4. Halt condition triggered correctly if more than half the required fields are `Unknown`.
 
 ---
 
