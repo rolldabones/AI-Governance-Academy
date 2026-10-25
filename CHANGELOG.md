@@ -2,6 +2,10 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.14.6] – 2026-10-26
+
+Patch release. Acceptance restated as a tolerance: the tests file is now read under the account rule, `ACCEPTANCE.md` in the `rolldabones` repository, names its critical cases and records the instrument's status under that rule (not accepted: 13 of 24 samples); the README carries the same status below its masthead. No rule in the instrument changed and no run was made; the edits are to the test record and the front door. Train A of the whole-account review of 24 October 2026 (KST); prepared with Claude, approved by Michael Paik.
+
 ## [1.14.5] – 2026-10-20
 
 Patch: corrections from an independent review. Independent review of 20 October 2026; changes made with Claude, approved by Michael Paik. No prompt section, Acceptance Checklist, fixture, transcript, score or harness file changes; no template's acceptance status changes.

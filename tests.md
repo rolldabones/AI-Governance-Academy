@@ -1,8 +1,8 @@
 # AI Governance Academy: tests
 
-**Cases, known defects and the run record for templates 01 to 08 · v1.14.5 · 20 October 2026 (Korea Standard Time, KST)**
+**Cases, known defects and the run record for templates 01 to 08 · v1.14.6 · 26 October 2026 (Korea Standard Time, KST)**
 
-Each case runs one template against the fictional Client file, [`examples/fictional-client.md`](examples/fictional-client.md), and checks the output against that template's own numbered Acceptance Checklist, quoted in full. A run passes when every case it exercises passes; a case not exercised in a run is recorded as not run, never as passed.
+Each case runs one template against the fictional Client file, [`examples/fictional-client.md`](examples/fictional-client.md), and checks the output against that template's own numbered Acceptance Checklist, quoted in full. Acceptance is read under the account rule, [ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md), from 26 October 2026; a case not exercised in a run is recorded as not run, never as passed.
 
 **How a case is run.** The system prompt is the text between `## PROMPT BEGINS` and `## PROMPT ENDS` of the template, byte for byte (the lines strictly between the two marker lines, less the blank line that follows `## PROMPT BEGINS`, each line ending in a newline; this rule reproduces the seven T5 digests in `summary.json`); the Acceptance Checklist sits after `## PROMPT ENDS` and is not loaded, because it is the pass condition. The user turn is the fictional Client file's Part 2 Client Profile Block with the selection "Select exactly one OUTPUT MODE: MODE A – PROPOSAL." (README Workflow items 3 and 4); template 07's turn adds that no prior program report exists. Template 01 has no output modes: its turn is Part 1, the raw Client material.
 
@@ -25,11 +25,11 @@ An item the checklist scopes to another mode, or conditions on content the outpu
 
 **Harness rule (from v1.14.4).** Every execution of a run writes to its own output folder and log; every execution is reported with its result, kept or not; a re-run needs a stated reason and Michael Paik's approval before it starts, and the reason is recorded with the run.
 
-**Acceptance and residual defects.** A template is accepted when a logged run passes every sample of its case and the reviewer's decision recorded with that run accepts it; a case that passes every sample without that decision stays open. Where the model's residual defects keep a case from passing after the prompt section has been corrected for them, the defects are recorded here as residual, with their rates, and the control is the human check at README Workflow item 5: every output is verified against its checklist and Guardrails before it reaches the Client.
+**Acceptance and residual defects.** From 26 October 2026 a template is accepted under [ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md); until then the rule here was that a template is accepted when a logged run passes every sample of its case and the reviewer's decision recorded with that run accepts it, and a case that passes every sample without that decision stays open. Where the model's residual defects keep a case from passing after the prompt section has been corrected for them, the defects are recorded here as residual, with their rates, and the control is the human check at README Workflow item 5: every output is verified against its checklist and Guardrails before it reaches the Client.
 
 ## Known defects
 
-Recorded 18 October 2026 (KST); K5 and K6 recorded 20 October 2026 (KST). Status at v1.14.5: K1, K2 and K4 fixed, with no recurrence in run A3; K5 residual; K6 resolved for templates 03 and 08 by removing the rule and residual for template 02; K3 open. Residual defects are controlled at README Workflow item 5.
+Recorded 18 October 2026 (KST); K5 and K6 recorded 20 October 2026 (KST). Status at v1.14.6 (26 October 2026, unchanged since v1.14.5): K1, K2 and K4 fixed, with no recurrence in run A3; K5 residual; K6 resolved for templates 03 and 08 by removing the rule and residual for template 02; K3 open. Residual defects are controlled at README Workflow item 5.
 
 - **K1: the prompt asks for a self-check against a checklist it does not carry.** Each template's Method ended "Self-check against Guardrails and Acceptance Checklist", but the checklist sits after `## PROMPT ENDS`. A reader who pastes the prompt section alone gives the model nothing to check against; a reader who pastes the whole file gives it the pass condition. The cases take the first reading. **Fixed in text at v1.14.0:** the Method step of templates 02 to 08 reads "Self-check against the Style Rules and Guardrails below", which the prompt section carries; the checklist stays outside it as the pass condition. Run A1 attributed no failure to K1.
 - **K2: the Profile Block goes in a turn, not in the placeholder.** README Workflow item 3 said to paste the Client Profile Block into the Required Inputs section, replacing `{{CLIENT_PROFILE_BLOCK}}`. The cases leave the system text byte for byte and supply the block in the user turn, so the placeholder stays unfilled in the system prompt. **Fixed in text at v1.14.0:** README Workflow item 3 names both forms and says the cases use the second.
@@ -68,6 +68,10 @@ Independent review, 20 October 2026: T05 and T07 passed every sample in this run
 **Correction to run A2's record.** At v1.14.2 this file said that A2's T01 result "also describes v1.14.2", because template 01 and its input were unchanged. A3's T01-s1 failed on the same prompt section and input: a run's result does not carry over to another run, because each sample is drawn anew.
 
 **Status after A3.** On Michael Paik's decision of 20 October 2026 (KST), no further run is scheduled for this pull request: v1.14.3 removes the prose-only rule from templates 03 and 08, records K5 and template 02's K6 as residual and adds the scorer guidance, and the templates stand **not accepted**, with the residual defects controlled at README Workflow item 5. A later run, under the scorer guidance, may accept a template; it takes the name of the session that makes it.
+
+## Status under ACCEPTANCE.md
+
+**Status under [ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md), 26 October 2026 (KST).** Not accepted. Run A3 (20 October 2026) passed 13 of 24 samples after review, below the 80 percent ACCEPTANCE.md (c) requires, and templates 03 and 08 changed a rule at v1.14.3 with no run since. **Critical cases:** none; no case tests a guardrail, STOP, no-invention or refusal rule on its own. The acceptance sentences above were written under this file's earlier rule and are kept as the record of that review. The reviewer's concurrence with the run as recorded is read as concurrence per case (ACCEPTANCE.md (e)); each failed case keeps the disposition its session review gives it (model behavior: accepted model behavior; instrument defect: fix in the next block; case defect: case defect).
 
 ## Earlier runs
 
