@@ -2,6 +2,15 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.14.8] – 2026-10-26
+
+Patch: three rules change, on Michael Paik's decision of 26 October 2026 (KST) to close K9 at once and fix K7 and K8 in the same text. **Not accepted pending run A5**, which runs the same day.
+
+- **K9, templates 02 to 08.** The relation guard now names "whose decision DECISION_TIMELINE records and what it decides" and tells the model to refer to the timeline as the block states it ("a decision is expected by" and the date). In run A4, 11 of 24 samples gave the decision an owner or a subject.
+- **K7, template 01.** New Rule 6: "Do not record relations the material does not state: who owns, runs, raised or attends what. A speaker describing a system is not its owner."
+- **K8, template 04.** Mode A asks, for each exercise, for its GRC Workbook module, its Slow AI Kitchen pattern or, for the fable, the section of the facilitation kit used, and the artifact it produces, and says the kit's closing exercise produces the three artifacts of its section 8; Mode B names the kit's section the same way.
+- `tests.md` (known defects, status) and the README status and Test status lines record the fixes. The fixture, the cases and the checklists are unchanged. Every template masthead, the README masthead, How to Cite and the six publication citations, the `tests.md` masthead and `CITATION.cff` to v1.14.8 in lockstep. Prepared with Claude, approved by Michael Paik.
+
 ## [1.14.7] – 2026-10-26
 
 Patch, record only. **Run A4 logged:** cases T01 to T08 against the v1.14.6 prompt sections at `88e655c`, three samples per case, `claude-opus-5-5` scored by `claude-sonnet-5-5` under the scorer guidance of v1.14.3: by sample 14 PASS, 7 after review; by case T05 as scored, none after review. **Not accepted** under `ACCEPTANCE.md` in the `rolldabones` repository; reviewer Michael Paik concurring per case, with his rulings of 26 October 2026 (KST) that three patterns the scorer ruled both ways are read strictly (an owner or subject for the decision date, the audit finding stated as a current status, a fable row with one artifact). **Known defects K7, K8 and K9 recorded, open:** template 01 lacks the relation guard; template 04 Mode A has no asset category for the fable kit; the decision date has no owner or subject in any template. No prompt section, checklist or fixture changed; the fixes are new texts and need their own run. `tests.md` (Last run, known defects, status), the README status and Test status lines; evidence in `evidence/transcripts-2026-10-26-A4/`; the 24 outputs, labeled, in `examples/transcripts-2026-10-26-A4/`. Every template masthead, the README masthead, How to Cite and the six publication citations, the `tests.md` masthead and `CITATION.cff` to v1.14.7 in lockstep. Prepared with Claude, approved by Michael Paik.

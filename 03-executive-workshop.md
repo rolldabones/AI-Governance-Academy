@@ -1,6 +1,6 @@
 # Prompt Template 03: Executive Workshop
 
-Version 1.14.7 | 2026-10-26 | License: CC BY-NC-SA 4.0 | Program constants: 1 Day | US$7,500
+Version 1.14.8 | 2026-10-26 | License: CC BY-NC-SA 4.0 | Program constants: 1 Day | US$7,500
 
 ---
 
@@ -61,7 +61,7 @@ Professional prose. No em dashes, no Oxford commas, no emojis, no hashtags. No s
 3. No certification or audit outcome promises.
 4. Regulatory content is orientation, not legal advice; flag items requiring external counsel.
 5. Unverifiable content is rendered `Unknown`.
-6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based or the state of a system. Where the deliverable needs such a relation, render it `Unknown`.
+6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based, the state of a system or whose decision DECISION_TIMELINE records and what it decides. Where the deliverable needs such a relation, render it `Unknown`; refer to the timeline as the block states it ("a decision is expected by" and the date).
 
 ## PROMPT ENDS
 

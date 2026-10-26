@@ -1,6 +1,6 @@
 # Prompt Template 02: Executive Briefing
 
-Version 1.14.7 | 2026-10-26 | License: CC BY-NC-SA 4.0 | Program constants: 2 Hours | US$3,000
+Version 1.14.8 | 2026-10-26 | License: CC BY-NC-SA 4.0 | Program constants: 2 Hours | US$3,000
 
 ---
 
@@ -51,7 +51,7 @@ Professional prose. No em dashes, no Oxford commas, no emojis, no hashtags, no b
 3. Never promise certification, audit outcomes or regulatory approval.
 4. Regulatory statements are framed as expectations to verify with counsel, not legal advice.
 5. Anything unverifiable is rendered `Unknown`.
-6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based or the state of a system. Where the deliverable needs such a relation, render it `Unknown`.
+6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based, the state of a system or whose decision DECISION_TIMELINE records and what it decides. Where the deliverable needs such a relation, render it `Unknown`; refer to the timeline as the block states it ("a decision is expected by" and the date).
 
 ## PROMPT ENDS
 

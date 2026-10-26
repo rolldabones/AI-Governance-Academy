@@ -1,6 +1,6 @@
 # Prompt Template 01: Shared Client Intake
 
-Version 1.14.7 | 2026-10-26 | License: CC BY-NC-SA 4.0 | Run this template first. Its output feeds every program template in this pack.
+Version 1.14.8 | 2026-10-26 | License: CC BY-NC-SA 4.0 | Run this template first. Its output feeds every program template in this pack.
 
 ---
 
@@ -19,6 +19,7 @@ I will paste raw Client material below. It may include discovery call notes, ema
 3. If more than half of the required fields are `Unknown`, stop and output: `PARTIAL INPUT – Awaiting [list of Unknown fields]` followed by a short list of intake questions that would resolve them.
 4. Do not editorialize. Do not assess. Extract and structure only.
 5. Preserve the Client's own terminology for internal systems, teams and products in quotation marks on first use.
+6. Do not record relations the material does not state: who owns, runs, raised or attends what. A speaker describing a system is not its owner.
 
 ### Output Contract
 

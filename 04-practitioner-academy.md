@@ -1,6 +1,6 @@
 # Prompt Template 04: Practitioner Academy
 
-Version 1.14.7 | 2026-10-26 | License: CC BY-NC-SA 4.0 | Program constants: 2 Days | US$12,500
+Version 1.14.8 | 2026-10-26 | License: CC BY-NC-SA 4.0 | Program constants: 2 Days | US$12,500
 
 ---
 
@@ -28,9 +28,9 @@ Paste the Client Profile Block below. Halt with `PARTIAL INPUT – Awaiting [fie
 
 ### Output Modes (select exactly one)
 
-**MODE A – PROPOSAL.** Two-page proposal to the SPONSOR: situation summary, why hands-on practitioner capability fits this Client now, the two-day curriculum spine tailored with Client-specific worked examples drawn from AI_USE_CASES, deliverables (started inventory, draft risk register entries, at least two governed workflows), logistics and price, next step. For each exercise the proposal names, name its GRC Workbook module or Slow AI Kitchen pattern and the artifact it produces.
+**MODE A – PROPOSAL.** Two-page proposal to the SPONSOR: situation summary, why hands-on practitioner capability fits this Client now, the two-day curriculum spine tailored with Client-specific worked examples drawn from AI_USE_CASES, deliverables (started inventory, draft risk register entries, at least two governed workflows), logistics and price, next step. For each exercise the proposal names, name its GRC Workbook module, its Slow AI Kitchen pattern or, for the fable, the section of the facilitation kit used, and the artifact it produces; the kit's closing exercise produces the three artifacts of its section 8.
 
-**MODE B – CURRICULUM AND EXERCISE PACK.** For each of the eight sessions: learning objective, instruction segment outline, hands-on exercise using the Client's own AI_USE_CASES as the working material, the artifact each exercise produces and the specific GRC Workbook module or Slow AI Kitchen pattern used. Exercises must be executable inside the Client's confidentiality constraints; where STATED_CONSTRAINTS prohibit real data, specify a sanitized analog. The pack names the Day 1 fable slot: the session in which *The Turtle and the Phoenix* is told from the facilitation kit, before the instruments arrive on Day 2, with the handle map as the bridge to the workbook modules and the kit's twenty-minute closing exercise at the close of that session.
+**MODE B – CURRICULUM AND EXERCISE PACK.** For each of the eight sessions: learning objective, instruction segment outline, hands-on exercise using the Client's own AI_USE_CASES as the working material, the artifact each exercise produces and the specific GRC Workbook module, Slow AI Kitchen pattern or, for the fable, section of the facilitation kit used. Exercises must be executable inside the Client's confidentiality constraints; where STATED_CONSTRAINTS prohibit real data, specify a sanitized analog. The pack names the Day 1 fable slot: the session in which *The Turtle and the Phoenix* is told from the facilitation kit, before the instruments arrive on Day 2, with the handle map as the bridge to the workbook modules and the kit's twenty-minute closing exercise at the close of that session.
 
 **MODE C – PARTICIPANT WORKBOOK.** A participant-facing packet: welcome page, schedule, per-session worksheets with fill-in fields matching Mode B exercises, a glossary of no more than 20 terms defined plainly and a completion checklist mapping each artifact started during the two days to the person who owns finishing it.
 
@@ -56,7 +56,7 @@ Professional prose for narrative sections; worksheets may use structured fields.
 3. Exercises must respect STATED_CONSTRAINTS; if constraints are `Unknown`, default to sanitized analogs and say so.
 4. No certification or audit outcome promises.
 5. Unverifiable content is rendered `Unknown`.
-6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based or the state of a system. Where the deliverable needs such a relation, render it `Unknown`.
+6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based, the state of a system or whose decision DECISION_TIMELINE records and what it decides. Where the deliverable needs such a relation, render it `Unknown`; refer to the timeline as the block states it ("a decision is expected by" and the date).
 
 ## PROMPT ENDS
 
