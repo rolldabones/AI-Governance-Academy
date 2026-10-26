@@ -2,6 +2,10 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.14.9] – 2026-10-26
+
+Patch, record only. **Run A5 logged:** cases T01 to T08 against the v1.14.8 prompt sections (K7, K8 and K9 fixed in text) at `f0dab9d`, three samples per case, `claude-opus-5-5` scored by `claude-sonnet-5-5`: by sample 19 PASS, 20 after review; by case 4 PASS as scored, 5 after review (T01, T04, T05, T07, T08). **Not accepted** under `ACCEPTANCE.md` in the `rolldabones` repository (62.5 percent against 80); open cases T02 (K6), T03 (K5) and T06 (K5, K9). K7 and K8 did not recur; K9 recurred once in 24 samples, against 11 in run A4, and is residual. **Case defect C2 recorded, open:** T01's fail indicator measures output against a Part 2 that omits the internal audit function Part 1 states; T01-s2 and T01-s3 dissented to PASS on Michael Paik's ruling of 26 October 2026 (KST), with his rulings that who closes the audit finding and a profile field attributed to the Client are not counted. No prompt section, checklist or fixture changed. `tests.md` (Last run, known defects, status), the README status and Test status lines; evidence in `evidence/transcripts-2026-10-26-A5/`; the 24 outputs, labeled, in `examples/transcripts-2026-10-26-A5/`. Every template masthead, the README masthead, How to Cite and the six publication citations, the `tests.md` masthead and `CITATION.cff` to v1.14.9 in lockstep. Prepared with Claude, approved by Michael Paik.
+
 ## [1.14.8] – 2026-10-26
 
 Patch: three rules change, on Michael Paik's decision of 26 October 2026 (KST) to close K9 at once and fix K7 and K8 in the same text. **Not accepted pending run A5**, which runs the same day.

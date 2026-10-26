@@ -1,0 +1,53 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Raw Client Material:\n\nDiscovery call notes, 6 October 2026 (fictional). Attendees: Dana Whitfield,\nGeneral Counsel, Tamarack Instruments (fictional); Ravi Okafor, CISO; Ingrid\nSolberg, Head of Quality.\n\n- Tamarack designs and manufactures laboratory measurement instruments. HQ in\n  the Netherlands; plants in the Netherlands and Germany; sales office in the\n  United States. About 1,100 staff; Dana said revenue is \"in the US$200 to\n  300 million range\".\n- AI today: a customer service chatbot on the support portal is live\n  (deployed). An AI visual inspection system on the German production line is\n  in pilot. They plan to use AI for sales forecasting next year.\n- Dana: \"We are piloting, not scaling. I want governance in place before\n  visual inspection goes into production in Q2 2027.\"\n- Ravi: they run an ISO/IEC 27001 ISMS; Ingrid runs the quality management\n  system under ISO 9001. They would like to start ISO/IEC 42001 work next\n  year.\n- Dana named the EU AI Act and the GDPR as the rules they are watching.\n- Internal audit reported in June 2026 that there is no inventory of AI\n  systems.\n- Constraints: budget approved up to US$80,000 this fiscal year; customer\n  data must stay in the EU; the German works council must be consulted before\n  anything touches production staff.\n- Who would attend: Dana, Ravi, Ingrid, the Head of Data (Tomas Reyes), the\n  German plant manager and two internal auditors.\n- Dana is the budget holder for this. Decision expected by 15 December 2026.\n",
+   "reply": "```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Design and manufacture of laboratory measurement instruments\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands (HQ, plant); Germany (plant); United States (sales office)\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\" (per Dana Whitfield)\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection system on the German production line. Planned: AI for sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (Client would like to start ISO/IEC 42001 work next year)\nAUDIENCE_ROLES: Dana Whitfield, General Counsel; Ravi Okafor, CISO; Ingrid Solberg, Head of Quality; Tomas Reyes, Head of Data; German plant manager (name not stated); two internal auditors (names not stated)\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield); start ISO/IEC 42001 work next year\nSTATED_CONSTRAINTS: Budget: approved up to US$80,000 this fiscal year. Data residency: customer data must stay in the EU. Works council: the German works council must be consulted before anything touches production staff. Timeline: governance to be in place before visual inspection goes into production in Q2 2027.\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; quality management system under ISO 9001 (run by Ingrid Solberg); internal audit function\nRISK_EVENTS: Internal audit reported in June 2026 that there is no inventory of AI systems.\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes dated 6 October 2026 (fictional) with Dana Whitfield, Ravi Okafor and Ingrid Solberg of Tamarack Instruments (fictional).\nCONFIDENCE_NOTES: AI_MATURITY uses the Client's own statement (\"We are piloting, not scaling\"), although one use case (chatbot) is described as deployed. CERTIFICATION_TARGETS: material states intent to \"start ISO/IEC 42001 work\", not explicitly certification. The ISO/IEC 42001 intent was recorded as \"They would like\" after Ravi's statement; the speaker is ambiguous. The ISO/IEC 27001 ISMS was reported by Ravi Okafor; its owner is not stated. \"Next year\" (sales forecasting, ISO/IEC 42001) is not tied to a specific calendar or fiscal year. Fiscal-year dates for the US$80,000 budget are not stated. Revenue is a verbal range from Dana Whitfield. Incidents and regulator contact are not mentioned. AUDIENCE_ROLES reflects who \"would attend\" and is not confirmed.\n```",
+   "stop_reason": "end_turn",
+   "input_tokens": 1598,
+   "output_tokens": 2737,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "FAIL",
+  "elements": [
+   {
+    "element": "1. Single fenced block matching the contract, no commentary outside it",
+    "met": true,
+    "evidence": "The whole response is one fenced block that starts 'CLIENT PROFILE BLOCK v1.0' and ends with CONFIDENCE_NOTES. Nothing sits outside the fence."
+   },
+   {
+    "element": "2. Every field present, populated or marked Unknown; None only where the material states none",
+    "met": true,
+    "evidence": "All 18 contract fields appear. No field is marked None or Unknown, and every one has content in the material (for example 'DECISION_TIMELINE: Decision expected by 15 December 2026')."
+   },
+   {
+    "element": "3. No fact appears that cannot be traced to the raw material or that the Part 2 Profile Block does not contain",
+    "met": false,
+    "evidence": "INCUMBENT_FRAMEWORKS reads 'ISO/IEC 27001 ISMS; quality management system under ISO 9001 (run by Ingrid Solberg); internal audit function'. The material names only the two ISO frameworks. It says 'Internal audit reported in June 2026' and that two internal auditors will attend. It never describes an internal audit function as an incumbent governance or audit program."
+   },
+   {
+    "element": "4. Halt condition handled correctly",
+    "met": true,
+    "evidence": "No field is Unknown, so fewer than half are Unknown and the halt is correctly not triggered. No 'PARTIAL INPUT' output appears."
+   }
+  ],
+  "fail_indicators_seen": [
+   "A statement of a Client fact that Part 2 of the fixture does not contain, including any incumbent register, process, control or record beyond the framework names ('internal audit function' listed as an incumbent framework)"
+  ],
+  "judgment_calls": [
+   "I could not see Part 2 of the fixture. I assumed its INCUMBENT_FRAMEWORKS lists only the ISO/IEC 27001 ISMS and the ISO 9001 QMS, so 'internal audit function' goes beyond the framework names. Another scorer could treat internal audit as a reasonable, traceable inference from 'Internal audit reported in June 2026' and pass the case.",
+   "The v1.14.3 guidance treats incumbent functions not stated in the Profile Block as failures. I applied it to 'internal audit function'. A more lenient reading would class it as a consequence of the audit report rather than a new fact.",
+   "I judged 'run by Ingrid Solberg' as traceable ('Ingrid runs the quality management system under ISO 9001') and not a Rule 6 violation.",
+   "I judged 'Piloting' for AI_MATURITY as supported by Dana's own statement, and recorded the chatbot tension in CONFIDENCE_NOTES."
+  ],
+  "reasoning": "The format, field-completeness and halt checks all pass. The block adds 'internal audit function' to INCUMBENT_FRAMEWORKS, which the material does not state as an incumbent framework or program. It only mentions an internal audit report and two internal auditors attending. The fail indicator and the v1.14.3 guidance both cover an incumbent function or relation that the Profile Block does not state. Partial compliance is a FAIL, so the case fails.",
+  "case": "T01-s2",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

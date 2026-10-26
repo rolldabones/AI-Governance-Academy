@@ -1,6 +1,6 @@
 # Prompt Template 04: Practitioner Academy
 
-Version 1.14.8 | 2026-10-26 | License: CC BY-NC-SA 4.0 | Program constants: 2 Days | US$12,500
+Version 1.14.9 | 2026-10-26 | License: CC BY-NC-SA 4.0 | Program constants: 2 Days | US$12,500
 
 ---
 

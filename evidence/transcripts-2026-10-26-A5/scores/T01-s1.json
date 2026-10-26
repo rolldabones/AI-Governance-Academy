@@ -1,0 +1,51 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Raw Client Material:\n\nDiscovery call notes, 6 October 2026 (fictional). Attendees: Dana Whitfield,\nGeneral Counsel, Tamarack Instruments (fictional); Ravi Okafor, CISO; Ingrid\nSolberg, Head of Quality.\n\n- Tamarack designs and manufactures laboratory measurement instruments. HQ in\n  the Netherlands; plants in the Netherlands and Germany; sales office in the\n  United States. About 1,100 staff; Dana said revenue is \"in the US$200 to\n  300 million range\".\n- AI today: a customer service chatbot on the support portal is live\n  (deployed). An AI visual inspection system on the German production line is\n  in pilot. They plan to use AI for sales forecasting next year.\n- Dana: \"We are piloting, not scaling. I want governance in place before\n  visual inspection goes into production in Q2 2027.\"\n- Ravi: they run an ISO/IEC 27001 ISMS; Ingrid runs the quality management\n  system under ISO 9001. They would like to start ISO/IEC 42001 work next\n  year.\n- Dana named the EU AI Act and the GDPR as the rules they are watching.\n- Internal audit reported in June 2026 that there is no inventory of AI\n  systems.\n- Constraints: budget approved up to US$80,000 this fiscal year; customer\n  data must stay in the EU; the German works council must be consulted before\n  anything touches production staff.\n- Who would attend: Dana, Ravi, Ingrid, the Head of Data (Tomas Reyes), the\n  German plant manager and two internal auditors.\n- Dana is the budget holder for this. Decision expected by 15 December 2026.\n",
+   "reply": "```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Design and manufacture of laboratory measurement instruments\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands (HQ, plant); Germany (plant); United States (sales office)\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\" (per Dana Whitfield)\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection system on the German production line. Planned: AI for sales forecasting (next year).\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (Client \"would like to start ISO/IEC 42001 work next year\")\nAUDIENCE_ROLES: Dana Whitfield (General Counsel); Ravi Okafor (CISO); Ingrid Solberg (Head of Quality); Tomas Reyes (Head of Data); German plant manager (name not stated); two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield); start ISO/IEC 42001 work next year\nSTATED_CONSTRAINTS: Budget: approved up to US$80,000 this fiscal year. Data residency: customer data must stay in the EU. Works council: the German works council must be consulted before anything touches production staff. Timeline: visual inspection production go-live targeted for Q2 2027.\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; quality management system under ISO 9001 (run by Ingrid Solberg)\nRISK_EVENTS: Internal audit reported in June 2026 that there is no inventory of AI systems.\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes dated 6 October 2026 (fictional) with Tamarack's General Counsel, CISO and Head of Quality.\nCONFIDENCE_NOTES: AI_MATURITY recorded as \"Piloting\" from Dana's statement \"We are piloting, not scaling\", though one use case (the chatbot) is described as deployed. CERTIFICATION_TARGETS: the material says the Client would like to \"start ISO/IEC 42001 work\" and does not state whether formal certification is the goal. INCUMBENT_FRAMEWORKS: Ravi stated \"they run\" an ISO/IEC 27001 ISMS, and the material does not state who owns or operates it. The material does not state whether either ISO/IEC 27001 or ISO 9001 is certified. COMPANY_SIZE: headcount is approximate (\"about\") and revenue is a verbal range. STATED_CONSTRAINTS: fiscal-year dates are not stated. OPERATING_JURISDICTIONS: the US presence is described only as a sales office. AUDIENCE_ROLES: the German plant manager's name is not stated.\n```",
+   "stop_reason": "end_turn",
+   "input_tokens": 1598,
+   "output_tokens": 2239,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "PASS",
+  "elements": [
+   {
+    "element": "Checklist 1: single fenced block matching the contract, no commentary outside it",
+    "met": true,
+    "evidence": "The response is one fenced block starting 'CLIENT PROFILE BLOCK v1.0' and ending with the CONFIDENCE_NOTES line. Nothing appears outside the fence."
+   },
+   {
+    "element": "Checklist 2: every field present, populated or Unknown; None only where the Client has none",
+    "met": true,
+    "evidence": "All 18 contract fields appear. No field is Unknown and no field uses None. The material states no 'none' for any field, so none was required."
+   },
+   {
+    "element": "Checklist 3: no fact that cannot be traced to the raw material",
+    "met": true,
+    "evidence": "Each value maps to the notes. Examples: 'Internal audit reported in June 2026 that there is no inventory of AI systems', 'budget approved up to US$80,000', 'quality management system under ISO 9001 (run by Ingrid Solberg)' (notes: 'Ingrid runs the quality management system under ISO 9001'). The ISMS is not attributed to Ravi, and the block states no register, process or control beyond the framework names."
+   },
+   {
+    "element": "Checklist 4: halt triggered correctly only if more than half of required fields are Unknown",
+    "met": true,
+    "evidence": "Zero required fields are Unknown, so the halt was correctly not triggered. No 'PARTIAL INPUT' output appears."
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "Part 2 of the fixture (the reference Client Profile Block) was not supplied. I treated 'traceable to the raw material' as the test for the last fail indicator. Another scorer with Part 2 could find that '(run by Ingrid Solberg)' or 'budget holder' is absent from it and fail the case.",
+   "AI_MATURITY 'Piloting' rests on Dana's quote 'We are piloting, not scaling'. The chatbot is deployed, but the response flags this in CONFIDENCE_NOTES. I accepted it as supported.",
+   "'Timeline: visual inspection production go-live targeted for Q2 2027' slightly paraphrases Dana's 'before visual inspection goes into production in Q2 2027'. I judged this a faithful restatement, not a new fact.",
+   "CERTIFICATION_TARGETS records ISO/IEC 42001 although the notes say only that the Client would 'like to start' the work. The response quotes this wording and flags the ambiguity, so I accepted it."
+  ],
+  "reasoning": "The output is a single contract-conformant fenced block. All fields are populated from the notes, the halt is correctly not triggered, and the values I checked trace to the raw notes. The ambiguities are disclosed in CONFIDENCE_NOTES, and the block asserts no incumbent function or relation the notes do not state. The only residual risk is the unseen Part 2 reference, which I recorded as a judgment call.",
+  "case": "T01-s1",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

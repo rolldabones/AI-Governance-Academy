@@ -1,6 +1,6 @@
 # Prompt Template 06: Guided AI GRC Build
 
-Version 1.14.8 | 2026-10-26 | License: CC BY-NC-SA 4.0 | Program constants: 12 Weeks | US$60,000
+Version 1.14.9 | 2026-10-26 | License: CC BY-NC-SA 4.0 | Program constants: 12 Weeks | US$60,000
 
 ---
 

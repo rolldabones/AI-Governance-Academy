@@ -1,0 +1,28 @@
+academy-a5: 8 cases, claude-opus-5-5 scored by claude-sonnet-5-5, system ../Claude outputs/A5-runs/suites/blocks/AI-Governance-Academy-01-client-intake.txt (2594 chars)
+1 suites, 8 cases
+=== academy-a5 (24 cases)
+  T01-s1: PASS
+  T01-s2: FAIL
+  T01-s3: FAIL
+  T02-s3: FAIL
+  T02-s1: PASS
+  T02-s2: PASS
+  T03-s1: FAIL
+  T03-s2: PASS
+  T03-s3: PASS
+  T04-s1: PASS
+  T04-s2: PASS
+  T04-s3: PASS
+  T05-s3: PASS
+  T05-s2: PASS
+  T05-s1: PASS
+  T06-s1: PASS
+  T06-s3: PASS
+  T06-s2: FAIL
+  T07-s1: PASS
+  T07-s2: PASS
+  T07-s3: PASS
+  T08-s1: PASS
+  T08-s3: PASS
+  T08-s2: PASS
+  academy-a5: 19 of 24 samples PASS; 4 of 8 cases PASS
