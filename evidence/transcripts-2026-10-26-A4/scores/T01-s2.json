@@ -1,0 +1,54 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Raw Client Material:\n\nDiscovery call notes, 6 October 2026 (fictional). Attendees: Dana Whitfield,\nGeneral Counsel, Tamarack Instruments (fictional); Ravi Okafor, CISO; Ingrid\nSolberg, Head of Quality.\n\n- Tamarack designs and manufactures laboratory measurement instruments. HQ in\n  the Netherlands; plants in the Netherlands and Germany; sales office in the\n  United States. About 1,100 staff; Dana said revenue is \"in the US$200 to\n  300 million range\".\n- AI today: a customer service chatbot on the support portal is live\n  (deployed). An AI visual inspection system on the German production line is\n  in pilot. They plan to use AI for sales forecasting next year.\n- Dana: \"We are piloting, not scaling. I want governance in place before\n  visual inspection goes into production in Q2 2027.\"\n- Ravi: they run an ISO/IEC 27001 ISMS; Ingrid runs the quality management\n  system under ISO 9001. They would like to start ISO/IEC 42001 work next\n  year.\n- Dana named the EU AI Act and the GDPR as the rules they are watching.\n- Internal audit reported in June 2026 that there is no inventory of AI\n  systems.\n- Constraints: budget approved up to US$80,000 this fiscal year; customer\n  data must stay in the EU; the German works council must be consulted before\n  anything touches production staff.\n- Who would attend: Dana, Ravi, Ingrid, the Head of Data (Tomas Reyes), the\n  German plant manager and two internal auditors.\n- Dana is the budget holder for this. Decision expected by 15 December 2026.\n",
+   "reply": "```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Design and manufacture of laboratory measurement instruments\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands (HQ and plant); Germany (plant); United States (sales office)\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\" (per Dana Whitfield)\nAI_USE_CASES: Deployed: \"customer service chatbot\" on the \"support portal\". Piloting: \"AI visual inspection system\" on the German production line. Planned: AI for sales forecasting (next year)\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (Client would like to start work next year)\nAUDIENCE_ROLES: Dana Whitfield, General Counsel; Ravi Okafor, CISO; Ingrid Solberg, Head of Quality; Tomas Reyes, Head of Data; German plant manager (unnamed); two internal auditors (unnamed)\nSPONSOR: Dana Whitfield, General Counsel (budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield); start ISO/IEC 42001 work next year\nSTATED_CONSTRAINTS: Budget: approved up to US$80,000 this fiscal year. Timeline: governance in place before visual inspection goes into production in Q2 2027. Data residency: customer data must stay in the EU. Works council: German works council must be consulted before anything touches production staff. Confidentiality: Unknown. Union: Unknown\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS (run by Ravi Okafor, CISO); ISO 9001 quality management system (run by Ingrid Solberg, Head of Quality); internal audit function\nRISK_EVENTS: Internal audit finding (June 2026): no inventory of AI systems. No incidents or regulator contact mentioned\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes dated 6 October 2026 (fictional), with Dana Whitfield (General Counsel), Ravi Okafor (CISO) and Ingrid Solberg (Head of Quality)\nCONFIDENCE_NOTES: AI_MATURITY set to Piloting per Dana's statement \"We are piloting, not scaling\", although one use case (customer service chatbot) is described as deployed. CERTIFICATION_TARGETS: the material says the Client would like to \"start ISO/IEC 42001 work next year\" but does not explicitly state that formal certification is the goal. \"Next year\" (ISO/IEC 42001 work, sales forecasting) is relative to the call date and is presumed to mean 2027. Fiscal year start and end dates are not stated, so the period covered by the US$80,000 budget is unclear. Internal audit is listed under INCUMBENT_FRAMEWORKS because the June 2026 report shows the function exists; its scope and program are not described. The notes are a paraphrase in the third person, so quoted system names may reflect the note-taker's wording rather than the Client's internal terminology. Confidentiality and union constraints were not addressed.\n```",
+   "stop_reason": "end_turn",
+   "input_tokens": 1555,
+   "output_tokens": 2539,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "FAIL",
+  "elements": [
+   {
+    "element": "Checklist 1: single fenced block matching the contract, no commentary outside it",
+    "met": true,
+    "evidence": "The response is one fenced block starting 'CLIENT PROFILE BLOCK v1.0' and ending with the CONFIDENCE_NOTES line. No text appears outside the fence."
+   },
+   {
+    "element": "Checklist 2: every field present, populated or Unknown; None only where the material states none",
+    "met": true,
+    "evidence": "All 18 contract fields are present and populated. 'None' is never used as a field value. Unaddressed sub-items are marked 'Confidentiality: Unknown. Union: Unknown'."
+   },
+   {
+    "element": "Checklist 3: no fact appears that cannot be traced to the raw material",
+    "met": false,
+    "evidence": "INCUMBENT_FRAMEWORKS reads 'ISO/IEC 27001 ISMS (run by Ravi Okafor, CISO); ISO 9001 quality management system (run by Ingrid Solberg, Head of Quality); internal audit function'. The material says only 'Ravi: they run an ISO/IEC 27001 ISMS', with no owner named. The response itself concedes of the internal audit function that 'its scope and program are not described'. It is an incumbent function beyond the two framework names."
+   },
+   {
+    "element": "Checklist 4: halt triggered correctly (not triggered here, since fewer than half of the fields are Unknown)",
+    "met": true,
+    "evidence": "Almost no required fields are Unknown, and the response produces a full profile block, not 'PARTIAL INPUT – Awaiting ...'. Not triggering the halt is correct."
+   }
+  ],
+  "fail_indicators_seen": [
+   "A field value not traceable to the raw material",
+   "A statement of a Client fact that Part 2 of the fixture (the Client Profile Block) does not contain, including any incumbent register, process, control or record beyond the framework names"
+  ],
+  "judgment_calls": [
+   "'run by Ravi Okafor, CISO' is treated as an unsupported owner attribution. Ravi said 'they run' the ISMS, and another scorer could read it as a harmless gloss, since Ravi is the CISO and spoke for it.",
+   "'internal audit function' is treated as an incumbent function beyond the framework names. Another scorer could accept it because the template field mentions 'audit programs' and the material shows internal audit issued a June 2026 report. I did not see the fixture's Part 2 block and inferred its content from the guidance.",
+   "The 'presumed to mean 2027' reading of 'next year' is flagged in CONFIDENCE_NOTES and not asserted as a fact in a field, so I did not count it as a failure.",
+   "Placing the Q2 2027 timeline under STATED_CONSTRAINTS, taken from Dana's objective, is treated as restatement and not as a new fact."
+  ],
+  "reasoning": "The format, completeness and halt checks are met. Checklist item 3 and the corresponding fail indicators are not. The INCUMBENT_FRAMEWORKS field attributes ownership of the ISMS to Ravi Okafor, which the material does not state. It also lists an 'internal audit function' as an incumbent program. The material supports only an audit report and the attendance of two internal auditors, and the response's own CONFIDENCE_NOTES say the function's scope and program are not described. Under v1.14.3 guidance, owner attributions and incumbent functions not in the Profile Block are failures, and a case passes only if every element is met. The verdict is FAIL.",
+  "case": "T01-s2",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

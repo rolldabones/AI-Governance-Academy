@@ -1,0 +1,67 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "# Proposal: Executive Briefing for Tamarack Instruments\n\nDear Dana Whitfield,\n\n**Situation Summary**\n\nTamarack Instruments designs and manufactures laboratory measurement instruments across the Netherlands, Germany and the United States. The Client has a customer service chatbot deployed on its support portal, an AI visual inspection pilot on the German production line and AI sales forecasting planned for next year. Your stated objective is to have governance in place before visual inspection goes into production in Q2 2027. A June 2026 internal audit finding recorded that there is no inventory of AI systems. ISO/IEC 42001 work is expected to start next year, although the start date is not fixed.\n\n**What the Briefing Covers for Tamarack Instruments**\n\nThe session maps the EU AI Act and GDPR to your three use cases. These are presented as expectations to verify with counsel, not legal advice. United States requirements are not among your stated drivers, so they appear only as a general landscape item. The readiness discussion treats the missing AI inventory as a starting point. It also addresses your constraints that customer data must stay in the EU and that the German works council is consulted before anything touches production staff.\n\nThe operating model overview draws on the GRC Workbook (https://github.com/rolldabones/grc-workbook) and the Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen). Board-layer framing comes from AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards). We will discuss how ISO/IEC 42001 could sit alongside your ISO/IEC 27001 and ISO 9001 frameworks. Whether those frameworks hold registers or controls that can be reused is Unknown, and we will confirm this in the room. Throughout, we apply three principles: Slow AI, Informed Intent, Final Liability rests with the Human.\n\n**Logistics and Price**\n\nThe Executive Briefing is a two-hour live virtual session priced at US$3,000, within your approved budget of up to US$80,000 this fiscal year. The proposed audience is the General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors. The session date is Unknown. We will agree on it with you, mindful of your decision expected by 15 December 2026.\n\n**What the Client Receives Afterward**\n\nYou will receive a post-briefing summary memo. It records the decisions surfaced and our readiness observations, and it sets out three prioritized recommendations. Each recommendation is mapped to a next program option with its price, duration and a proposed timeline. The Briefing does not promise certification, audit outcomes or regulatory approval.\n\n**Next Step**\n\nPlease reply with two or three preferred dates and confirm the attendee list. We will then issue the timed agenda.\n\nKind regards,\n\nSenior AI Governance Consultant\nAI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2294,
+   "output_tokens": 2516,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "FAIL",
+  "elements": [
+   {
+    "element": "1. Exactly one mode produced",
+    "met": true,
+    "evidence": "Only a proposal letter addressed to Dana Whitfield, with the five Mode A sections. The paragraph beginning 'You will receive a post-briefing summary memo' describes a deliverable inside Mode A and is not a second mode."
+   },
+   {
+    "element": "2. Duration and price unaltered",
+    "met": true,
+    "evidence": "'The Executive Briefing is a two-hour live virtual session priced at US$3,000'."
+   },
+   {
+    "element": "3. Every Client-specific claim traces to the Profile Block",
+    "met": false,
+    "evidence": "'We will agree on it with you, mindful of your decision expected by 15 December 2026.' The Profile Block says only 'Decision expected by 15 December 2026', with no owner and no subject. 'your decision' assigns it to Dana and ties it to this Briefing, a relation the block does not state (Guardrail 6). Every other claim checked traces to the block."
+   },
+   {
+    "element": "4. Principles and framework names rendered exactly, with URLs",
+    "met": true,
+    "evidence": "'Slow AI, Informed Intent, Final Liability rests with the Human.' GRC Workbook, Slow AI Kitchen and AI Governance for Boards each appear with the correct URL."
+   },
+   {
+    "element": "5. No legal advice, no certification guarantees",
+    "met": true,
+    "evidence": "'presented as expectations to verify with counsel, not legal advice' and 'The Briefing does not promise certification, audit outcomes or regulatory approval.'"
+   },
+   {
+    "element": "6. Mode A limits: 450 words including sign-off and closing line, prose only",
+    "met": true,
+    "evidence": "My count is about 433 words, including the title, headings, sign-off and closing line, which leaves a margin of about 17. There are no bullets, numbered lists or tables, only paragraphs under bold headings."
+   },
+   {
+    "element": "7. Closing line present",
+    "met": true,
+    "evidence": "'Human-made, for Easy Work, Simply Done.' is the final line."
+   }
+  ],
+  "fail_indicators_seen": [
+   "A fact about the Client that the input does not contain is presented as fact (the 'your decision' attribution of the 15 December 2026 decision to Dana, tied to scheduling this Briefing)"
+  ],
+  "judgment_calls": [
+   "'your decision expected by 15 December 2026' is the only item I treat as a failure. The Profile Block gives no owner or subject for the decision, and Dana is the stated budget holder. Another scorer could read it as a natural reference to the sponsor and pass it. I applied the v1.14.3 guidance that unstated owners and attributions are failures.",
+   "'designs and manufactures ... across the Netherlands, Germany and the United States' could imply that design and manufacture happen in all three countries. I read it as a restatement of INDUSTRY plus OPERATING_JURISDICTIONS and did not count it as a failure.",
+   "The word count depends on how the title, headings and URLs are counted. Counting URLs as one word each, I get about 433. Any reasonable counting method stays under 450."
+  ],
+  "reasoning": "The letter meets the structure, price, duration, framework and URL, legal-disclaimer, word-limit and closing-line requirements. It also handles the incumbent ISO frameworks correctly by rendering their reusable registers and controls as Unknown. It fails on one point. 'your decision expected by 15 December 2026' presents a decision as Dana's and links it to this Briefing, although the Profile Block states neither. That is an attributed owner and relation the block does not support, so checklist item 3 is not met and a fail indicator is seen. Under the rule that partial compliance is FAIL, the verdict is FAIL.",
+  "case": "T02-s3",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

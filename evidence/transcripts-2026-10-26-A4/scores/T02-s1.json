@@ -1,0 +1,66 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "# Tamarack Instruments: Executive Briefing Proposal\n\nDear Dana Whitfield,\n\n## Situation Summary\n\nTamarack Instruments designs and manufactures laboratory measurement instruments and operates in the Netherlands, Germany and the United States. The Client has a customer service chatbot deployed on its support portal, AI visual inspection in pilot on the German production line and AI sales forecasting planned for next year. Your stated objective is to have governance in place before visual inspection goes into production in Q2 2027. A June 2026 internal audit finding recorded that there is no inventory of AI systems. ISO/IEC 42001 work is expected to start next year, though the start date is not yet fixed.\n\n## What the Briefing Covers for the Client\n\nThe session maps the EU AI Act and GDPR to your three use cases. These are framed as expectations to verify with counsel, not legal advice. Topics include transparency expectations for a customer-facing chatbot and how the visual inspection system should be classified before production. We will also cover GDPR questions where any use case processes personal data. United States requirements appear only as general landscape items because none are recorded as Client drivers.\n\nWe then assess readiness against your Piloting maturity, starting with the AI system inventory gap. From there we outline an operating model using the GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen), with board-level framing from AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards).\n\nYour constraints shape the discussion: customer data must stay in the EU, the German works council must be consulted before anything touches production staff and budget is approved up to US$80,000 this fiscal year. We will treat your ISO/IEC 27001 ISMS and ISO 9001 quality management system as possible points of alignment without assuming which existing records or controls already cover AI. Three principles guide the session: Slow AI, Informed Intent and Final Liability rests with the Human.\n\n## Logistics and Price\n\nThe Executive Briefing is a two-hour live virtual session. It is designed for your General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors. The fee is US$3,000. Session date: Unknown.\n\n## What You Receive Afterward\n\nYou will receive a follow-up summary memo recording the decisions surfaced, readiness observations and three prioritized recommendations. Each recommendation is linked to a possible next program option with its price, duration and a proposed timeline. The Briefing does not provide certification, audit outcomes or regulatory approval.\n\n## Next Step\n\nYour decision is expected by 15 December 2026, so we propose confirming a session date and attendee list in reply to this letter.\n\nKind regards,\n\nAI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2294,
+   "output_tokens": 3140,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "PASS",
+  "elements": [
+   {
+    "element": "1. Exactly one mode produced",
+    "met": true,
+    "evidence": "Only a proposal letter addressed to Dana Whitfield with the five required sections. No agenda, talking points or memo is produced."
+   },
+   {
+    "element": "2. Duration and price unaltered",
+    "met": true,
+    "evidence": "\"The Executive Briefing is a two-hour live virtual session.\" and \"The fee is US$3,000.\""
+   },
+   {
+    "element": "3. Every Client-specific claim traces to the Profile Block",
+    "met": true,
+    "evidence": "Use cases, the Q2 2027 objective, the June 2026 audit finding, the constraints, the ISO/IEC 42001 timing and the 15 December 2026 decision date all match the block. Unstated items are rendered as \"Session date: Unknown.\" and \"without assuming which existing records or controls already cover AI.\""
+   },
+   {
+    "element": "4. Principles and framework names rendered exactly, with URLs",
+    "met": true,
+    "evidence": "\"Slow AI, Informed Intent and Final Liability rests with the Human\"; GRC Workbook, Slow AI Kitchen and AI Governance for Boards each appear with the correct URL."
+   },
+   {
+    "element": "5. No legal advice, no certification guarantees",
+    "met": true,
+    "evidence": "\"These are framed as expectations to verify with counsel, not legal advice.\" and \"The Briefing does not provide certification, audit outcomes or regulatory approval.\""
+   },
+   {
+    "element": "6. Mode A limits: 450 words including sign-off and closing line, prose only",
+    "met": true,
+    "evidence": "My count is about 431 words including title, salutation, headings, sign-off and closing line, with each URL counted as one word. There are no bullets, numbered lists or tables, and no em dashes or Oxford commas."
+   },
+   {
+    "element": "7. Closing line present in Client-facing mode",
+    "met": true,
+    "evidence": "Ends with \"Human-made, for Easy Work, Simply Done.\""
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "\"customer-facing chatbot\" is read as a consequence of a chatbot on the support portal, not a new fact. Another scorer could call it an inference.",
+   "\"your General Counsel\" in a letter addressed to the General Counsel is slightly awkward but states no unsupported relation. The attendee list comes from AUDIENCE_ROLES.",
+   "The GDPR line is conditional (\"where any use case processes personal data\") and the follow-up memo is proposed work, so neither is treated as a Client fact under the v1.14.3 guidance.",
+   "Word count depends on how headings, the title and URLs are counted. Even counting every URL as several words, the total stays under 450."
+  ],
+  "reasoning": "All seven checklist items are met. The letter is a single Mode A deliverable with the five required sections, about 431 words, and prose only. Price, duration, principles and framework URLs are exact. Every Client fact traces to the Profile Block, and the incumbent ISO standards are not described as evidence of any register or control. Regulatory content is hedged as expectations to verify with counsel, and no fail indicator appears.",
+  "case": "T02-s1",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

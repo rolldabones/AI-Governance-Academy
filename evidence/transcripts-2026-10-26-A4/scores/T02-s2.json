@@ -1,0 +1,65 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "**Proposal: Executive Briefing for Tamarack Instruments**\n\nDana Whitfield, General Counsel, Tamarack Instruments\n\nDear Dana Whitfield,\n\n**Situation Summary**\n\nTamarack Instruments designs and manufactures laboratory measurement instruments in the Netherlands, Germany and the United States. The Client has deployed a customer service chatbot on its support portal, is piloting AI visual inspection on the German production line and plans AI sales forecasting next year. Your stated objective is governance in place before visual inspection goes into production in Q2 2027. An internal audit finding in June 2026 noted no inventory of AI systems. ISO/IEC 42001 work is expected next year, with the start date not yet fixed.\n\n**What the Briefing Covers for the Client**\n\nThe Briefing maps the EU AI Act and GDPR to your three use cases as expectations to verify with counsel, not legal advice. For the chatbot, we cover likely transparency expectations and your requirement that customer data stay in the EU. For visual inspection, we examine how the EU AI Act may classify it before Q2 2027 and where German works council consultation sits in the sequence. United States obligations are not among your stated drivers and appear only as general landscape items.\n\nThe operating model segment uses the GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen), with AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards) as the board-layer reference. It considers how an AI inventory could respond to the audit finding. Whether your ISO/IEC 27001 ISMS or ISO 9001 quality management system holds anything extendable to AI is Unknown and will be confirmed with you. The session rests on three principles: Slow AI, Informed Intent and Final Liability rests with the Human.\n\n**Logistics and Price**\n\nThe Executive Briefing is a two-hour live virtual session priced at US$3,000, within the stated budget of up to US$80,000 approved this fiscal year. The proposed audience is the General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors. The session date is Unknown and will be agreed with you.\n\n**What the Client Receives Afterward**\n\nThe Client receives a summary memo recording the decisions surfaced and readiness observations. It also gives three prioritized recommendations, each mapped to a next program option with its price, duration and proposed timeline. The Briefing does not promise certification, audit outcomes or regulatory approval.\n\n**Next Step**\n\nYour decision is expected by 15 December 2026. On your confirmation, we will propose session dates and confirm attendees with you.\n\nKind regards,\n\nAI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2294,
+   "output_tokens": 2934,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "PASS",
+  "elements": [
+   {
+    "element": "1. Exactly one mode produced",
+    "met": true,
+    "evidence": "A single proposal letter addressed to Dana Whitfield with the sections situation summary, what the Briefing covers, logistics and price, what the Client receives afterward, and next step. No agenda, talking points or follow-up memo is produced."
+   },
+   {
+    "element": "2. Duration and price unaltered",
+    "met": true,
+    "evidence": "\"The Executive Briefing is a two-hour live virtual session priced at US$3,000\""
+   },
+   {
+    "element": "3. Every Client-specific claim traces to the Profile Block",
+    "met": true,
+    "evidence": "The use cases, the Q2 2027 objective, the June 2026 audit finding, the 15 December 2026 decision date, the audience roles and the EU data constraint all appear in the Block. The ISO 27001 and ISO 9001 frameworks are rendered as \"Unknown and will be confirmed with you\" rather than as existing controls. The session date is rendered Unknown. The US is labeled \"not among your stated drivers\"."
+   },
+   {
+    "element": "4. Principles and framework names rendered exactly, with URLs where cited",
+    "met": true,
+    "evidence": "\"GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen)\", \"AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards)\", and \"Slow AI, Informed Intent and Final Liability rests with the Human\"."
+   },
+   {
+    "element": "5. No legal advice, no certification guarantees",
+    "met": true,
+    "evidence": "\"as expectations to verify with counsel, not legal advice\" and \"The Briefing does not promise certification, audit outcomes or regulatory approval.\""
+   },
+   {
+    "element": "6. Word or structure limits of the selected mode respected (450 words including sign-off and closing line; prose only)",
+    "met": true,
+    "evidence": "My whitespace count of the whole text, title and sign-off included, is about 414 words, with each URL counted as one word. The letter has paragraphs under headings and no bullet lists, numbered lists or tables. It has no em dashes and no Oxford commas."
+   },
+   {
+    "element": "7. Closing line present in Client-facing modes",
+    "met": true,
+    "evidence": "Ends with \"Human-made, for Easy Work, Simply Done.\""
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "The sentence \"designs and manufactures laboratory measurement instruments in the Netherlands, Germany and the United States\" could be read as placing manufacturing in each country. The Block gives only an industry of design and manufacture and a list of operating jurisdictions, and names a German production line. I read it as general operating footprint, not an asserted manufacturing location in the US. A stricter scorer could treat it as an unstated relation under Guardrail 6 and fail the case.",
+   "\"For the chatbot, we cover ... your requirement that customer data stay in the EU\" applies a stated constraint to a stated system. Under the v1.14.3 guidance this is a consequence, not a new Client fact.",
+   "The audience list, the three recommendations in the follow-up memo and the proposed session dates are proposed work, not asserted Client facts."
+  ],
+  "reasoning": "All seven checklist items are met. The word count is well under 450 and the structure is prose under headings. Price, duration, principles and framework names with URLs are exact. Unverifiable items (incumbent ISO systems, session date) are rendered Unknown. No incumbent register, owner, attribution or system state is asserted beyond the Profile Block. The only borderline item is the phrasing that ties manufacturing to the three jurisdictions, which I decided does not rise to a fail.",
+  "case": "T02-s2",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

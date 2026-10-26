@@ -2,6 +2,10 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.14.7] – 2026-10-26
+
+Patch, record only. **Run A4 logged:** cases T01 to T08 against the v1.14.6 prompt sections at `88e655c`, three samples per case, `claude-opus-5-5` scored by `claude-sonnet-5-5` under the scorer guidance of v1.14.3: by sample 14 PASS, 7 after review; by case T05 as scored, none after review. **Not accepted** under `ACCEPTANCE.md` in the `rolldabones` repository; reviewer Michael Paik concurring per case, with his rulings of 26 October 2026 (KST) that three patterns the scorer ruled both ways are read strictly (an owner or subject for the decision date, the audit finding stated as a current status, a fable row with one artifact). **Known defects K7, K8 and K9 recorded, open:** template 01 lacks the relation guard; template 04 Mode A has no asset category for the fable kit; the decision date has no owner or subject in any template. No prompt section, checklist or fixture changed; the fixes are new texts and need their own run. `tests.md` (Last run, known defects, status), the README status and Test status lines; evidence in `evidence/transcripts-2026-10-26-A4/`; the 24 outputs, labeled, in `examples/transcripts-2026-10-26-A4/`. Every template masthead, the README masthead, How to Cite and the six publication citations, the `tests.md` masthead and `CITATION.cff` to v1.14.7 in lockstep. Prepared with Claude, approved by Michael Paik.
+
 ## [1.14.6] – 2026-10-26
 
 Patch release. Acceptance restated as a tolerance: the tests file is now read under the account rule, `ACCEPTANCE.md` in the `rolldabones` repository, names its critical cases and records the instrument's status under that rule (not accepted: 13 of 24 samples); the README carries the same status below its masthead. No rule in the instrument changed and no run was made; the edits are to the test record and the front door. Train A of the whole-account review of 24 October 2026 (KST); prepared with Claude, approved by Michael Paik.
