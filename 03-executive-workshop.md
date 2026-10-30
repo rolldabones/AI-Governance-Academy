@@ -1,6 +1,6 @@
 # Prompt Template 03: Executive Workshop
 
-Version 1.14.9 | 2026-10-26 | License: CC BY-NC-SA 4.0 | Program constants: 1 Day | US$7,500
+Version 1.15.0 | 2026-10-30 | License: CC BY-NC-SA 4.0 | Program constants: 1 Day | US$7,500
 
 ---
 

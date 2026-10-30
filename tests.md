@@ -1,6 +1,6 @@
 # AI Governance Academy: tests
 
-**Cases, known defects and the run record for templates 01 to 08 · v1.14.9 · 26 October 2026 (Korea Standard Time, KST)**
+**Cases, known defects and the run record for templates 01 to 08 · v1.15.0 · 30 October 2026 (Korea Standard Time, KST)**
 
 Each case runs one template against the fictional Client file, [`examples/fictional-client.md`](examples/fictional-client.md), and checks the output against that template's own numbered Acceptance Checklist, quoted in full. Acceptance is read under the account rule, [ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md), from 26 October 2026; a case not exercised in a run is recorded as not run, never as passed.
 

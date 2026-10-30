@@ -1,12 +1,12 @@
 # AI Governance Academy
 
-Version 1.14.9 | 2026-10-26 | Status: final (known limitation and test status open; see Purpose) | Model-agnostic
+Version 1.15.0 | 2026-10-30 | Status: final (known limitation and test status open; see Purpose) | Model-agnostic
 
 **Acceptance status ([ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md), 26 October 2026, KST):** Not accepted. Run A5 (26 October 2026) of the published templates passed 20 of 24 samples and 5 of the 8 cases after review (T01, T04, T05, T07 and T08), below the 80 percent ACCEPTANCE.md (c) requires; T02, T03 and T06 fail on the residual defects K5, K6 and K9 listed in tests.md. The account's status table is in [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md#instrument-status).
 
 **Caution.** The templates are unvalidated: no template is accepted under [tests.md](tests.md) and the program spines are not verified against a delivered program (known defect K3), so every output rests on the human check at Workflow item 5.
 
-This repository has two halves. The first is the Client Content Prompt Pack: eight prompt templates that generate Client-specific sales and delivery content for the AI Governance Academy program options. The second is the Publications: six client-facing pieces, from an essay on how to characterize AI output to a working vocabulary for reading discovery claims, published here as the text of record. The halves share one version number, one license and one closing line.
+This repository has two halves. The first is the Client Content Prompt Pack: eight prompt templates that generate Client-specific sales and delivery content for the AI Governance Academy program options. The second is the Publications: seven client-facing pieces, from an essay on how to characterize AI output to a working mythology for AI, published here as the text of record. The halves share one version number, one license and one closing line.
 
 ## Client Content Prompt Pack
 
@@ -85,7 +85,7 @@ Templates 02 to 08 state these rules in their own Style Rules, because a model s
 
 ## Publications
 
-Six client-facing publications sit beside the templates, each the text of record for its piece, dated with its first publication and described by the occasion its own masthead names. None is a program template and no Output Contract applies to any of them.
+Seven client-facing publications sit beside the templates, each the text of record for its piece, dated with its first publication and described by the occasion its own masthead names. None is a program template and no Output Contract applies to any of them.
 
 | File | Title | Date | Kind | Words | Occasion |
 |---|---|---|---|---|---|
@@ -95,22 +95,25 @@ Six client-facing publications sit beside the templates, each the text of record
 | [slow-ai-for-the-chief-legal-officer.md](slow-ai-for-the-chief-legal-officer.md) | *Slow AI for the Chief Legal Officer* | 6 October 2026 | primer | 7,400 | I by IMD article by Mezzano, Trantopoulos and Wade |
 | [the-compression-and-the-harness.md](the-compression-and-the-harness.md) | *The Compression and the Harness* | 12 October 2026 | discussion piece | 7,800 | Stephen Wolfram's interview with Jon Hernandez |
 | [the-map-and-the-pair.md](the-map-and-the-pair.md) | *The Map and the Pair* | 15 October 2026 | discussion piece | 10,800 | OpenAI's openai/math release of October 2026 |
+| [the-artificial-familiar.md](the-artificial-familiar.md) | *The Artificial Familiar* | 30 October 2026 | discussion piece | 13,500 | none |
 
-The date is the masthead date of first publication; *The Map and the Pair* is in its second edition, revised the same day, and the CHANGELOG entries of 15 October 2026 record the changes. The story of *The Turtle and the Phoenix* is also published as an essay at https://redcaps.substack.com/p/the-turtle-and-the-phoenix; the file here adds the facilitation kit. Words are counted with `wc -w` at v1.14.0 and rounded to the nearest hundred.
+The date is the masthead date of first publication; *The Map and the Pair* is in its second edition, revised the same day, and the CHANGELOG entries of 15 October 2026 record the changes. The story of *The Turtle and the Phoenix* is also published as an essay at https://redcaps.substack.com/p/the-turtle-and-the-phoenix; the file here adds the facilitation kit. Words are counted with `wc -w` at v1.14.0, and for *The Artificial Familiar* at v1.15.0, and rounded to the nearest hundred.
 
 ### How to cite a publication
 
-> Paik, Son-U Michael. *Sounds Good*. In AI Governance Academy, v1.14.9. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/sounds-good.md
+> Paik, Son-U Michael. *Sounds Good*. In AI Governance Academy, v1.15.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/sounds-good.md
 
-> Paik, Son-U Michael. *The Turtle and the Phoenix*. In AI Governance Academy, v1.14.9. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md
+> Paik, Son-U Michael. *The Turtle and the Phoenix*. In AI Governance Academy, v1.15.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md
 
-> Paik, Son-U Michael. *Law Firm AI Deployment Spec v2*. In AI Governance Academy, v1.14.9. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/law-firm-ai-deployment-spec.md
+> Paik, Son-U Michael. *Law Firm AI Deployment Spec v2*. In AI Governance Academy, v1.15.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/law-firm-ai-deployment-spec.md
 
-> Paik, Son-U Michael. *Slow AI for the Chief Legal Officer*. In AI Governance Academy, v1.14.9. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/slow-ai-for-the-chief-legal-officer.md
+> Paik, Son-U Michael. *Slow AI for the Chief Legal Officer*. In AI Governance Academy, v1.15.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/slow-ai-for-the-chief-legal-officer.md
 
-> Paik, Son-U Michael. *The Compression and the Harness*. In AI Governance Academy, v1.14.9. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-compression-and-the-harness.md
+> Paik, Son-U Michael. *The Compression and the Harness*. In AI Governance Academy, v1.15.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-compression-and-the-harness.md
 
-> Paik, Son-U Michael. *The Map and the Pair*. In AI Governance Academy, v1.14.9. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-map-and-the-pair.md
+> Paik, Son-U Michael. *The Map and the Pair*. In AI Governance Academy, v1.15.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-map-and-the-pair.md
+
+> Paik, Son-U Michael. *The Artificial Familiar*. In AI Governance Academy, v1.15.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-artificial-familiar.md
 
 ## Part of the ecosystem
 
@@ -125,7 +128,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.14.9. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
+> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.15.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
