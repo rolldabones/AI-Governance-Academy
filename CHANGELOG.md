@@ -2,6 +2,13 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.15.1] – 2026-10-31
+
+Patch, on Michael Paik's instruction of 31 October 2026 (KST) to take *The Artificial Familiar* as his thinking as it has evolved, reference it from the book and revise the book to match. No prompt section, Acceptance Checklist, fixture, case or test record changes; the templates' acceptance status is unchanged.
+
+- `the-artificial-familiar.md`, Section 14: the paragraph on the homunculus now says that the book's Conclusion first called the homunculus the right figure for the agent, that work on agentic AI changed the author's mind, that this piece is where that thinking now lives and that the Conclusion has been revised to match (book repository v1.10.0, which cites this piece). A dated amendment note is added to the source note; the masthead date of first publication stands.
+- Every template masthead, the README masthead, How to Cite and the seven publication citations, the `tests.md` masthead and `CITATION.cff` to v1.15.1 in lockstep. Prepared with Claude, approved by Michael Paik.
+
 ## [1.15.0] – 2026-10-30
 
 Minor: a seventh client-facing publication, on Michael Paik's request of 30 October 2026 (KST). No prompt section, Acceptance Checklist, fixture, case, transcript, score or harness file changes; the templates' acceptance status is unchanged and still rests on run A5.
