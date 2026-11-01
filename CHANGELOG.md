@@ -2,6 +2,14 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.16.0] – 2026-11-01
+
+Minor: an eighth client-facing publication, on Michael Paik's request of 31 October 2026 (KST). This addition proceeds on his express request of 31 October 2026, which reopens the no-further-additions rule of 18 October 2026 for this item alone. No prompt section, Acceptance Checklist, fixture, case, transcript, score or harness file changes; the templates' acceptance status is unchanged and still rests on run A5.
+
+- **New publication.** `the-philosopher-king-test.md`, *The Philosopher-King Test: Reading the AI industry through its terms and its money*, a discussion piece developed from the author's LinkedIn post of 31 October 2026, "The self-appointed philosopher-king is usually neither." It turns the post into a method for understanding the AI industry and cutting through its hype: Plato's entry condition (*Republic* 520d), the captive-wolf studies, de Waal's coalitions, the cicada and Ozymandias as the frame; a table of six terms (AGI, two safety frameworks, open source, agent, AI system) set side by side from dated primary documents, with a model paragraph for pinning a definition in a contract, policy or risk register; a money method that reads public records only (securities filings, Form D, lobbying registers, partnership terms) and compiles nothing about anyone; and a one-page test for capability, timeline, safety, market, openness and agency claims. It names no living person, declares that it was prepared with Claude and adds no doctrine: Final Liability and Informed Intent are quoted in their DOCTRINE.md section 8 short forms.
+- **README.** The Publications table gains the row, the counts read eight, the opening paragraph's range ends on the new piece and How to Cite gains the citation.
+- Every template masthead, the README masthead, How to Cite and the eight publication citations, the `tests.md` masthead and `CITATION.cff` (version, date and abstract) to v1.16.0 in lockstep. Prepared with Claude, approved by Michael Paik.
+
 ## [1.15.1] – 2026-10-31
 
 Patch, on Michael Paik's instruction of 31 October 2026 (KST) to take *The Artificial Familiar* as his thinking as it has evolved, reference it from the book and revise the book to match. No prompt section, Acceptance Checklist, fixture, case or test record changes; the templates' acceptance status is unchanged.
