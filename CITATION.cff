@@ -4,8 +4,8 @@ title: "AI Governance Academy: Client Content Prompt Pack and Publications"
 authors:
   - family-names: "Paik"
     given-names: "Son-U Michael"
-version: 1.16.0
+version: 1.17.0
 date-released: "2026-11-01"
 license: CC-BY-NC-SA-4.0
 repository-code: "https://github.com/rolldabones/AI-Governance-Academy"
-abstract: "Prompt template pack for client-facing engagements (eight templates) and eight client-facing publications."
+abstract: "Prompt template pack for client-facing engagements (eight templates) and nine client-facing publications."
