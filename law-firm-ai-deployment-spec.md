@@ -363,7 +363,7 @@ It should have:
 
 a governed AI inventory, defined use cases, contractual and data controls, centralized access, identity and authorization controls, a governed knowledge layer, trained users under a competency and authorization record, evaluation rubrics, production testing, measurable baselines, monitoring, audit evidence and at least one bounded workflow demonstrating real value.
 
-Most importantly, every material capability should have a named human owner with the information, authority and ability to intervene.
+Most importantly, every material capability should have a named human owner with decision rights, oversight and the power to intervene.
 
 Name what was built honestly. It is a digital transformation, with an AI management system, the ISO/IEC 42001 construct, at its center. But it is fundamentally a knowledge management program as well: the firm has mapped where its knowledge lives, governed who and what may retrieve it, converted tacit judgment into explicit criteria and preserved the evidence of its decisions. The models were never the asset. The knowledge layer is, and it outlasts every vendor on the roadmap.
 

@@ -1,6 +1,6 @@
 # Prompt Template 02: Executive Briefing
 
-Version 1.17.1 | 2026-11-02 | License: CC BY-NC-SA 4.0 | Program constants: 2 Hours | US$3,000
+Version 1.17.2 | 2026-11-02 | License: CC BY-NC-SA 4.0 | Program constants: 2 Hours | US$3,000
 
 ---
 

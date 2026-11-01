@@ -2,6 +2,12 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.17.2] – 2026-11-02
+
+Patch. Doctrine compressions conformed to DOCTRINE.md section 8. *The Turtle and the Phoenix*, the Handle Map (section 6): the "What it opens" cells for Informed Intent, Final Liability and Slow AI carry the section 8 short forms verbatim in place of compressions in neither section 8 form. *Law Firm AI Deployment Spec v2*, line 366: the named owner holds "decision rights, oversight and the power to intervene", the section 8 list form, in place of "the information, authority and ability to intervene". Found by the whole-account review of 24 October 2026 (reader report 03); train B. No prompt section, Acceptance Checklist, fixture, case, transcript, score or harness file changes; acceptance still rests on run A5.
+
+- Every template masthead, the README masthead, How to Cite and the nine publication citations, the `tests.md` masthead and `CITATION.cff` to v1.17.2 in lockstep. Prepared with Claude, approved by Michael Paik.
+
 ## [1.17.1] – 2026-11-02
 
 Patch. *The Philosopher-King Test*, Source basis and attribution: the Thorburn line said the live Wikisource page of "The Myth of Occam's Razor" did not load and that the volume and year came from the standard citation; the page has since loaded and gives the citation as *Mind* 27 (107): 345–353 (1918), so the line now says the citation was read on the live page. No claim in the piece changes. On Michael Paik's ruling of 1 November 2026 (KST).
