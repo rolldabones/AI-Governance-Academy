@@ -2,6 +2,14 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.17.1] – 2026-11-02
+
+Patch. *The Philosopher-King Test*, Source basis and attribution: the Thorburn line said the live Wikisource page of "The Myth of Occam's Razor" did not load and that the volume and year came from the standard citation; the page has since loaded and gives the citation as *Mind* 27 (107): 345–353 (1918), so the line now says the citation was read on the live page. No claim in the piece changes. On Michael Paik's ruling of 1 November 2026 (KST).
+
+- **`tests.md`, case defect C2:** "takes effect at the next run" reads "applies from the next run". The meaning is unchanged; the account's guard read the old phrase as a dated prospective claim (weekly sweep of 2 November 2026).
+- No prompt section, Acceptance Checklist, fixture, case, transcript, score or harness file changes; the templates' acceptance status is unchanged and still rests on run A5.
+- Every template masthead, the README masthead, How to Cite and the nine publication citations, the `tests.md` masthead and `CITATION.cff` (version and date) to v1.17.1 in lockstep. Prepared with Claude, approved by Michael Paik.
+
 ## [1.17.0] – 2026-11-01
 
 Minor: a ninth client-facing publication, on Michael Paik's request of 1 November 2026 (KST). This addition proceeds on his express request of 1 November 2026, which reopens the no-further-additions rule of 18 October 2026 for this item alone. No prompt section, Acceptance Checklist, fixture, case, transcript, score or harness file changes; the templates' acceptance status is unchanged and still rests on run A5.
