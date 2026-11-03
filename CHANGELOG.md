@@ -2,6 +2,12 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.18.0] – 2026-11-04
+
+Minor. Tenth client-facing publication: *The Mandate and the Switch* (`the-mandate-and-the-switch.md`, 6,400 words), a discussion piece reading five agentic-commerce trust systems of 2025 and 2026 (Cloudflare's signed agents and PACT, Google's Agent Payments Protocol mandates, Stripe's shared payment tokens, the Visa, BILL and Billtrust pilot and Meta's Sentinel) at their primary documents against the four elements of Informed Intent, the five GRCnext™ primitives and the Take-Out ticket, with a section on what the record proves and what it does not. Occasioned by Nate B. Jones's Substack post and video of 31 October 2026, credited by the public post page and the public video; his members-only guides and kits are neither cited nor linked, and none of his text or prompts is reproduced. Under express reopening of the no-further-additions rule, on Michael Paik's ruling of 4 November 2026; adds no doctrine, step, gate, tier or form. No prompt section, Acceptance Checklist, fixture, case, transcript, score or harness file changes; acceptance still rests on run A5.
+
+- README: Publications table row, "nine" to "ten" in the introduction, the Publications paragraph and `CITATION.cff`, the How to cite line, the words sentence. Every template masthead, the README masthead, How to Cite and the ten publication citations, the `tests.md` masthead and `CITATION.cff` to v1.18.0 in lockstep. Prepared with Claude, approved by Michael Paik.
+
 ## [1.17.2] – 2026-11-02
 
 Patch. Doctrine compressions conformed to DOCTRINE.md section 8. *The Turtle and the Phoenix*, the Handle Map (section 6): the "What it opens" cells for Informed Intent, Final Liability and Slow AI carry the section 8 short forms verbatim in place of compressions in neither section 8 form. *Law Firm AI Deployment Spec v2*, line 366: the named owner holds "decision rights, oversight and the power to intervene", the section 8 list form, in place of "the information, authority and ability to intervene". Found by the whole-account review of 24 October 2026 (reader report 03); train B. No prompt section, Acceptance Checklist, fixture, case, transcript, score or harness file changes; acceptance still rests on run A5.
