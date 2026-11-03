@@ -6,6 +6,8 @@ Son-U Michael Paik · CEO, GRC Solutions Korea
 
 9 July 2026
 
+Amended 4 November 2026 (KST): section 8, the Deloitte review, added; sections 1 to 7 are unchanged.
+
 ---
 
 ## Contents
@@ -21,6 +23,7 @@ Son-U Michael Paik · CEO, GRC Solutions Korea
 - [5. Professional Obligations and Operational Rules](#5-professional-obligations-and-operational-rules)
 - [6. Limitations and Cautions](#6-limitations-and-cautions)
 - [7. Conclusion](#7-conclusion)
+- [8. Amendment of 4 November 2026: the Deloitte review](#8-amendment-of-4-november-2026-the-deloitte-review)
 - [Sources and Authorities](#sources-and-authorities)
 
 ---
@@ -95,6 +98,26 @@ Two cautions apply to the use of this framing. First, it should not be overstate
 
 It is accurate, and technically grounded, to characterize AI outputs as "sounding good" rather than being right. The systems are optimized to produce plausible text, correctness is a byproduct rather than a property and every augmentation now on the market wraps rather than replaces that mechanism. The professional consequence is constant across configurations: verification is a human obligation that attaches wherever generated content enters the work product, and no degree of fluency, grounding or autonomy transfers that obligation to the machine.
 
+## 8. Amendment of 4 November 2026: the Deloitte review
+
+This section was added on 4 November 2026 (KST). Sections 1 to 7 stand as published on 9 July 2026.
+
+*Mata v. Avianca* in section 3 is a law firm's brief, caught by a court. The case below is a professional services firm's assurance report, commissioned and published by a government and caught by a reader. It is the mechanism of section 3 in the setting the professional reader of this document is most likely to meet, and its ending is the thesis in the client's own words.
+
+**The facts, from the record.** The Australian Department of Employment and Workplace Relations (DEWR) engaged Deloitte under an order for services dated 23 December 2024 to conduct an independent assurance review of the Targeted Compliance Framework, the automated system that applies penalties to welfare recipients who miss their obligations; the review ran from December 2024 to June 2025 and the final report was dated 4 July 2025. The contract was valued at about AU$440,000 according to the government's procurement database, as reported. After publication, Dr Christopher Rudge of the University of Sydney identified fabricated references in the report: citations to academic works that do not exist and a quotation attributed to the Federal Court in the *Amato v Commonwealth* proceeding, at paragraphs that do not exist. The department published a corrected report dated 26 September 2025. Its Report Update note states that it replaces the report of 4 July 2025, that citations and reference list entries containing errors were corrected and the summary of the *Amato* proceeding amended, and that the updates do not affect the report's substantive content, findings and recommendations. The corrected report's methodology section discloses that the assessment of traceability and documentation gaps in the technical workstream used a generative AI large language model tool chain based on "Azure OpenAI GPT-4o", licensed by the department and hosted on its own Azure tenancy. Deloitte agreed to repay the final installment of its fee; the department confirmed a refund of over A$97,000, about US$63,000, and said that the substance of the review was retained and its recommendations unchanged. As read on 4 November 2026, the department's page states that the report was updated again on 3 February 2026 to address identified corrections, replacing the 26 September 2025 report; the file served from the page carries the 26 September 2025 date and the Report Update note described above, and the page gives no particulars of the later corrections. The Register reported the disclosure as new to the corrected version and absent from the original, and reported, from an unnamed source speaking to the Australian Financial Review, that Deloitte's internal review attributed the errors to human error rather than to the tool. The July report is no longer published; this section records both reports and adopts neither, and does not assert how the fabricated references were produced.
+
+**What the case adds to the essay.** Four things, each an inference from the record above and marked as such.
+
+First, the fabrications passed every reader who was paid to read: the firm's own review before issue, the client's acceptance and the decision to publish. Section 3 says that errors arrive in the most persuasive available packaging. Here the packaging was an assurance report, the genre whose purpose is to be checked, and the packaging held until a reader outside the engagement checked a citation.
+
+Second, what caught them was rule 3 of section 5 and nothing else: a reader verified that the sources existed and said what the report said they said. No tool, procurement clause or disclosure did that work. The rule is cheap, and it was the only control that ran.
+
+Third, the reader of the July report could not have applied rule 2, which maps the verified and the generated segments of a workflow, because the record gave no map. The disclosure arrived in the corrected version, and it places the tool in the technical workstream's traceability assessment, which says nothing about where the fabricated legal and academic citations came from. The condition rule 2 exists to prevent, a reader who cannot locate the generated segments, can be created by the author's silence as readily as by the tool. The corollary for the reader is rule 1 applied to the whole document: where the record does not show which segments were verified, none was.
+
+Fourth, the department's statement that the substance was retained and the recommendations unchanged is the thesis in the client's voice. The conclusions may be right. What the fabrications removed was the reader's ability to confirm that from the document, and what restored it was a reader redoing the checking that the document presented as done. Nate B. Jones's reading of the case, in his post and video of 5 August 2026 credited below, is that the cost of such work falls on the reader who has to redo it. This essay agrees and adds the professional corollary: a deliverable whose conclusions can be confirmed only by redoing the work has not been delivered, whatever its author was paid and whatever part of the fee was returned. Rule 7 names the human who owns that outcome. The record of this case shows a firm answering by repayment and a department answering by acceptance; it does not show the named reader who verified the citations before publication, which is the control the essay asks for.
+
+The amendment's occasion is Nate B. Jones's Substack post and video of 5 August 2026, credited by their public pages in Sources and Authorities. The facts are taken from the department's page and report and from two press reports, not from the post; his members-only skill is neither cited nor linked, and none of his text is reproduced.
+
 ---
 
 ## Sources and Authorities
@@ -104,6 +127,10 @@ It is accurate, and technically grounded, to characterize AI outputs as "soundin
 - Varun Magesh et al., *Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools*, Stanford University (2024) (empirical evaluation finding material error rates in RAG-based legal research tools despite retrieval grounding).
 - Nat'l Inst. of Standards & Tech., *Artificial Intelligence Risk Management Framework (AI RMF 1.0)* (Jan. 2023), and *Generative Artificial Intelligence Profile* (NIST AI 600-1, July 2024) (identifying confabulation as a distinct generative AI risk requiring governance controls).
 - Ziwei Ji et al., *Survey of Hallucination in Natural Language Generation*, ACM Computing Surveys, Vol. 55, No. 12 (2023) (surveying the mechanism by which language models generate fluent but unfaithful content).
+- Dep't of Emp't & Workplace Rels. (Austl.), *Targeted Compliance Framework Assurance Review – Final Report* (Deloitte; report dated Sept. 26, 2025, replacing the report of July 4, 2025; the page states a further update of Feb. 3, 2026), https://www.dewr.gov.au/assuring-integrity-targeted-compliance-framework/resources/targeted-compliance-framework-assurance-review-final-report (page and PDF read Nov. 4, 2026 (KST); PDF page 2 for the Report Update and page 48, section 6.3, for the tool chain disclosure).
+- Carly Page, *Deloitte refunds Aussie gov after AI fabrications slip into $440K welfare report*, The Register (Oct. 6, 2025), https://www.theregister.com/software/2025/10/06/deloitte-refunds-australian-government-over-ai-in-report/722000 (the fabricated references and their discovery by Dr Christopher Rudge, the contract value, the disclosure in the corrected report, reported as absent from the original, the agreement to repay the final installment and, from an unnamed source speaking to the Australian Financial Review, Deloitte's internal attribution of the errors to human error).
+- Alexei Alexis, *Deloitte refunds over $60K for report with AI errors, Australian government says*, CFO Dive (Oct. 21, 2025), https://www.cfodive.com/news/deloitte-refunds-60k-report-ai-errors-australian-government-accounting/803321/ (the refund of over A$97,000, about US$63,000, confirmed by a department spokesperson; the contract executed in December 2024 and valued at about A$440,000 per AusTender).
+- Nate B. Jones, *Nobody Checked Deloitte's Report. One Academic Did. It Cost Them A$97,587.*, Nate's Newsletter (Substack) (Aug. 5, 2026), https://natesnewsletter.substack.com/p/ai-slop-cost, and *The #1 Skill to Stop AI Slop (It's Not What You Think)*, AI News & Strategy Daily (YouTube) (Aug. 5, 2026), https://www.youtube.com/watch?v=AWGoOtNgw3c (the occasion of section 8; the post is paid and is credited by its public page, read Nov. 4, 2026 (KST); his members-only skill is neither cited nor linked; none of his text is reproduced).
 
 ---
 
