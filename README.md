@@ -1,12 +1,12 @@
 # AI Governance Academy
 
-Version 1.18.1 | 2026-11-04 | Status: final (known limitation and test status open; see Purpose) | Model-agnostic
+Version 1.19.0 | 2026-11-08 | Status: final (known limitation and test status open; see Purpose) | Model-agnostic
 
 **Acceptance status ([ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md), 26 October 2026, KST):** Not accepted. Run A5 (26 October 2026) of the published templates passed 20 of 24 samples and 5 of the 8 cases after review (T01, T04, T05, T07 and T08), below the 80 percent ACCEPTANCE.md (c) requires; T02, T03 and T06 fail on the residual defects K5, K6 and K9 listed in tests.md. The account's status table is in [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md#instrument-status).
 
 **Caution.** The templates are unvalidated: no template is accepted under [tests.md](tests.md) and the program spines are not verified against a delivered program (known defect K3), so every output rests on the human check at Workflow item 5.
 
-This repository has two halves. The first is the Client Content Prompt Pack: eight prompt templates that generate Client-specific sales and delivery content for the AI Governance Academy program options. The second is the Publications: ten client-facing pieces, from an essay on how to characterize AI output to a reading of the agentic-commerce stack of 2026 as Informed Intent instruments, published here as the text of record. The halves share one version number, one license and one closing line.
+This repository has two halves. The first is the Client Content Prompt Pack: eight prompt templates that generate Client-specific sales and delivery content for the AI Governance Academy program options. The second is the Publications: ten client-facing pieces, from an essay on how to characterize AI output to a reading of the agentic-commerce stack of 2026 as Informed Intent instruments, published here as the text of record. The halves share one version number, one license and one closing line. After the Publications, one entry points to work in progress outside this repository.
 
 ## Client Content Prompt Pack
 
@@ -33,11 +33,12 @@ This pack contains prompt templates for generating Client-specific sales and del
 
 ### Offerings ladder
 
-The ladder is shared with the profile README (github.com/rolldabones) and is written identically there. The Slow AI Kitchen Workshop and The AI Generalist appear on it but are not program options of this pack: the Workshop is a facilitation design that runs as Day 2 of the Practitioner Academy, and The AI Generalist is its own repository.
+The ladder is shared with the profile README (github.com/rolldabones) and is written identically there. The Slow AI Kitchen Workshop, The AI Generalist and the half-day Executive Workshop appear on it but are not program options of this pack: the Workshop is a facilitation design that runs as Day 2 of the Practitioner Academy, The AI Generalist is its own repository and the half-day Executive Workshop has no template.
 
 | Duration | Offering | Instrument | Price |
 |---|---|---|---|
 | 2 hours | Executive Briefing | [AI-Governance-Academy, template 02](02-executive-briefing.md) | US$3,000 |
+| Half day | Executive Workshop, half day (executive leadership) | none published | by proposal |
 | 1 day | Executive Workshop (executive leadership) | [AI-Governance-Academy, template 03](03-executive-workshop.md) | US$7,500 |
 | 1 day | The AI Generalist (working professionals) | [the-ai-generalist](https://github.com/rolldabones/the-ai-generalist) | by proposal |
 | 2 days | Practitioner Academy (the Slow AI Kitchen workshop is Day 2) | [AI-Governance-Academy, template 04](04-practitioner-academy.md) | US$12,500 |
@@ -104,25 +105,31 @@ The date is the masthead date of first publication; *The Map and the Pair* is in
 
 ### How to cite a publication
 
-> Paik, Son-U Michael. *Sounds Good*. In AI Governance Academy, v1.18.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/sounds-good.md
+> Paik, Son-U Michael. *Sounds Good*. In AI Governance Academy, v1.19.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/sounds-good.md
 
-> Paik, Son-U Michael. *The Turtle and the Phoenix*. In AI Governance Academy, v1.18.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md
+> Paik, Son-U Michael. *The Turtle and the Phoenix*. In AI Governance Academy, v1.19.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md
 
-> Paik, Son-U Michael. *Law Firm AI Deployment Spec v2*. In AI Governance Academy, v1.18.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/law-firm-ai-deployment-spec.md
+> Paik, Son-U Michael. *Law Firm AI Deployment Spec v2*. In AI Governance Academy, v1.19.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/law-firm-ai-deployment-spec.md
 
-> Paik, Son-U Michael. *Slow AI for the Chief Legal Officer*. In AI Governance Academy, v1.18.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/slow-ai-for-the-chief-legal-officer.md
+> Paik, Son-U Michael. *Slow AI for the Chief Legal Officer*. In AI Governance Academy, v1.19.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/slow-ai-for-the-chief-legal-officer.md
 
-> Paik, Son-U Michael. *The Compression and the Harness*. In AI Governance Academy, v1.18.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-compression-and-the-harness.md
+> Paik, Son-U Michael. *The Compression and the Harness*. In AI Governance Academy, v1.19.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-compression-and-the-harness.md
 
-> Paik, Son-U Michael. *The Map and the Pair*. In AI Governance Academy, v1.18.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-map-and-the-pair.md
+> Paik, Son-U Michael. *The Map and the Pair*. In AI Governance Academy, v1.19.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-map-and-the-pair.md
 
-> Paik, Son-U Michael. *The Artificial Familiar*. In AI Governance Academy, v1.18.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-artificial-familiar.md
+> Paik, Son-U Michael. *The Artificial Familiar*. In AI Governance Academy, v1.19.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-artificial-familiar.md
 
-> Paik, Son-U Michael. *The Philosopher-King Test*. In AI Governance Academy, v1.18.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-philosopher-king-test.md
+> Paik, Son-U Michael. *The Philosopher-King Test*. In AI Governance Academy, v1.19.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-philosopher-king-test.md
 
-> Paik, Son-U Michael. *Using Claude for Legal with The Slow AI Kitchen*. In AI Governance Academy, v1.18.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/using-claude-for-legal-with-the-slow-ai-kitchen.md
+> Paik, Son-U Michael. *Using Claude for Legal with The Slow AI Kitchen*. In AI Governance Academy, v1.19.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/using-claude-for-legal-with-the-slow-ai-kitchen.md
 
-> Paik, Son-U Michael. *The Mandate and the Switch*. In AI Governance Academy, v1.18.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-mandate-and-the-switch.md
+> Paik, Son-U Michael. *The Mandate and the Switch*. In AI Governance Academy, v1.19.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-mandate-and-the-switch.md
+
+## Work in progress
+
+One entry, listed from 8 November 2026 (KST). It lives outside this repository: it is neither a program template nor a publication, nothing in it is the text of record here and no case in [tests.md](tests.md) covers it.
+
+- **[AI Architecture Studio](https://ai-architecture-studio.pplx.app)**, in progress: a guided workbench for designing enterprise AI architecture. It walks through the decisions behind an architecture, shows their regulatory, security and governance implications as each is made and exports a blueprint. Treat its output as a draft to be checked before reliance.
 
 ## Part of the ecosystem
 
@@ -137,7 +144,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.18.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
+> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.19.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
