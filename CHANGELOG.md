@@ -2,6 +2,14 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.19.1] – 2026-11-09
+
+Patch release. Train D of the improvement rotation (review of 24 October 2026). Prepared with Claude, approved by Michael Paik.
+
+- README, License: one line points to `rolldabones/LICENSING.md` (v1.0.0, new), which states once what the account's two licenses permit, that a Client's use in its own operations may fall outside NonCommercial, how to ask and why the two licenses do not mix.
+- README, Offerings ladder: one sentence under the ladder, written identically in the profile README: an engagement on the ladder licenses the Client to use the materials it delivers in the Client's own operations, on the terms of the engagement agreement, and any other commercial use is set out in LICENSING.md (Michael Paik's ruling of 9 November 2026).
+- Every template masthead, the README masthead, How to Cite and the ten publication citations, the `tests.md` masthead and `CITATION.cff` to v1.19.1; no template, publication, case or run record changed.
+
 ## [1.19.0] – 2026-11-08
 
 Minor. Two additions under express reopening of the no-further-additions rule, on Michael Paik's rulings of 8 November 2026 (KST). (1) Work in progress, a new section after the Publications, with one entry: AI Architecture Studio (https://ai-architecture-studio.pplx.app), a guided workbench for designing enterprise AI architecture, listed as in progress; its description follows the application's own page and the AI Workflows page of www.grcskorea.com, both read on 8 November 2026. It is neither a template nor a publication, so the Contents and Publications tables, the publication count and the `CITATION.cff` abstract are unchanged. (2) Offerings ladder: a half-day Executive Workshop row, by proposal and with no published instrument, aligning the ladder with the Academy page of www.grcskorea.com; the preamble names it among the ladder entries that are not program options of this pack. The 30-day row stays One Workflow, Thirty Days: the website's 30-day AI GRC System v1 describes a different engagement, and Michael ruled that the website changes rather than template 08. No prompt section, Acceptance Checklist, fixture, case, transcript, score or harness file changes; acceptance still rests on run A5.
