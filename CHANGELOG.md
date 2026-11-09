@@ -2,6 +2,16 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.20.2] – 2026-11-09
+
+Patch. Corrections for the known defects K4, K5, K9 and K10 in templates 02 to 08, an off-rotation remediation on Michael Paik's rulings of 9 November 2026 (KST) after run A6; the templates stand on run A6 until run A7 of this text is read. Prepared with Claude, approved by Michael Paik.
+
+- **Templates 02 to 08, Method:** a step before drafting limits what may be written about the Client to three forms: a restatement of a Profile Block field, proposed work or a question to confirm at intake; no other description of the Client's current state, history, people, practices or systems (K4, K5). Later steps renumbered.
+- **Templates 02 to 08, relation guard:** "Where DECISION_TIMELINE is `Unknown`, write only that the decision timeline is not yet known." (K9).
+- **Templates 02 to 08, Style Rules:** "Address the Sponsor by the name the Profile Block gives, with no honorific." (K10).
+- **`tests.md`:** K5, K9 and K10 and the status record the changes, pending run A7. **README:** the acceptance and test status say so.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md`, the `tests.md` masthead and `CITATION.cff` to v1.20.2.
+
 ## [1.20.1] – 2026-11-09
 
 Patch release, records only. Run A6 of the v1.20.0 text, read and reviewed, on Michael Paik's rulings of 9 November 2026 (KST); no template, publication or case changes. Prepared with Claude, approved by Michael Paik.

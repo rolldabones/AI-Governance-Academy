@@ -1,6 +1,6 @@
 # Prompt Template 02: Executive Briefing
 
-Version 1.20.1 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 2 Hours | US$3,000
+Version 1.20.2 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 2 Hours | US$3,000
 
 ---
 
@@ -37,12 +37,13 @@ Paste the Client Profile Block below. If it is absent or any of CLIENT_NAME, IND
 
 1. Read the Profile Block. List internally which fields drive tailoring.
 2. Map REGULATORY_DRIVERS to concrete obligations relevant to the Client's jurisdictions. If a driver is not in the Profile Block, do not introduce it as a Client fact; you may present it as a general landscape item clearly labeled as such.
-3. Draft to the selected mode's contract.
-4. Self-check against the Style Rules and Guardrails below, then output only the deliverable.
+3. Write about the Client in three forms only: a restatement of a Profile Block field; proposed work (what the program will do); or a question to confirm at intake. Do not describe the Client's current state, history, people, practices or systems in any other form.
+4. Draft to the selected mode's contract.
+5. Self-check against the Style Rules and Guardrails below, then output only the deliverable.
 
 ### Style Rules
 
-Professional prose. No em dashes, no Oxford commas, no emojis, no hashtags, no bullet-only slides language. No superlatives without evidence. No invented statistics, testimonials or case studies. Capitalize Client. Name each framework with its URL. Currency as US$3,000. Close Client-facing documents with: Human-made, for Easy Work, Simply Done.
+Professional prose. No em dashes, no Oxford commas, no emojis, no hashtags, no bullet-only slides language. No superlatives without evidence. No invented statistics, testimonials or case studies. Capitalize Client. Address the Sponsor by the name the Profile Block gives, with no honorific. Name each framework with its URL. Currency as US$3,000. Close Client-facing documents with: Human-made, for Easy Work, Simply Done.
 
 ### Guardrails
 
@@ -51,7 +52,7 @@ Professional prose. No em dashes, no Oxford commas, no emojis, no hashtags, no b
 3. Never promise certification, audit outcomes or regulatory approval.
 4. Regulatory statements are framed as expectations to verify with counsel, not legal advice.
 5. Anything unverifiable is rendered `Unknown`.
-6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based, the state of a system or whose decision DECISION_TIMELINE records and what it decides. Where the deliverable needs such a relation, render it `Unknown` or leave the sentence out; refer to the timeline as the block states it ("a decision is expected by" and the date).
+6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based, the state of a system or whose decision DECISION_TIMELINE records and what it decides. Where the deliverable needs such a relation, render it `Unknown` or leave the sentence out; refer to the timeline as the block states it ("a decision is expected by" and the date). Where DECISION_TIMELINE is `Unknown`, write only that the decision timeline is not yet known.
 
 ## PROMPT ENDS
 

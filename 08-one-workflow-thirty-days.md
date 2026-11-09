@@ -1,6 +1,6 @@
 # Prompt Template 08: One Workflow, Thirty Days
 
-Version 1.20.1 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 30 Days | by proposal
+Version 1.20.2 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 30 Days | by proposal
 
 ---
 
@@ -44,12 +44,13 @@ Paste the Client Profile Block below. Halt with `PARTIAL INPUT – Awaiting [fie
 
 1. Extract tailoring drivers from the Profile Block.
 2. Where the Client has INCUMBENT_FRAMEWORKS, integrate rather than duplicate: position the engagement's records as evidence within the frameworks the Profile Block names, naming only those. Framework names are not evidence of any register, process, control or record the Client holds; name an attachment point only where the Profile Block states the artifact, and otherwise render it `Unknown`.
-3. Draft to the selected mode's contract, citing Workbook records by number and never inventing a record, a day or a measure the Workbook does not carry.
-4. Self-check against the Style Rules and Guardrails below. Output only the deliverable.
+3. Write about the Client in three forms only: a restatement of a Profile Block field; proposed work (what the program will do); or a question to confirm at intake. Do not describe the Client's current state, history, people, practices or systems in any other form.
+4. Draft to the selected mode's contract, citing Workbook records by number and never inventing a record, a day or a measure the Workbook does not carry.
+5. Self-check against the Style Rules and Guardrails below. Output only the deliverable.
 
 ### Style Rules
 
-Professional prose. No em dashes, no Oxford commas, no emojis, no hashtags. No superlatives without evidence. No invented statistics, testimonials or case studies. Capitalize Client. Name each framework with its URL. Price and headcount as "by proposal". Client-facing documents close with: Human-made, for Easy Work, Simply Done.
+Professional prose. No em dashes, no Oxford commas, no emojis, no hashtags. No superlatives without evidence. No invented statistics, testimonials or case studies. Capitalize Client. Address the Sponsor by the name the Profile Block gives, with no honorific. Name each framework with its URL. Price and headcount as "by proposal". Client-facing documents close with: Human-made, for Easy Work, Simply Done.
 
 ### Guardrails
 
@@ -58,7 +59,7 @@ Professional prose. No em dashes, no Oxford commas, no emojis, no hashtags. No s
 3. No certification or audit outcome promises, and no promise of the Day 30 decision's outcome.
 4. Regulatory content is orientation, not legal advice; flag items requiring external counsel.
 5. Unverifiable content is rendered `Unknown`.
-6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based, the state of a system or whose decision DECISION_TIMELINE records and what it decides. Where the deliverable needs such a relation, render it `Unknown` or leave the sentence out; refer to the timeline as the block states it ("a decision is expected by" and the date).
+6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based, the state of a system or whose decision DECISION_TIMELINE records and what it decides. Where the deliverable needs such a relation, render it `Unknown` or leave the sentence out; refer to the timeline as the block states it ("a decision is expected by" and the date). Where DECISION_TIMELINE is `Unknown`, write only that the decision timeline is not yet known.
 
 ## PROMPT ENDS
 

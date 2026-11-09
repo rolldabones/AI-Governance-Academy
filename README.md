@@ -1,8 +1,8 @@
 # AI Governance Academy
 
-Version 1.20.1 | 2026-11-09 | Status: published; templates not accepted (see Acceptance status) | Model-agnostic
+Version 1.20.2 | 2026-11-09 | Status: published; templates not accepted (see Acceptance status) | Model-agnostic
 
-**Acceptance status ([ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md), 9 November 2026, KST):** Not accepted. Run A6 (9 November 2026) of the templates failed the critical case, which tests the no-invention rule on its own: in one of three samples the letter gave the unknown decision date an owner. Of the other eight cases, six passed after review, below the 80 percent ACCEPTANCE.md (c) requires; in the cases of templates 05 and 07 the model stated Client facts the Client Profile Block does not give. The account's status table is in [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md#instrument-status).
+**Acceptance status ([ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md), 9 November 2026, KST):** Not accepted. Run A6 (9 November 2026) of the templates failed the critical case, which tests the no-invention rule on its own: in one of three samples the letter gave the unknown decision date an owner. Of the other eight cases, six passed after review, below the 80 percent ACCEPTANCE.md (c) requires; in the cases of templates 05 and 07 the model stated Client facts the Client Profile Block does not give. Version 1.20.2 changes templates 02 to 08 for these failures; run A7 tests that text. The account's status table is in [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md#instrument-status).
 
 **Caution.** The templates are unvalidated: no template is accepted under [tests.md](tests.md), and the program spines have not been checked against a delivered program, so every output rests on the human check at Workflow item 5.
 
@@ -16,7 +16,7 @@ This pack contains prompt templates for generating Client-specific sales and del
 
 **Known limitation, open.** The program spines (workshop blocks, session counts, weekly sequence) are structural inferences pending verification against actual delivery design, as recorded in the first release. Verification of 18 October 2026 (Korea Standard Time, KST): checked that each spine agrees with its template's Output Modes, Acceptance Checklist and the durations and prices in the Contents table, and that template 06's evidence collection starts by Week 8; not checked against any delivered program, because the repository holds no delivery record. The limitation stays open until that check is made.
 
-**Test status, open.** No template at this version is accepted under [tests.md](tests.md). Run A6 of 9 November 2026 (KST), three samples per case, tested the template changes released earlier the same day: template 02 now passes with the prose-only rule removed, and the cases of templates 01 to 04, 06 and 08 passed after review. In 4 of 27 samples the model still stated a Client fact the Profile Block does not give, two of them in the critical case: an owner for an unknown decision date and a form of address the block does not give. The next change to the templates is to close those two; until a run accepts a template, the residual defects are controlled at Workflow item 5, by the human who verifies each output before it reaches the Client. The defects, their codes and their rates are in tests.md.
+**Test status, open.** No template at this version is accepted under [tests.md](tests.md). Run A6 of 9 November 2026 (KST), three samples per case, tested the template changes released earlier the same day: template 02 now passes with the prose-only rule removed, and the cases of templates 01 to 04, 06 and 08 passed after review. In 4 of 27 samples the model still stated a Client fact the Profile Block does not give, two of them in the critical case: an owner for an unknown decision date and a form of address the block does not give. Version 1.20.2 changes the templates for all four: their Method allows only three forms of statement about the Client (a restatement of a Profile Block field, proposed work or a question to confirm at intake), an unknown timeline is stated as not yet known and the Sponsor is addressed by the name given; run A7 tests that text. Until a run accepts a template, the residual defects are controlled at Workflow item 5, by the human who verifies each output before it reaches the Client. The defects, their codes and their rates are in tests.md.
 
 ### Contents
 
@@ -122,7 +122,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.20.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
+> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.20.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

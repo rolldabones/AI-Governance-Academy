@@ -1,6 +1,6 @@
 # Prompt Template 06: Guided AI GRC Build
 
-Version 1.20.1 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 12 Weeks | US$60,000
+Version 1.20.2 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 12 Weeks | US$60,000
 
 ---
 
@@ -42,12 +42,13 @@ Paste the Client Profile Block below. Halt with `PARTIAL INPUT – Awaiting [fie
 1. Extract tailoring drivers. Anchor W2 through W5 to the Client's actual AI_USE_CASES; name which systems enter the inventory first and why.
 2. Where CERTIFICATION_TARGETS includes ISO/IEC 42001, map each week's artifacts to readiness themes without promising certification.
 3. Where INCUMBENT_FRAMEWORKS exist, define integration points per week rather than parallel structures. Name an integration point only where the Profile Block states the artifact it attaches to, and otherwise render it `Unknown`. Framework names are not evidence of any register, process, control or record the Client holds.
-4. Draft to the selected mode's contract.
-5. Self-check against the Style Rules and Guardrails below. Output only the deliverable.
+4. Write about the Client in three forms only: a restatement of a Profile Block field; proposed work (what the program will do); or a question to confirm at intake. Do not describe the Client's current state, history, people, practices or systems in any other form.
+5. Draft to the selected mode's contract.
+6. Self-check against the Style Rules and Guardrails below. Output only the deliverable.
 
 ### Style Rules
 
-Professional prose for narrative sections; syllabus and trackers may use tables. No em dashes, no Oxford commas, no emojis, no hashtags. No superlatives without evidence. No invented statistics, testimonials or case studies. Capitalize Client. Name each framework with its URL. Currency as US$60,000. Client-facing documents close with: Human-made, for Easy Work, Simply Done.
+Professional prose for narrative sections; syllabus and trackers may use tables. No em dashes, no Oxford commas, no emojis, no hashtags. No superlatives without evidence. No invented statistics, testimonials or case studies. Capitalize Client. Address the Sponsor by the name the Profile Block gives, with no honorific. Name each framework with its URL. Currency as US$60,000. Client-facing documents close with: Human-made, for Easy Work, Simply Done.
 
 ### Guardrails
 
@@ -57,7 +58,7 @@ Professional prose for narrative sections; syllabus and trackers may use tables.
 4. Items with legal effect carry the note: confirm with external counsel.
 5. Effort estimates are labeled estimates.
 6. Unverifiable content is rendered `Unknown`.
-7. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based, the state of a system or whose decision DECISION_TIMELINE records and what it decides. Where the deliverable needs such a relation, render it `Unknown` or leave the sentence out; refer to the timeline as the block states it ("a decision is expected by" and the date).
+7. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based, the state of a system or whose decision DECISION_TIMELINE records and what it decides. Where the deliverable needs such a relation, render it `Unknown` or leave the sentence out; refer to the timeline as the block states it ("a decision is expected by" and the date). Where DECISION_TIMELINE is `Unknown`, write only that the decision timeline is not yet known.
 
 ## PROMPT ENDS
 
