@@ -1,6 +1,6 @@
 # Prompt Template 07: Fractional AI Governance Advisor
 
-Version 1.19.1 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 12 Months | US$10,000 per month
+Version 1.20.0 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 12 Months | US$10,000 per month
 
 ---
 
@@ -56,7 +56,7 @@ Professional prose for narrative sections; cadence kits and scorecards may use t
 3. Readiness language only; no certification or audit outcome promises.
 4. Regulatory developments are flagged for verification, never asserted as settled advice.
 5. Unverifiable content is rendered `Unknown`.
-6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based, the state of a system or whose decision DECISION_TIMELINE records and what it decides. Where the deliverable needs such a relation, render it `Unknown`; refer to the timeline as the block states it ("a decision is expected by" and the date).
+6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based, the state of a system or whose decision DECISION_TIMELINE records and what it decides. Where the deliverable needs such a relation, render it `Unknown` or leave the sentence out; refer to the timeline as the block states it ("a decision is expected by" and the date).
 
 ## PROMPT ENDS
 

@@ -6,7 +6,7 @@ Son-U Michael Paik · CEO, GRC Solutions Korea
 
 6 October 2026
 
-**Starting point.** The occasion for this primer was "AI and the Chief Legal Officer: Redefining legal leadership" by Esteban Mezzano (Vice President, General Counsel Corporate Operations and Sustainability, Nestlé), Konstantinos Trantopoulos (Advisor and Research Fellow, IMD) and Michael R. Wade (Professor of Strategy and Digital, IMD), published in I by IMD on October 5, 2026 in its "AI and the CxO" series: [original article](https://www.imd.org/ibyimd/artificial-intelligence/ai-and-the-chief-legal-officer-redefining-legal-leadership/). Credit for the occasion belongs to its authors. The article is a starting point only. This primer does not follow its structure or adopt its priorities, data or regulatory summary, and it reproduces none of its text. The authors and IMD have no involvement in it, have not reviewed it and do not endorse it. The article was read in full on 6 October 2026 (Korea Standard Time, KST) and is not covered by this repository's license.
+**Starting point.** The occasion for this primer was "AI and the Chief Legal Officer: Redefining legal leadership" by Esteban Mezzano (Vice President, General Counsel Corporate Operations and Sustainability, Nestlé), Konstantinos Trantopoulos (Advisor and Research Fellow, IMD) and Michael R. Wade (Professor of Strategy and Digital, IMD), published in I by IMD on 5 October 2026 in its "AI and the CxO" series: [original article](https://www.imd.org/ibyimd/artificial-intelligence/ai-and-the-chief-legal-officer-redefining-legal-leadership/). Credit for the occasion belongs to its authors. The article is a starting point only. This primer does not follow its structure or adopt its priorities, data or regulatory summary, and it reproduces none of its text. The authors and IMD have no involvement in it, have not reviewed it and do not endorse it. The article was read in full on 6 October 2026 (Korea Standard Time, KST) and is not covered by this repository's license.
 
 **Debts.** Two influences are acknowledged in Sections 1 and 2: Benjamin W. Heineman Jr. and Donald Rumsfeld. The readings of both are the author's own and imply no endorsement by, or association with, either.
 
@@ -143,7 +143,7 @@ A named human decides.
 
 The other influence is, perhaps ironically, Donald Rumsfeld.
 
-The in-house lawyer has to understand the risk landscape before working on the risks in it. The most useful map I know was made famous at a United States Department of Defense news briefing on February 12, 2002. Asked about the lack of evidence linking the government of Iraq with the supply of weapons of mass destruction to terrorist groups, the Secretary of Defense sorted knowledge into three kinds. "There are known knowns," he began: the things we are sure of. Then the known unknowns, the gaps we can see. Then the unknown unknowns, the gaps we cannot. The last kind, he said, is the one that causes the difficulty.
+The in-house lawyer has to understand the risk landscape before working on the risks in it. The most useful map I know was made famous at a United States Department of Defense news briefing on 12 February 2002. Asked about the lack of evidence linking the government of Iraq with the supply of weapons of mass destruction to terrorist groups, the Secretary of Defense sorted knowledge into three kinds. "There are known knowns," he began: the things we are sure of. Then the known unknowns, the gaps we can see. Then the unknown unknowns, the gaps we cannot. The last kind, he said, is the one that causes the difficulty.
 
 That is three. The matrix has a fourth cell, the unknown knowns: what an organization knows somewhere and has not told itself. For the in-house lawyer it may be the most useful of the four.
 
@@ -553,7 +553,7 @@ Then train and educate, which are different jobs. The lawyers need training: eno
 
 Legal should demonstrate governed adoption, not merely prescribe it to everyone else.
 
-**Ask to see:** the legal department's own entries in the register and one piece of AI-assisted legal work with its review record. The build detail for a legal organization is in the [*Law Firm AI Deployment Spec v2*](law-firm-ai-deployment-spec.md), and the verification discipline is in [*Sounds Good*](sounds-good.md).
+**Ask to see:** the legal department's own entries in the register and one piece of AI-assisted legal work with its review record. The build detail for a legal organization is in the [*Law Firm AI Deployment Spec v2*](law-firm-ai-deployment-spec.md), and the verification discipline is in [*Sounds Good*](sounds-good.md). For a legal team starting on Claude for Legal, the method is worked through step by step in [*Using Claude for Legal with The Slow AI Kitchen*](using-claude-for-legal-with-the-slow-ai-kitchen.md).
 
 ---
 
@@ -747,9 +747,9 @@ And an organization that remains capable of understanding what it is doing, chan
 
 ## Source basis and attribution
 
-Doctrine statements re-verified on 17 October 2026 (KST) against DOCTRINE.md v1.2.0, which adds the short forms of section 8 and changes no rule.
+Doctrine statements re-verified on 9 November 2026 (KST) against DOCTRINE.md v1.2.3, whose changes since v1.2.0 touch no statement this primer relies on; every link into the account was re-resolved the same day against Slow AI Kitchen v3.3.7 and the other current releases.
 
-Prepared against Slow AI Kitchen v2.9.2 at repository commit [`c2f8ccd`](https://github.com/rolldabones/slow-ai-kitchen/tree/c2f8ccddf5c2246981d39e6e0ade456638b62a2f) and DOCTRINE.md v1.1.1, reviewed on 6 October 2026 (KST).
+First prepared against Slow AI Kitchen v2.9.2 at repository commit [`c2f8ccd`](https://github.com/rolldabones/slow-ai-kitchen/tree/c2f8ccddf5c2246981d39e6e0ade456638b62a2f) and DOCTRINE.md v1.1.1, reviewed on 6 October 2026 (KST).
 
 This primer applies the Slow AI Kitchen for one reader. The tiers, roles, steps and gates are the Kitchen README's. The authorization, evidence, change and stop records are the [Consultant Workbook](https://github.com/rolldabones/slow-ai-kitchen/blob/main/consultant-workbook.md)'s. The agent tests and the service ticket are from [Take-Out, Delivery & Vending Machines](https://github.com/rolldabones/slow-ai-kitchen/blob/main/take-out-delivery-and-vending-machines.md) and [Newton's Kitchen](https://github.com/rolldabones/slow-ai-kitchen/blob/main/newtons-kitchen.md). The release tuple, the re-tiering triggers, the ownership layers, the model-swap gate, the legal hold and the privilege design choices are the [Enterprise AI Architecture Primer](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/README.md)'s, which is grounded in one vendor's platform; on method questions the Kitchen README controls. The doctrines are stated normatively in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md), including the allocation lifecycle and the drafting rule on liability language used in Section 5.
 

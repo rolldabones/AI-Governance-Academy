@@ -1,6 +1,6 @@
 # Prompt Template 04: Practitioner Academy
 
-Version 1.19.1 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 2 Days | US$12,500
+Version 1.20.0 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 2 Days | US$12,500
 
 ---
 
@@ -56,7 +56,7 @@ Professional prose for narrative sections; worksheets may use structured fields.
 3. Exercises must respect STATED_CONSTRAINTS; if constraints are `Unknown`, default to sanitized analogs and say so.
 4. No certification or audit outcome promises.
 5. Unverifiable content is rendered `Unknown`.
-6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based, the state of a system or whose decision DECISION_TIMELINE records and what it decides. Where the deliverable needs such a relation, render it `Unknown`; refer to the timeline as the block states it ("a decision is expected by" and the date).
+6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based, the state of a system or whose decision DECISION_TIMELINE records and what it decides. Where the deliverable needs such a relation, render it `Unknown` or leave the sentence out; refer to the timeline as the block states it ("a decision is expected by" and the date).
 
 ## PROMPT ENDS
 

@@ -1,12 +1,12 @@
 # AI Governance Academy
 
-Version 1.19.1 | 2026-11-09 | Status: final (known limitation and test status open; see Purpose) | Model-agnostic
+Version 1.20.0 | 2026-11-09 | Status: published; templates not accepted (see Acceptance status) | Model-agnostic
 
-**Acceptance status ([ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md), 26 October 2026, KST):** Not accepted. Run A5 (26 October 2026) of the published templates passed 20 of 24 samples and 5 of the 8 cases after review (T01, T04, T05, T07 and T08), below the 80 percent ACCEPTANCE.md (c) requires; T02, T03 and T06 fail on the residual defects K5, K6 and K9 listed in tests.md. The account's status table is in [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md#instrument-status).
+**Acceptance status ([ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md), 26 October 2026, KST):** Not accepted. Run A5 (26 October 2026) of the templates passed 5 of the 8 cases after review, below the 80 percent ACCEPTANCE.md (c) requires: in the cases of templates 02, 03 and 06 the model stated Client facts or relations the Client Profile Block does not give, or used a list in the prose-only letter. Version 1.20.0 changes templates 02 to 08 for these failures and adds a critical case; run A6 tests that text. The account's status table is in [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md#instrument-status).
 
-**Caution.** The templates are unvalidated: no template is accepted under [tests.md](tests.md) and the program spines are not verified against a delivered program (known defect K3), so every output rests on the human check at Workflow item 5.
+**Caution.** The templates are unvalidated: no template is accepted under [tests.md](tests.md), and the program spines have not been checked against a delivered program, so every output rests on the human check at Workflow item 5.
 
-This repository has two halves. The first is the Client Content Prompt Pack: eight prompt templates that generate Client-specific sales and delivery content for the AI Governance Academy program options. The second is the Publications: ten client-facing pieces, from an essay on how to characterize AI output to a reading of the agentic-commerce stack of 2026 as Informed Intent instruments, published here as the text of record. The halves share one version number, one license and one closing line. After the Publications, one entry points to work in progress outside this repository.
+This repository has two halves. The first is the Client Content Prompt Pack: eight prompt templates that generate Client-specific sales and delivery content for the AI Governance Academy program options. The second is the Publications: ten client-facing pieces, from an essay on how to characterize AI output to a reading of the agentic-commerce stack of 2026 as Informed Intent instruments, published here as the text of record and indexed in [PUBLICATIONS.md](PUBLICATIONS.md). The halves share one version number, one license and one closing line. After the Publications, one entry points to work in progress outside this repository.
 
 ## Client Content Prompt Pack
 
@@ -16,7 +16,7 @@ This pack contains prompt templates for generating Client-specific sales and del
 
 **Known limitation, open.** The program spines (workshop blocks, session counts, weekly sequence) are structural inferences pending verification against actual delivery design, as recorded in the first release. Verification of 18 October 2026 (Korea Standard Time, KST): checked that each spine agrees with its template's Output Modes, Acceptance Checklist and the durations and prices in the Contents table, and that template 06's evidence collection starts by Week 8; not checked against any delivered program, because the repository holds no delivery record. The limitation stays open until that check is made.
 
-**Test status, open.** No template at this version is accepted under [tests.md](tests.md): in runs A2 and A3 of 20 October 2026 and A4 and A5 of 26 October 2026 (KST), three samples per case, the model still inferred relations between Client facts the Profile Block does not state (known defect K5) and used lists in template 02's prose-only letter (K6). Run A4 found three defects in the text, fixed the same day: template 01 lacked the relation guard (K7), template 04 had no asset category for the fable kit (K8) and no template said whose the decision date is (K9). Run A5 showed no recurrence of K7 or K8 and one of K9 in 24 samples. The residual defects are controlled at Workflow item 5, by the human who verifies each output before it reaches the Client.
+**Test status, open.** No template at this version is accepted under [tests.md](tests.md). In runs A2 to A5 (20 and 26 October 2026, KST), three samples per case, the model still stated Client facts or relations between them that the Profile Block does not give, and used lists in template 02's prose-only letter. Version 1.20.0 removes the prose-only rule from template 02, as was done for templates 03 and 08 on 20 October 2026, lets the relation guard leave a sentence out as well as render it `Unknown`, adds a critical case for the no-invention rule on its own and names the third sponsor report in template 08's spine; run A6 tests that text. Until a run accepts a template, the residual defects are controlled at Workflow item 5, by the human who verifies each output before it reaches the Client. The defects, their codes and their rates are in tests.md.
 
 ### Contents
 
@@ -61,7 +61,7 @@ An engagement on this ladder licenses the Client to use the materials it deliver
 
 A labeled-fictional Client file for trying the workflow is in [examples/fictional-client.md](examples/fictional-client.md); the test cases built on it are in [tests.md](tests.md).
 
-**Evidence and examples.** Most of this repository by size is the record of the test runs in [tests.md](tests.md). Each run has two folders: `evidence/transcripts-<date>-<run>/` holds the transcripts, the scores, `summary.json` and, from run A1, the harness, with a README that says what was run, when and how; `examples/transcripts-<date>-<run>/` holds the same generated outputs, labeled, as examples. The runs are T5 of 18 October 2026 and A1, A2 and A3 of 20 October 2026: [evidence/transcripts-2026-10-18-T5/](evidence/transcripts-2026-10-18-T5/), [evidence/transcripts-2026-10-20-A1/](evidence/transcripts-2026-10-20-A1/), [evidence/transcripts-2026-10-20-A2/](evidence/transcripts-2026-10-20-A2/) and [evidence/transcripts-2026-10-20-A3/](evidence/transcripts-2026-10-20-A3/). Read the evidence README of a run before its transcripts. Glosses of the three principles inside a generated output, passing or not, are model output, not doctrine; the doctrines are as stated in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md), the account's single normative statement of the three doctrines. The example `examples/transcripts-2026-10-20-A3/mode-a-05-implementation-accelerator-s1.md`, for instance, glosses Slow AI in words the doctrine does not use.
+**Evidence and examples.** Most of this repository by size is the record of the test runs in [tests.md](tests.md). Each run has two folders: `evidence/transcripts-<date>-<run>/` holds the transcripts, the scores, `summary.json` and, from run A1, the harness, with a README that says what was run, when and how; `examples/transcripts-<date>-<run>/` holds the same generated outputs, labeled, as examples, with an index README. The six runs are T5 of 18 October 2026, A1, A2 and A3 of 20 October 2026 and A4 and A5 of 26 October 2026: [evidence/transcripts-2026-10-18-T5/](evidence/transcripts-2026-10-18-T5/), [evidence/transcripts-2026-10-20-A1/](evidence/transcripts-2026-10-20-A1/), [evidence/transcripts-2026-10-20-A2/](evidence/transcripts-2026-10-20-A2/), [evidence/transcripts-2026-10-20-A3/](evidence/transcripts-2026-10-20-A3/), [evidence/transcripts-2026-10-26-A4/](evidence/transcripts-2026-10-26-A4/) and [evidence/transcripts-2026-10-26-A5/](evidence/transcripts-2026-10-26-A5/). Read the evidence README of a run before its transcripts. The examples of each run are indexed, with each sample's verdicts, in its own README: [T5](examples/transcripts-2026-10-18-T5/README.md), [A1](examples/transcripts-2026-10-20-A1/README.md), [A2](examples/transcripts-2026-10-20-A2/README.md), [A3](examples/transcripts-2026-10-20-A3/README.md), [A4](examples/transcripts-2026-10-26-A4/README.md), [A5](examples/transcripts-2026-10-26-A5/README.md). Glosses of the three principles inside a generated output, passing or not, are model output, not doctrine; the doctrines are as stated in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md), the account's single normative statement of the three doctrines. The example `examples/transcripts-2026-10-20-A3/mode-a-05-implementation-accelerator-s1.md`, for instance, glosses Slow AI in words the doctrine does not use.
 
 ### Variable Conventions
 
@@ -88,44 +88,20 @@ Templates 02 to 08 state these rules in their own Style Rules, because a model s
 
 ## Publications
 
-Ten client-facing publications sit beside the templates, each the text of record for its piece, dated with its first publication and described by the occasion its own masthead names. None is a program template and no Output Contract applies to any of them.
+Ten client-facing publications sit beside the templates, each the text of record for its piece. None is a program template and no Output Contract applies to any of them. [PUBLICATIONS.md](PUBLICATIONS.md) indexes them with each piece's kind, length, occasion and citation.
 
-| File | Title | Date | Kind | Words | Occasion |
-|---|---|---|---|---|---|
-| [sounds-good.md](sounds-good.md) | *Sounds Good* | 9 July 2026 | essay | 3,400 | none; section 8, the amendment of 4 November 2026, Nate B. Jones's Substack post and video of 5 August 2026 |
-| [the-turtle-and-the-phoenix.md](the-turtle-and-the-phoenix.md) | *The Turtle and the Phoenix* | 30 July 2026 | teaching fable with facilitation kit | 7,200 | none |
-| [law-firm-ai-deployment-spec.md](law-firm-ai-deployment-spec.md) | *Law Firm AI Deployment Spec v2* | 22 August 2026 | specification | 4,000 | Seth Fenster's LinkedIn post, credited as Version 1 |
-| [slow-ai-for-the-chief-legal-officer.md](slow-ai-for-the-chief-legal-officer.md) | *Slow AI for the Chief Legal Officer* | 6 October 2026 | primer | 7,400 | I by IMD article by Mezzano, Trantopoulos and Wade |
-| [the-compression-and-the-harness.md](the-compression-and-the-harness.md) | *The Compression and the Harness* | 12 October 2026 | discussion piece | 7,800 | Stephen Wolfram's interview with Jon Hernandez |
-| [the-map-and-the-pair.md](the-map-and-the-pair.md) | *The Map and the Pair* | 15 October 2026 | discussion piece | 10,800 | OpenAI's openai/math release of October 2026 |
-| [the-artificial-familiar.md](the-artificial-familiar.md) | *The Artificial Familiar* | 30 October 2026 | discussion piece | 13,500 | none |
-| [the-philosopher-king-test.md](the-philosopher-king-test.md) | *The Philosopher-King Test* | 1 November 2026 | discussion piece | 5,600 | the author's LinkedIn post of 31 October 2026 |
-| [using-claude-for-legal-with-the-slow-ai-kitchen.md](using-claude-for-legal-with-the-slow-ai-kitchen.md) | *Using Claude for Legal with The Slow AI Kitchen* | 1 November 2026 | first-time guide | 14,700 | the author's LinkedIn post and nine comments of 1 November 2026 |
-| [the-mandate-and-the-switch.md](the-mandate-and-the-switch.md) | *The Mandate and the Switch* | 4 November 2026 | discussion piece | 6,400 | Nate B. Jones's Substack post and video of 31 October 2026 |
-
-The date is the masthead date of first publication; *The Map and the Pair* is in its second edition, revised the same day, and the CHANGELOG entries of 15 October 2026 record the changes. *Sounds Good* carries an amendment of 4 November 2026 (section 8, the Deloitte review), recorded in the CHANGELOG entry of that date. The story of *The Turtle and the Phoenix* is also published as an essay at https://redcaps.substack.com/p/the-turtle-and-the-phoenix; the file here adds the facilitation kit. Words are counted with `wc -w` at v1.14.0, for *The Artificial Familiar* at v1.15.0, for *The Philosopher-King Test* at v1.16.0, for *Using Claude for Legal with The Slow AI Kitchen* at v1.17.0 and for *The Mandate and the Switch* at v1.18.0 and for *Sounds Good* as amended at v1.18.1, and rounded to the nearest hundred.
-
-### How to cite a publication
-
-> Paik, Son-U Michael. *Sounds Good*. In AI Governance Academy, v1.19.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/sounds-good.md
-
-> Paik, Son-U Michael. *The Turtle and the Phoenix*. In AI Governance Academy, v1.19.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md
-
-> Paik, Son-U Michael. *Law Firm AI Deployment Spec v2*. In AI Governance Academy, v1.19.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/law-firm-ai-deployment-spec.md
-
-> Paik, Son-U Michael. *Slow AI for the Chief Legal Officer*. In AI Governance Academy, v1.19.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/slow-ai-for-the-chief-legal-officer.md
-
-> Paik, Son-U Michael. *The Compression and the Harness*. In AI Governance Academy, v1.19.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-compression-and-the-harness.md
-
-> Paik, Son-U Michael. *The Map and the Pair*. In AI Governance Academy, v1.19.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-map-and-the-pair.md
-
-> Paik, Son-U Michael. *The Artificial Familiar*. In AI Governance Academy, v1.19.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-artificial-familiar.md
-
-> Paik, Son-U Michael. *The Philosopher-King Test*. In AI Governance Academy, v1.19.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-philosopher-king-test.md
-
-> Paik, Son-U Michael. *Using Claude for Legal with The Slow AI Kitchen*. In AI Governance Academy, v1.19.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/using-claude-for-legal-with-the-slow-ai-kitchen.md
-
-> Paik, Son-U Michael. *The Mandate and the Switch*. In AI Governance Academy, v1.19.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-mandate-and-the-switch.md
+| File | Title | Date |
+|---|---|---|
+| [sounds-good.md](sounds-good.md) | *Sounds Good* | 9 July 2026 |
+| [the-turtle-and-the-phoenix.md](the-turtle-and-the-phoenix.md) | *The Turtle and the Phoenix* | 30 July 2026 |
+| [law-firm-ai-deployment-spec.md](law-firm-ai-deployment-spec.md) | *Law Firm AI Deployment Spec v2* | 22 August 2026 |
+| [slow-ai-for-the-chief-legal-officer.md](slow-ai-for-the-chief-legal-officer.md) | *Slow AI for the Chief Legal Officer* | 6 October 2026 |
+| [the-compression-and-the-harness.md](the-compression-and-the-harness.md) | *The Compression and the Harness* | 12 October 2026 |
+| [the-map-and-the-pair.md](the-map-and-the-pair.md) | *The Map and the Pair* | 15 October 2026 |
+| [the-artificial-familiar.md](the-artificial-familiar.md) | *The Artificial Familiar* | 30 October 2026 |
+| [the-philosopher-king-test.md](the-philosopher-king-test.md) | *The Philosopher-King Test* | 1 November 2026 |
+| [using-claude-for-legal-with-the-slow-ai-kitchen.md](using-claude-for-legal-with-the-slow-ai-kitchen.md) | *Using Claude for Legal with The Slow AI Kitchen* | 1 November 2026 |
+| [the-mandate-and-the-switch.md](the-mandate-and-the-switch.md) | *The Mandate and the Switch* | 4 November 2026 |
 
 ## Work in progress
 
@@ -146,7 +122,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.19.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
+> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.20.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
@@ -162,7 +138,7 @@ Attribution: AI Governance Academy: Client Content Prompt Pack and Publications,
 
 ## Versioning
 
-Semantic versioning applies. Templates 01 to 08 carry the pack version in their header lines, in lockstep, by Michael Paik's decision of 15 October 2026; there is no per-file version exception in this repository. Breaking changes to the Client Profile Block schema or any Output Contract increment the major version. New output modes or templates increment the minor version, and so does a new publication or a new edition of one: publication releases move the minor version. Corrections increment the patch version. See CHANGELOG.md.
+Semantic versioning applies. Templates 01 to 08, PUBLICATIONS.md and tests.md carry the pack version in their header lines; there is no per-file version. Breaking changes to the Client Profile Block schema or any Output Contract increment the major version. New output modes or templates increment the minor version, and so does a new publication or a new edition of one: publication releases move the minor version. Corrections increment the patch version. The templates are closed to additions: a new mode, template or rule other than a correction is made only on the author's express decision. The Publications are open: a new publication or edition needs no such decision. See CHANGELOG.md.
 
 ---
 

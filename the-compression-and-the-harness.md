@@ -4,7 +4,7 @@
 
 Son-U Michael Paik · CEO, GRC Solutions Korea
 
-October 12, 2026
+12 October 2026
 
 **Starting point.** This piece grew out of Stephen Wolfram's interview with Jon Hernandez, "The future with AI will be very different from what we're being sold" ([video](https://youtu.be/6wc3OuLUiOk), 102 minutes), and my LinkedIn post on it, ["Nobody had to explain the horse."](https://lnkd.in/p/gJTMeq9g) (12 October 2026). Credit for the frames I borrow belongs to Wolfram: the ridden horse, the stone wall, the two branches of AI and the restate-and-confirm workflow. I paraphrase him and quote nothing. The paraphrases were checked against the video's auto-generated English captions on 12 October 2026 (Korea Standard Time, KST). Wolfram and Hernandez have no involvement in this piece, have not reviewed it and do not endorse it. The interview is not covered by this repository's license.
 
@@ -57,7 +57,7 @@ The second and fourth points pull against each other. The model can say new thin
 
 ## 2. Four cells, three knowers
 
-The matrix that Donald Rumsfeld made famous at a Department of Defense briefing on February 12, 2002 sorts knowledge into known knowns, known unknowns and unknown unknowns. The fourth cell, the unknown knowns, he did not name. [*Slow AI for the Chief Legal Officer*](slow-ai-for-the-chief-legal-officer.md#2-know-what-you-know) uses the four cells to map an organization's risk. There the knower is the organization. Here the matrix is useful on one condition: we say who the knower is. There are three candidates: me, the record and the model. Most confusion about what an AI "knows" comes from sliding between them.
+The matrix that Donald Rumsfeld made famous at a Department of Defense briefing on 12 February 2002 sorts knowledge into known knowns, known unknowns and unknown unknowns. The fourth cell, the unknown knowns, he did not name. [*Slow AI for the Chief Legal Officer*](slow-ai-for-the-chief-legal-officer.md#2-know-what-you-know) uses the four cells to map an organization's risk. There the knower is the organization. Here the matrix is useful on one condition: we say who the knower is. There are three candidates: me, the record and the model. Most confusion about what an AI "knows" comes from sliding between them.
 
 **Known Knowns** are what I know and the record holds. Here the model is a fast index with the lossiness described above.
 
@@ -274,7 +274,7 @@ The Slow AI Kitchen also runs as a guided web application at [kitchen.grcskorea.
 
 ## Source basis and attribution
 
-Doctrine statements re-verified on 17 October 2026 (KST) against DOCTRINE.md v1.2.0, which adds the short forms of section 8 and changes no rule; one sentence of Section 6 restated to the canon.
+Doctrine statements re-verified on 9 November 2026 (KST) against DOCTRINE.md v1.2.3, whose changes since v1.2.0 touch no statement this piece relies on; one sentence of Section 6 was restated to the canon on 17 October 2026 (KST). Every link into the account was re-resolved against the current releases on 9 November 2026 (KST).
 
 Prepared on 12 October 2026 (KST) against DOCTRINE.md v1.1.1 and ECOSYSTEM.md v1.7.24, Slow AI Kitchen v2.11.1 at commit [`05253ac`](https://github.com/rolldabones/slow-ai-kitchen/tree/05253ac6b4ae4ea51c17e8939b9390868bd4a64b) and computational-drafting v1.4.0 at commit [`9b3c12a`](https://github.com/rolldabones/computational-drafting/tree/9b3c12af7eebae2ea408efd8c78cf545dff8aa5d). The other repositories linked were read at these releases: the book repository v1.7.0, *The Ungoverned Channel* v1.4.4, The Definition of Done v1.2.2, GRCnext-Copilot v2.2.5, RedCap-00 v1.1.4, The AI Generalist v1.1.2, the AI Impact Assessment Tool v1.2.10, AI Governance for Boards v1.5.3 and the sibling publications in this repository as at v1.8.0. Every link into the account was resolved against those releases, anchor included.
 

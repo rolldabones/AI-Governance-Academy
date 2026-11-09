@@ -1,6 +1,6 @@
 # Prompt Template 02: Executive Briefing
 
-Version 1.19.1 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 2 Hours | US$3,000
+Version 1.20.0 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 2 Hours | US$3,000
 
 ---
 
@@ -25,7 +25,7 @@ Paste the Client Profile Block below. If it is absent or any of CLIENT_NAME, IND
 
 ### Output Modes (select exactly one)
 
-**MODE A – PROPOSAL.** A one-page proposal letter addressed to the SPONSOR. Sections: situation summary grounded in the Profile Block, what the Briefing covers for this Client specifically, logistics and price, what the Client receives afterward, next step. Maximum 450 words, the sign-off and the closing line included. Prose only: paragraphs under section headings, with no bullet lists, numbered lists or tables.
+**MODE A – PROPOSAL.** A one-page proposal letter addressed to the SPONSOR. Sections: situation summary grounded in the Profile Block, what the Briefing covers for this Client specifically, logistics and price, what the Client receives afterward, next step. Maximum 450 words, the sign-off and the closing line included.
 
 **MODE B – AGENDA.** A timed two-hour agenda in six segments: opening and objectives (10 min), AI governance landscape mapped to the Client's REGULATORY_DRIVERS and OPERATING_JURISDICTIONS (25 min), readiness discussion anchored to AI_USE_CASES and AI_MATURITY (30 min), governance operating model overview using the two frameworks (25 min), implementation priorities and decision points (20 min), Q&A and close (10 min). Each segment lists purpose, key questions for the room and the single decision or takeaway it produces.
 
@@ -51,7 +51,7 @@ Professional prose. No em dashes, no Oxford commas, no emojis, no hashtags, no b
 3. Never promise certification, audit outcomes or regulatory approval.
 4. Regulatory statements are framed as expectations to verify with counsel, not legal advice.
 5. Anything unverifiable is rendered `Unknown`.
-6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based, the state of a system or whose decision DECISION_TIMELINE records and what it decides. Where the deliverable needs such a relation, render it `Unknown`; refer to the timeline as the block states it ("a decision is expected by" and the date).
+6. Do not infer relations the Profile Block does not state between its facts: who raised, owns or attends what, where people are based, the state of a system or whose decision DECISION_TIMELINE records and what it decides. Where the deliverable needs such a relation, render it `Unknown` or leave the sentence out; refer to the timeline as the block states it ("a decision is expected by" and the date).
 
 ## PROMPT ENDS
 

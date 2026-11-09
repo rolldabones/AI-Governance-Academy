@@ -4,7 +4,7 @@
 
 Son-U Michael Paik · CEO, GRC Solutions Korea
 
-November 4, 2026
+4 November 2026
 
 **Starting point.** On 31 October 2026 Nate B. Jones published a video, *The Future Of The Internet Isn't Open For Your Agent. Muse, Dots And Claude Duet Will Find Out.* ([AI News & Strategy Daily, YouTube](https://www.youtube.com/watch?v=c3HHFL_lsLM)), and a post on his Substack, ["Five controls to set before you let an AI agent buy, pay, or cancel anything for you, so it finishes the job without spending money you didn't approve."](https://natesnewsletter.substack.com/p/ai-agents-website-access) (a subscriber post whose public page carries the headline, subtitle and opening). The post sets five trust systems side by side in one table, sorts the places an agent can find itself into three zones and closes with five practical controls for a first delegated job. This piece was occasioned by that post and video. It takes the same five systems, reads each at its primary document and sets them against the doctrine this account runs on. The reading is the author's. Nate Jones has no involvement in it, has not reviewed it and does not endorse it; none of his text or prompts is reproduced, and where his vocabulary is used, the three zones and the five controls, it is named as his. Every factual claim below is cited to the primary document the author read on 4 November 2026 (Korea Standard Time, KST), not to the post.
 

@@ -4,7 +4,7 @@
 
 Son-U Michael Paik · CEO, GRC Solutions Korea
 
-October 15, 2026
+15 October 2026
 
 **Starting point.** On 6 October 2026 (UTC) OpenAI published a repository of mathematical manuscripts produced by an internal model, [openai/math](https://github.com/openai/math), and I wrote about it on LinkedIn on 14 October 2026 ([post](https://lnkd.in/p/gn_XXNJM)). This piece develops the vocabulary from that post. It reads the release as dated evidence and takes no position on the mathematics, which I cannot follow. The repository is Apache-2.0 licensed and OpenAI has no involvement in this piece.
 
@@ -49,7 +49,7 @@ The four positions of Section 3 answer the first. Section 6 answers the second. 
 
 I am open to superintelligence. I cannot define it, which bothers me professionally, and I cannot follow the mathematics in the evidence now being offered for it, which pains me personally. I think we are not there, and I find it hard to say what "there" would mean. I suspect that many people who have to form a view are in the same position, and that the honest course is to say so and then do the work that can be done from here.
 
-The nearest I can get to a definition is the last cell of the matrix that Donald Rumsfeld made famous at a Department of Defense briefing on February 12, 2002: the unknown unknowns. [*Slow AI for the Chief Legal Officer*](slow-ai-for-the-chief-legal-officer.md#2-know-what-you-know) uses the four cells to map an organization's risk, and [*The Compression and the Harness*](the-compression-and-the-harness.md#2-four-cells-three-knowers) uses them to sort what a model can and cannot do with knowledge, on the condition that we say who the knower is. This piece stays with that last cell and asks one question of it: when a model produces a result, how do we tell whether it reached something unknown to everyone, or did something else that looks like it from a distance?
+The nearest I can get to a definition is the last cell of the matrix that Donald Rumsfeld made famous at a Department of Defense briefing on 12 February 2002: the unknown unknowns. [*Slow AI for the Chief Legal Officer*](slow-ai-for-the-chief-legal-officer.md#2-know-what-you-know) uses the four cells to map an organization's risk, and [*The Compression and the Harness*](the-compression-and-the-harness.md#2-four-cells-three-knowers) uses them to sort what a model can and cannot do with knowledge, on the condition that we say who the knower is. This piece stays with that last cell and asks one question of it: when a model produces a result, how do we tell whether it reached something unknown to everyone, or did something else that looks like it from a distance?
 
 The rest of the piece is a way of answering that question without being able to do the mathematics. The answer it reaches is that the question cannot be settled by looking at the result alone. It is settled by the three questions above: what was already on the map, who set the question and what checked the answer, including how much of the answer the check covered.
 
@@ -259,7 +259,7 @@ The Slow AI Kitchen also runs as a guided web application at [kitchen.grcskorea.
 
 ## Source basis and attribution
 
-Doctrine statements re-verified on 17 October 2026 (Korea Standard Time, KST) against DOCTRINE.md v1.2.0, which adds the short forms of section 8 and changes no rule.
+Doctrine statements re-verified on 9 November 2026 (Korea Standard Time, KST) against DOCTRINE.md v1.2.3, whose changes since v1.2.0 touch no statement this piece relies on; every link into the account was re-resolved against the current releases the same day.
 
 Prepared and revised on 15 October 2026 (KST) against DOCTRINE.md v1.1.1 and ECOSYSTEM.md v1.7.26, Slow AI Kitchen v2.11.1 at commit `05253ac`, computational-drafting v1.4.0 at commit `9b3c12a`, The Definition of Done v1.2.2 at commit `4bdc2cd`, GRCnext-Copilot v2.5.0 and AI Governance for Boards v1.5.3, and the sibling publications in this repository as at v1.10.0. Every link into the account was resolved against those releases, anchor included, on first publication; this edition adds no link into the account and changes none.
 

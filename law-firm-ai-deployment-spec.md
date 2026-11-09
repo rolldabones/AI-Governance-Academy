@@ -305,7 +305,7 @@ Give the system only as much autonomy as the consequence justifies.
 
 The first production system should be capable of demonstrating measurable improvement while remaining observable, reversible and interruptible.
 
-A workflow like this is what I have elsewhere called a [Tiny Servant](https://redcaps.substack.com/p/made-to-hold): narrow purpose, clear boundaries, a named owner, one useful task done well, then it stops. The [Origami Method](https://github.com/rolldabones/origami-method) is the design discipline for folding one: stage-gated, with creases, gates and a fold log.
+A workflow like this is what I have elsewhere called a [Tiny Servant](https://redcaps.substack.com/p/made-to-hold): narrow purpose, clear boundaries, a named owner, one useful task done well, then it stops. The [Origami Method](https://github.com/rolldabones/origami-method) is the design discipline for folding one: stage-gated, with creases, gates and a fold log. For a legal team on Claude for Legal, [*Using Claude for Legal with The Slow AI Kitchen*](using-claude-for-legal-with-the-slow-ai-kitchen.md) works the same first workflow, NDA triage, as its first recipe.
 
 ## 15. Measure economics, quality and risk together.
 

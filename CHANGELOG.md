@@ -1,6 +1,21 @@
 # Changelog
 
-All notable changes to the AI Governance Academy Client Content Prompt Pack are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
+All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
+
+## [1.20.0] – 2026-11-09
+
+Minor. The repository's slot of the improvement rotation (cycle 3, row 1; review of 24 October 2026, reader report 03), on Michael Paik's rulings of 9 November 2026 (KST). Rules change in templates 02 to 08 and a critical case is added, so the templates stand on run A5 of the v1.14.8 text until run A6 of this text is read. Prepared with Claude, approved by Michael Paik.
+
+- **Templates 02 to 08:** the relation guard reads "render it `Unknown` or leave the sentence out", so that a proposal that would need a relation the Client Profile Block does not state can drop the sentence rather than carry `Unknown` in Client-facing prose (known defect K5).
+- **Template 02:** Mode A drops "Prose only" and keeps its 450-word limit, as v1.14.3 did for templates 03 and 08 (K6, held in 3 of 6 samples over runs A2 and A3 and failed once in run A5).
+- **Template 08:** the spine names sponsor report 3 with the decision pack at Day 28 under Days 26 to 30, as its Mode B and the Consultant Workbook's thirty-day calendar do.
+- **`tests.md`:** case T09, critical, runs template 02 on a block with three fields `Unknown` and passes only if no fact on those subjects is stated (the no-invention rule on its own, ACCEPTANCE.md (b)); a **Critical cases** line under the Cases table; T02's pass condition reads against the word limit only; case defect C2 fixed; K5, K6 and the status at v1.20.0 recorded; an instrument note on template 08; one serial comma removed.
+- **`examples/fictional-client.md`:** Part 2 lists the internal audit function under INCUMBENT_FRAMEWORKS, which Part 1 states (C2); Part 3, the block with INCUMBENT_FRAMEWORKS, RISK_EVENTS and DECISION_TIMELINE `Unknown`, is the input of T09.
+- **README:** the masthead says "published; templates not accepted" in place of "Status: final"; the acceptance status, caution and test status are plain statements, with the defect codes left to `tests.md`; the evidence paragraph names all six runs and links an index for each examples folder; the Publications section is a short list, its table, counts and citations moved to `PUBLICATIONS.md`; the Versioning section states without the process clause that the version is carried in every header, and restates the no-further-additions rule for this repository: the templates are closed to additions other than corrections save on the author's express decision, and the Publications are open, a new publication or edition needing no such decision.
+- **`PUBLICATIONS.md`** (new): the index of the ten publications with date, kind, words (recounted at v1.20.0), occasion and the ten citations.
+- **`examples/transcripts-*/README.md`** (six, new): an index of each run's outputs with the scorer's verdict and the verdict after review, read from each file's label.
+- **Publications:** masthead dates of *The Compression and the Harness*, *The Map and the Pair*, *The Turtle and the Phoenix* and *The Mandate and the Switch*, and three prose dates, in day-month-year order; the source notes of *Slow AI for the Chief Legal Officer*, *The Compression and the Harness* and *The Map and the Pair* re-verified against DOCTRINE.md v1.2.3 (sections 1 to 3 and 8 as relied on, unchanged in substance since v1.2.0) with every link into the account re-resolved on 9 November 2026 (KST); a pointer to *Using Claude for Legal with The Slow AI Kitchen* in section 11 of the CLO primer and section 14 of the deployment spec. No argument changes.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md`, the `tests.md` masthead and `CITATION.cff` to v1.20.0.
 
 ## [1.19.1] – 2026-11-09
 
