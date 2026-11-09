@@ -1,0 +1,72 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system; internal audit function\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "# Executive Workshop Proposal\n\n**Client:** Tamarack Instruments\n**Prepared for:** Dana Whitfield, General Counsel\n**Program:** Executive Workshop, AI Governance Academy\n\n## 1. Situation Summary\n\nTamarack Instruments designs and manufactures laboratory measurement instruments. It is headquartered in the Netherlands, operates in the Netherlands, Germany and the United States and has about 1,100 staff.\n\nThe Client's AI use spans three stages:\n\n- **Deployed:** a customer service chatbot on the support portal.\n- **Piloting:** AI visual inspection on the German production line.\n- **Planned:** AI sales forecasting next year.\n\nAI maturity is at the piloting stage. An internal audit finding from June 2026 records that there is no inventory of AI systems.\n\n**Regulatory and certification context:** The regulatory drivers are the EU AI Act and GDPR. Work toward ISO/IEC 42001 is expected to start next year, and the start date is not fixed.\n\n**Incumbent frameworks:** The Client operates an ISO/IEC 27001 ISMS, an ISO 9001 quality management system and an internal audit function.\n\n**Stated constraints:**\n\n- Budget is approved up to US$80,000 this fiscal year.\n- Customer data must stay in the EU.\n- The German works council is consulted before anything touches production staff.\n\n**Stated objective:** Dana Whitfield's objective is: \"I want governance in place before visual inspection goes into production in Q2 2027.\"\n\n**Timeline:** A decision is expected by 15 December 2026.\n\n## 2. Why a One-Day Executive Session Fits\n\nAt the piloting stage, the governance choices with the most leverage are made before systems scale. These choices are:\n\n- who owns AI governance\n- how much AI risk the organization accepts\n- how oversight runs\n- what budget governance carries\n\nThese are executive decisions. A single structured day brings the people who hold them into one room to make them together, rather than across a sequence of separate meetings.\n\nThe Q2 2027 objective gives the session a fixed horizon to plan against. A decision is expected by 15 December 2026. Whether the Workshop should be scheduled before that date is a question to confirm at intake.\n\n## 3. Four-Block Structure with Client-Specific Emphasis\n\nThe Workshop runs as four 90-minute blocks with breaks. The program draws on two frameworks:\n\n- the GRC Workbook (https://github.com/rolldabones/grc-workbook)\n- the Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen)\n\nTwo further resources serve as references:\n\n- AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards) at the board layer\n- The Definition of Done (https://github.com/rolldabones/definition-of-done) at the acceptance layer\n\n**Block 1: Alignment.** The room reviews the three use cases by stage: deployed, piloting and planned. The June 2026 finding on the absent AI inventory serves as the shared starting point. The block produces a shared statement of governance intent.\n\n**Block 2: Principles.** The room tests governance operating principles against the Client's context, including the three Academy principles: Slow AI, Informed Intent, Final Liability rests with the Human.\n\n- The visual inspection pilot gives the discussion a concrete case. Where human judgment should sit on inspection outcomes is a question for the room to decide.\n- The works council consultation requirement and the EU data residency requirement are treated as boundary conditions on any principle adopted.\n\nThe block produces agreed principles ranked by the room.\n\n**Block 3: Roadmap.** The room sequences governance work against the EU AI Act, GDPR and the ISO/IEC 42001 target.\n\n- AI governance is positioned as an extension of the ISO/IEC 27001 ISMS, the ISO 9001 quality management system and the internal audit function, not as a parallel structure.\n- The specific registers, procedures or records within those systems that AI governance would attach to are `Unknown` and will be confirmed at intake.\n- Regulatory content in this block is orientation, not legal advice. Questions such as how the EU AI Act applies to each use case are flagged for external counsel.\n\nThe block produces a draft 12-month roadmap with owners, set against the Q2 2027 production objective.\n\n**Block 4: Decisions.** The room works through an executive decision session covering four areas:\n\n- governance ownership\n- risk appetite for AI\n- oversight cadence\n- budget mandate\n\nThe block closes with *The Turtle and the Phoenix* ([facilitation kit](https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md)) and the kit's twenty-minute closing exercise. This serves as the retention device for the three principles.\n\n## 4. Deliverables\n\n1. **Decision log:** the decisions taken in Block 4, each with an owner, date, rationale and review date.\n2. **Prioritized roadmap:** the 12-month roadmap as agreed in Block 3, with owners and sequencing.\n3. **Readiness observations:** observations on governance readiness across the GRC Workbook domains of governance structures, inventories, risk management, policies and evidence. These are facilitator observations. They are not an audit opinion, and they do not predict any ISO/IEC 42001 certification outcome.\n\n## 5. Logistics and Price\n\n- **Format:** one day, live virtual, four 90-minute blocks with breaks.\n- **Proposed participants:** General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors. Final attendance will be confirmed at intake.\n- **Date:** `Unknown`, to be agreed.\n- **Price:** US$7,500.\n\n## 6. Questions to Confirm at Intake\n\n1. Should the Workshop take place before 15 December 2026, and what does the decision expected by that date cover?\n2. Which registers, procedures or records within the ISO/IEC 27001 ISMS and the ISO 9001 quality management system should AI governance attach to?\n3. Does the visual inspection pilot, or its move to production, touch production staff in a way that requires works council consultation before the Workshop or as a roadmap item?\n4. Which of the three use cases process customer data, and where is that data held?\n5. Who holds the decisions in each of the four Block 4 areas?\n6. What external counsel support is available for EU AI Act and GDPR questions?\n\n## 7. Next Step\n\nWe propose a 45-minute intake call with Dana Whitfield to confirm the questions above, fix the Workshop date and agree the pre-read. On confirmation, we will issue the pre-work packet to participants.\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2989,
+   "output_tokens": 5231,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "PASS",
+  "elements": [
+   {
+    "element": "1. Exactly one mode produced",
+    "met": true,
+    "evidence": "Only a Mode A proposal is produced: situation summary, fit, four-block structure, deliverables, logistics and price, next step. No other mode's content appears."
+   },
+   {
+    "element": "2. Four-block structure preserved",
+    "met": true,
+    "evidence": "\"Block 1: Alignment\", \"Block 2: Principles\", \"Block 3: Roadmap\", \"Block 4: Decisions\", each with its expected artifact, and Block 4 closing with the fable."
+   },
+   {
+    "element": "3. Duration and price unaltered",
+    "met": true,
+    "evidence": "\"one day, live virtual, four 90-minute blocks with breaks\"; \"Price: US$7,500.\" Program named \"Executive Workshop, AI Governance Academy\"."
+   },
+   {
+    "element": "4. Every Client-specific claim traces to the Profile Block",
+    "met": true,
+    "evidence": "Situation facts match the Profile fields: industry, jurisdictions, \"about 1,100 staff\", the three use cases, the June 2026 finding, the constraints, the quoted objective and \"A decision is expected by 15 December 2026\". Incumbent frameworks are named only, with attachment points rendered \"`Unknown` and will be confirmed at intake\". Unknowns are handled as intake questions, and the date is \"`Unknown`, to be agreed\"."
+   },
+   {
+    "element": "5. Principles and framework names exact; URLs where cited",
+    "met": true,
+    "evidence": "\"Slow AI, Informed Intent, Final Liability rests with the Human\"; the GRC Workbook, Slow AI Kitchen, AI Governance for Boards and Definition of Done are each given with the exact URL; the fable is linked to its facilitation kit."
+   },
+   {
+    "element": "6. Decision items touching regulation carry the external counsel note",
+    "met": true,
+    "evidence": "The proposal lists no regulation-touching decision items. Where regulation appears it is flagged: \"Questions such as how the EU AI Act applies to each use case are flagged for external counsel.\" Intake question 6 also raises external counsel. Applies only if a regulatory decision item exists; none does, so it is met or not applicable."
+   },
+   {
+    "element": "7. Closing line present (Mode A is Client-facing)",
+    "met": true,
+    "evidence": "Final line: \"Human-made, for Easy Work, Simply Done.\""
+   },
+   {
+    "element": "No Client-facing text names the Profile Block or the client file (K11)",
+    "met": true,
+    "evidence": "No mention of a Profile Block, client file, discovery call notes or other working document anywhere in the output."
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "Section 2 says \"A single structured day brings the people who hold them into one room\". A strict scorer could read this as asserting that the attendees own the four executive decisions, a relation the Profile Block does not state. I read it as a generic description of the program. Intake question 5 (\"Who holds the decisions in each of the four Block 4 areas?\") treats ownership as unknown, which supports that reading. Another scorer could decide otherwise.",
+   "\"the governance choices with the most leverage are made before systems scale\" is a generic claim with a superlative-style phrasing, not a Client fact. I treated it as a Style Rules matter outside the checklist. Another scorer could count it against the 'no superlatives without evidence' rule.",
+   "The GRC Workbook is named in the Deliverables section without a URL, though the URL was given in Section 3. I treated the URL requirement as met on the first full citation. A stricter scorer could fail item 5.",
+   "Item 6 is treated as met or not applicable because the proposal contains no regulation-touching decision item. A scorer who wanted the literal phrase 'confirm with external counsel' on the Block 3 regulatory content could decide otherwise.",
+   "\"The Client operates an ISO/IEC 27001 ISMS, an ISO 9001 quality management system and an internal audit function\" is a restatement of INCUMBENT_FRAMEWORKS, not a claim about any register, process or record. I accepted it as a Profile fact."
+  ],
+  "reasoning": "All seven checklist items are met on the output, and no fail indicator appears. Client facts are restated from the Profile fields without naming the Profile Block. Unknown relations and attachment points are rendered `Unknown` or turned into intake questions. Price, duration and structure are intact, the Academy principles and framework URLs are exact, and the closing line is present. The residual doubts are the 'people who hold them' phrase, the superlative-style wording and the URL-less GRC Workbook mention. I judged none of them a Client fact asserted without support or a checklist failure.",
+  "case": "T03-s3",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

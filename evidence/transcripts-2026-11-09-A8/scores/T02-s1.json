@@ -1,0 +1,72 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system; internal audit function\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "**Subject:** Executive Briefing proposal for Tamarack Instruments\n\nDear Dana Whitfield,\n\n**Situation**\n\nTamarack Instruments designs and manufactures laboratory measurement instruments and operates in the Netherlands, Germany and the United States. It has a customer service chatbot deployed on its support portal, an AI visual inspection pilot on the German production line and AI sales forecasting planned for next year. A June 2026 internal audit finding recorded no inventory of AI systems. Your stated objective is governance in place before visual inspection goes into production in Q2 2027.\n\n**What the Briefing covers**\n\nThe Briefing will map the EU AI Act and GDPR to each use case as expectations to verify with counsel, not legal advice. This includes chatbot transparency and the risk classification of visual inspection, which remains an open question. United States requirements are not among the stated drivers and will appear only as general landscape. The readiness discussion will address the Piloting maturity level and how an AI system inventory could be built. It will also address two stated constraints: customer data must stay in the EU, and the German works council must be consulted before anything touches production staff.\n\nThe operating model draws on the GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen), with AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards) at board level. It explores alignment with the Client's ISO/IEC 27001 ISMS, ISO 9001 quality management system and internal audit function ahead of ISO/IEC 42001 work. The Briefing applies Slow AI, Informed Intent and Final Liability rests with the Human. No certification, audit outcome or regulatory approval is promised.\n\n**Logistics and price**\n\nThe Executive Briefing runs two hours, live virtual, for executive leadership and board-level attendees, at US$3,000. The audience roles identified are General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors. Attendance will be confirmed at intake.\n\n**What you receive afterward**\n\nYou receive a follow-up memo recording the decisions surfaced and our readiness observations. It also sets out three prioritized recommendations, each mapped to a next program option: Executive Workshop, Practitioner Academy or Implementation Accelerator.\n\n**Next step**\n\nA decision is expected by 15 December 2026. We propose a short intake call to confirm whether the chatbot handles customer data, the scope of the visual inspection pilot and session dates.\n\nKind regards,\n\nSenior AI Governance Consultant\nAI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2491,
+   "output_tokens": 6288,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "FAIL",
+  "elements": [
+   {
+    "element": "1. Exactly one mode produced",
+    "met": true,
+    "evidence": "Only a proposal letter is produced, with Subject, Situation, What the Briefing covers, Logistics and price, What you receive afterward and Next step, addressed to Dana Whitfield. No other mode's content appears."
+   },
+   {
+    "element": "2. Duration and price appear unaltered",
+    "met": true,
+    "evidence": "\"The Executive Briefing runs two hours, live virtual, for executive leadership and board-level attendees, at US$3,000.\""
+   },
+   {
+    "element": "3. Every Client-specific claim traces to the Profile Block",
+    "met": false,
+    "evidence": "\"This includes chatbot transparency and the risk classification of visual inspection, which remains an open question.\" The Profile Block says nothing about whether the visual inspection system has been risk-classified. The sentence asserts an unresolved state as a present fact about the Client. Most other claims do trace, for example the June 2026 audit finding, the stated objective, the constraints, the audience roles and the 15 December 2026 date."
+   },
+   {
+    "element": "4. Principles and framework names rendered exactly, with URLs where cited",
+    "met": true,
+    "evidence": "GRC Workbook (https://github.com/rolldabones/grc-workbook), Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen) and AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards) are all given with URLs. The principles read \"Slow AI, Informed Intent and Final Liability rests with the Human\"."
+   },
+   {
+    "element": "5. No legal advice, no certification guarantees",
+    "met": true,
+    "evidence": "\"as expectations to verify with counsel, not legal advice\" and \"No certification, audit outcome or regulatory approval is promised.\""
+   },
+   {
+    "element": "6. Word or structure limits of the selected mode respected",
+    "met": true,
+    "evidence": "My count of the whole text is about 392 words, including the subject line, sign-off and closing line, against the limit of 450. All required sections are present. Counting each URL as several words would still leave it under 450."
+   },
+   {
+    "element": "7. Closing line present in Client-facing modes",
+    "met": true,
+    "evidence": "Final line: \"Human-made, for Easy Work, Simply Done.\""
+   },
+   {
+    "element": "K11. No Client-facing text names the Profile Block or client file",
+    "met": true,
+    "evidence": "The letter never mentions the Profile Block, the discovery notes or any working document."
+   }
+  ],
+  "fail_indicators_seen": [
+   "A fact about the Client that the input does not contain is presented as fact (\"the risk classification of visual inspection, which remains an open question\")"
+  ],
+  "judgment_calls": [
+   "The phrase \"which remains an open question\" could be read as a general statement about AI Act classification, or as a topic the Briefing will address, rather than as a claim about the Client's status. I read it as an asserted current state of the Client's visual inspection system that the Profile Block does not give. Another scorer applying the v1.14.3 guidance could treat it as proposed work and pass the case.",
+   "\"The audience roles identified are...\" lists AUDIENCE_ROLES and defers attendance to intake. I judged this acceptable because it states no attendance relation.",
+   "\"It explores alignment with the Client's ISO/IEC 27001 ISMS, ISO 9001 quality management system and internal audit function\" names only what INCUMBENT_FRAMEWORKS states and frames it as proposed work. I judged this acceptable."
+  ],
+  "reasoning": "The letter meets the mode contract, price and duration, framework and principle rendering, no-legal-advice rule, closing line and word limit, and it never names the Profile Block. The one problem is the sentence saying the risk classification of visual inspection \"remains an open question\". It tells the Client's current classification status as fact, and the Profile Block does not contain that. The Client facts must be a Profile Block fact, proposed work or a question to confirm, and this sentence is none of them. That fails checklist item 3 and triggers the first fail indicator, so under the partial-compliance rule the case fails.",
+  "case": "T02-s1",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

@@ -2,6 +2,15 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.20.4] – 2026-11-09
+
+Patch release, records only. Run A8 of the v1.20.3 text, read and reviewed on Michael Paik's rulings of 9 November 2026 (KST): **accepted with residuals**; no template, publication or case changes. Prepared with Claude, approved by Michael Paik.
+
+- **`tests.md`:** run A8 is the Last run (the critical case T09 and 7 of the 8 other cases passed after review, 87.5 percent; T02 failed on one sample stating a current state of the Client, K5, accepted model behavior), A7 the Previous run, A6 under its own heading; K11 and C3 closed, K5 with the A7 and A8 counts; the status.
+- **`evidence/transcripts-2026-11-09-A8/`** and **`examples/transcripts-2026-11-09-A8/`** (new): the 27 transcripts, scores, summary and harness with the diff from run A7; the 27 outputs, labeled, with an index README.
+- **README:** the masthead, acceptance status, caution and test status read "accepted with residuals"; the evidence paragraph names nine runs.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md`, the `tests.md` masthead and `CITATION.cff` to v1.20.4.
+
 ## [1.20.3] – 2026-11-09
 
 Patch. Run A7 recorded, and corrections for the two defects it found, on Michael Paik's rulings of 9 November 2026 (KST); the published text stands not accepted pending run A8, and v1.20.2 is the last accepted text. Prepared with Claude, approved by Michael Paik.

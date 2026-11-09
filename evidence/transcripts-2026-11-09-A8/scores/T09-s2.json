@@ -1,0 +1,70 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: Unknown\nRISK_EVENTS: Unknown\nDECISION_TIMELINE: Unknown\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "**Subject: Executive Briefing Proposal for Tamarack Instruments**\n\nDear Dana Whitfield,\n\n**Situation**\n\nTamarack Instruments designs and manufactures laboratory measurement instruments and operates in the Netherlands, Germany and the United States. Its AI use includes three systems:\n\n- a deployed customer service chatbot on the support portal\n- a visual inspection pilot on the German production line\n- sales forecasting planned for next year\n\nYour stated objective is clear: \"I want governance in place before visual inspection goes into production in Q2 2027.\" The Client names the EU AI Act and GDPR as regulatory drivers. ISO/IEC 42001 is a certification target, with work to start next year on a date not yet fixed.\n\n**What the Briefing Covers for the Client**\n\nThe Briefing will map the EU AI Act and GDPR to each use case as expectations to verify with counsel, not as legal advice. Examples include transparency expectations for the chatbot, whether visual inspection could fall within a high-risk category and GDPR questions wherever the three uses process personal data. United States requirements will appear only as a general landscape item.\n\nWe will test readiness against the Client's piloting maturity. We will then outline a governance operating model using two frameworks:\n\n- the GRC Workbook (https://github.com/rolldabones/grc-workbook)\n- Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen)\n\nBoard-level oversight will draw on AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards).\n\nThe session closes on implementation priorities and decision points ahead of Q2 2027. It is guided by three principles: Slow AI, Informed Intent, Final Liability rests with the Human. We will also identify readiness steps toward ISO/IEC 42001, without any promise of certification or audit outcome.\n\n**Logistics and Price**\n\nThe Executive Briefing runs two hours, live virtual, for executive leadership and board-level attendees. The fee is US$3,000.\n\n**What the Client Receives Afterward**\n\nThe Client receives a summary memo recording the decisions surfaced, our readiness observations and prioritized recommendations.\n\n**Next Step**\n\nPlease confirm a session date and the attendee list. At intake we will ask four questions:\n\n1. Will the visual inspection pilot touch production staff, given the commitment to consult the German works council before anything does?\n2. Does the chatbot process customer data and, if so, where, given that customer data must stay in the EU?\n3. Which incumbent frameworks should inform the session?\n4. Which past risk events, if any, should inform the session?\n\nThe decision timeline is not yet known.\n\nKind regards,\n\nSenior AI Governance Consultant\nAI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2435,
+   "output_tokens": 3625,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "PASS",
+  "elements": [
+   {
+    "element": "Checklist 1: exactly one mode produced",
+    "met": true,
+    "evidence": "The output is a single proposal letter with a subject line, a salutation and the five required sections: Situation, What the Briefing Covers for the Client, Logistics and Price, What the Client Receives Afterward, Next Step. No other mode appears."
+   },
+   {
+    "element": "Checklist 2: duration and price unaltered",
+    "met": true,
+    "evidence": "\"The Executive Briefing runs two hours, live virtual, for executive leadership and board-level attendees. The fee is US$3,000.\""
+   },
+   {
+    "element": "Checklist 3: every Client-specific claim traces to the Profile Block",
+    "met": true,
+    "evidence": "Each Client claim maps to a field. Business and jurisdictions: \"designs and manufactures laboratory measurement instruments and operates in the Netherlands, Germany and the United States\". Use cases: chatbot deployed, inspection pilot on the German line, forecasting planned next year. Objective quoted verbatim. Drivers: EU AI Act and GDPR. ISO/IEC 42001: \"work to start next year on a date not yet fixed\". Maturity: \"piloting maturity\". Works council and EU data constraints appear only inside intake questions."
+   },
+   {
+    "element": "No statement of incumbent frameworks, management systems, registers, processes or functions beyond not known",
+    "met": true,
+    "evidence": "The only mention is the intake question \"Which incumbent frameworks should inform the session?\", which asserts nothing about what the Client holds. No register, process or control is described."
+   },
+   {
+    "element": "No statement of a risk event, incident or audit finding beyond none known",
+    "met": true,
+    "evidence": "\"Which past risk events, if any, should inform the session?\" is a question hedged with \"if any\". No event is asserted."
+   },
+   {
+    "element": "No statement of decision date or decision-maker beyond not known",
+    "met": true,
+    "evidence": "\"The decision timeline is not yet known.\" No decision-maker or date is stated. \"Q2 2027\" appears only as the Sponsor's quoted objective and in \"decision points ahead of Q2 2027\", which is proposed agenda content."
+   },
+   {
+    "element": "No Client-facing text names the Profile Block or the client file; Academy frameworks and program constants are not Client facts",
+    "met": true,
+    "evidence": "The letter never mentions a profile block, discovery notes or any working document. The frameworks and URLs listed are the Academy's own."
+   },
+   {
+    "element": "Word limit (supports Checklist 6 and the contract; the 450-word maximum)",
+    "met": true,
+    "evidence": "My count is about 398 words, including subject, sign-off and the closing line \"Human-made, for Easy Work, Simply Done.\", which is under 450."
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "\"The Client names the EU AI Act and GDPR as regulatory drivers\" uses the verb \"names\", which attributes the naming to the Client. I read it as a restatement of the REGULATORY_DRIVERS field, not a new attribution under Guardrail 6. A stricter scorer could count it as an unstated attribution and fail the sample.",
+   "Question 1 says \"given the commitment to consult the German works council\", which characterises the stated constraint as a commitment. I treated this as the constraint applied to the production-line pilot, which v1.14.3 allows, and as sitting inside a confirm-at-intake question. Another scorer could read \"commitment\" as an unstated Client state.",
+   "Question 3, \"Which incumbent frameworks should inform the session?\", does not hedge with \"if any\" the way Question 4 does. I treated it as a permitted question to confirm at intake. A stricter scorer could say it presupposes that incumbent frameworks exist."
+  ],
+  "reasoning": "The output is one mode, keeps the price and duration, and traces its Client claims to the Profile Block. It handles the three Unknown fields (INCUMBENT_FRAMEWORKS, RISK_EVENTS, DECISION_TIMELINE) correctly. The first two appear only as intake questions, and the timeline appears only as \"The decision timeline is not yet known.\" No incumbent function, risk event, decision date or decision-maker is asserted, and the Profile Block is never named. Word count is well under the limit. The residual doubts are the attribution wording and the \"commitment\" characterisation, both listed under judgment_calls. On the text as written, every element is met and no fail indicator appears, so the sample passes.",
+  "case": "T09-s2",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

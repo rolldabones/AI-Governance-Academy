@@ -1,0 +1,67 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: Unknown\nRISK_EVENTS: Unknown\nDECISION_TIMELINE: Unknown\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "**Subject: Executive Briefing proposal for Tamarack Instruments**\n\nDana Whitfield,\n\n**Situation**\n\nTamarack Instruments designs and manufactures laboratory measurement instruments. It has about 1,100 staff and operates in the Netherlands, Germany and the United States. A customer service chatbot is deployed on the support portal. AI visual inspection is being piloted on the German production line, and AI sales forecasting is planned for next year. Your stated objective is: \"I want governance in place before visual inspection goes into production in Q2 2027.\" Customer data must stay in the EU, and the German works council is consulted before anything touches production staff. ISO/IEC 42001 work is expected to start next year.\n\n**What the Briefing covers for the Client**\n\nThe Briefing will map the EU AI Act and GDPR to each use case. Each point is an expectation to verify with counsel, not legal advice.\n\n* **Chatbot:** transparency toward users interacting with AI and handling of customer data within the EU.\n* **Visual inspection:** risk classification, human oversight and the works council step.\n* **Forecasting:** the governance questions to settle before build.\n\nWe will test readiness against the Client's current piloting maturity. We will then outline an operating model drawing on the GRC Workbook (https://github.com/rolldabones/grc-workbook) and the Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen). Board reporting will be referenced to AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards).\n\nThree principles run throughout: Slow AI, Informed Intent, Final Liability rests with the Human. ISO/IEC 42001 will be discussed as preparation only. The Briefing does not promise certification or audit outcomes.\n\n**Logistics and price**\n\nThe Briefing runs for two hours, live virtual, for executive leadership and board-level attendees. The named audience roles are General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors. The fee is US$3,000.\n\n**What the Client receives afterward**\n\nThe Client receives a follow-up memo recording the decisions surfaced and our readiness observations. It also sets out three prioritized recommendations, each mapped to a next program option with a proposed timeline.\n\n**Next step**\n\nThe decision timeline is not yet known. At intake we propose to confirm:\n\n* which governance frameworks are already in use\n* whether any AI-related incidents have occurred\n* who owns the visual inspection pilot\n* the preferred Briefing date\n\nPlease reply with two candidate dates, and we will send the intake questions.\n\nKind regards,\n\nAI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2435,
+   "output_tokens": 3088,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "PASS",
+  "elements": [
+   {
+    "element": "Checklist 1: exactly one mode produced",
+    "met": true,
+    "evidence": "The output is a single proposal letter with a subject line, situation, coverage, logistics and price, what the Client receives, next step, and sign-off. It uses no Mode B, C or D structure. The memo it describes is a deliverable, not a second mode."
+   },
+   {
+    "element": "Checklist 2: duration and price unaltered",
+    "met": true,
+    "evidence": "\"The Briefing runs for two hours, live virtual...\" and \"The fee is US$3,000.\""
+   },
+   {
+    "element": "Checklist 3: every Client-specific claim traces to the Profile Block",
+    "met": true,
+    "evidence": "The situation facts all come from the block: \"about 1,100 staff\", the three jurisdictions, the chatbot deployed, the visual inspection pilot, forecasting planned, the quoted objective, EU data residency, the works council constraint, and \"ISO/IEC 42001 work is expected to start next year\". The audience roles list matches AUDIENCE_ROLES."
+   },
+   {
+    "element": "No statement about incumbent frameworks, management systems, registers, processes or functions",
+    "met": true,
+    "evidence": "The only mention is the intake question \"which governance frameworks are already in use\". It asserts nothing and names no framework."
+   },
+   {
+    "element": "No statement about risk events, incidents or audit findings",
+    "met": true,
+    "evidence": "Only the intake question \"whether any AI-related incidents have occurred\"."
+   },
+   {
+    "element": "No statement of decision date or decision-maker other than not known",
+    "met": true,
+    "evidence": "\"The decision timeline is not yet known.\" The letter names no decision-maker. \"Who owns the visual inspection pilot\" is posed as a question."
+   },
+   {
+    "element": "No Client-facing text names the Profile Block or client file; no other Client fact outside the block",
+    "met": true,
+    "evidence": "The letter never mentions the block, a file, or the discovery call. The Client facts it states all appear in the block."
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "The intake bullets (frameworks in use, incidents, pilot owner) are treated as questions to confirm at intake, which the instrument permits, not as asserted Client facts. Another scorer could read them as implying that such frameworks or incidents exist, but the wording does not assert that.",
+   "\"Current piloting maturity\" is treated as traceable to AI_MATURITY: Piloting.",
+   "The coverage bullets (chatbot data handling within the EU, visual inspection and the works council step) are treated as proposed work and consequences of stated constraints, which the v1.14.3 guidance allows.",
+   "Listing the named audience roles after the general audience statement is treated as stating AUDIENCE_ROLES, not an inferred attendance relation.",
+   "Checklist items 4 to 7 are outside the T09 pass condition, which names only items 1 to 3. They are met anyway: the output is about 390 words, under 450, the closing line is present, the URLs are present and the principles are rendered exactly."
+  ],
+  "reasoning": "All three scoped checklist items are met. The letter states no fact about incumbent frameworks, risk events, or the decision date or decision-maker beyond \"not yet known\", and it raises those subjects only as intake questions. Every Client-specific claim comes from the Profile Block or is proposed work or a consequence of a stated constraint. The block and the client file are never named. No fail indicator appears.",
+  "case": "T09-s1",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

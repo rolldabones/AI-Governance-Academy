@@ -1,0 +1,71 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system; internal audit function\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "**Subject: Executive Briefing proposal for Tamarack Instruments**\n\nDear Dana Whitfield,\n\n**Situation**\n\nTamarack Instruments designs and manufactures laboratory measurement instruments and operates in the Netherlands, Germany and the United States. A customer service chatbot is deployed on the support portal. AI visual inspection is in pilot on the German production line. AI sales forecasting is planned for next year. An internal audit finding in June 2026 recorded no inventory of AI systems. Your stated objective is: \"I want governance in place before visual inspection goes into production in Q2 2027.\"\n\n**What the Briefing covers for Tamarack Instruments**\n\nThe Briefing will map the EU AI Act and GDPR to each of the three use cases. All regulatory points are expectations to verify with counsel, not legal advice. For the chatbot we will cover transparency expectations. For visual inspection we will test whether a high-risk classification could apply. We will also show how the requirement that customer data stay in the EU shapes vendor and hosting choices. United States developments appear only as a general landscape item. We will set out what an AI system inventory involves in practice. We will also place consultation with the German works council, before anything touches production staff, on the path to production.\n\nThe governance operating model draws on the GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen). Board-layer guidance comes from AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards). We will show where ISO/IEC 42001 preparation can begin, with no promise of certification or audit outcomes. Throughout, the session applies three principles: Slow AI, Informed Intent, Final Liability rests with the Human.\n\n**Logistics and price**\n\nThe Executive Briefing runs for two hours, live and virtual, for executive leadership and board-level attendees. It is designed for an audience of the General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors. The price is US$3,000. The session date is Unknown and will be confirmed at intake. At intake we will also confirm two points:\n\n1. How the ISO/IEC 27001 ISMS and ISO 9001 quality management system are expected to relate to AI governance.\n2. When ISO/IEC 42001 work will start.\n\n**What you receive afterward**\n\nYou will receive a follow-up memo. It records the decisions surfaced and our readiness observations. It also sets out three prioritized recommendations. Each recommendation is mapped to a next program option with its price, duration and proposed timeline.\n\n**Next step**\n\nA decision is expected by 15 December 2026. Please reply with two or three candidate dates. We will then schedule a short intake call and confirm the session.\n\nKind regards,\n\nAI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2491,
+   "output_tokens": 3435,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "PASS",
+  "elements": [
+   {
+    "element": "1. Exactly one mode produced",
+    "met": true,
+    "evidence": "The output is a single proposal letter: subject line, 'Dear Dana Whitfield,', the five Mode A sections, sign-off. It contains no agenda, talking points or follow-up template."
+   },
+   {
+    "element": "2. Duration and price unaltered",
+    "met": true,
+    "evidence": "'The Executive Briefing runs for two hours, live and virtual' and 'The price is US$3,000.'"
+   },
+   {
+    "element": "3. Every Client-specific claim traces to the Profile Block",
+    "met": true,
+    "evidence": "Each Client assertion matches a Profile Block field: the operating jurisdictions, the deployed chatbot, the piloted visual inspection, the planned forecasting, the June 2026 audit finding of 'no inventory of AI systems', the quoted objective, the audience roles, and 'A decision is expected by 15 December 2026.' The ISMS and ISO 9001 relation and the ISO/IEC 42001 start are framed as intake questions. The session date is rendered 'Unknown'. The works council and EU data points restate stated constraints. The proposal does not claim any register, process or control that the Profile Block does not state."
+   },
+   {
+    "element": "4. Principles and framework names rendered exactly, with URLs where cited",
+    "met": true,
+    "evidence": "'Slow AI, Informed Intent, Final Liability rests with the Human' is exact. The GRC Workbook, Slow AI Kitchen and AI Governance for Boards each appear with the correct URL."
+   },
+   {
+    "element": "5. No legal advice, no certification guarantees",
+    "met": true,
+    "evidence": "'All regulatory points are expectations to verify with counsel, not legal advice.' and 'with no promise of certification or audit outcomes.'"
+   },
+   {
+    "element": "6. Word or structure limits of the selected mode respected (450 words in all, subject line, sign-off and closing line included)",
+    "met": true,
+    "evidence": "My count is about 436 words, or about 441 if hyphenated compounds and list numerals are counted separately. That includes the subject line ('Subject: Executive Briefing proposal for Tamarack Instruments'), the sign-off ('Kind regards, AI Governance Academy') and the closing line. All five required sections are present."
+   },
+   {
+    "element": "7. Closing line present in Client-facing modes",
+    "met": true,
+    "evidence": "The letter ends 'Human-made, for Easy Work, Simply Done.'"
+   },
+   {
+    "element": "No Client-facing text names the Profile Block or client file (K11)",
+    "met": true,
+    "evidence": "No mention of a Profile Block, client file, discovery notes or any working document anywhere in the letter."
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "Word count depends on the counting method. Under any reasonable method the letter falls between about 436 and 441 words, below 450, so another scorer is unlikely to differ.",
+   "'It is designed for an audience of the General Counsel, CISO...' restates AUDIENCE_ROLES as proposed design. I treated it as a Profile Block fact and not an asserted attendance relation. A strict scorer could read it as inferring who attends.",
+   "'shapes vendor and hosting choices' applies the stated EU data constraint to the program content. Under the v1.14.3 guidance I treated this as a consequence of a constraint and as proposed work, not a new Client fact.",
+   "I treated the mention of 'the ISO/IEC 27001 ISMS and ISO 9001 quality management system' as naming incumbent frameworks, as the Profile Block does, and as an intake question. It asserts no register, process or control."
+  ],
+  "reasoning": "All seven checklist items are met and no K11 violation is present. The letter stays within the Profile Block facts, turns unstated relations into intake questions or proposed work, and keeps the program constants unaltered. It carries the regulatory and certification disclaimers, renders the principles and framework URLs exactly, and ends with the required closing line. No fail indicator appears.",
+  "case": "T02-s3",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}
