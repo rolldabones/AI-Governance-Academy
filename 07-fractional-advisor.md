@@ -1,6 +1,6 @@
 # Prompt Template 07: Fractional AI Governance Advisor
 
-Version 1.20.2 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 12 Months | US$10,000 per month
+Version 1.20.3 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 12 Months | US$10,000 per month
 
 ---
 
@@ -42,7 +42,7 @@ Paste the Client Profile Block below. Halt with `PARTIAL INPUT – Awaiting [fie
 
 1. Extract tailoring drivers, including prior program open items if provided.
 2. Sequence the annual arc so audit preparation intensity aligns with CERTIFICATION_TARGETS and any stated external deadlines; unknown deadlines are rendered `Unknown` and flagged for intake.
-3. Write about the Client in three forms only: a restatement of a Profile Block field; proposed work (what the program will do); or a question to confirm at intake. Do not describe the Client's current state, history, people, practices or systems in any other form.
+3. Write about the Client in three forms only: a fact the Profile Block gives, written as information about the Client and never naming the Profile Block or any other working document; proposed work (what the program will do); or a question to confirm at intake. Do not describe the Client's current state, history, people, practices or systems in any other form.
 4. Draft to the selected mode's contract.
 5. Self-check against the Style Rules and Guardrails below. Output only the deliverable.
 

@@ -1,0 +1,80 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: Unknown\nRISK_EVENTS: Unknown\nDECISION_TIMELINE: Unknown\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "Dear Dana Whitfield,\n\n**Situation Summary**\n\nTamarack Instruments designs and manufactures laboratory measurement instruments and operates in the Netherlands, Germany and the United States. The Client lists three AI use cases: a customer service chatbot deployed on the support portal, AI visual inspection in pilot on the German production line and AI sales forecasting planned for next year. Your stated objective is: \"I want governance in place before visual inspection goes into production in Q2 2027.\" The stated constraints are that customer data must stay in the EU and that the German works council is consulted before anything touches production staff.\n\n**What the Briefing Covers for Tamarack Instruments**\n\nThe Briefing maps the EU AI Act and GDPR to each use case. These are framed as expectations to verify with counsel and are not legal advice. For the chatbot, we review transparency expectations for systems that interact with people. For visual inspection, we work through how a risk classification would be determined and confirm the relevant facts at intake. For sales forecasting, we raise personal data questions before design begins. United States requirements appear only as a general landscape item because no US driver is stated.\n\nWe then outline a governance operating model using the GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen). The board layer draws on AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards). Three principles guide the session: Slow AI, Informed Intent, Final Liability rests with the Human.\n\nWe close by sequencing implementation priorities against three items: the Q2 2027 objective, the works council consultation and the ISO/IEC 42001 work planned for next year, which has no fixed start date. The Briefing prepares for that work but does not promise certification or audit outcomes.\n\n**Logistics and Price**\n\nThe Briefing runs two hours, live virtual, for executive leadership and board-level attendees. The stated audience roles are General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors. The fee is US$3,000.\n\n**What You Receive Afterward**\n\nYou receive a post-briefing summary memo. It records the decisions surfaced and our readiness observations. It also sets out three prioritized recommendations, each mapped to a next program option with its price, duration and proposed timeline.\n\n**Next Step**\n\nThe decision timeline is not yet known. We propose a short intake call to confirm three questions:\n\n1. Does the visual inspection system perform any product safety function?\n2. How should the works council consultation be reflected in the Briefing content?\n3. Which governance frameworks, if any, does the Client currently apply?\n\nWe will then agree on a session date.\n\nKind regards,\n\nSenior AI Governance Consultant\nAI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2406,
+   "output_tokens": 3019,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "PASS",
+  "elements": [
+   {
+    "element": "Checklist 1: exactly one mode produced",
+    "met": true,
+    "evidence": "The output is a single proposal letter addressed to \"Dear Dana Whitfield,\" with the five Mode A sections (situation summary, what the Briefing covers, logistics and price, what you receive afterward, next step). It contains no agenda, talking points or follow-up memo."
+   },
+   {
+    "element": "Checklist 2: duration and price unaltered",
+    "met": true,
+    "evidence": "\"The Briefing runs two hours, live virtual, for executive leadership and board-level attendees.\" and \"The fee is US$3,000.\""
+   },
+   {
+    "element": "Checklist 3: every Client-specific claim traces to the Profile Block",
+    "met": true,
+    "evidence": "Each Client statement restates a Profile Block field. These cover industry, jurisdictions, the three AI use cases, Dana's quoted objective, the constraints, the ISO/IEC 42001 note and the audience roles. Examples: \"which has no fixed start date\" (CONFIDENCE_NOTES) and the audience roles list. The rest is proposed work or intake questions."
+   },
+   {
+    "element": "No stated fact about incumbent frameworks, management systems, registers, processes or functions",
+    "met": true,
+    "evidence": "The only mention is an intake question: \"Which governance frameworks, if any, does the Client currently apply?\" The letter does not describe any Client register, process or function."
+   },
+   {
+    "element": "No stated fact about risk events, incidents or audit findings",
+    "met": true,
+    "evidence": "None are mentioned. The letter says nothing about any event or finding."
+   },
+   {
+    "element": "No stated decision date or decision-maker",
+    "met": true,
+    "evidence": "\"The decision timeline is not yet known.\" Dana is addressed as the recipient, and the letter does not say who decides or approves."
+   },
+   {
+    "element": "Checklist 4: principles and framework names exact, with URLs",
+    "met": true,
+    "evidence": "\"Slow AI, Informed Intent, Final Liability rests with the Human.\" GRC Workbook, Slow AI Kitchen and AI Governance for Boards each appear with their URLs."
+   },
+   {
+    "element": "Checklist 5: no legal advice or certification guarantees",
+    "met": true,
+    "evidence": "\"framed as expectations to verify with counsel and are not legal advice\" and \"does not promise certification or audit outcomes.\""
+   },
+   {
+    "element": "Checklist 6: 450-word maximum including sign-off and closing line",
+    "met": true,
+    "evidence": "My count is about 436 words, or about 439 if the list numerals count, including the sign-off and the closing line. That is under 450."
+   },
+   {
+    "element": "Checklist 7: closing line present",
+    "met": true,
+    "evidence": "The final line is \"Human-made, for Easy Work, Simply Done.\""
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "The word count is near the limit, at about 436 to 439 against 450. This assumes each URL counts as one word and hyphenated words count as one. A stricter tokenization could push the total higher, though 11 or more extra words would be needed to exceed 450.",
+   "\"The Client lists three AI use cases\" attributes the listing to the Client. I treated it as a restatement of the AI_USE_CASES field, not an invented relation. A very strict scorer could read it as asserting who supplied the information.",
+   "I treated \"how a risk classification would be determined\" and \"we raise personal data questions\" as proposed work or conditional statements, not Client facts. The scorer guidance supports this reading."
+  ],
+  "reasoning": "The letter is a single Mode A proposal that keeps the program constants and the exact principles and framework URLs. It stays inside the word limit and ends with the required closing line. Every Client statement restates a Profile Block field, is proposed work, or is an intake question. The three Unknown fields are handled correctly. Incumbent frameworks appear only as an intake question, no risk event is mentioned, and the decision timeline is stated as \"not yet known\" with no decision-maker named. No fail indicator appears, so every element is met.",
+  "case": "T09-s3",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

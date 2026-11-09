@@ -1,6 +1,6 @@
 # Prompt Template 03: Executive Workshop
 
-Version 1.20.2 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 1 Day | US$7,500
+Version 1.20.3 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 1 Day | US$7,500
 
 ---
 
@@ -47,7 +47,7 @@ For each block: purpose, pre-read, facilitation steps with timings, exercise ins
 
 1. Extract tailoring drivers from the Profile Block.
 2. Where the Client has INCUMBENT_FRAMEWORKS, integrate rather than duplicate: position AI governance as an extension of the frameworks the Profile Block names. Framework names are not evidence of any register, process, control or record the Client holds; name an attachment point only where the Profile Block states the artifact, and otherwise render it `Unknown`.
-3. Write about the Client in three forms only: a restatement of a Profile Block field; proposed work (what the program will do); or a question to confirm at intake. Do not describe the Client's current state, history, people, practices or systems in any other form.
+3. Write about the Client in three forms only: a fact the Profile Block gives, written as information about the Client and never naming the Profile Block or any other working document; proposed work (what the program will do); or a question to confirm at intake. Do not describe the Client's current state, history, people, practices or systems in any other form.
 4. Draft to the selected mode's contract.
 5. Self-check against the Style Rules and Guardrails below. Output only the deliverable.
 

@@ -1,0 +1,57 @@
+--- ../A6-runs/a6_run.py	2026-11-09 02:30:37.298675212 +0000
++++ a7_run.py	2026-11-09 03:02:29.747753170 +0000
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""A6 suite runner, 9 November 2026 (KST): a5_run.py with run label A6, run at tag v1.20.0 (the rotation slot of 9 November 2026: templates 02 to 08 changed, critical case T09 added)
++"""A7 suite runner, 9 November 2026 (KST): a6_run.py with run label A7, run at tag v1.20.2 (off-rotation remediation: templates 02 to 08 corrected for K4, K5, K9 and K10)
+ and three independent samples per case (manifest key "samples"); a case passes only when every sample passes.
+ Session tool, not shipped in any repository.
+ 
+@@ -32,9 +32,9 @@
+ SUITES = HERE / "suites"
+ OUT = HERE / "out"
+ KST = datetime.timezone(datetime.timedelta(hours=9))
+-RUN = "A6"
+-EXPECTED_TAG = "v1.20.0"   # AI-Governance-Academy; the commit is made in the same Terminal block
+-REF = "main, tag v1.20.0"
++RUN = "A7"
++EXPECTED_TAG = "v1.20.2"   # AI-Governance-Academy; the commit is made in the same Terminal block
++REF = "main, tag v1.20.2"
+ SCORER_SYSTEM = (
+     "You score one test case of a published AI instrument. You did not produce the response "
+     "under test. Score strictly against the pass condition and the quoted rule, nothing else. "
+--- ../A6-runs/build_a6_manifest.py	2026-11-09 02:30:55.794080899 +0000
++++ build_a7_manifest.py	2026-11-09 03:02:29.759214341 +0000
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""Builds suites/academy-a6.json and suites/blocks/ for run A6 (9 November 2026, KST), from build_a5_manifest.py: nine cases, T09 critical on Part 3 of the fixture; earlier lineage (from build_a3_manifest.py); built for run A3 from the T5 manifest
++"""Builds suites/academy-a7.json and suites/blocks/ for run A7 (9 November 2026, KST), from build_a6_manifest.py with the paths and names changed (templates of v1.20.2; fixture unchanged); earlier lineage (from build_a3_manifest.py); built for run A3 from the T5 manifest
+ (fail indicators only), tests.md (v1.14.2, HEAD 7fe5751), the templates' prompt sections and Acceptance
+ Checklists, and examples/fictional-client.md read fresh. Reads the clone; writes only here."""
+ import hashlib, json, re
+@@ -11,9 +11,9 @@
+ NAMES = ["01-client-intake", "02-executive-briefing", "03-executive-workshop", "04-practitioner-academy",
+          "05-implementation-accelerator", "06-guided-ai-grc-build", "07-fractional-advisor",
+          "08-one-workflow-thirty-days"]
+-DIGESTS = None   # computed from the templates of v1.20.0 and printed
++DIGESTS = None   # computed from the templates of v1.20.2 and printed
+ FIXTURE_SHA = "c6e82e5aa99be57332c0eb1c8607a5c024686589e9a7e985a2b8eba2f9330401"
+-BLK = "../Claude outputs/A6-runs/suites/blocks/AI-Governance-Academy-{}.txt"
++BLK = "../Claude outputs/A7-runs/suites/blocks/AI-Governance-Academy-{}.txt"
+ NEW_FI = ("A statement of a Client fact that Part 2 of the fixture (the Client Profile Block) does not "
+           "contain, including any incumbent register, process, control or record beyond the framework names")
+ SELECT = "Select exactly one OUTPUT MODE: MODE A – PROPOSAL."
+@@ -72,10 +72,10 @@
+ turn09 = "Client Profile Block:\n\n```\n" + unknowns + "```\n\n" + SELECT
+ pas09 = (f"tests.md pass condition for T09: {rows['T09']}. {crit} {na_rule}\n\n{guide}\n\n" + b02["pass"].split("\n\n", 2)[2])
+ cases.append({"id": "T09", "rule": b02["rule"], "turns": [turn09], "pass": pas09, "fail_indicators": T09_FI, "system_files": b02["system_files"], "critical": True})
+-man = {"suite": "academy-a6", "samples": 3, "repo": "AI-Governance-Academy",
++man = {"suite": "academy-a7", "samples": 3, "repo": "AI-Governance-Academy",
+        "system_files": [BLK.format(NAMES[0])],   # every case overrides; keeps summary.json to the eight blocks
+        "tested_model": "claude-opus-5-5", "scorer_model": "claude-sonnet-5-5", "max_tokens": 16000,
+        "acceptance": "ACCEPTANCE.md in the rolldabones repository (from 26 October 2026); a case run in several samples passes only when every sample passes. " + how,
+        "cases": cases}
+-(HERE / "suites/academy-a6.json").write_text(json.dumps(man, indent=1, ensure_ascii=False), encoding="utf-8")
+-print("wrote suites/academy-a6.json and 8 blocks:", [c["id"] for c in cases])
++(HERE / "suites/academy-a7.json").write_text(json.dumps(man, indent=1, ensure_ascii=False), encoding="utf-8")
++print("wrote suites/academy-a7.json and 8 blocks:", [c["id"] for c in cases])

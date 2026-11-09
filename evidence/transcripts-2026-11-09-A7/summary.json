@@ -1,0 +1,170 @@
+{
+ "run": "A7",
+ "suite": "academy-a7",
+ "repo": "AI-Governance-Academy",
+ "head": "7c2c56b",
+ "ref": "main, tag v1.20.2",
+ "samples": 3,
+ "system_files": {
+  "../Claude outputs/A7-runs/suites/blocks/AI-Governance-Academy-01-client-intake.txt": "f04027a88fe0feed162b64128e7ed28b816ee72338642b1195f118cc985e42e0",
+  "../Claude outputs/A7-runs/suites/blocks/AI-Governance-Academy-02-executive-briefing.txt": "fe82742fe952a7cb995fbca29b60392cc1762e09d9f8523e48da323a8f21d2e1",
+  "../Claude outputs/A7-runs/suites/blocks/AI-Governance-Academy-03-executive-workshop.txt": "cc783d679a9906aabaf217322374f2e2615bd1c57ad4cfc998b6970eae5042af",
+  "../Claude outputs/A7-runs/suites/blocks/AI-Governance-Academy-04-practitioner-academy.txt": "3e3402cff068b3109b99a67b63a533df156d74e039f003fdbba25c372fa250bb",
+  "../Claude outputs/A7-runs/suites/blocks/AI-Governance-Academy-05-implementation-accelerator.txt": "8b25cc2676d6ca91daa9b40ee703099142742c62440e1e7e1a3566b00453c987",
+  "../Claude outputs/A7-runs/suites/blocks/AI-Governance-Academy-06-guided-ai-grc-build.txt": "9a18c1c4537c458cf92df86b2c79f9c19f86b17d8b553fe743776262b6a22533",
+  "../Claude outputs/A7-runs/suites/blocks/AI-Governance-Academy-07-fractional-advisor.txt": "c9ff2b662c18bdc3e0bc2f63d984a5c3a06444a38769a4868e901155c7e95b41",
+  "../Claude outputs/A7-runs/suites/blocks/AI-Governance-Academy-08-one-workflow-thirty-days.txt": "ed5f8a9f82dc2d247d2ef5b35af1f8c9845b3a6117eeef2264b971f8028fc670"
+ },
+ "tested_model": "claude-opus-5-5",
+ "scorer_model": "claude-sonnet-5-5",
+ "max_tokens": 16000,
+ "finished": "2026-11-09T12:10+09:00",
+ "results": [
+  {
+   "case": "T01-s1",
+   "verdict": "FAIL",
+   "truncated": false
+  },
+  {
+   "case": "T01-s2",
+   "verdict": "FAIL",
+   "truncated": false
+  },
+  {
+   "case": "T01-s3",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T02-s1",
+   "verdict": "FAIL",
+   "truncated": false
+  },
+  {
+   "case": "T02-s2",
+   "verdict": "FAIL",
+   "truncated": false
+  },
+  {
+   "case": "T02-s3",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T03-s1",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T03-s2",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T03-s3",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T04-s1",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T04-s2",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T04-s3",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T05-s1",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T05-s2",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T05-s3",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T06-s1",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T06-s2",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T06-s3",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T07-s1",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T07-s2",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T07-s3",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T08-s1",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T08-s2",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T08-s3",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T09-s1",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T09-s2",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "T09-s3",
+   "verdict": "PASS",
+   "truncated": false
+  }
+ ],
+ "case_verdicts": {
+  "T01": "FAIL",
+  "T02": "FAIL",
+  "T03": "PASS",
+  "T04": "PASS",
+  "T05": "PASS",
+  "T06": "PASS",
+  "T07": "PASS",
+  "T08": "PASS",
+  "T09": "PASS"
+ }
+}

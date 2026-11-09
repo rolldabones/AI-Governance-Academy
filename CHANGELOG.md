@@ -2,6 +2,16 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.20.3] – 2026-11-09
+
+Patch. Run A7 recorded, and corrections for the two defects it found, on Michael Paik's rulings of 9 November 2026 (KST); the published text stands not accepted pending run A8, and v1.20.2 is the last accepted text. Prepared with Claude, approved by Michael Paik.
+
+- **`tests.md`:** run A7 is the Last run (accepted with residuals: v1.20.2; critical case T09 and 7 of the 8 other cases passed after review, 87.5 percent; T02 failed on its word limit), A6 the Previous run, A5 under its own heading; the rulings (the internal audit function in T01 not counted, case defect C3; template 02's subject line counts); K11, the Profile Block named in Client-facing text in 19 of the 24 outputs of templates 02 to 08, and C3 recorded; the pass conditions of T02 to T09 check K11 and T02's reads the word limit with the subject line; the status.
+- **Templates 02 to 08, Method:** the first permitted form reads "a fact the Profile Block gives, written as information about the Client and never naming the Profile Block or any other working document" (K11). **Template 02, Mode A:** "Maximum 450 words in all, the subject line, the sign-off and the closing line included."
+- **`evidence/transcripts-2026-11-09-A7/`** and **`examples/transcripts-2026-11-09-A7/`** (new): the 27 transcripts, scores, summary and harness with the diff from run A6; the 27 outputs, labeled, each naming K11 on its label where it applies, with an index README.
+- **README:** the masthead, acceptance status, caution and test status; the evidence paragraph names eight runs.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md`, the `tests.md` masthead and `CITATION.cff` to v1.20.3.
+
 ## [1.20.2] – 2026-11-09
 
 Patch. Corrections for the known defects K4, K5, K9 and K10 in templates 02 to 08, an off-rotation remediation on Michael Paik's rulings of 9 November 2026 (KST) after run A6; the templates stand on run A6 until run A7 of this text is read. Prepared with Claude, approved by Michael Paik.

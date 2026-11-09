@@ -1,6 +1,6 @@
 # Prompt Template 06: Guided AI GRC Build
 
-Version 1.20.2 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 12 Weeks | US$60,000
+Version 1.20.3 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 12 Weeks | US$60,000
 
 ---
 
@@ -42,7 +42,7 @@ Paste the Client Profile Block below. Halt with `PARTIAL INPUT – Awaiting [fie
 1. Extract tailoring drivers. Anchor W2 through W5 to the Client's actual AI_USE_CASES; name which systems enter the inventory first and why.
 2. Where CERTIFICATION_TARGETS includes ISO/IEC 42001, map each week's artifacts to readiness themes without promising certification.
 3. Where INCUMBENT_FRAMEWORKS exist, define integration points per week rather than parallel structures. Name an integration point only where the Profile Block states the artifact it attaches to, and otherwise render it `Unknown`. Framework names are not evidence of any register, process, control or record the Client holds.
-4. Write about the Client in three forms only: a restatement of a Profile Block field; proposed work (what the program will do); or a question to confirm at intake. Do not describe the Client's current state, history, people, practices or systems in any other form.
+4. Write about the Client in three forms only: a fact the Profile Block gives, written as information about the Client and never naming the Profile Block or any other working document; proposed work (what the program will do); or a question to confirm at intake. Do not describe the Client's current state, history, people, practices or systems in any other form.
 5. Draft to the selected mode's contract.
 6. Self-check against the Style Rules and Guardrails below. Output only the deliverable.
 

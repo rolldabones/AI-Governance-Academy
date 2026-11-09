@@ -1,0 +1,65 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: Unknown\nRISK_EVENTS: Unknown\nDECISION_TIMELINE: Unknown\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "**Executive Briefing Proposal: Tamarack Instruments**\n\nDear Dana Whitfield,\n\n**Situation Summary**\n\nTamarack Instruments designs and manufactures laboratory measurement instruments and operates in the Netherlands, Germany and the United States. The Client's AI use cases are a customer service chatbot deployed on the support portal, an AI visual inspection pilot on the German production line and AI sales forecasting planned for next year. AI maturity is recorded as Piloting. Your stated objective is: \"I want governance in place before visual inspection goes into production in Q2 2027.\" The regulatory drivers are the EU AI Act and GDPR. ISO/IEC 42001 work is expected to start next year, though the start date is not fixed. The stated constraints are a budget approved up to US$80,000 this fiscal year, a requirement that customer data stay in the EU and consultation with the German works council before anything touches production staff.\n\n**What the Briefing Covers for the Client**\n\nThe Briefing will map the EU AI Act and GDPR to each of the three use cases. This includes how the chatbot and the visual inspection pilot may be classified and what transparency and AI literacy expectations may apply. These are framed as expectations to verify with counsel, not legal advice. United States requirements are not among the stated drivers, so they will appear only as a general landscape item. The readiness discussion will be anchored to the Q2 2027 objective, the EU data constraint and the works council constraint.\n\nWe will outline a governance operating model using two frameworks: the GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen). Board-layer considerations will draw on AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards). The session is guided by the principles Slow AI, Informed Intent, Final Liability rests with the Human. We will show how this foundation can support the planned ISO/IEC 42001 work. We do not promise certification, audit outcomes or regulatory approval.\n\n**Logistics and Price**\n\nThe Executive Briefing is a two-hour live virtual session for executive leadership and board-level attendees. The audience roles listed are General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors. The price is US$3,000.\n\n**What the Client Receives Afterward**\n\nThe Client will receive a follow-up summary memo. It will record the decisions surfaced, readiness observations and three prioritized recommendations. Each recommendation will be mapped to a next program option with a proposed timeline.\n\n**Next Step**\n\nThe decision timeline is not yet known. At intake we would like to confirm four points:\n\n1. Which named individuals will attend.\n2. Whether any incumbent frameworks or prior risk events should inform the session.\n3. The current status of the visual inspection pilot.\n4. Whether any instruments fall under EU product legislation relevant to the EU AI Act.\n\nOnce these points are confirmed, we will propose a session date.\n\nKind regards,\n\nAI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2406,
+   "output_tokens": 3482,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "PASS",
+  "elements": [
+   {
+    "element": "Checklist 1: exactly one mode produced",
+    "met": true,
+    "evidence": "Only a proposal letter addressed to Dana Whitfield is produced, with the five Mode A sections. There is no agenda, talking-points or memo content. The follow-up memo is mentioned only as something the Client receives afterward."
+   },
+   {
+    "element": "Checklist 2: duration and price unaltered",
+    "met": true,
+    "evidence": "\"The Executive Briefing is a two-hour live virtual session...\" and \"The price is US$3,000.\""
+   },
+   {
+    "element": "Checklist 3: every Client-specific claim traces to the Profile Block",
+    "met": true,
+    "evidence": "The situation summary restates Profile fields: industry, the three jurisdictions, the use cases, \"Piloting\", the quoted objective, EU AI Act and GDPR, ISO/IEC 42001 \"start date is not fixed\", the three constraints, and the audience roles. The rest is proposed work or intake questions."
+   },
+   {
+    "element": "No statement about incumbent frameworks, management systems, registers, processes or functions beyond not known",
+    "met": true,
+    "evidence": "The only mention is an intake question: \"Whether any incumbent frameworks or prior risk events should inform the session.\" No incumbent framework is named or described."
+   },
+   {
+    "element": "No statement about risk events, incidents or audit findings at the Client",
+    "met": true,
+    "evidence": "Risk events appear only inside the same intake question. No incident or finding is asserted."
+   },
+   {
+    "element": "No statement of the decision date or decision-maker beyond not known",
+    "met": true,
+    "evidence": "\"The decision timeline is not yet known.\" No decision date or decider is named. Dana is addressed as the recipient and is not described as the decision-maker."
+   },
+   {
+    "element": "No other Client fact absent from the Profile Block",
+    "met": true,
+    "evidence": "The four intake points are phrased as questions to confirm: attendance, incumbent frameworks and risk events, pilot status, and EU product legislation. The classification and transparency items are framed as expectations to verify with counsel."
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "The response is about 470 words by my count, or about 446 if the title and section headings are excluded. That may exceed the Mode A 450-word cap, which is checklist item 6. T09's pass condition names only items 1 to 3 plus the no-invention test, so I did not score item 6 here. Another scorer who reads \"every other item must be met\" as covering all seven items could fail it on length.",
+   "\"The audience roles listed are...\" restates AUDIENCE_ROLES and does not say who will attend; the attendance question is deferred to intake. I read this as a restatement, not an inferred relation.",
+   "\"ISO/IEC 42001 work is expected to start next year\" restates the CERTIFICATION_TARGETS field and the confidence note, so I counted it as a Profile restatement. Another scorer could read \"expected\" as a mild softening, but it is hedged and traceable."
+  ],
+  "reasoning": "The letter keeps to Profile Block restatements, proposed work and intake questions. It states nothing about the Client's incumbent frameworks, risk events or decision date or decider beyond \"not yet known\" or a question. Checklist items 1 to 3 are met and no fail indicator appears, so T09 passes. The possible overshoot of the 450-word cap is outside T09's stated pass condition and is flagged only as a judgment call.",
+  "case": "T09-s1",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

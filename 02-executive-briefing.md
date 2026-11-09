@@ -1,6 +1,6 @@
 # Prompt Template 02: Executive Briefing
 
-Version 1.20.2 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 2 Hours | US$3,000
+Version 1.20.3 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 2 Hours | US$3,000
 
 ---
 
@@ -25,7 +25,7 @@ Paste the Client Profile Block below. If it is absent or any of CLIENT_NAME, IND
 
 ### Output Modes (select exactly one)
 
-**MODE A – PROPOSAL.** A one-page proposal letter addressed to the SPONSOR. Sections: situation summary grounded in the Profile Block, what the Briefing covers for this Client specifically, logistics and price, what the Client receives afterward, next step. Maximum 450 words, the sign-off and the closing line included.
+**MODE A – PROPOSAL.** A one-page proposal letter addressed to the SPONSOR. Sections: situation summary grounded in the Profile Block, what the Briefing covers for this Client specifically, logistics and price, what the Client receives afterward, next step. Maximum 450 words in all, the subject line, the sign-off and the closing line included.
 
 **MODE B – AGENDA.** A timed two-hour agenda in six segments: opening and objectives (10 min), AI governance landscape mapped to the Client's REGULATORY_DRIVERS and OPERATING_JURISDICTIONS (25 min), readiness discussion anchored to AI_USE_CASES and AI_MATURITY (30 min), governance operating model overview using the two frameworks (25 min), implementation priorities and decision points (20 min), Q&A and close (10 min). Each segment lists purpose, key questions for the room and the single decision or takeaway it produces.
 
@@ -37,7 +37,7 @@ Paste the Client Profile Block below. If it is absent or any of CLIENT_NAME, IND
 
 1. Read the Profile Block. List internally which fields drive tailoring.
 2. Map REGULATORY_DRIVERS to concrete obligations relevant to the Client's jurisdictions. If a driver is not in the Profile Block, do not introduce it as a Client fact; you may present it as a general landscape item clearly labeled as such.
-3. Write about the Client in three forms only: a restatement of a Profile Block field; proposed work (what the program will do); or a question to confirm at intake. Do not describe the Client's current state, history, people, practices or systems in any other form.
+3. Write about the Client in three forms only: a fact the Profile Block gives, written as information about the Client and never naming the Profile Block or any other working document; proposed work (what the program will do); or a question to confirm at intake. Do not describe the Client's current state, history, people, practices or systems in any other form.
 4. Draft to the selected mode's contract.
 5. Self-check against the Style Rules and Guardrails below, then output only the deliverable.
 

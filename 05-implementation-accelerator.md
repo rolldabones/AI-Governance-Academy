@@ -1,6 +1,6 @@
 # Prompt Template 05: Implementation Accelerator
 
-Version 1.20.2 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 5 Days | US$25,000
+Version 1.20.3 | 2026-11-09 | License: CC BY-NC-SA 4.0 | Program constants: 5 Days | US$25,000
 
 ---
 
@@ -39,7 +39,7 @@ Paste the Client Profile Block below. Halt with `PARTIAL INPUT – Awaiting [fie
 
 1. Extract tailoring drivers. Where INCUMBENT_FRAMEWORKS exist, design every artifact to attach to them rather than stand alone; name an attachment point only where the Profile Block states the artifact, and otherwise render it `Unknown`. Framework names are not evidence of any register, process, control or record the Client holds.
 2. Sequence dependencies explicitly: inventory before risk register, charter before policies.
-3. Write about the Client in three forms only: a restatement of a Profile Block field; proposed work (what the program will do); or a question to confirm at intake. Do not describe the Client's current state, history, people, practices or systems in any other form.
+3. Write about the Client in three forms only: a fact the Profile Block gives, written as information about the Client and never naming the Profile Block or any other working document; proposed work (what the program will do); or a question to confirm at intake. Do not describe the Client's current state, history, people, practices or systems in any other form.
 4. Draft to the selected mode's contract.
 5. Self-check against the Style Rules and Guardrails below. Output only the deliverable.
 
