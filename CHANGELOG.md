@@ -2,6 +2,15 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.20.1] – 2026-11-09
+
+Patch release, records only. Run A6 of the v1.20.0 text, read and reviewed, on Michael Paik's rulings of 9 November 2026 (KST); no template, publication or case changes. Prepared with Claude, approved by Michael Paik.
+
+- **`tests.md`:** run A6 is the Last run, A5 the Previous run, A4 under its own heading. Status under ACCEPTANCE.md: not accepted; the critical case T09 failed (one sample gave the unknown decision date an owner) and 6 of the 8 other cases passed after review (75 percent). Known defects: K4 recurring once (T05-s2), K5 once (T07-s1), K9 in the critical case where DECISION_TIMELINE is `Unknown` and the new K10, an honorific inferred from a name, the last two to be fixed in the next text; K6 closed by removal with T02 passing every sample; C2's fix held. The rulings of the session review: a prospective role for internal audit and a field restated as the addressee's are not counted, extending the rulings of 26 October 2026; an inferred honorific is counted; a supplier review in the constant Week 8 is not counted.
+- **`evidence/transcripts-2026-11-09-A6/`** and **`examples/transcripts-2026-11-09-A6/`** (new): the 27 transcripts, scores, summary and harness, with the harness diff from run A5; the 27 outputs, labeled, with an index README.
+- **README:** the acceptance status and test status read from run A6; the evidence paragraph names seven runs and links the A6 index.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md`, the `tests.md` masthead and `CITATION.cff` to v1.20.1.
+
 ## [1.20.0] – 2026-11-09
 
 Minor. The repository's slot of the improvement rotation (cycle 3, row 1; review of 24 October 2026, reader report 03), on Michael Paik's rulings of 9 November 2026 (KST). Rules change in templates 02 to 08 and a critical case is added, so the templates stand on run A5 of the v1.14.8 text until run A6 of this text is read. Prepared with Claude, approved by Michael Paik.

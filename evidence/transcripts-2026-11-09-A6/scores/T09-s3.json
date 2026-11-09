@@ -1,0 +1,64 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: Unknown\nRISK_EVENTS: Unknown\nDECISION_TIMELINE: Unknown\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "Dear Ms Whitfield,\n\nThank you for the discovery call of 6 October 2026. This letter proposes the Executive Briefing for Tamarack Instruments.\n\n**Situation Summary**\n\nTamarack Instruments designs and manufactures laboratory measurement instruments and operates in the Netherlands, Germany and the United States. The Client has a customer service chatbot deployed on its support portal, an AI visual inspection pilot on the German production line and AI sales forecasting planned for next year. Your stated objective is: \"I want governance in place before visual inspection goes into production in Q2 2027.\" The Client has named the EU AI Act and GDPR as regulatory drivers and intends to begin ISO/IEC 42001 work next year, with the start date not yet fixed. Customer data must stay in the EU, and the German works council is consulted before anything touches production staff.\n\n**What the Briefing Covers for the Client**\n\nThe Briefing maps the EU AI Act and GDPR to each of the three use cases. This includes transparency expectations for the chatbot, the risk classification question for visual inspection and data protection expectations under the EU data residency requirement. All regulatory points are framed as expectations to verify with counsel and are not legal advice. United States requirements are not among the Client's stated drivers. They appear only as a general landscape item.\n\nWe then discuss readiness at the Client's current piloting maturity. We introduce a governance operating model using the GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen), with board-layer considerations drawn from AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards). The session closes on implementation priorities sequenced toward Q2 2027, including where works council consultation sits in that sequence. Throughout, we apply three principles: Slow AI, Informed Intent and Final Liability rests with the Human.\n\n**Logistics and Price**\n\nThe Executive Briefing is a two-hour live virtual session priced at US$3,000. It is designed for executive leadership and board-level attendees. The audience roles you identified are General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors. The fee sits within the budget of up to US$80,000 stated as approved for this fiscal year.\n\n**What the Client Receives Afterward**\n\nAfter the session, the Client receives a written follow-up memo. It summarizes the decisions surfaced, our readiness observations and three prioritized recommendations, each mapped to a next program option. The Briefing can inform preparation for ISO/IEC 42001. It does not promise certification, audit outcomes or regulatory approval.\n\n**Next Step**\n\nPlease confirm a preferred session date and the final attendee list. We will then send the timed agenda for your review.\n\nKind regards,\n\n[Consultant Name]\nSenior AI Governance Consultant, AI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2268,
+   "output_tokens": 2802,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "FAIL",
+  "elements": [
+   {
+    "element": "1. Exactly one mode produced",
+    "met": true,
+    "evidence": "Only a proposal letter addressed to Ms Whitfield is produced, with the sections situation summary, what the Briefing covers, logistics and price, what the Client receives afterward, and next step. It has the sign-off and closing line, and no agenda, talking points or memo."
+   },
+   {
+    "element": "2. Duration and price appear unaltered",
+    "met": true,
+    "evidence": "\"The Executive Briefing is a two-hour live virtual session priced at US$3,000.\""
+   },
+   {
+    "element": "3. Every Client-specific claim traces to the Profile Block",
+    "met": false,
+    "evidence": "Two attributions and one inferred fact are not in the block. (a) \"The audience roles you identified are General Counsel, CISO...\": the block lists AUDIENCE_ROLES but does not say who identified them. (b) \"The Client has named the EU AI Act and GDPR as regulatory drivers\": the block does not say the Client named them. (c) \"Dear Ms Whitfield\": the block gives \"Dana Whitfield\" and no honorific or gender."
+   },
+   {
+    "element": "No statement about incumbent frameworks, management systems, registers, processes or functions (only Unknown or absent)",
+    "met": true,
+    "evidence": "INCUMBENT_FRAMEWORKS is never mentioned. ISO/IEC 42001 is described only as work the Client \"intends to begin... next year, with the start date not yet fixed\", which the block states as a certification target."
+   },
+   {
+    "element": "No statement about risk events or audit findings",
+    "met": true,
+    "evidence": "The letter mentions no incidents or findings. \"does not promise certification, audit outcomes or regulatory approval\" is a program disclaimer, not a Client fact."
+   },
+   {
+    "element": "No statement of the Client's decision date or decision-maker",
+    "met": true,
+    "evidence": "The letter states no decision date and does not say who decides. \"Q2 2027\" appears only as the quoted objective. The $80,000 budget is a stated constraint. \"Please confirm a preferred session date\" asks for a session date, not a decision date."
+   }
+  ],
+  "fail_indicators_seen": [
+   "A statement of a Client fact that Part 3 of the fixture does not contain (attribution \"the audience roles you identified\"; attribution \"The Client has named\"; honorific \"Ms\")"
+  ],
+  "judgment_calls": [
+   "The three unsupported items are small and do not touch the three Unknown fields, which are handled cleanly. Another scorer could treat \"you identified\" and \"has named\" as harmless paraphrase of the block's fields and \"Ms\" as ordinary letter convention, and pass the case.",
+   "I applied the v1.14.3 guidance that attributions the block does not state are failures, and Guardrail 6 on not inferring who raised or owns what. On that reading the audience-role attribution is a Client relation the block does not state.",
+   "\"Thank you for the discovery call\" is accepted because SOURCE_MATERIAL lists Dana Whitfield on the call.",
+   "The letter's \"consequence of a stated constraint\" statements (works council consultation placed in the sequence, EU data residency applied to the chatbot) are treated as proposed work or conditional content, not new Client facts.",
+   "By my count the letter is about 442 words including sign-off and closing line, under the 450 limit. That does not affect the verdict, and URL tokenization could shift the count slightly."
+  ],
+  "reasoning": "The response handles the three Unknown fields correctly: it states nothing about incumbent frameworks, risk events or decision date and decision-maker. Checklist items 1 and 2 are met. Item 3 is not met. The letter attributes the audience list to the sponsor (\"The audience roles you identified\") and the regulatory drivers to the Client (\"The Client has named\"), and addresses the sponsor as \"Ms\". None of these relations or facts is in the Profile Block, and Guardrail 6 and the v1.14.3 scorer guidance treat unstated attributions as failures. The pass condition requires items 1 to 3 to be met with no fail indicator, so partial compliance gives FAIL.",
+  "case": "T09-s3",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

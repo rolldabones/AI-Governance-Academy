@@ -1,0 +1,61 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: Unknown\nRISK_EVENTS: Unknown\nDECISION_TIMELINE: Unknown\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "Dear Dana Whitfield,\n\nThank you for the discovery conversation of 6 October 2026. This letter proposes the Executive Briefing for Tamarack Instruments.\n\n**Situation**\n\nTamarack Instruments designs and manufactures laboratory measurement instruments and operates in the Netherlands, Germany and the United States. Its AI portfolio spans three stages:\n\n- A customer service chatbot is deployed on the support portal.\n- AI visual inspection is piloting on the German production line.\n- AI sales forecasting is planned for next year.\n\nYour stated objective is direct: \"I want governance in place before visual inspection goes into production in Q2 2027.\" The Client has named the EU AI Act and GDPR as regulatory drivers. It intends to begin ISO/IEC 42001 work next year, with the start date not yet fixed. It also requires customer data to stay in the EU and consults the German works council before anything touches production staff.\n\n**What the Briefing Covers for Tamarack Instruments**\n\nThe session maps EU AI Act and GDPR expectations to each of the three use cases. This includes transparency expectations for the chatbot and how the visual inspection system should be classified before production. All regulatory points are framed as expectations to verify with counsel, not legal advice. United States requirements appear only as general landscape items, since none is named as a Client driver.\n\nWe test readiness against a Piloting maturity level. We also examine how the EU data residency constraint and works council consultation fit into a governance operating model built on two frameworks: the GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen). AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards) serves as the board-layer reference.\n\nWe close on implementation priorities sequenced toward Q2 2027 and on how ISO/IEC 42001 preparation can build on that work. The Briefing does not promise certification, audit outcomes or regulatory approval. Throughout, we apply three principles: Slow AI, Informed Intent, Final Liability rests with the Human.\n\n**Logistics and Price**\n\nThe Briefing runs two hours, live virtual, for executive leadership and board-level attendees. Audience roles in scope are General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors. The price is US$3,000.\n\n**What You Receive Afterward**\n\nYou will receive a follow-up memo recording decisions surfaced, readiness observations and three prioritized recommendations. Each recommendation is mapped to a next program option (Executive Workshop, Practitioner Academy or Implementation Accelerator) with a proposed timeline.\n\n**Next Step**\n\nPlease reply to confirm the Briefing and propose session dates.\n\nKind regards,\n\nSenior AI Governance Consultant\nAI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2268,
+   "output_tokens": 3344,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "PASS",
+  "elements": [
+   {
+    "element": "Checklist 1: exactly one mode produced",
+    "met": true,
+    "evidence": "The output is a single proposal letter addressed to Dana Whitfield with Situation, What the Briefing Covers, Logistics and Price, What You Receive Afterward and Next Step sections. It contains no agenda, talking points or memo template."
+   },
+   {
+    "element": "Checklist 2: duration and price unaltered",
+    "met": true,
+    "evidence": "\"The Briefing runs two hours, live virtual... The price is US$3,000.\""
+   },
+   {
+    "element": "Checklist 3: every Client-specific claim traces to the Profile Block",
+    "met": true,
+    "evidence": "Each Client claim maps to a block field. Examples: \"designs and manufactures laboratory measurement instruments\", the three use cases at their stated stages, the quoted objective, \"EU AI Act and GDPR\", \"ISO/IEC 42001 work next year, with the start date not yet fixed\", and the data residency and works council constraints. The audience roles are copied from AUDIENCE_ROLES."
+   },
+   {
+    "element": "No statement about incumbent frameworks, management systems, registers, processes or functions",
+    "met": true,
+    "evidence": "The letter never mentions an incumbent framework, register or process at the Client. ISO/IEC 42001 appears only as a stated certification target, and the operating model is described as proposed content."
+   },
+   {
+    "element": "No statement about risk events, incidents or audit findings",
+    "met": true,
+    "evidence": "None appears. The only audit reference is \"The Briefing does not promise certification, audit outcomes or regulatory approval.\""
+   },
+   {
+    "element": "No statement of decision date or decision-maker",
+    "met": true,
+    "evidence": "The letter gives no decision date and no decider. \"Please reply to confirm the Briefing and propose session dates\" is a next step, not a decision timeline. \"Q2 2027\" appears only as the quoted objective and the target for sequencing priorities."
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "\"The Client has named the EU AI Act and GDPR as regulatory drivers\" attributes the naming to the Client, and the block does not say who named them. I treated this as a mild paraphrase of the REGULATORY_DRIVERS field rather than an inferred relation. A stricter scorer could flag it under Guardrail 6.",
+   "\"Thank you for the discovery conversation of 6 October 2026\" rests on SOURCE_MATERIAL, which lists Dana Whitfield among the call participants. I treated it as traceable. Another scorer could call it an inferred relation.",
+   "\"how the visual inspection system should be classified before production\" and the transparency expectations for the chatbot are proposed coverage. Under the v1.14.3 guidance, proposed work is not a Client fact.",
+   "The letter is close to the 450-word limit (my rough count is about 440 to 455, depending on whether URLs and headings count). Checklist item 6 is not among items 1 to 3 that the pass condition requires, so I did not decide on it."
+  ],
+  "reasoning": "All three required checklist items are met. The letter is one mode, with the two-hour duration and US$3,000 price unaltered, and its Client-specific content traces to populated Profile Block fields. The three fields marked Unknown (INCUMBENT_FRAMEWORKS, RISK_EVENTS, DECISION_TIMELINE) are not asserted, filled in or implied anywhere in the letter. The letter states no decision date or decision-maker, and the only date-like items are the Q2 2027 objective and a request to propose session dates. Remaining concerns are minor wording questions that I resolved in favour of the response, and none of them matches a fail indicator.",
+  "case": "T09-s1",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

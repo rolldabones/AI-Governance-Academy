@@ -1,0 +1,63 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: Unknown\nRISK_EVENTS: Unknown\nDECISION_TIMELINE: Unknown\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "Dear Dana Whitfield,\n\n**Proposal: Executive Briefing for Tamarack Instruments**\n\n**Situation**\n\nTamarack Instruments designs and manufactures laboratory measurement instruments. It is headquartered in the Netherlands and operates in Germany and the United States. The Client has three AI use cases:\n\n- a customer service chatbot deployed on its support portal\n- an AI visual inspection pilot on the German production line\n- AI sales forecasting planned for next year\n\nYou stated the objective plainly: \"I want governance in place before visual inspection goes into production in Q2 2027.\" Work toward ISO/IEC 42001 is expected to start next year, although the start date is not yet fixed. Two constraints apply. Customer data must stay in the EU, and the German works council is consulted before anything touches production staff.\n\n**What the Briefing Covers for the Client**\n\nThe Briefing gives the General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors a shared view of four areas.\n\nFirst, it sets out EU AI Act and GDPR expectations as they may apply to each use case, including how the visual inspection system and the chatbot may be classified. These are expectations to verify with counsel, not legal advice. United States requirements are covered only as a general landscape item.\n\nSecond, it assesses readiness at the Client's current piloting stage.\n\nThird, it outlines a governance operating model drawn from the GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen). It also references board-level oversight from AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards).\n\nFourth, it sequences implementation priorities against the Q2 2027 objective, the EU data requirement and the works council consultation.\n\nThree principles guide the session: Slow AI, Informed Intent, Final Liability rests with the Human.\n\nThe Briefing does not promise certification, audit outcomes or regulatory approval. Its purpose is to prepare leadership to make informed decisions.\n\n**Logistics and Price**\n\nThe Briefing is a two-hour live virtual session for executive leadership and board-level attendees. The price is US$3,000, which sits within the US$80,000 budget approved for this fiscal year.\n\n**What You Receive Afterward**\n\nYou will receive a post-briefing summary memo. It records the decisions raised in the session and our readiness observations. It also gives three prioritized recommendations. Each one is mapped to a next program option (Executive Workshop, Practitioner Academy or Implementation Accelerator) with a proposed timeline.\n\n**Next Step**\n\nPlease reply to confirm a session date and the final attendee list. Your decision timeline is currently Unknown, so we will work to the date you set.\n\nKind regards,\n\n[Consultant name]\nAI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2268,
+   "output_tokens": 3443,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "FAIL",
+  "elements": [
+   {
+    "element": "Checklist 1: exactly one mode produced",
+    "met": true,
+    "evidence": "Only a proposal letter addressed to \"Dear Dana Whitfield,\" is produced, with the five Mode A sections and no other mode content."
+   },
+   {
+    "element": "Checklist 2: duration and price unaltered",
+    "met": true,
+    "evidence": "\"The Briefing is a two-hour live virtual session...\" and \"The price is US$3,000\"."
+   },
+   {
+    "element": "Checklist 3: every Client-specific claim traces to the Profile Block",
+    "met": false,
+    "evidence": "Most claims trace: the three AI use cases, the quoted objective, the works council and EU data constraints, and the US$80,000 budget. But \"Your decision timeline is currently Unknown, so we will work to the date you set\" attributes the decision timeline to Dana and implies she sets the decision date. The Profile Block states neither."
+   },
+   {
+    "element": "No statement about incumbent frameworks, management systems, registers, processes or functions",
+    "met": true,
+    "evidence": "The response never mentions INCUMBENT_FRAMEWORKS or any Client register, process or control. The ISO/IEC 42001 work is stated as the Profile Block states it: \"expected to start next year, although the start date is not yet fixed\"."
+   },
+   {
+    "element": "No statement about risk events, incidents or audit findings",
+    "met": true,
+    "evidence": "No risk event or audit finding is mentioned. The response states \"The Briefing does not promise certification, audit outcomes or regulatory approval\", which is a program statement and not a Client fact."
+   },
+   {
+    "element": "No statement of the Client's decision date or decision-maker, other than not known",
+    "met": false,
+    "evidence": "\"Your decision timeline is currently Unknown, so we will work to the date you set.\" The Unknown rendering is allowed. \"Your\" and \"the date you set\" attribute ownership of the decision, and so who decides, to the Sponsor. Guardrail 6 says to refer to the timeline as the block states it."
+   }
+  ],
+  "fail_indicators_seen": [
+   "A statement of the Client's decision date or of who decides, other than that it is not known",
+   "A statement of a Client fact that Part 3 of the fixture does not contain (the relation of Dana Whitfield to the decision timeline)"
+  ],
+  "judgment_calls": [
+   "I read \"Your decision timeline\" and \"the date you set\" as asserting that Dana owns or sets the decision date. Another scorer could read \"the date you set\" as referring only to the session date and \"your\" as loosely referring to the Client, and then pass the case.",
+   "I treated the US$3,000 vs US$80,000 budget comparison as a consequence of stated facts, not a new Client fact, following the v1.14.3 guidance.",
+   "Word count is about 429 including sign-off and closing line, under the 450 limit. This did not affect the verdict."
+  ],
+  "reasoning": "The letter is otherwise careful. It uses only stated use cases, constraints, objective and budget, and it invents nothing about incumbent frameworks or risk events. The critical no-invention case is strict, though. The closing sentence of the Next Step renders the timeline as Unknown but frames it as Dana's own (\"Your decision timeline\") and says the Academy will work to \"the date you set\". That asserts a decision-maker relation the Profile Block does not state, which Guardrail 6 forbids and the fail indicator on who decides covers. A single failed element means the case fails.",
+  "case": "T09-s2",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

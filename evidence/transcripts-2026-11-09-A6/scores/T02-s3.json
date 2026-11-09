@@ -1,0 +1,67 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system; internal audit function\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "Dear Dana Whitfield,\n\n**Situation Summary**\n\nThank you for the discovery call of 6 October 2026. Tamarack Instruments designs and manufactures laboratory measurement instruments and operates in the Netherlands, Germany and the United States. The Client has a customer service chatbot deployed on its support portal, an AI visual inspection pilot on the German production line and AI sales forecasting planned for next year. An internal audit finding in June 2026 recorded no inventory of AI systems. Your stated objective is: \"I want governance in place before visual inspection goes into production in Q2 2027.\"\n\n**What the Briefing Covers for Tamarack Instruments**\n\nThe Briefing maps the EU AI Act and GDPR to each of the three use cases. These are framed as expectations to verify with counsel, not legal advice. Topics include:\n\n- How the risk classification of the visual inspection system may be determined.\n- Transparency expectations that may apply to a customer-facing chatbot.\n- Where GDPR may be relevant across the use cases, alongside your constraint that customer data stays in the EU.\n\nThe session also responds to the internal audit finding by outlining what an AI system inventory could contain. It shows how the GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen) structure a governance operating model. It considers how the frameworks listed in the Client profile (ISO/IEC 27001, ISO 9001 and the internal audit function) might inform ISO/IEC 42001 preparation, for which a start date is not yet fixed. It also covers where consultation with the German works council fits in sequencing. Board-level accountability draws on AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards). Throughout, we apply three principles: Slow AI, Informed Intent, Final Liability rests with the Human.\n\n**Logistics and Price**\n\nThe Executive Briefing is a two-hour live virtual session for executive leadership and board-level attendees. The audience roles listed in the Client profile are:\n\n- General Counsel\n- CISO\n- Head of Quality\n- Head of Data\n- German plant manager\n- Two internal auditors\n\nThe fee is US$3,000. The session date is Unknown and will be agreed with you.\n\n**What the Client Receives Afterward**\n\nYou will receive a summary memo recording:\n\n- Decisions surfaced during the session.\n- Readiness observations.\n- Three prioritized recommendations, each mapped to a next program option.\n\nThe Briefing does not promise certification, audit outcomes or regulatory approval.\n\n**Next Step**\n\nA decision is expected by 15 December 2026. On your confirmation, we will propose session dates and agree the attendee list with you.\n\nKind regards,\n\n[Consultant name]\nAI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2324,
+   "output_tokens": 3537,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "PASS",
+  "elements": [
+   {
+    "element": "1. Exactly one mode produced",
+    "met": true,
+    "evidence": "The output is a single proposal letter addressed to the SPONSOR: 'Dear Dana Whitfield,' with sections Situation Summary, What the Briefing Covers, Logistics and Price, What the Client Receives Afterward and Next Step. No agenda, talking points or memo template appears."
+   },
+   {
+    "element": "2. Duration and price appear unaltered",
+    "met": true,
+    "evidence": "'The Executive Briefing is a two-hour live virtual session' and 'The fee is US$3,000.' Program name, duration and price match the constants."
+   },
+   {
+    "element": "3. Every Client-specific claim traces to the Profile Block",
+    "met": true,
+    "evidence": "Chatbot deployed, visual inspection pilot on the German production line, sales forecasting planned for next year, the June 2026 audit finding with 'no inventory of AI systems', and the Q2 2027 objective quoted and attributed to Dana all match the block. 'A decision is expected by 15 December 2026' follows the block's wording. ISO/IEC 27001, ISO 9001 and the internal audit function are described only as 'frameworks listed in the Client profile' that 'might inform' ISO/IEC 42001 preparation. No register, process or control is asserted. The session date is rendered 'Unknown'. The works council point is a sequencing consequence of the stated constraint, not a new fact."
+   },
+   {
+    "element": "4. Principles and framework names rendered exactly, with URLs where cited",
+    "met": true,
+    "evidence": "'Slow AI, Informed Intent, Final Liability rests with the Human.' GRC Workbook, Slow AI Kitchen and AI Governance for Boards each appear with their exact URLs."
+   },
+   {
+    "element": "5. No legal advice, no certification guarantees",
+    "met": true,
+    "evidence": "'These are framed as expectations to verify with counsel, not legal advice.' 'The Briefing does not promise certification, audit outcomes or regulatory approval.'"
+   },
+   {
+    "element": "6. Word or structure limits of the selected mode respected (450 words including sign-off and closing line)",
+    "met": true,
+    "evidence": "My count from the salutation through 'Human-made, for Easy Work, Simply Done.' is about 411 words, with each URL counted as one word. That is under 450 with the sign-off and closing line included. The required sections are all present."
+   },
+   {
+    "element": "7. Closing line present in Client-facing modes",
+    "met": true,
+    "evidence": "The letter ends with 'Human-made, for Easy Work, Simply Done.'"
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "'your constraint that customer data stays in the EU' could be read as attributing the constraint to Dana, which the block does not state (STATED_CONSTRAINTS is unattributed). I read 'your' as the addressee's organization, so no ownership relation is asserted. Another scorer could treat it as a Guardrail 6 attribution failure.",
+   "'customer-facing chatbot' is a mild inference from 'customer service chatbot on the support portal'. I treated it as a restatement, and it sits inside a 'may apply' conditional. A strict scorer could call it an unstated fact.",
+   "'Thank you for the discovery call of 6 October 2026' is supported because SOURCE_MATERIAL lists Dana as a participant. I treated it as traceable.",
+   "The letter lists AUDIENCE_ROLES under logistics as 'listed in the Client profile', not as confirmed attendees, and says the attendee list will be agreed. I treated this as no asserted relation about who attends.",
+   "The word count depends on how hyphenated terms and URLs are counted. The margin of about 39 words absorbs any reasonable counting method."
+  ],
+  "reasoning": "All seven checklist items are met and no fail indicator appears. The letter stays within one mode, keeps the constants intact and frames regulation as expectations to verify with counsel. It renders the unknown session date as Unknown and ends with the required closing line. Client facts trace to the Profile Block, and inferences are limited to conditional statements, proposed work or consequences of stated constraints, which the v1.14.3 guidance does not treat as new facts. The word count is about 411 against the 450 limit. The only plausible failure route is the 'your constraint' attribution, which I judged not to be an asserted relation.",
+  "case": "T02-s3",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}
