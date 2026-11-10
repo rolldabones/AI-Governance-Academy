@@ -2,6 +2,15 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.21.0] – 2026-11-10
+
+Minor release: an eleventh client-facing publication, `board-reading-guide.md`, *Final Liability Rests with the Human: Board Reading Guide*. An addition under the no-further-additions rule (account-maintenance `HANDBOOK.md` §9, ruling of 18 October 2026), made on Michael Paik's express ruling of 10 November 2026 (KST): "Rebuild the 25 board briefs from v1.12.0 [...] and publish them as a board reading guide in rolldabones/AI-Governance-Academy, linked from the book README." The same day he ruled that the guide is the book's board edition for now (book `PLAN-v1.13.md`, item 9). Prepared with Claude, approved by Michael Paik.
+
+- **`board-reading-guide.md`** (new): twenty-five one-page briefs, one each for the Preface, Chapters 1 to 22, the Conclusion and the Epilogue of the book at v1.12.1 (commit b883d8a): the argument in three sentences, why a board should care, key terms, five discussion questions with the evidence that answers each, and one action with its owner. Drafted by Message Batch msgbatch_01Uc8JnDXnikaUXcpMHHhk8i (claude-opus-5-5, 10 November 2026) on the rules of job F of the review of that date; all 187 quotations checked verbatim against their chapters by script, none departing; 20 Key terms entries that restated a doctrine replaced by the DOCTRINE.md section 8 sentence forms. A Korean version follows the author's review of the Korean edition.
+- **README:** Publications count eleven and the new row; masthead and How to Cite.
+- **`PUBLICATIONS.md`:** the new row and citation; the count; the word-count note.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md`, the `tests.md` masthead and `CITATION.cff` (and its abstract) to v1.21.0. No template, case or other publication changes; acceptance carries forward under `ACCEPTANCE.md` (f), templates unchanged.
+
 ## [1.20.4] – 2026-11-09
 
 Patch release, records only. Run A8 of the v1.20.3 text, read and reviewed on Michael Paik's rulings of 9 November 2026 (KST): **accepted with residuals**; no template, publication or case changes. Prepared with Claude, approved by Michael Paik.
