@@ -1,8 +1,8 @@
 # AI Governance Academy: publications
 
-**The index of the eleven client-facing publications · v1.21.1 · 15 November 2026 (Korea Standard Time, KST)**
+**The index of the twelve client-facing publications · v1.22.0 · 15 November 2026 (Korea Standard Time, KST)**
 
-Eleven client-facing publications sit beside the prompt templates of the [AI Governance Academy](README.md), each the text of record for its piece, dated with its first publication and described by the occasion its own masthead names. None is a program template and no Output Contract applies to any of them.
+Twelve client-facing publications sit beside the prompt templates of the [AI Governance Academy](README.md), each the text of record for its piece, dated with its first publication and described by the occasion its own masthead names. None is a program template and no Output Contract applies to any of them.
 
 | File | Title | Date | Kind | Words | Occasion |
 |---|---|---|---|---|---|
@@ -17,32 +17,37 @@ Eleven client-facing publications sit beside the prompt templates of the [AI Gov
 | [using-claude-for-legal-with-the-slow-ai-kitchen.md](using-claude-for-legal-with-the-slow-ai-kitchen.md) | *Using Claude for Legal with The Slow AI Kitchen* | 1 November 2026 | first-time guide | 14,700 | the author's LinkedIn post and nine comments of 1 November 2026 |
 | [the-mandate-and-the-switch.md](the-mandate-and-the-switch.md) | *The Mandate and the Switch* | 4 November 2026 | discussion piece | 6,400 | Nate B. Jones's Substack post and video of 31 October 2026 |
 | [board-reading-guide.md](board-reading-guide.md) | *Final Liability Rests with the Human: Board Reading Guide* | 10 November 2026 | board reading guide | 12,800 | book v1.12.1 |
+| [the-evidence-and-the-exit.md](the-evidence-and-the-exit.md) | *The Evidence and the Exit* | 15 November 2026 | advanced workshop | 13,700 | Paul Christiano's Hinton Lectures of 9 to 11 November 2026 |
 
-The date is the masthead date of first publication; *The Map and the Pair* is in its second edition, revised the same day, and the CHANGELOG entries of 15 October 2026 record the changes. *Sounds Good* carries an amendment of 4 November 2026 (section 8, the Deloitte review), recorded in the CHANGELOG entry of that date. The story of *The Turtle and the Phoenix* is also published as an essay at https://redcaps.substack.com/p/the-turtle-and-the-phoenix; the file here adds the facilitation kit. Words are counted with `wc -w` at v1.20.0 (the board reading guide at v1.21.0) and rounded to the nearest hundred.
+The date is the masthead date of first publication; *The Map and the Pair* is in its second edition, revised the same day, and the CHANGELOG entries of 15 October 2026 record the changes. *Sounds Good* carries an amendment of 4 November 2026 (section 8, the Deloitte review), recorded in the CHANGELOG entry of that date. The story of *The Turtle and the Phoenix* is also published as an essay at https://redcaps.substack.com/p/the-turtle-and-the-phoenix; the file here adds the facilitation kit. Words are counted with `wc -w` at v1.20.0 (the board reading guide at v1.21.0, *The Evidence and the Exit* at v1.22.0) and rounded to the nearest hundred.
+
+*The Evidence and the Exit* has a Korean edition, [증거와 출구](https://github.com/rolldabones/AI-Governance-Academy-ko-wip/blob/main/the-evidence-and-the-exit-ko.md), in the parallel Korean repository [AI-Governance-Academy-ko-wip](https://github.com/rolldabones/AI-Governance-Academy-ko-wip). It is a machine draft under the author's review (초벌 번역, 저자 검토 중), and the English text here is the text of record.
 
 ## How to cite a publication
 
-> Paik, Son-U Michael. *Sounds Good*. In AI Governance Academy, v1.21.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/sounds-good.md
+> Paik, Son-U Michael. *Sounds Good*. In AI Governance Academy, v1.22.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/sounds-good.md
 
-> Paik, Son-U Michael. *The Turtle and the Phoenix*. In AI Governance Academy, v1.21.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md
+> Paik, Son-U Michael. *The Turtle and the Phoenix*. In AI Governance Academy, v1.22.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md
 
-> Paik, Son-U Michael. *Law Firm AI Deployment Spec v2*. In AI Governance Academy, v1.21.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/law-firm-ai-deployment-spec.md
+> Paik, Son-U Michael. *Law Firm AI Deployment Spec v2*. In AI Governance Academy, v1.22.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/law-firm-ai-deployment-spec.md
 
-> Paik, Son-U Michael. *Slow AI for the Chief Legal Officer*. In AI Governance Academy, v1.21.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/slow-ai-for-the-chief-legal-officer.md
+> Paik, Son-U Michael. *Slow AI for the Chief Legal Officer*. In AI Governance Academy, v1.22.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/slow-ai-for-the-chief-legal-officer.md
 
-> Paik, Son-U Michael. *The Compression and the Harness*. In AI Governance Academy, v1.21.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-compression-and-the-harness.md
+> Paik, Son-U Michael. *The Compression and the Harness*. In AI Governance Academy, v1.22.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-compression-and-the-harness.md
 
-> Paik, Son-U Michael. *The Map and the Pair*. In AI Governance Academy, v1.21.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-map-and-the-pair.md
+> Paik, Son-U Michael. *The Map and the Pair*. In AI Governance Academy, v1.22.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-map-and-the-pair.md
 
-> Paik, Son-U Michael. *The Artificial Familiar*. In AI Governance Academy, v1.21.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-artificial-familiar.md
+> Paik, Son-U Michael. *The Artificial Familiar*. In AI Governance Academy, v1.22.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-artificial-familiar.md
 
-> Paik, Son-U Michael. *The Philosopher-King Test*. In AI Governance Academy, v1.21.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-philosopher-king-test.md
+> Paik, Son-U Michael. *The Philosopher-King Test*. In AI Governance Academy, v1.22.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-philosopher-king-test.md
 
-> Paik, Son-U Michael. *Using Claude for Legal with The Slow AI Kitchen*. In AI Governance Academy, v1.21.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/using-claude-for-legal-with-the-slow-ai-kitchen.md
+> Paik, Son-U Michael. *Using Claude for Legal with The Slow AI Kitchen*. In AI Governance Academy, v1.22.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/using-claude-for-legal-with-the-slow-ai-kitchen.md
 
-> Paik, Son-U Michael. *The Mandate and the Switch*. In AI Governance Academy, v1.21.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-mandate-and-the-switch.md
+> Paik, Son-U Michael. *The Mandate and the Switch*. In AI Governance Academy, v1.22.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-mandate-and-the-switch.md
 
-> Paik, Son-U Michael. *Final Liability Rests with the Human: Board Reading Guide*. In AI Governance Academy, v1.21.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/board-reading-guide.md
+> Paik, Son-U Michael. *Final Liability Rests with the Human: Board Reading Guide*. In AI Governance Academy, v1.22.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/board-reading-guide.md
+
+> Paik, Son-U Michael. *The Evidence and the Exit*. In AI Governance Academy, v1.22.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-evidence-and-the-exit.md
 
 A machine-readable citation for the repository as a whole is in [CITATION.cff](CITATION.cff).
 
