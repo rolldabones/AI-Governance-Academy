@@ -2,6 +2,15 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.21.1] – 2026-11-15
+
+Patch release: four link addresses repaired. `slow-ai-kitchen` v3.3.8 (10 November 2026) renamed two derived part files of the Enterprise AI Architecture Primer, and four links in two publications still named the old files, which no longer exist. Found by a link scan of the account's public files on 15 November 2026 (`slow-ai-kitchen/lean-ai/audit-and-validation-report.md`, finding A04). Prepared with Claude, approved by Michael Paik.
+
+- **`slow-ai-for-the-chief-legal-officer.md`:** three links. "release tuple" and "retirement" open `primer/03-2-8-entry-points-and-delivery-routes-to-solution.md`; "model swap" opens `primer/02-part-2-solution-architecture-to-output-contract.md`. Each heading was read in the part file its link now names.
+- **`the-compression-and-the-harness.md`:** one link, "gates it like one", to the part file that "model swap" opens.
+- No word of either publication changes; only the four addresses do.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md`, the `tests.md` masthead and `CITATION.cff` to v1.21.1. No template, case or other publication changes; acceptance carries forward under `ACCEPTANCE.md` (f), templates unchanged.
+
 ## [1.21.0] – 2026-11-10
 
 Minor release: an eleventh client-facing publication, `board-reading-guide.md`, *Final Liability Rests with the Human: Board Reading Guide*. An addition under the no-further-additions rule (account-maintenance `HANDBOOK.md` §9, ruling of 18 October 2026), made on Michael Paik's express ruling of 10 November 2026 (KST): "Rebuild the 25 board briefs from v1.12.0 [...] and publish them as a board reading guide in rolldabones/AI-Governance-Academy, linked from the book README." The same day he ruled that the guide is the book's board edition for now (book `PLAN-v1.13.md`, item 9). Prepared with Claude, approved by Michael Paik.

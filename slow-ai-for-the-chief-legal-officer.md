@@ -478,7 +478,7 @@ Governance therefore needs to address both state and change.
 
 **Hold constant what the technology cannot change.** The verb, the boundary, the consequence, the evidence and the named Human. A new model does not alter what the organization permitted. A new agent design does not alter who answers for the result.
 
-**Treat an approval as attaching to a configuration, not a product.** What was authorized is a particular combination: the instructions, the model and its version, the tools and their permissions, the knowledge it retrieves from, the routing, the guardrails and the tests it passed. The Primer calls this the [release tuple](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/03-2-9-the-ai-architecture-decision-record-to-solution.md#rollback-when-the-artifact-is-a-prompt-and-a-model-version). Change one field and the thing that was approved no longer exists in the form in which it was approved.
+**Treat an approval as attaching to a configuration, not a product.** What was authorized is a particular combination: the instructions, the model and its version, the tools and their permissions, the knowledge it retrieves from, the routing, the guardrails and the tests it passed. The Primer calls this the [release tuple](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/03-2-8-entry-points-and-delivery-routes-to-solution.md#rollback-when-the-artifact-is-a-prompt-and-a-model-version). Change one field and the thing that was approved no longer exists in the form in which it was approved.
 
 Three kinds of change deserve a CLO's attention, because each arrives looking like a technical upgrade.
 
@@ -506,11 +506,11 @@ Four rules keep this honest.
 
 **No silent change.** No increase in tier or scope without a decision on the record. No prompt, model, tool, knowledge or guardrail change ships without a test run.
 
-**Set the pass mark before the test.** A threshold chosen after the results arrive is not a standard. It is acceptance criteria written to fit the result. The gate for a [model swap](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/02-part-2-solution-architecture-to-2-8-entry-points-and.md#the-eval-gate-on-a-model-swap) is a test set drawn from real work, a way of grading it and a threshold fixed in advance.
+**Set the pass mark before the test.** A threshold chosen after the results arrive is not a standard. It is acceptance criteria written to fit the result. The gate for a [model swap](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/02-part-2-solution-architecture-to-output-contract.md#the-eval-gate-on-a-model-swap) is a test set drawn from real work, a way of grading it and a threshold fixed in advance.
 
 **A setting that removes a human checkpoint is a control change.** It needs the approval that removing the control would need, however small the technical change looks.
 
-**An exit nobody has rehearsed is a document.** The model provider is a critical third party. Decide by tier how quickly the organization must be able to substitute it, and note that the test set is what makes substitution possible: without one, nobody can say whether the substitute is acceptable. A pinned version without an expiry date and a named owner is a deferral, not a control. The Primer covers [retirement](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/03-2-9-the-ai-architecture-decision-record-to-solution.md#model-deprecation-as-a-standing-architectural-risk) and [substitution](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/05-part-4-governance-by-design.md#concentration-and-substitutability).
+**An exit nobody has rehearsed is a document.** The model provider is a critical third party. Decide by tier how quickly the organization must be able to substitute it, and note that the test set is what makes substitution possible: without one, nobody can say whether the substitute is acceptable. A pinned version without an expiry date and a named owner is a deferral, not a control. The Primer covers [retirement](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/03-2-8-entry-points-and-delivery-routes-to-solution.md#model-deprecation-as-a-standing-architectural-risk) and [substitution](https://github.com/rolldabones/slow-ai-kitchen/blob/main/primer/05-part-4-governance-by-design.md#concentration-and-substitutability).
 
 Two matters here belong on the CLO's own desk.
 
