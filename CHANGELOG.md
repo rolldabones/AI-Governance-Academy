@@ -2,6 +2,13 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.24.5] – 2026-11-16
+
+Patch release: the Board Reading Guide no longer promises a Korean version. On Michael Paik's ruling of 16 November 2026 (account-maintenance `OPEN-ITEMS.md` item 46(d)), the sentence "A Korean version will follow once the author has finished reviewing the Korean edition" is withdrawn: a Korean guide would be rebuilt from the Korean edition at v1.0.0, after the author's line review, and is not promised in print before then. Prepared with Claude, approved by Michael Paik.
+
+- **`board-reading-guide.md`, How it was made:** the sentence withdrawn; no brief changes.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md`, the `tests.md` masthead and `CITATION.cff` to v1.24.5. No template, case or other publication changes; acceptance carries forward under `ACCEPTANCE.md` (f), templates unchanged.
+
 ## [1.24.4] – 2026-11-16
 
 Patch release: the survivors of the book's Chapter 15 correction for *In re The Boeing Co. Derivative Litigation*, Consol. C.A. No. 2024-1210-MTZ (Del. Ch. Aug. 13, 2026), account-maintenance `OPEN-ITEMS.md` item 48(a), on Michael Paik's rulings of 16 November 2026. The opinion was read in full in the slip opinion at courts.delaware.gov on 16 November 2026 (KST); the pinpoints are those recorded in book v1.12.3, Chapter 15, and no statement here needed one it does not carry. Prepared with Claude, approved by Michael Paik.
