@@ -2,6 +2,14 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.24.1] – 2026-11-16
+
+Patch release: *Using Claude for Legal with The Slow AI Kitchen*, the Usage Policy in force re-read. The guide (first edition, 1 November 2026) summarized the policy before it took effect on 12 November 2026; the dated re-check of account-maintenance `OPEN-ITEMS.md` item 35 read the policy in force at its source on 16 November 2026 (KST). Prepared with Claude, approved by Michael Paik.
+
+- **Section 22, Anthropic's Usage Policy:** one sentence added after the human-review requirement, the policy's definition of the qualified person: the training or experience to evaluate the output in that field, a license where applicable law requires one for the underlying activity, and responsibility for the accuracy and appropriateness of what is delivered or decided. The listed areas, the disclosure requirement and the exclusions stand as written.
+- **Section 25, Currency register:** the High-risk Use Case Requirements row records the re-read and reads "in force from 12 November 2026"; a dated amendment note under the section heading says what changed and that no second edition is owed.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md`, the `tests.md` masthead and `CITATION.cff` to v1.24.1. No template, case or other publication changes; acceptance carries forward under `ACCEPTANCE.md` (f), templates unchanged.
+
 ## [1.24.0] – 2026-11-15
 
 Minor release: a thirteenth and a fourteenth client-facing publication, released together as companions. `claude-plugin-families-and-the-slow-ai-kitchen.md`, *Claude's Plugin Families and The Slow AI Kitchen*, is a beginner's field map of the plugins Anthropic publishes for industries and job functions, with the proposal that the Slow AI Kitchen puts people in charge of each. `the-core-and-the-capability.md`, *The Core and the Capability*, is a discussion piece on what that shelf means for the organization itself. Additions under the no-further-additions rule (account-maintenance `HANDBOOK.md` §9, ruling of 18 October 2026), made on Michael Paik's express request of 15 November 2026 (KST), when he commissioned the first and supplied a draft of the second, and on his rulings of that day and the next: comprehensive coverage of the industry and job-function plugins; a note on artifacts; AOTL in the first piece; the three commitments to the person doing the work; the employment-law scope and the default test in the second; the manufacturer in its Section 9 left unnamed; and both pieces released together. Prepared with Claude, approved by Michael Paik.
