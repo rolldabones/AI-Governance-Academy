@@ -2,6 +2,13 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.24.2] – 2026-11-16
+
+Patch release: a correction in *Claude's Plugin Families and The Slow AI Kitchen*. Its section "The principles, in plain words" glossed Informed Intent's four elements in other words only, where DOCTRINE.md section 8 requires a list to give the set in its own words; found by the weekly sweep of 16 November 2026 (account-maintenance, class F13). Prepared with Claude, approved by Michael Paik.
+
+- **`claude-plugin-families-and-the-slow-ai-kitchen.md`:** the Informed Intent sentence names the four elements, purpose, authority, boundaries and exit, and keeps a two-part plain gloss (what the tool may do and how it is stopped); the four-part gloss in parentheses was tried and still reads as the set in other words. No other sentence changes.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md`, the `tests.md` masthead and `CITATION.cff` to v1.24.2. No template, case or other publication changes; acceptance carries forward under `ACCEPTANCE.md` (f), templates unchanged.
+
 ## [1.24.1] – 2026-11-16
 
 Patch release: *Using Claude for Legal with The Slow AI Kitchen*, the Usage Policy in force re-read. The guide (first edition, 1 November 2026) summarized the policy before it took effect on 12 November 2026; the dated re-check of account-maintenance `OPEN-ITEMS.md` item 35 read the policy in force at its source on 16 November 2026 (KST). Prepared with Claude, approved by Michael Paik.

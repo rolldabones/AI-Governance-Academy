@@ -1,6 +1,6 @@
 # Prompt Template 08: One Workflow, Thirty Days
 
-Version 1.24.1 | 2026-11-16 | License: CC BY-NC-SA 4.0 | Program constants: 30 Days | by proposal
+Version 1.24.2 | 2026-11-16 | License: CC BY-NC-SA 4.0 | Program constants: 30 Days | by proposal
 
 ---
 
