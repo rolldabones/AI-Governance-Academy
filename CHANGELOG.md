@@ -2,6 +2,15 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.24.4] – 2026-11-16
+
+Patch release: the survivors of the book's Chapter 15 correction for *In re The Boeing Co. Derivative Litigation*, Consol. C.A. No. 2024-1210-MTZ (Del. Ch. Aug. 13, 2026), account-maintenance `OPEN-ITEMS.md` item 48(a), on Michael Paik's rulings of 16 November 2026. The opinion was read in full in the slip opinion at courts.delaware.gov on 16 November 2026 (KST); the pinpoints are those recorded in book v1.12.3, Chapter 15, and no statement here needed one it does not carry. Prepared with Claude, approved by Michael Paik.
+
+- **`the-evidence-and-the-exit.md`:** a dated amendment note under the Korean-edition line. The Rule's status note says the 2026 decision was read in full, with its own as-at date, where it said it was not opened. The Oversight bullet says the dismissal was for failure to plead demand futility under Court of Chancery Rule 23.1 (slip op. at 21–22, 43–44) and restates the decision from the opinion (slip op. at 2, 24, 30–31, 35–36), replacing the version taken from defense counsel's memorandum. The Conclusion no longer says the book's Chapter 15 predates the 2026 decision, untrue from book v1.12.3, and pinpoints the record that protected the board (slip op. at 2, 29, 33–35). Sources: the opinion added; the Forum post recorded as the earlier source; the opinion removed from what was not read.
+- **`board-reading-guide.md`, Chapter 15:** the argument names the 2021 and the 2026 decisions and states the 2026 limit, as book v1.12.3 does. The guide is otherwise as rebuilt from v1.12.0.
+- Both supersession entries for this repository and its Korean edition (registered 16 November 2026) are now quiet in class D.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md`, the `tests.md` masthead and `CITATION.cff` to v1.24.4. No template, case or other publication changes; acceptance carries forward under `ACCEPTANCE.md` (f), templates unchanged.
+
 ## [1.24.3] – 2026-11-16
 
 Patch release: *The Artificial Familiar* names the edition of the System Reference Document it quotes. The piece quotes SRD 5.1 and links the SRD landing page, which now leads with SRD 5.2.1; the author's LinkedIn post of 10 November 2026 on Tiny Servants quotes 5.2.1, whose wording differs. On Michael Paik's ruling of 16 November 2026: keep SRD 5.1 and note the edition, rather than re-quote 5.2.1 and change the attribution. Prepared with Claude, approved by Michael Paik.

@@ -517,7 +517,7 @@ Commission a completeness review of the agent registry against Appendix I, Secti
 ## Chapter 15. Principal-Agent Risk at Machine Speed
 
 **The argument in three sentences.**
-AI's opacity, cross-functional breadth and speed leave boards dependent on management's self-reporting, while compensation plans pay executives for the velocity that governance should restrain. These conditions break the **Noses In, Fingers Out** model, and the **Caremark** line through *Marchand*, *Boeing* and *Sanford* shows that nominal oversight of a mission-critical risk can survive a motion to dismiss. The remedy is a redundant monitoring architecture, built on six stages of incident readiness, that produces evidence of oversight rather than reassurance.
+AI's opacity, cross-functional breadth and speed leave boards dependent on management's self-reporting, while compensation plans pay executives for the velocity that governance should restrain. These conditions break the **Noses In, Fingers Out** model, and the **Caremark** line through *Marchand*, the 2021 *Boeing* decision and *Sanford* shows that nominal oversight of a mission-critical risk can survive a motion to dismiss, while the 2026 *Boeing* decision shows the limit: a board that has built a reporting system and attends to it keeps the presumption of good faith even when a risk materializes. The remedy is a redundant monitoring architecture, built on six stages of incident readiness, that produces evidence of oversight rather than reassurance.
 
 **Why a board should care**
 - **Setting the agenda and choosing who presents:** In the Deloitte survey, 72% of boards engaged the CIO or CTO on AI, and only 12% engaged the CISO or CRO. The board "receives nearly all of its information from the management team."
