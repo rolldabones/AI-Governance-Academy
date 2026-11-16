@@ -2,6 +2,13 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.24.3] – 2026-11-16
+
+Patch release: *The Artificial Familiar* names the edition of the System Reference Document it quotes. The piece quotes SRD 5.1 and links the SRD landing page, which now leads with SRD 5.2.1; the author's LinkedIn post of 10 November 2026 on Tiny Servants quotes 5.2.1, whose wording differs. On Michael Paik's ruling of 16 November 2026: keep SRD 5.1 and note the edition, rather than re-quote 5.2.1 and change the attribution. Prepared with Claude, approved by Michael Paik.
+
+- **`the-artificial-familiar.md`:** a dated amendment note after the note of 31 October 2026: the quotations are from SRD 5.1; SRD 5.2.1 (D&D Beyond's SRD page, read 16 November 2026: published 1 May 2025, CC BY 4.0, all content restated in the 5.5e core rules wording) words the spell differently. No quotation, link or attribution changes.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md`, the `tests.md` masthead and `CITATION.cff` to v1.24.3. No template, case or other publication changes; acceptance carries forward under `ACCEPTANCE.md` (f), templates unchanged.
+
 ## [1.24.2] – 2026-11-16
 
 Patch release: a correction in *Claude's Plugin Families and The Slow AI Kitchen*. Its section "The principles, in plain words" glossed Informed Intent's four elements in other words only, where DOCTRINE.md section 8 requires a list to give the set in its own words; found by the weekly sweep of 16 November 2026 (account-maintenance, class F13). Prepared with Claude, approved by Michael Paik.

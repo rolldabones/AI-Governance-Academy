@@ -703,6 +703,8 @@ The descriptions of myths, folklore and literature in Sections 1 to 6 summarize 
 
 *Amendment, 31 October 2026 (KST):* Section 14 now records that the book's Conclusion has been revised (book v1.10.0) to the view this piece sets out, and that the piece is where that thinking now lives. No other change.
 
+*Amendment, 16 November 2026 (KST):* the quotations from the find familiar, simulacrum and wish spells in "Where this comes from: the table and the shelf" are from the System Reference Document 5.1, as the attribution below states. The current edition is SRD 5.2.1 ([D&D Beyond](https://www.dndbeyond.com/srd), published 1 May 2025, also under CC BY 4.0), which restates its content in the 5.5e core rules wording, and its find familiar text is worded differently; the author's LinkedIn post of 10 November 2026 on Tiny Servants quotes 5.2.1. The quotations here are unchanged. No other change.
+
 Legal and standards sources, each read on 30 October 2026 (KST) unless noted. Jurisdictions: the United States (model law and one state enactment), British Columbia, Canada (one tribunal decision) and the European Union; standards from NIST and ISO/IEC.
 
 - American Law Institute, *Restatement (Third) of Agency* (2006), §§ 1.01 and 2.03, read in the [excerpts published on Open Casebook](https://opencasebook.org/casebooks/16481-selected-excerpts-of-restatement-of-agency-third-professor-randle-pollard/as-printable-html/). Section 4.01 and the comment to § 1.04 were not read; the comment is described as reported in Quinn Emanuel Urquhart & Sullivan, ["When AI Agents Do the Transaction"](https://www.quinnemanuel.com/media/lgthrl2u/client-alert-when-ai-agents-do-the-transaction.pdf), client alert, undated, which notes that the comment is not a holding.

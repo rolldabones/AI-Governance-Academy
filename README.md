@@ -1,6 +1,6 @@
 # AI Governance Academy
 
-Version 1.24.2 | 2026-11-16 | Status: published; templates accepted with residuals (see Acceptance status) | Model-agnostic
+Version 1.24.3 | 2026-11-16 | Status: published; templates accepted with residuals (see Acceptance status) | Model-agnostic
 
 **Acceptance status ([ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md), 9 November 2026, KST):** Accepted with residuals. Run A8 (9 November 2026) of the templates passed the critical case, which tests the no-invention rule on its own, and 7 of the 8 other cases after review; the one failed case, template 02's, stated in one of three letters a current state of the Client that the Client Profile Block does not give. The account's status table is in [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md#instrument-status).
 
@@ -126,7 +126,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.24.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
+> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.24.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
