@@ -16,6 +16,8 @@ Working paper, version 1.4 · 17 November 2026
 
 **Correspondence.** sonupaik@gmail.com · [www.grcskorea.com](https://www.grcskorea.com)
 
+**Graphic novel.** [*Can your Reach exceed your Grasp?*](https://drive.google.com/file/d/1BQz83Q6iR2-AURN4H84Ed9ZNWqueIvm5/view), 28 pages adapted and drawn by Claude (Anthropic) under the author's direction (version 1.0, 17 November 2026). Where the two differ, the paper governs.
+
 ---
 
 ## 1. Introduction

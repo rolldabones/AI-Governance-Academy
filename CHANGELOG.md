@@ -2,6 +2,13 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.25.2] – 2026-11-17
+
+Patch release: *The Boundary and the Limit* points to its graphic novel, *Can your Reach exceed your Grasp?*: 28 pages, adapted and drawn by Claude (Anthropic) under the author's direction, version 1.0 of 17 November 2026, approved by the author that day, a PDF on Google Drive. Added under express reopening of the no-further-additions rule, on Michael Paik's request of 17 November 2026; a patch, because the release adds a pointer and no publication. No sentence of the paper changes and the paper stays at its own version 1.4.
+
+- **`the-boundary-and-the-limit.md`, front matter, after Correspondence:** one line, Graphic novel, with the link and the rule that the paper governs where the two differ. The 93 links that Appendix B records as resolved do not include this one; the file behind it is shared on Google Drive to anyone with the link, as a viewer, and its page was read without sign-in on 17 November 2026. The Words figure in `PUBLICATIONS.md`, 19,300, holds: the line adds 32 words.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md`, the `tests.md` masthead and `CITATION.cff` to v1.25.2. The note on word counts in `PUBLICATIONS.md` keeps v1.25.0, the release at which the paper's count was taken. No template, case or other publication changes; acceptance carries forward under `ACCEPTANCE.md` (f), templates unchanged.
+
 ## [1.25.1] – 2026-11-17
 
 Patch release: the caption under Table 5 of *The Boundary and the Limit* renders on GitHub. The caption was one italic span with five inline symbols inside it, and GitHub showed those five as raw text with their dollar signs; the paper's other 45 formulas rendered (read on the paper's page on 17 November 2026, after v1.25.0). The italic span closes after the caption's first sentence, the form the paper has in Section 9.4, where a symbol follows an italic phrase and renders. Markup only: one asterisk moves on line 333, no word of the paper changes and the paper stays at its own version 1.4, 19,313 words by `wc -w`. On Michael Paik's ruling of 17 November 2026 (KST). Prepared with Claude, approved by Michael Paik.
