@@ -2,6 +2,13 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.25.1] – 2026-11-17
+
+Patch release: the caption under Table 5 of *The Boundary and the Limit* renders on GitHub. The caption was one italic span with five inline symbols inside it, and GitHub showed those five as raw text with their dollar signs; the paper's other 45 formulas rendered (read on the paper's page on 17 November 2026, after v1.25.0). The italic span closes after the caption's first sentence, the form the paper has in Section 9.4, where a symbol follows an italic phrase and renders. Markup only: one asterisk moves on line 333, no word of the paper changes and the paper stays at its own version 1.4, 19,313 words by `wc -w`. On Michael Paik's ruling of 17 November 2026 (KST). Prepared with Claude, approved by Michael Paik.
+
+- **`the-boundary-and-the-limit.md`, line 333:** the caption's first sentence, "Table 5. A week of oversight in a five-person firm.", stays italic; the sentence that defines the five symbols is upright, so each symbol renders.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md`, the `tests.md` masthead and `CITATION.cff` to v1.25.1. The note on word counts in `PUBLICATIONS.md` keeps v1.25.0, the release at which the paper's count was taken. No template, case or other publication changes; acceptance carries forward under `ACCEPTANCE.md` (f), templates unchanged.
+
 ## [1.25.0] – 2026-11-17
 
 Minor release: a fifteenth publication, *The Boundary and the Limit: Effectiveness, Lean AI and the Theory of the Governed Firm*, a working paper (version 1.4, 17 November 2026). It reads the theory of the firm, the history of efficiency, the management writing on effectiveness and the Toyota Production System at their sources, changes one fact (an AI agent takes direction and uses discretion without being employed) and states six claims with the tests that would defeat them. It credits close prior statements of most of its parts and reports no measurement. It adds no doctrine, step, gate, tier or form. Dedicated to Jerry Evensky. An addition under the no-further-additions rule (account-maintenance `HANDBOOK.md` §9, ruling of 18 October 2026), made on Michael Paik's express request of 17 November 2026 (KST) and his rulings of that day. Prepared with Claude, approved by Michael Paik.

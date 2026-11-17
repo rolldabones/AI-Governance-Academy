@@ -330,7 +330,7 @@ Take a five-person advisory firm (Table 5). The numbers are invented and the ari
 | Support replies, the service lead | 1,500 | 0.1 | 3% | 6 | 1 | 8.0 |
 | Total | | | | | 3 | 28.2 |
 
-*Table 5. A week of oversight in a five-person firm. $N$ is items a week, $a$ and $t$ are minutes, $e$ is a share and $s$ is hours.*
+*Table 5. A week of oversight in a five-person firm.* $N$ is items a week, $a$ and $t$ are minutes, $e$ is a share and $s$ is hours.
 
 The founder reads every proposal before it goes out, because a proposal commits the firm. Billing is checked by sample, one item in ten for five minutes. Support is checked by a lighter sample, two replies in a hundred, also for five minutes each. Each owner spends a standing hour a week reviewing what went wrong and keeping the authorization current.
 
