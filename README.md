@@ -1,12 +1,12 @@
 # AI Governance Academy
 
-Version 1.24.5 | 2026-11-16 | Status: published; templates accepted with residuals (see Acceptance status) | Model-agnostic
+Version 1.25.0 | 2026-11-17 | Status: published; templates accepted with residuals (see Acceptance status) | Model-agnostic
 
 **Acceptance status ([ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md), 9 November 2026, KST):** Accepted with residuals. Run A8 (9 November 2026) of the templates passed the critical case, which tests the no-invention rule on its own, and 7 of the 8 other cases after review; the one failed case, template 02's, stated in one of three letters a current state of the Client that the Client Profile Block does not give. The account's status table is in [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md#instrument-status).
 
 **Caution.** The templates are accepted with residuals under [tests.md](tests.md), not without them: in 1 of 27 samples of the accepting run the model still stated a Client fact the Profile Block does not give, and the program spines have not been checked against a delivered program. Every output rests on the human check at Workflow item 5.
 
-This repository has two halves. The first is the Client Content Prompt Pack: eight prompt templates that generate Client-specific sales and delivery content for the AI Governance Academy program options. The second is the Publications: fourteen client-facing pieces, from an essay on how to characterize AI output to a reading of the agentic-commerce stack of 2026 as Informed Intent instruments, published here as the text of record and indexed in [PUBLICATIONS.md](PUBLICATIONS.md). The halves share one version number, one license and one closing line. After the Publications, one entry points to work in progress outside this repository.
+This repository has two halves. The first is the Client Content Prompt Pack: eight prompt templates that generate Client-specific sales and delivery content for the AI Governance Academy program options. The second is the Publications: fifteen client-facing pieces, from an essay on how to characterize AI output to a reading of the agentic-commerce stack of 2026 as Informed Intent instruments, published here as the text of record and indexed in [PUBLICATIONS.md](PUBLICATIONS.md). The halves share one version number, one license and one closing line. After the Publications, one entry points to work in progress outside this repository.
 
 ## Client Content Prompt Pack
 
@@ -88,7 +88,7 @@ Templates 02 to 08 state these rules in their own Style Rules, because a model s
 
 ## Publications
 
-Fourteen client-facing publications sit beside the templates, each the text of record for its piece. None is a program template and no Output Contract applies to any of them. [PUBLICATIONS.md](PUBLICATIONS.md) indexes them with each piece's kind, length, occasion and citation.
+Fifteen client-facing publications sit beside the templates, each the text of record for its piece. None is a program template and no Output Contract applies to any of them. [PUBLICATIONS.md](PUBLICATIONS.md) indexes them with each piece's kind, length, occasion and citation.
 
 | File | Title | Date |
 |---|---|---|
@@ -106,6 +106,7 @@ Fourteen client-facing publications sit beside the templates, each the text of r
 | [the-evidence-and-the-exit.md](the-evidence-and-the-exit.md) | *The Evidence and the Exit* | 15 November 2026 |
 | [claude-plugin-families-and-the-slow-ai-kitchen.md](claude-plugin-families-and-the-slow-ai-kitchen.md) | *Claude's Plugin Families and The Slow AI Kitchen* | 15 November 2026 |
 | [the-core-and-the-capability.md](the-core-and-the-capability.md) | *The Core and the Capability* | 15 November 2026 |
+| [the-boundary-and-the-limit.md](the-boundary-and-the-limit.md) | *The Boundary and the Limit* | 17 November 2026 |
 
 ## Work in progress
 
@@ -126,7 +127,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.24.5. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
+> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.25.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

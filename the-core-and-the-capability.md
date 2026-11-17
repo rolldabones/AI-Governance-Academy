@@ -347,6 +347,8 @@ All sources were read on 15 November 2026 (Korea Standard Time, KST).
 
 **Considered and left out:** transaction-cost economics and the older literature on why firms exist, which a fuller treatment would set beside Quinn; studies of AI and individual productivity, which bear on tasks and not on organizational design; the regulation of AI used in employment decisions; and any forecast of how many jobs AI will remove, which nobody is in a position to make.
 
+*Amendment, 17 November 2026 (KST):* the first item now has its fuller treatment in this repository: [*The Boundary and the Limit: Effectiveness, Lean AI and the Theory of the Governed Firm*](the-boundary-and-the-limit.md), a working paper, reads transaction-cost economics and the older literature on why firms exist at their sources and sets Quinn's question among them (its Table 8). No other sentence of this piece changes.
+
 ---
 
 *This document is provided for general informational and discussion purposes regarding the governance and use of AI. It does not constitute legal advice with respect to any specific matter, jurisdiction or engagement, and it is not advice on any decision to change or reduce a workforce.*

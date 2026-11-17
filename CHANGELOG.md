@@ -2,6 +2,16 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.25.0] – 2026-11-17
+
+Minor release: a fifteenth publication, *The Boundary and the Limit: Effectiveness, Lean AI and the Theory of the Governed Firm*, a working paper (version 1.4, 17 November 2026). It reads the theory of the firm, the history of efficiency, the management writing on effectiveness and the Toyota Production System at their sources, changes one fact (an AI agent takes direction and uses discretion without being employed) and states six claims with the tests that would defeat them. It credits close prior statements of most of its parts and reports no measurement. It adds no doctrine, step, gate, tier or form. Dedicated to Jerry Evensky. An addition under the no-further-additions rule (account-maintenance `HANDBOOK.md` §9, ruling of 18 October 2026), made on Michael Paik's express request of 17 November 2026 (KST) and his rulings of that day. Prepared with Claude, approved by Michael Paik.
+
+- **`the-boundary-and-the-limit.md`:** new. 19,313 words by `wc -w`; 81 references; its Appendix B states how each source was read, the checks run and the checks not run. It is released at its own version 1.4, which differs in two lines from version 1.3, the text Michael Paik had read and which was not published: the version line, and the reference to Kolt (2025), which read "Forthcoming in *Notre Dame Law Review* 101" and now gives the article as published in volume 101 at page 335 (2026), as the journal's page stated on 17 November 2026 (KST). The account's sweep flagged the line before release (class A1) and it was corrected on his ruling of that day.
+- **`the-core-and-the-capability.md`, the source basis:** one dated amendment line after "Considered and left out", pointing to the paper as the fuller treatment of transaction-cost economics and the older literature on why firms exist. No other sentence of that piece changes.
+- **`README.md`, Publications:** the count to fifteen and one row.
+- **`PUBLICATIONS.md`:** the count to fifteen, one row (kind: working paper), the word-count note and one citation line.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md`, the `tests.md` masthead and `CITATION.cff` (and its abstract) to v1.25.0. No template or case changes; acceptance carries forward under `ACCEPTANCE.md` (f), templates unchanged.
+
 ## [1.24.5] – 2026-11-16
 
 Patch release: the Board Reading Guide no longer promises a Korean version. On Michael Paik's ruling of 16 November 2026 (account-maintenance `OPEN-ITEMS.md` item 46(d)), the sentence "A Korean version will follow once the author has finished reviewing the Korean edition" is withdrawn: a Korean guide would be rebuilt from the Korean edition at v1.0.0, after the author's line review, and is not promised in print before then. Prepared with Claude, approved by Michael Paik.
