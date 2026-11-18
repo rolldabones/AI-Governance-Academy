@@ -8,6 +8,8 @@ Son-U Michael Paik · CEO, GRC Solutions Korea
 
 Amended 4 November 2026 (KST): section 8, the Deloitte review, added; sections 1 to 7 are unchanged.
 
+Amended 18 November 2026 (KST): Sources and Authorities only. The Magesh et al. entry now cites the published article, and Suzgun et al. (2025) is added; the text of the memo is unchanged.
+
 ---
 
 ## Contents
@@ -124,7 +126,8 @@ The amendment's occasion is Nate B. Jones's Substack post and video of 5 August 
 
 - *Mata v. Avianca, Inc.*, 678 F. Supp. 3d 443 (S.D.N.Y. 2023) (sanctioning attorneys under Fed. R. Civ. P. 11 for submitting fabricated, AI-generated judicial opinions and citations).
 - ABA Standing Comm. on Ethics & Prof'l Responsibility, Formal Op. 512, *Generative Artificial Intelligence Tools* (July 29, 2024) (duties of competence, confidentiality, communication and candor apply to lawyer use of generative AI; independent verification is required and task-dependent).
-- Varun Magesh et al., *Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools*, Stanford University (2024) (empirical evaluation finding material error rates in RAG-based legal research tools despite retrieval grounding).
+- Varun Magesh et al., *Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools*, 22 J. Empirical Legal Stud. 216 (2025), https://doi.org/10.1111/jels.12413 (preregistered empirical evaluation finding material error rates in RAG-based legal research tools despite retrieval grounding).
+- Mirac Suzgun et al., *Language Models Cannot Reliably Distinguish Belief from Knowledge and Fact*, 7 Nature Mach. Intell. 1780 (2025), https://doi.org/10.1038/s42256-025-01113-8 (across 24 models, systematic failure to acknowledge a person's own false belief, at accuracy well below that on another person's false belief; the failure by which a client's mistaken premise comes back as a confident answer).
 - Nat'l Inst. of Standards & Tech., *Artificial Intelligence Risk Management Framework (AI RMF 1.0)* (Jan. 2023), and *Generative Artificial Intelligence Profile* (NIST AI 600-1, July 2024) (identifying confabulation as a distinct generative AI risk requiring governance controls).
 - Ziwei Ji et al., *Survey of Hallucination in Natural Language Generation*, ACM Computing Surveys, Vol. 55, No. 12 (2023) (surveying the mechanism by which language models generate fluent but unfaithful content).
 - Dep't of Emp't & Workplace Rels. (Austl.), *Targeted Compliance Framework Assurance Review – Final Report* (Deloitte; report dated Sept. 26, 2025, replacing the report of July 4, 2025; the page states a further update of Feb. 3, 2026), https://www.dewr.gov.au/assuring-integrity-targeted-compliance-framework/resources/targeted-compliance-framework-assurance-review-final-report (page and PDF read Nov. 4, 2026 (KST); PDF page 2 for the Report Update and page 48, section 6.3, for the tool chain disclosure).

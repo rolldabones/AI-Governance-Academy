@@ -2,6 +2,13 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.25.3] – 2026-11-18
+
+Patch release: *Sounds Good*, Sources and Authorities only, from the Stanford AI Index Report 2026, Chapter 3 integration of 18 November 2026 (account-maintenance `DECISIONS.md` section A), under Michael Paik's reopening of the no-further-additions rule for this work behind a Phase 0 gate. Prepared with Claude, approved by Michael Paik.
+
+- **`sounds-good.md`, Sources and Authorities:** the Magesh et al. entry, which cited the 2024 Stanford preprint, now cites the published article, 22 J. Empirical Legal Stud. 216 (2025), with its DOI. Suzgun et al., *Nature Machine Intelligence* 7, 1780 (2025), added: language models systematically fail to acknowledge a person's own false belief, the memo's thesis measured. Both read at their publishers' pages on 18 November 2026 (KST). An amendment line under the date records the change; the memo's text is unchanged.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md`, the `tests.md` masthead and `CITATION.cff` to v1.25.3. The note on word counts in `PUBLICATIONS.md` keeps v1.25.0. No template, case or other publication changes; acceptance carries forward under `ACCEPTANCE.md` (f), templates unchanged.
+
 ## [1.25.2] – 2026-11-17
 
 Patch release: *The Boundary and the Limit* points to its graphic novel, *Can your Reach exceed your Grasp?*: 28 pages, adapted and drawn by Claude (Anthropic) under the author's direction, version 1.0 of 17 November 2026, approved by the author that day, a PDF on Google Drive. Added under express reopening of the no-further-additions rule, on Michael Paik's request of 17 November 2026; a patch, because the release adds a pointer and no publication. No sentence of the paper changes and the paper stays at its own version 1.4.
