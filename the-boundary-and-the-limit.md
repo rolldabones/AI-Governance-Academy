@@ -16,7 +16,9 @@ Working paper, version 1.4 · 17 November 2026
 
 **Correspondence.** sonupaik@gmail.com · [www.grcskorea.com](https://www.grcskorea.com)
 
-**Graphic novel.** [*Can your Reach exceed your Grasp?*](https://drive.google.com/file/d/1BQz83Q6iR2-AURN4H84Ed9ZNWqueIvm5/view), 28 pages adapted and drawn by Claude (Anthropic) under the author's direction (version 1.0, 17 November 2026). Where the two differ, the paper governs.
+**Graphic novel.** [*Can Your Reach exceed Your Grasp?*](https://drive.google.com/file/d/1BQz83Q6iR2-AURN4H84Ed9ZNWqueIvm5/view), 28 pages adapted and drawn by Claude (Anthropic) under the author's direction (version 1.1, 19 November 2026). Where the two differ, the paper governs.
+
+**Further work.** The practice this paper names is being developed in the [Lean AI folder](https://github.com/rolldabones/slow-ai-kitchen/blob/main/lean-ai/README.md) of The Slow AI Kitchen: the module, its pilot protocol, a book in progress and sample workflows, the Lean Tiny Servants. All of it is a work in progress. This paper stays here as the statement of the theory. Where the two differ on the theory, the paper governs.
 
 ---
 

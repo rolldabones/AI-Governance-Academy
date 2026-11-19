@@ -2,6 +2,14 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.25.4] – 2026-11-19
+
+Patch release: *The Boundary and the Limit* points to the further work on the practice it names, which is being developed in the Lean AI folder of `slow-ai-kitchen` (v3.8.0 there), and its graphic novel takes its final title, *Can Your Reach exceed Your Grasp?*. On Michael Paik's request and ruling of 19 November 2026, under express reopening of the no-further-additions rule for Lean AI; a patch, because the release adds a pointer and no publication. The body of the paper is unchanged and the paper stays at its own version 1.4. Prepared with Claude, approved by Michael Paik.
+
+- **`the-boundary-and-the-limit.md`, front matter, after Graphic novel:** one paragraph, Further work, with the link to the folder's index, the statement that the paper stays here as the statement of the theory and the rule that the paper governs on the theory where the two differ. The 93 links that Appendix B records as resolved do not include this one; its target, `lean-ai/README.md` in `slow-ai-kitchen`, is a file of this account. The Words figure in `PUBLICATIONS.md`, taken at v1.25.0, is not retaken: the paragraph adds 64 words.
+- **`the-boundary-and-the-limit.md`, front matter, Graphic novel:** the title reads *Can Your Reach exceed Your Grasp?*, as the author settled it on 19 November 2026 (it read *Can your Reach exceed your Grasp?*), and the line cites version 1.1 of that date. Version 1.1 changes the title on the cover, on the title page, in the 27 running heads and in the document's metadata, and on page 2 the version line and the line beneath it, which now reads "Read the title's red capitals backward."; no picture and no other word changes. The link is the same: version 1.1 replaces version 1.0 on Google Drive as a new version of the same file.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md`, the `tests.md` masthead and `CITATION.cff` to v1.25.4. In `CITATION.cff`, `date-released` moves to 19 November 2026; v1.25.3 had left it at 17 November 2026. The note on word counts in `PUBLICATIONS.md` keeps v1.25.0. No template, case or other publication changes; acceptance carries forward under `ACCEPTANCE.md` (f), templates unchanged.
+
 ## [1.25.3] – 2026-11-18
 
 Patch release: *Sounds Good*, Sources and Authorities only, from the Stanford AI Index Report 2026, Chapter 3 integration of 18 November 2026 (account-maintenance `DECISIONS.md` section A), under Michael Paik's reopening of the no-further-additions rule for this work behind a Phase 0 gate. Prepared with Claude, approved by Michael Paik.
