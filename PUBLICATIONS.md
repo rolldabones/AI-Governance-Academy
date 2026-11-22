@@ -1,6 +1,6 @@
 # AI Governance Academy: publications
 
-**The index of the seventeen client-facing publications · v1.27.0 · 22 November 2026 (Korea Standard Time, KST)**
+**The index of the seventeen client-facing publications · v1.27.1 · 22 November 2026 (Korea Standard Time, KST)**
 
 Seventeen client-facing publications sit beside the prompt templates of the [AI Governance Academy](README.md), each the text of record for its piece, dated with its first publication and described by the occasion its own masthead names. None is a program template and no Output Contract applies to any of them.
 
@@ -30,39 +30,39 @@ The date is the masthead date of first publication; *The Map and the Pair* is in
 
 ## How to cite a publication
 
-> Paik, Son-U Michael. *Sounds Good*. In AI Governance Academy, v1.27.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/sounds-good.md
+> Paik, Son-U Michael. *Sounds Good*. In AI Governance Academy, v1.27.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/sounds-good.md
 
-> Paik, Son-U Michael. *The Turtle and the Phoenix*. In AI Governance Academy, v1.27.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md
+> Paik, Son-U Michael. *The Turtle and the Phoenix*. In AI Governance Academy, v1.27.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md
 
-> Paik, Son-U Michael. *Law Firm AI Deployment Spec v2*. In AI Governance Academy, v1.27.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/law-firm-ai-deployment-spec.md
+> Paik, Son-U Michael. *Law Firm AI Deployment Spec v2*. In AI Governance Academy, v1.27.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/law-firm-ai-deployment-spec.md
 
-> Paik, Son-U Michael. *Slow AI for the Chief Legal Officer*. In AI Governance Academy, v1.27.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/slow-ai-for-the-chief-legal-officer.md
+> Paik, Son-U Michael. *Slow AI for the Chief Legal Officer*. In AI Governance Academy, v1.27.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/slow-ai-for-the-chief-legal-officer.md
 
-> Paik, Son-U Michael. *The Compression and the Harness*. In AI Governance Academy, v1.27.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-compression-and-the-harness.md
+> Paik, Son-U Michael. *The Compression and the Harness*. In AI Governance Academy, v1.27.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-compression-and-the-harness.md
 
-> Paik, Son-U Michael. *The Map and the Pair*. In AI Governance Academy, v1.27.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-map-and-the-pair.md
+> Paik, Son-U Michael. *The Map and the Pair*. In AI Governance Academy, v1.27.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-map-and-the-pair.md
 
-> Paik, Son-U Michael. *The Artificial Familiar*. In AI Governance Academy, v1.27.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-artificial-familiar.md
+> Paik, Son-U Michael. *The Artificial Familiar*. In AI Governance Academy, v1.27.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-artificial-familiar.md
 
-> Paik, Son-U Michael. *The Philosopher-King Test*. In AI Governance Academy, v1.27.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-philosopher-king-test.md
+> Paik, Son-U Michael. *The Philosopher-King Test*. In AI Governance Academy, v1.27.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-philosopher-king-test.md
 
-> Paik, Son-U Michael. *Using Claude for Legal with The Slow AI Kitchen*. In AI Governance Academy, v1.27.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/using-claude-for-legal-with-the-slow-ai-kitchen.md
+> Paik, Son-U Michael. *Using Claude for Legal with The Slow AI Kitchen*. In AI Governance Academy, v1.27.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/using-claude-for-legal-with-the-slow-ai-kitchen.md
 
-> Paik, Son-U Michael. *The Mandate and the Switch*. In AI Governance Academy, v1.27.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-mandate-and-the-switch.md
+> Paik, Son-U Michael. *The Mandate and the Switch*. In AI Governance Academy, v1.27.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-mandate-and-the-switch.md
 
-> Paik, Son-U Michael. *Final Liability Rests with the Human: Board Reading Guide*. In AI Governance Academy, v1.27.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/board-reading-guide.md
+> Paik, Son-U Michael. *Final Liability Rests with the Human: Board Reading Guide*. In AI Governance Academy, v1.27.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/board-reading-guide.md
 
-> Paik, Son-U Michael. *The Evidence and the Exit*. In AI Governance Academy, v1.27.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-evidence-and-the-exit.md
+> Paik, Son-U Michael. *The Evidence and the Exit*. In AI Governance Academy, v1.27.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-evidence-and-the-exit.md
 
-> Paik, Son-U Michael. *Claude's Plugin Families and The Slow AI Kitchen*. In AI Governance Academy, v1.27.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/claude-plugin-families-and-the-slow-ai-kitchen.md
+> Paik, Son-U Michael. *Claude's Plugin Families and The Slow AI Kitchen*. In AI Governance Academy, v1.27.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/claude-plugin-families-and-the-slow-ai-kitchen.md
 
-> Paik, Son-U Michael. *The Core and the Capability*. In AI Governance Academy, v1.27.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-core-and-the-capability.md
+> Paik, Son-U Michael. *The Core and the Capability*. In AI Governance Academy, v1.27.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-core-and-the-capability.md
 
-> Paik, Son-U Michael. *The Boundary and the Limit: Effectiveness, Lean AI and the Theory of the Governed Firm*. Working paper, version 1.4. In AI Governance Academy, v1.27.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-boundary-and-the-limit.md
+> Paik, Son-U Michael. *The Boundary and the Limit: Effectiveness, Lean AI and the Theory of the Governed Firm*. Working paper, version 1.4. In AI Governance Academy, v1.27.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-boundary-and-the-limit.md
 
-> Paik, Son-U Michael. *Systems Architecture for AI: Following One Request through an Enterprise AI Service*. In AI Governance Academy, v1.27.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/systems-architecture-for-ai.md
+> Paik, Son-U Michael. *Systems Architecture for AI: Following One Request through an Enterprise AI Service*. In AI Governance Academy, v1.27.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/systems-architecture-for-ai.md
 
-> Paik, Son-U Michael. *The Supplier and the Customer: Choosing Whether and How to Build Open or Closed AI Models into a Product or Service*. In AI Governance Academy, v1.27.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-supplier-and-the-customer.md
+> Paik, Son-U Michael. *The Supplier and the Customer: Choosing Whether and How to Build Open or Closed AI Models into a Product or Service*. In AI Governance Academy, v1.27.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-supplier-and-the-customer.md
 
 A machine-readable citation for the repository as a whole is in [CITATION.cff](CITATION.cff).
 

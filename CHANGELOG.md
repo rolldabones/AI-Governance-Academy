@@ -2,6 +2,13 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.27.1] – 2026-11-22
+
+Patch release: *Systems Architecture for AI* points forward to *The Supplier and the Customer*, so a reader who starts with the primer finds the strategy layer. On Michael Paik's request of 22 November 2026 (KST); a completion under `HANDBOOK.md` §9, adding a pointer and no publication. Prepared with Claude, approved by Michael Paik.
+
+- **`systems-architecture-for-ai.md`, Section 10, Going further:** one paragraph, In this repository, before the three exercises, linking `the-supplier-and-the-customer.md` as the piece that takes up the decision Section 2 leaves open. The Words figure in `PUBLICATIONS.md`, taken at v1.26.0, is not retaken: the paragraph adds 41 words. *The Supplier and the Customer* already links back, in its For line and Section 8.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md`, the `tests.md` masthead and `CITATION.cff` to v1.27.1; `date-released` unchanged at 2026-11-22. No template, case or other publication changes; acceptance carries forward under `ACCEPTANCE.md` (f), templates unchanged.
+
 ## [1.27.0] – 2026-11-22
 
 Minor release: a seventeenth publication, *The Supplier and the Customer: Choosing Whether and How to Build Open or Closed AI Models into a Product or Service*, a unit on strategy. It starts from the customer's job rather than the model, separates rights, operations and distribution, sets a question bank for open-weight and closed routes, reads Anthropic's suspension of Fable 5 and Mythos 5 (12 June to 1 July 2026) as the exit case, compares five routes for one workflow on the cost of an accepted result and closes with a sixty-minute exercise on the five GRCnext™ questions. Section 6, "The flip side: is it fair play?", asks whether firms and developing economies may now use AI to reverse engineer others' products, on the premise that such a firm works on an open model it runs itself with occasional closed checks: why it would, the law in IRAC (18 U.S.C. § 1839(6), Directive (EU) 2016/943 Article 3(1)(b), TRIPS Article 39(2) and footnote 10, the suppliers' terms and *TianRui*), the fairness question through Holmes's bad man and the Davos "rupture" debate and five tests to answer in writing. The occasion is the author's LinkedIn post of 22 November 2026 on Anthropic, Figma and Claude Design. Made on Michael Paik's express request of 22 November 2026 (KST); by his ruling of that day it is December 2026's addition under the additions budget, brought forward, so December 2026 carries no further addition. Prepared with Claude, approved by Michael Paik.
