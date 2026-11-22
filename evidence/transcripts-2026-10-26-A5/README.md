@@ -1,6 +1,6 @@
 # Evidence: Academy templates, run A5, 26 October 2026 (KST)
 
-**What.** The transcripts and scores of suite `academy-a5` (cases T01 to T08 of [`../../tests.md`](../../tests.md), three samples each) against the v1.14.8 prompt sections, in which K7, K8 and K9 are fixed in text, with the run's `summary.json`, the scorer's per-sample JSON and the harness. The generated outputs are also filed, labeled, in [`../../examples/transcripts-2026-10-26-A5/`](../../examples/transcripts-2026-10-26-A5/).
+**What.** The transcripts and scores of suite `academy-a5` (cases T01 to T08 of [`../../tests.md`](../../tests.md), three samples each) against the v1.14.8 prompt sections, in which K7, K8 and K9 are fixed in text, with the run's `summary.json`, the scorer's per-sample JSON and the harness. The generated outputs are also filed, labeled, in [`../../examples/transcripts-2026-10-26-A5/`](../../examples/transcripts-2026-10-26-A5/). Glosses of the three principles inside an output are model output, not doctrine; the doctrines are as stated in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md), the account's single normative statement of the three doctrines.
 
 **When and how.** Run in Michael Paik's Terminal on 26 October 2026, finished 10:41 KST, by the session A5 harness (`harness/a5_run.py`; `harness/a5-vs-a4.diff` shows every change from the run A4 harness and manifest builder: the run name, the paths and a check that the clone is at tag v1.14.8 on a clean tree in place of a commit check, because v1.14.8 was committed in the same Terminal block). The clone was at `f0dab9d` (main, tag v1.14.8); `summary.json` records the head and the `ref`. API system prompt, no tools, max_tokens 16000, one user turn per sample. Tested model `claude-opus-5-5`; scorer `claude-sonnet-5-5`, with the scorer guidance of v1.14.3 in each pass condition. LLM scoring is developer testing, not independent assurance.
 
@@ -44,4 +44,4 @@ Model output inside the transcripts is verbatim and is not edited for house styl
 
 ---
 
-Final Liability rests with the Human.
+**Final Liability rests with the Human.**

@@ -91,7 +91,7 @@ The last question is not optional. DOCTRINE.md states it plainly: an authorizati
 
 Informed Intent is as stated in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md), the account's single normative statement of the three doctrines. Stating intent to the model is a user skill that serves it, and it is trainable. Teach lawyers to state intent to the model before the work begins: the task, the audience, the constraints, the form of the answer and what done looks like. Prefer workflows that force that clarification before any output is produced. The Kitchen opens this way by design, Define the Dish and then Mise en Place with a Definition of Done before AI touches the task, and a well-built operating prompt halts on missing inputs rather than inventing them.
 
-The [AI Impact Assessment Tool](https://github.com/rolldabones/AI-Impact-Assessment-Tool) is the Informed Intent gate in tool form, aligned to the EU AI Act, the National Institute of Standards and Technology AI Risk Management Framework (NIST AI RMF), ISO/IEC 42001 and ISO/IEC 42005.
+The [AI Impact Assessment Tool](https://github.com/rolldabones/AI-Impact-Assessment-Tool) is the Informed Intent gate in tool form, aligned to the EU AI Act, the National Institute of Standards and Technology AI Risk Management Framework (NIST AI RMF) and ISO/IEC 42001, and mapped by topic to ISO/IEC 42005.
 
 This becomes the baseline against which architecture, controls and return on investment are evaluated.
 
@@ -215,7 +215,7 @@ AI systems must respect the same or stricter authorization boundaries as the peo
 
 An agent should never acquire authority merely because it is technically capable of exercising it.
 
-**No AI receives greater authority than the human or system principal on whose behalf it acts.**
+**No AI receives greater authority than the human principal on whose behalf it acts, or than the authority a named human delegated to the system that calls it.**
 
 That is the authority element of Informed Intent, enforced in infrastructure rather than in policy.
 
@@ -265,7 +265,7 @@ Compare AI output with junior work, reviewed work and final partner-approved wor
 
 The extraction method matters. Expertise does not live in stated preferences; it lives in tacit judgment calls, and those are not listed on request. They surface when an expert reacts to a draft. The firm already owns this mechanism: it is the red pencil, the markup tradition by which lawyers have always been trained. Put AI drafts through it. A rubric built from a questionnaire captures what partners say they want. A rubric built from redlines captures what they actually do.
 
-Edits reveal intent. What the lawyer states before the work begins is one half of Informed Intent, and what the redline discloses afterward is the other. I have made the same argument for [building AI Skills by redlining the model](https://www.linkedin.com/posts/sonupaik_%F0%9D%90%93%F0%9D%90%A1%F0%9D%90%9E-%F0%9D%90%9F%F0%9D%90%9A%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%AC%F0%9D%90%AD-%F0%9D%90%B0%F0%9D%90%9A%F0%9D%90%B2-%F0%9D%90%AD%F0%9D%90%A8-%F0%9D%90%A0%F0%9D%90%9E%F0%9D%90%AD-activity-7450795738436964353-OW-z): the engine is a mid-session draft the expert marks up in their own hand.
+Edits reveal intent. What the lawyer states before the work begins belongs to the prior authorization that Informed Intent requires; what the redline discloses afterward is the instrument from which the rubric is built, and it authorizes nothing. I have made the same argument for [building AI Skills by redlining the model](https://www.linkedin.com/posts/sonupaik_%F0%9D%90%93%F0%9D%90%A1%F0%9D%90%9E-%F0%9D%90%9F%F0%9D%90%9A%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%AC%F0%9D%90%AD-%F0%9D%90%B0%F0%9D%90%9A%F0%9D%90%B2-%F0%9D%90%AD%F0%9D%90%A8-%F0%9D%90%A0%F0%9D%90%9E%F0%9D%90%AD-activity-7450795738436964353-OW-z): the engine is a mid-session draft the expert marks up in their own hand.
 
 The objective is not merely to teach AI how the firm writes.
 
@@ -289,7 +289,7 @@ Where consequences are material, require explicit acceptance thresholds and huma
 
 Slow AI does not mean slow technology.
 
-It means slowing down at the decision points where errors become consequential.
+What slows is verification, in proportion to the risk tier, at the decision points where errors become consequential.
 
 ## 14. Deploy a bounded production workflow.
 
@@ -377,7 +377,7 @@ It is to build a firm that can safely use whichever technology proves best.
 
 The instruments referenced throughout are maintained and mapped in [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md).
 
-**Informed Intent determines what we ask AI to do. Slow AI governs how we allow it to do it. Final Liability determines who remains responsible when it does.**
+**Informed Intent: no AI system acts without prior authorization stating its purpose, authority, boundaries and exit, given by a human who meets the five authorizer conditions. Slow AI: AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit. Final Liability rests with the Human: every material outcome attaches to a named human owner with decision rights, oversight and the power to intervene.**
 
 That is the foundation worth building in the first 90 days.
 

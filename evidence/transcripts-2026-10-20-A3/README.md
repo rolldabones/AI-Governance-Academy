@@ -1,6 +1,6 @@
 # Evidence: Academy templates, run A3, 20 October 2026 (KST)
 
-**What.** The transcripts and scores of suite `academy-a3` (cases T01 to T08 of [`../../tests.md`](../../tests.md), three samples each) against the v1.14.2 prompt sections and fixture, with the run's `summary.json`, the scorer's per-sample JSON and the harness. The generated outputs are also filed, labeled, in [`../../examples/transcripts-2026-10-20-A3/`](../../examples/transcripts-2026-10-20-A3/).
+**What.** The transcripts and scores of suite `academy-a3` (cases T01 to T08 of [`../../tests.md`](../../tests.md), three samples each) against the v1.14.2 prompt sections and fixture, with the run's `summary.json`, the scorer's per-sample JSON and the harness. The generated outputs are also filed, labeled, in [`../../examples/transcripts-2026-10-20-A3/`](../../examples/transcripts-2026-10-20-A3/). Glosses of the three principles inside an output are model output, not doctrine; the doctrines are as stated in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md), the account's single normative statement of the three doctrines.
 
 **When and how.** Run in Michael Paik's Terminal on 20 October 2026, finished 11:57 KST, by the session A3 harness (`harness/a3_run.py`; `harness/a3-vs-a2.diff` shows every change from the run A2 harness: paths, the run name, the HEAD and the v1.14.2 blocks and fixture). The clone was detached at `7fe5751`, the head of pull request rolldabones/AI-Governance-Academy#1 before merge; `summary.json` records the head and the `ref`. API system prompt, no tools, max_tokens 16000, one user turn per sample. Tested model `claude-opus-5-5`; scorer `claude-sonnet-5-5`, scoring each sample separately with the A2 scorer prompt; the scorer guidance of v1.14.3 was not yet in force. LLM scoring is developer testing, not independent assurance.
 
@@ -44,4 +44,4 @@ Model output inside the transcripts is verbatim and is not edited for house styl
 
 ---
 
-Final Liability rests with the Human.
+**Final Liability rests with the Human.**

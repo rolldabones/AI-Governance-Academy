@@ -97,7 +97,7 @@ Money does not take part in the Zeno race. It arrives or it does not, and it lea
 
 **Whom the institution pays.** Lobbying registers record spending to influence legislators and officials: in the United States, reports under the Lobbying Disclosure Act on LDA.gov; in the European Union, the Transparency Register run by the European Commission. Declared board and advisory positions, published compensation and equity structures in proxy statements and the published terms of partnerships complete the picture.
 
-The method has three rules, and they are part of it. It reads public records only. It reads institutions and their published claims, never private individuals. It compiles nothing about anyone. And it asks of a public claim one thing: what public money sits behind it. Where the record is silent, the answer is Unknown, which is a finding, not a failure.
+The method has four rules, and they are part of it. It reads public records only. It reads institutions and their published claims, never private individuals. It compiles nothing about anyone. And it asks of a public claim one thing: what public money sits behind it. Where the record is silent, the answer is Unknown, which is a finding, not a failure.
 
 The AGI row in Section 4 shows the method at work, because its documents are themselves money records. In October 2025 the verification of AGI governed a revenue share and the life of intellectual property rights. In April 2026 the revenue share ran "independent of OpenAI's technology progress," and the term dropped out of the announcement. The piece draws no inference about why. It does not need to. Set side by side, the two documents show the reader what the word was carrying and when it stopped carrying it.
 

@@ -1,6 +1,6 @@
 # Evidence: Academy templates, run T5, 18 October 2026 (KST)
 
-**What.** The transcripts and scores of suite `academy-mode-a` (cases T01 to T07 of [`../../tests.md`](../../tests.md)), with the run's `summary.json`. The generated outputs are also filed, labeled, in [`../../examples/transcripts-2026-10-18-T5/`](../../examples/transcripts-2026-10-18-T5/).
+**What.** The transcripts and scores of suite `academy-mode-a` (cases T01 to T07 of [`../../tests.md`](../../tests.md)), with the run's `summary.json`. The generated outputs are also filed, labeled, in [`../../examples/transcripts-2026-10-18-T5/`](../../examples/transcripts-2026-10-18-T5/). Glosses of the three principles inside an output are model output, not doctrine; the doctrines are as stated in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md), the account's single normative statement of the three doctrines.
 
 **When and how.** Run in Michael Paik's Terminal on 18 October 2026, finished 10:07 KST, by the session T5 harness (`t5_run.py`, not shipped in this repository, nor its suite manifest; the run cannot be reproduced from the repository): API system prompt, no tools, max_tokens 16000, one user turn per case. Tested model `claude-opus-5-5`; scorer `claude-sonnet-5-5`, a different model scoring each transcript against the template's Acceptance Checklist and the case's fail indicators. LLM scoring is developer testing, not independent assurance.
 
@@ -23,4 +23,4 @@ Model output inside the transcripts is verbatim and is not edited for house styl
 
 ---
 
-Final Liability rests with the Human.
+**Final Liability rests with the Human.**

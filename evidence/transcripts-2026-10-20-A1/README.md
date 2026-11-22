@@ -1,6 +1,6 @@
 # Evidence: Academy templates, run A1, 20 October 2026 (KST)
 
-**What.** The transcripts and scores of suite `academy-a1` (cases T01 to T08 of [`../../tests.md`](../../tests.md)) against the v1.14.0 prompt sections, with the run's `summary.json`, the scorer's per-case JSON and the harness. The generated outputs are also filed, labeled, in [`../../examples/transcripts-2026-10-20-A1/`](../../examples/transcripts-2026-10-20-A1/).
+**What.** The transcripts and scores of suite `academy-a1` (cases T01 to T08 of [`../../tests.md`](../../tests.md)) against the v1.14.0 prompt sections, with the run's `summary.json`, the scorer's per-case JSON and the harness. The generated outputs are also filed, labeled, in [`../../examples/transcripts-2026-10-20-A1/`](../../examples/transcripts-2026-10-20-A1/). Glosses of the three principles inside an output are model output, not doctrine; the doctrines are as stated in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md), the account's single normative statement of the three doctrines.
 
 **When and how.** Run in Michael Paik's Terminal on 20 October 2026, finished 10:57 KST, by the session A1 harness (`harness/a1_run.py`, a copy of the T5 harness changed only for paths, the run name, case T08, the v1.14.0 blocks and the HEAD). The clone was detached at `e4f3a97`, the head of pull request rolldabones/AI-Governance-Academy#1, unmerged; `summary.json` records `"head": "e4f3a97"` and no `ref` field, though the session prompt asked for one. API system prompt, no tools, max_tokens 16000, one user turn per case. Tested model `claude-opus-5-5`; scorer `claude-sonnet-5-5`, a different model scoring each transcript against the template's Acceptance Checklist, the case's pass condition and the fail indicators, including any Client fact that Part 2 of the fixture does not contain. One sample per case. LLM scoring is developer testing, not independent assurance.
 
@@ -28,4 +28,4 @@ Model output inside the transcripts is verbatim and is not edited for house styl
 
 ---
 
-Final Liability rests with the Human.
+**Final Liability rests with the Human.**

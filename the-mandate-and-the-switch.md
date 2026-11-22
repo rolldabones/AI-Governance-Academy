@@ -44,7 +44,7 @@ This piece reads the five systems at their primary documents and asks of each: w
 
 ## 2. Five systems, five questions
 
-The table states what each system answers, in the terms of its own document, and what still has to be checked. Dates are the documents' publication dates; three of the five are older than the post that occasioned this piece.
+The table states what each system answers, in the terms of its own document, and what still has to be checked. Dates are the documents' publication dates; four of the five are older than the post that occasioned this piece, and the fifth, Stripe's documentation, is undated.
 
 | System and document | The question it answers | What it establishes | What still has to be checked |
 |---|---|---|---|

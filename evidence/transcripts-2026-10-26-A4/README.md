@@ -1,6 +1,6 @@
 # Evidence: Academy templates, run A4, 26 October 2026 (KST)
 
-**What.** The transcripts and scores of suite `academy-a4` (cases T01 to T08 of [`../../tests.md`](../../tests.md), three samples each) against the v1.14.6 prompt sections and fixture, with the run's `summary.json`, the scorer's per-sample JSON and the harness. The generated outputs are also filed, labeled, in [`../../examples/transcripts-2026-10-26-A4/`](../../examples/transcripts-2026-10-26-A4/).
+**What.** The transcripts and scores of suite `academy-a4` (cases T01 to T08 of [`../../tests.md`](../../tests.md), three samples each) against the v1.14.6 prompt sections and fixture, with the run's `summary.json`, the scorer's per-sample JSON and the harness. The generated outputs are also filed, labeled, in [`../../examples/transcripts-2026-10-26-A4/`](../../examples/transcripts-2026-10-26-A4/). Glosses of the three principles inside an output are model output, not doctrine; the doctrines are as stated in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md), the account's single normative statement of the three doctrines.
 
 **When and how.** Run in Michael Paik's Terminal on 26 October 2026, finished 10:06 KST, by the session A4 harness (`harness/a4_run.py`; `harness/a4-vs-a3.diff` shows every change from the run A3 harness and manifest builder: the run name, the HEAD, the paths, the scorer guidance and the acceptance text). The clone was at `88e655c` (main, tag v1.14.6); `summary.json` records the head and the `ref`. API system prompt, no tools, max_tokens 16000, one user turn per sample. Tested model `claude-opus-5-5`; scorer `claude-sonnet-5-5`, scoring each sample separately, with the scorer guidance of v1.14.3 added to each pass condition. LLM scoring is developer testing, not independent assurance.
 
@@ -44,4 +44,4 @@ Model output inside the transcripts is verbatim and is not edited for house styl
 
 ---
 
-Final Liability rests with the Human.
+**Final Liability rests with the Human.**

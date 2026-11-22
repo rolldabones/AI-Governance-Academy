@@ -308,7 +308,7 @@ The oldest creature in the valley was a turtle; the newest was a phoenix. Each d
 
 ## 5. Modules and Timings
 
-**Where this kit is used in the programs.** The fable is wired into two Academy programs. In the [Executive Workshop](03-executive-workshop.md) it runs in the closing block as the retention device for the three principles. In the [Practitioner Academy](04-practitioner-academy.md) it runs on Day 1, seating the doctrine before the instruments arrive on Day 2, with the Handle Map at section 6 acting as the bridge from the story to the workbook modules. Facilitators running either program should read the Practitioner Cut, not only the Practice Cut.
+**Where this kit is used in the programs.** The fable is wired into two Academy programs. In the [Executive Workshop](03-executive-workshop.md) it runs in the closing block as the retention device for the three doctrines. In the [Practitioner Academy](04-practitioner-academy.md) it runs on Day 1, seating the doctrine before the instruments arrive on Day 2, with the Handle Map at section 6 acting as the bridge from the story to the workbook modules. Facilitators running either program should read the Practitioner Cut, not only the Practice Cut.
 
 For the practice cut. Timings assume an unhurried telling of about 135 words a minute, with pauses.
 
@@ -404,13 +404,13 @@ For the readers who design the arrangements rather than authorize them: architec
 | Sparrows and the great bird, counted home | Model selection by task weight, and sub-agents dispatched and folded back by an orchestrating run, with fan-out returns validated and counted; a missing sub-result is recorded and handled, never silently absorbed |
 | The one bore of horn, cargo never command | Standardized tool interfaces (Model Context Protocol). Integrate a tool once, not once per bird. Content returned through a tool is data, never instruction; instructions travel only in the channels built to carry them |
 | The meadow, the straw parcels and the counting that never stops | Evaluation. Test harnesses before production, graded promotion by stakes and continuous evaluation for drift, because decay commonly arrives from the world and the corpus rather than the system itself |
-| The gate, the read-aloud manifest and the stopping word | Release gating, and **Informed Intent**: pre-deployment authorization with explicit specification, read aloud before the flight. Stopping criteria and turn budgets, so a run halts and asks rather than running unbounded |
+| The gate, the read-aloud manifest and the stopping word | Release gating, read aloud before the flight, and **Informed Intent**: no AI system acts without prior authorization stating its purpose, authority, boundaries and exit, given by a human who meets the five authorizer conditions. Stopping criteria and turn budgets, so a run halts and asks rather than running unbounded |
 | The flight book, no page no custom | Observability and logging as routine practice, not incident response. Every control produces an artifact a reviewer can ask for; a control with no artifact is an assertion |
 | Gray mornings, bread and feet | Fallback paths and graceful degradation, with preserved human capability as the ultimate fallback |
 | The walked-again rule | Auditability and reproducibility from records. **Slow AI**'s three tests are conjunctive: governed, explained and audited, and audited means the evidence exists before it is asked for |
 | The three questions asked aloud | Delegation decided before build: what the system carries, what existing tooling carries and what stays with people |
 | The second road home | Reversibility as a design precondition for any high-stakes automation |
-| The name before the flight | **Final Liability rests with the Human**: accountability assigned to a named person before anything flies |
+| The name before the flight | **Final Liability rests with the Human**: every material outcome attaches to a named human owner with decision rights, oversight and the power to intervene. The owner is named before anything flies |
 | The satchel with a bottom, packed in order | Abundant context is a design variable, not a safety margin. Capacity is managed by ordering and selection for the errand at hand, not by watching a level; a larger window changes what must be chosen, never whether choosing is done |
 | The quiet flight that proves nothing | Absence of observed failure is not evidence of control. Assurance comes from tests that could have failed and from records of them, never from an uneventful run |
 

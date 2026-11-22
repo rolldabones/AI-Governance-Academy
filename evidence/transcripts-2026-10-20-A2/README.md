@@ -1,6 +1,6 @@
 # Evidence: Academy templates, run A2, 20 October 2026 (KST)
 
-**What.** The transcripts and scores of suite `academy-a2` (cases T01 to T08 of [`../../tests.md`](../../tests.md), three samples each) against the v1.14.1 prompt sections, with the run's `summary.json`, the scorer's per-sample JSON and the harness. The generated outputs are also filed, labeled, in [`../../examples/transcripts-2026-10-20-A2/`](../../examples/transcripts-2026-10-20-A2/).
+**What.** The transcripts and scores of suite `academy-a2` (cases T01 to T08 of [`../../tests.md`](../../tests.md), three samples each) against the v1.14.1 prompt sections, with the run's `summary.json`, the scorer's per-sample JSON and the harness. The generated outputs are also filed, labeled, in [`../../examples/transcripts-2026-10-20-A2/`](../../examples/transcripts-2026-10-20-A2/). Glosses of the three principles inside an output are model output, not doctrine; the doctrines are as stated in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md), the account's single normative statement of the three doctrines.
 
 **When and how.** Run in Michael Paik's Terminal on 20 October 2026, finished 11:22 KST, by the session A2 harness (`harness/a2_run.py`; `harness/a2-vs-a1.diff` shows every change from the run A1 harness: paths, the run name, the v1.14.1 blocks, the HEAD, the `ref` field and three samples). The clone was detached at `11981fc`, the head of pull request rolldabones/AI-Governance-Academy#1, unmerged; `summary.json` records the head and the `ref`. API system prompt, no tools, max_tokens 16000, one user turn per sample. Tested model `claude-opus-5-5`; scorer `claude-sonnet-5-5`, scoring each sample separately against the template's Acceptance Checklist, the case's pass condition and the fail indicators. The fixture was `examples/fictional-client.md` as it stood at v1.14.1, before the Part 2 correction of v1.14.2. LLM scoring is developer testing, not independent assurance.
 
@@ -42,4 +42,4 @@ Model output inside the transcripts is verbatim and is not edited for house styl
 
 ---
 
-Final Liability rests with the Human.
+**Final Liability rests with the Human.**

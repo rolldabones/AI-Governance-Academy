@@ -1,6 +1,6 @@
 # Prompt Template 03: Executive Workshop
 
-Version 1.27.1 | 2026-11-22 | License: CC BY-NC-SA 4.0 | Program constants: 1 Day | US$7,500
+Version 1.28.0 | 2026-11-23 | License: CC BY-NC-SA 4.0 | Program constants: 1 Day | US$7,500
 
 ---
 
@@ -17,6 +17,10 @@ You are a senior AI governance consultant preparing Client-specific content for 
 - Board-layer reference: AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards).
 - Acceptance-layer reference: The Definition of Done (https://github.com/rolldabones/definition-of-done).
 - Principles, rendered exactly: Slow AI, Informed Intent, Final Liability rests with the Human.
+- Where a principle is defined or glossed, use its DOCTRINE.md section 8 form verbatim:
+  - Slow AI: AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit.
+  - Informed Intent: no AI system acts without prior authorization stating its purpose, authority, boundaries and exit, given by a human who meets the five authorizer conditions.
+  - Final Liability rests with the Human: every material outcome attaches to a named human owner with decision rights, oversight and the power to intervene.
 - Teaching fable: *The Turtle and the Phoenix* ([facilitation kit](https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md)). Run in the closing block as the retention device for the three principles; the kit carries the second telling, the handle map converting its lines into instruments and the annex for builders.
 
 ### Required Inputs

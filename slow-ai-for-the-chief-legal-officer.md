@@ -60,11 +60,11 @@ My position is this.
 
 The CLO's emerging role is not primarily to govern AI. It is to govern the human decisions, organizational systems and consequences surrounding AI.
 
-That is what I call **Slow AI**.
+The doctrine beneath that work is what I call **Slow AI**.
 
 Slow AI does not mean slow technology or slow adoption.
 
-It means AI that can be governed, explained and audited before it is deployed, with human agency preserved where consequences matter.
+Slow AI: AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit.
 
 The rule beneath it is blunt: AI that cannot be governed, explained and audited should not be deployed, however fast it would make the business.
 
@@ -563,7 +563,7 @@ Legal should demonstrate governed adoption, not merely prescribe it to everyone 
 
 Slow AI is not an argument for making everything slow.
 
-Slow does not mean uniform friction. It means care at the joints, where judgment and authorization sit, and free movement everywhere else.
+The risk tiers do not mean uniform friction. They put care at the joints, where judgment and authorization sit, and free movement everywhere else.
 
 Low-consequence activity should be easy.
 

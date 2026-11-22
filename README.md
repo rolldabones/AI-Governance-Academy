@@ -1,10 +1,10 @@
 # AI Governance Academy
 
-Version 1.27.1 | 2026-11-22 | Status: published; templates accepted with residuals (see Acceptance status) | Model-agnostic
+Version 1.28.0 | 2026-11-23 | Status: published; templates not accepted, last accepted run A8 with residuals (see Acceptance status) | Model-agnostic
 
-**Acceptance status ([ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md), 9 November 2026, KST):** Accepted with residuals. Run A8 (9 November 2026) of the templates passed the critical case, which tests the no-invention rule on its own, and 7 of the 8 other cases after review; the one failed case, template 02's, stated in one of three letters a current state of the Client that the Client Profile Block does not give. The account's status table is in [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md#instrument-status).
+**Acceptance status ([ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md), 23 November 2026, KST):** Not accepted; last accepted run A8, with residuals. Version 1.28.0 adds to templates 02 to 08 the rule that a principle defined or glossed in Client-facing text uses its [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md) section 8 form verbatim, so the templates await run A9, due 26 November 2026. Run A8 (9 November 2026) of the earlier templates passed the critical case, which tests the no-invention rule on its own, and 7 of the 8 other cases after review; the one failed case, template 02's, stated in one of three letters a current state of the Client that the Client Profile Block does not give. The account's status table is in [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md#instrument-status).
 
-**Caution.** The templates are accepted with residuals under [tests.md](tests.md), not without them: in 1 of 27 samples of the accepting run the model still stated a Client fact the Profile Block does not give, and the program spines have not been checked against a delivered program. Every output rests on the human check at Workflow item 5.
+**Caution.** The templates were last accepted with residuals under [tests.md](tests.md), not without them: in 1 of 27 samples of the accepting run the model still stated a Client fact the Profile Block does not give, two samples of that run glossed the principles outside their canonical forms, and the program spines have not been checked against a delivered program. Every output rests on the human check at Workflow item 5.
 
 This repository has two halves. The first is the Client Content Prompt Pack: eight prompt templates that generate Client-specific sales and delivery content for the AI Governance Academy program options. The second is the Publications: seventeen client-facing pieces, from an essay on how to characterize AI output to a reading of the agentic-commerce stack of 2026 as Informed Intent instruments, an introductory primer on following one request through an enterprise AI service and a unit on strategy for choosing open or closed AI models, published here as the text of record and indexed in [PUBLICATIONS.md](PUBLICATIONS.md). The halves share one version number, one license and one closing line. After the Publications, one entry points to work in progress outside this repository.
 
@@ -16,7 +16,7 @@ This pack contains prompt templates for generating Client-specific sales and del
 
 **Known limitation, open.** The program spines (workshop blocks, session counts, weekly sequence) are structural inferences pending verification against actual delivery design, as recorded in the first release. Verification of 18 October 2026 (Korea Standard Time, KST): checked that each spine agrees with its template's Output Modes, Acceptance Checklist and the durations and prices in the Contents table, and that template 06's evidence collection starts by Week 8; not checked against any delivered program, because the repository holds no delivery record. The limitation stays open until that check is made.
 
-**Test status.** Run A8 of 9 November 2026 (KST), three samples per case, accepted the templates with residuals: the critical case passed every sample, no output named the Profile Block to the Client, every template 02 letter kept within its 450 words, and one sample of template 02 stated a current state of the Client the Profile Block does not give. Eight runs since 18 October 2026 led to it; the record of each, the defects, their codes and their rates are in tests.md. The residual defects are controlled at Workflow item 5, by the human who verifies each output before it reaches the Client.
+**Test status.** The templates at this version have no logged run; run A9 is due on 26 November 2026. Run A8 of 9 November 2026 (KST), three samples per case, accepted the previous text with residuals: the critical case passed every sample, no output named the Profile Block to the Client, every template 02 letter kept within its 450 words, and one sample of template 02 stated a current state of the Client the Profile Block does not give. Eight runs since 18 October 2026 led to it; the record of each, the defects, their codes and their rates are in tests.md. The residual defects are controlled at Workflow item 5, by the human who verifies each output before it reaches the Client.
 
 ### Contents
 
@@ -129,7 +129,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.27.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
+> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.28.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
