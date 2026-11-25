@@ -2,6 +2,14 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.29.0] – 2026-11-25
+
+Minor release: one rule in the prompt sections of templates 02 to 08, built in the remediation session of 25 November 2026 (KST) on Michael Paik's Gate 2 rulings of that day (Q1) and his Phase 0 approval, so that run A10 is made at Test Thursday on 26 November 2026. The rule changes, so acceptance does not carry forward under ACCEPTANCE.md (f): **not accepted; last accepted run A8, with residuals.** Prepared with Claude, approved by Michael Paik.
+
+- **K12, templates 02 to 08, Program Constants.** Old: "Where a principle is defined or glossed, use its DOCTRINE.md section 8 form verbatim:" New: "Where a principle is defined or glossed, quote its DOCTRINE.md section 8 form verbatim as one sentence, its punctuation unchanged; a lead-in may name the doctrine in place of its label (for example "Slow AI holds that"), with the clause that follows exact:" The three section 8 forms under it are unchanged; the cases T02 to T08 are unchanged.
+- **`tests.md`:** K12 fixed in text at v1.29.0, residual until run A10; the status; the defects summary.
+- **README:** acceptance status and test status; every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md` (17 citations and its masthead), the `tests.md` masthead and `CITATION.cff` to v1.29.0.
+
 ## [1.28.1] – 2026-11-25
 
 Patch release, records only. Run A9 of the v1.28.0 text, read and reviewed on Michael Paik's rulings of 25 November 2026 (KST), the first Test Thursday session: **not accepted**; last accepted run A8, with residuals. No template, publication or case changes. Prepared with Claude, approved by Michael Paik.
