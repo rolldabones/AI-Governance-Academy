@@ -2,6 +2,15 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.29.1] – 2026-11-26
+
+Patch release, records only. Run A10 of the v1.29.0 text, the retry the queue placed on Test Thursday, read and reviewed on Michael Paik's rulings of 26 November 2026 (KST): **accepted with residuals**. No template, publication or case changes. Prepared with Claude, approved by Michael Paik.
+
+- **`tests.md`:** run A10 is the Last run (the critical case T09 and 7 of the 8 other cases passed after review, 87.5 percent; T04 failed on K5, accepted model behavior; T08-s2 dissented to PASS); A9 the Previous run; K5 and K12 with the A10 counts, K12 closed; the status.
+- **`evidence/transcripts-2026-11-26-A10/`** and **`examples/transcripts-2026-11-26-A10/`** (new): the 27 transcripts, scores, summary and harness with the diff from run A9; the 27 outputs, labeled, with an index README.
+- **README:** acceptance status and test status after run A10; the evidence paragraph names eleven runs.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md` (17 citations and its masthead), the `tests.md` masthead and `CITATION.cff` to v1.29.1. The prompt sections are unchanged (their digests are those run A10 ran).
+
 ## [1.29.0] – 2026-11-25
 
 Minor release: one rule in the prompt sections of templates 02 to 08, built in the remediation session of 25 November 2026 (KST) on Michael Paik's Gate 2 rulings of that day (Q1) and his Phase 0 approval, so that run A10 is made at Test Thursday on 26 November 2026. The rule changes, so acceptance does not carry forward under ACCEPTANCE.md (f): **not accepted; last accepted run A8, with residuals.** Prepared with Claude, approved by Michael Paik.

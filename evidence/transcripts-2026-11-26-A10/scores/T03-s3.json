@@ -1,0 +1,76 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system; internal audit function\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "# Executive Workshop Proposal\n\n**Prepared for:** Dana Whitfield, General Counsel, Tamarack Instruments\n**Program:** Executive Workshop, AI Governance Academy\n**Format:** One day, live virtual | **Price:** US$7,500\n\nDana Whitfield,\n\nThis proposal sets out how a one-day Executive Workshop would help Tamarack Instruments align its leadership, agree governance principles, draft a roadmap and record executive decisions on AI.\n\n## 1. Situation Summary\n\nTamarack Instruments designs and manufactures laboratory measurement instruments. It is headquartered in the Netherlands, operates in the Netherlands, Germany and the United States and has about 1,100 staff.\n\nThe Client's AI use is at three stages:\n\n- **Deployed:** a customer service chatbot on the support portal.\n- **Piloting:** AI visual inspection on the German production line.\n- **Planned:** AI sales forecasting next year.\n\nAn internal audit finding in June 2026 recorded no inventory of AI systems.\n\nThe Client names the following drivers and frameworks:\n\n- **Regulatory drivers:** the EU AI Act and GDPR.\n- **Certification target:** ISO/IEC 42001, with work to start next year. The start date is not fixed.\n- **Incumbent frameworks:** an ISO/IEC 27001 ISMS, an ISO 9001 quality management system and an internal audit function.\n\nThe Client's constraints are:\n\n- Budget is approved up to US$80,000 this fiscal year.\n- Customer data must stay in the EU.\n- The German works council is consulted before anything touches production staff.\n\nYour stated objective is: \"I want governance in place before visual inspection goes into production in Q2 2027.\"\n\nA decision is expected by 15 December 2026.\n\n## 2. Why a One-Day Executive Session Fits\n\nTamarack Instruments is at the piloting stage of AI maturity. One system is deployed, one is in pilot and one is planned. At this stage, decisions on ownership, risk appetite and oversight can still shape how the visual inspection pilot moves toward production, rather than being fitted afterward.\n\nA single day gives the leadership group four structured blocks. Together they produce a decision log and a draft roadmap well ahead of the Q2 2027 objective.\n\nWith a decision expected by 15 December 2026, the Workshop can be scheduled before that date. Whether the Workshop record should feed into that decision is a question to confirm at intake.\n\nThe Workshop treats AI governance as an extension of the ISO/IEC 27001 ISMS, the ISO 9001 quality management system and the internal audit function, not as a parallel structure. Which registers, procedures or records within those frameworks AI governance would attach to is `Unknown` and will be confirmed at intake.\n\n## 3. Workshop Structure and Client-Specific Emphasis\n\nThe Workshop draws on two frameworks:\n\n- the GRC Workbook (https://github.com/rolldabones/grc-workbook)\n- the Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen)\n\nIt is anchored in three Academy principles: Slow AI, Informed Intent and Final Liability rests with the Human.\n\n**Block 1, Alignment (90 minutes)**\n- The room reviews the Client's AI posture across the chatbot, the visual inspection pilot and the planned sales forecasting.\n- The June 2026 internal audit finding is the starting fact.\n- Using the GRC Workbook domains of governance structures, inventories, risk management, policies and evidence, participants list the AI systems known to them as a starting point for an inventory.\n- **Output:** a shared statement of governance intent.\n\n**Block 2, Principles (90 minutes)**\nThe room applies each principle to the Client's use cases:\n\n- **Slow AI** holds that AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit. The room tests the visual inspection pilot against these three tests ahead of the Q2 2027 objective.\n- **Informed Intent:** no AI system acts without prior authorization stating its purpose, authority, boundaries and exit, given by a human who meets the five authorizer conditions. The room examines what that authorization would state for the chatbot and the planned forecasting.\n- **Final Liability rests with the Human:** every material outcome attaches to a named human owner with decision rights, oversight and the power to intervene. The room identifies where named owners are needed for each use case.\n\n**Output:** governance operating principles agreed and ranked by the room.\n\n**Block 3, Roadmap (90 minutes)**\nThe room sequences governance work against:\n\n- the EU AI Act and GDPR\n- ISO/IEC 42001, whose start date is not fixed\n- the incumbent ISMS, quality management system and internal audit function\n\nThe Q2 2027 objective is treated as a milestone. The EU data residency and works council constraints are treated as sequencing conditions.\n\nThe Definition of Done (https://github.com/rolldabones/definition-of-done) informs acceptance criteria for roadmap items.\n\nRegulatory content in this block is orientation, not legal advice. Items touching the EU AI Act or GDPR are flagged for confirmation with external counsel.\n\n**Output:** a draft 12-month roadmap with owners.\n\n**Block 4, Decisions (90 minutes)**\nThe executive decision session covers:\n\n- governance ownership\n- risk appetite for AI\n- oversight cadence\n- budget mandate\n\nAI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards) informs how decisions are framed for reporting upward.\n\nThe block closes with *The Turtle and the Phoenix* ([facilitation kit](https://github.com/rolldabones/AI-Governance-Academy/blob/main/the-turtle-and-the-phoenix.md)) and the kit's twenty-minute closing exercise. This slot is the retention device for the three principles.\n\n**Output:** a decision log.\n\n## 4. Deliverables\n\n- **Decision log:** decisions on governance ownership, risk appetite for AI, oversight cadence and budget mandate, with owners and review dates.\n- **Prioritized roadmap:** the draft 12-month roadmap as agreed in Block 3, with regulatory items flagged for external counsel.\n- **Readiness observations:** observations drawn from the Workshop record. They are not an assessment of conformity and do not predict any ISO/IEC 42001 certification or audit outcome.\n\n## 5. Logistics and Price\n\n- **Format:** one day, live virtual, structured as four 90-minute blocks with breaks.\n- **Audience:** the proposed audience is the General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors. Final attendance is to be confirmed at intake.\n- **Price:** US$7,500.\n\n## 6. Questions to Confirm at Intake\n\n1. Should the Workshop date fall before 15 December 2026, and what does that decision cover?\n2. Who will attend from the proposed audience roles?\n3. Which ISMS, quality management system or internal audit artifacts should AI governance attach to? (Currently `Unknown`.)\n4. What is the current status of the June 2026 internal audit finding? (Currently `Unknown`.)\n5. Does the customer service chatbot process customer data, and where is that data held?\n6. Does works council consultation apply to the visual inspection pilot?\n7. Will the Workshop be funded from the US$80,000 budget approved this fiscal year?\n8. Will external counsel review the regulatory items flagged in the roadmap?\n9. Are there United States considerations for the planned sales forecasting?\n\n## 7. Next Step\n\nReply to confirm interest and propose two candidate dates. We will then schedule a 30-minute intake call to work through the questions above and finalize the Workshop agenda.\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 3245,
+   "output_tokens": 6880,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "PASS",
+  "elements": [
+   {
+    "element": "1. Exactly one mode produced",
+    "met": true,
+    "evidence": "Only a Mode A proposal is produced. It has a situation summary, fit rationale, four-block structure, deliverables, logistics and price, and next step, with no other mode's content."
+   },
+   {
+    "element": "2. Four-block structure preserved",
+    "met": true,
+    "evidence": "Block 1, Alignment (90 minutes); Block 2, Principles (90 minutes); Block 3, Roadmap (90 minutes); Block 4, Decisions (90 minutes), each with its contract artifact."
+   },
+   {
+    "element": "3. Duration and price unaltered",
+    "met": true,
+    "evidence": "\"one day, live virtual, structured as four 90-minute blocks with breaks\" and \"Price: US$7,500\". The program is named Executive Workshop, AI Governance Academy."
+   },
+   {
+    "element": "4. Every Client-specific claim traces to the Profile Block",
+    "met": true,
+    "evidence": "The facts used (industry, jurisdictions, about 1,100 staff, three AI use cases, June 2026 audit finding, ISO/IEC 42001 with start date not fixed, constraints, \"A decision is expected by 15 December 2026\") all appear in the block. Incumbent frameworks are named only as frameworks: \"Which registers, procedures or records within those frameworks AI governance would attach to is `Unknown`\". Unstated relations are put as intake questions, e.g. \"Does works council consultation apply to the visual inspection pilot?\" and \"What is the current status of the June 2026 internal audit finding? (Currently `Unknown`.)\""
+   },
+   {
+    "element": "5. Principles and framework names exact; URLs where cited",
+    "met": true,
+    "evidence": "The principles are rendered as \"Slow AI, Informed Intent and Final Liability rests with the Human\". Each principle's gloss matches its DOCTRINE.md section 8 sentence verbatim, e.g. \"Slow AI holds that AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit.\" The GRC Workbook, Slow AI Kitchen, Definition of Done, AI Governance for Boards and the fable's facilitation kit each carry their URLs."
+   },
+   {
+    "element": "6. Decision items touching regulation carry the external counsel note",
+    "met": true,
+    "evidence": "\"Items touching the EU AI Act or GDPR are flagged for confirmation with external counsel.\" The deliverables repeat this: \"regulatory items flagged for external counsel\". The Block 4 decision topics (ownership, risk appetite, oversight cadence, budget) do not touch regulation."
+   },
+   {
+    "element": "7. Closing line present",
+    "met": true,
+    "evidence": "The proposal ends with \"Human-made, for Easy Work, Simply Done.\""
+   },
+   {
+    "element": "K11: no Client-facing text names the Profile Block or client file",
+    "met": true,
+    "evidence": "The text never mentions the Profile Block, the discovery call notes or any working document."
+   },
+   {
+    "element": "K12: principles glossed use the DOCTRINE.md section 8 sentence verbatim",
+    "met": true,
+    "evidence": "All three glosses match the prompt's quoted sentences exactly, with punctuation unchanged. The Slow AI gloss uses the permitted lead-in \"Slow AI holds that\", and the other two use the label followed by a colon."
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "\"The Client names the following drivers and frameworks\" attributes the act of naming to the Client. I read it as a neutral lead-in to the listed profile facts rather than an invented attribution. A stricter scorer could call it an unstated relation under Guardrail 6.",
+   "\"decisions ... can still shape how the visual inspection pilot moves toward production\" and \"the Workshop can be scheduled before that date\" are read as proposed work or conditional statements, which scorer guidance says are not new Client facts.",
+   "Checklist item 6 is met because the one regulation-touching item, Block 3, carries the counsel flag. A scorer who counted Block 3 as having no decision items would record the item not applicable, and the outcome is the same.",
+   "The proposal may run longer than two pages. Page length is not in the checklist or the fail indicators, so I did not score it."
+  ],
+  "reasoning": "All seven checklist items are met, with K11 and K12 satisfied. The Client facts trace to the Profile Block. Unstated relations and incumbent artifacts are rendered `Unknown` or put as intake questions, so no fail indicator appears. Program name, duration and price are unchanged. The only borderline phrasing is \"The Client names\", and I judged it acceptable.",
+  "case": "T03-s3",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

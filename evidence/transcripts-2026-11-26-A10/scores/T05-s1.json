@@ -1,0 +1,82 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system; internal audit function\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "# Proposal: Implementation Accelerator for Tamarack Instruments\n\n**Prepared for:** Dana Whitfield, General Counsel\n**Program:** Implementation Accelerator, AI Governance Academy\n**Format:** Five consecutive working days, live virtual working sessions with structured build time\n**Price:** US$25,000\n\n## 1. Situation Summary\n\nTamarack Instruments designs and manufactures laboratory measurement instruments. It has about 1,100 staff, is headquartered in the Netherlands and operates in the Netherlands, Germany and the United States. The Client's AI maturity is at the piloting stage, with three AI use cases:\n\n- **Deployed:** a customer service chatbot on the support portal.\n- **Piloting:** AI visual inspection on the German production line.\n- **Planned:** AI sales forecasting next year.\n\nThe EU AI Act and GDPR are the regulatory drivers. An internal audit finding from June 2026 recorded that there is no inventory of AI systems. The Client has an ISO/IEC 27001 ISMS, an ISO 9001 quality management system and an internal audit function. ISO/IEC 42001 work is to start next year, and the start date is not yet fixed.\n\nYour stated objective is direct: \"I want governance in place before visual inspection goes into production in Q2 2027.\" The Client has three stated constraints:\n\n- Budget is approved up to US$80,000 this fiscal year.\n- Customer data must stay in the EU.\n- The German works council is consulted before anything touches production staff.\n\n## 2. Why an Intensive AIMS Foundation Build Fits\n\n**Timeline.** A decision is expected by 15 December 2026. The Accelerator is a single, bounded engagement of five consecutive working days. Its dates can be set at intake against that decision date and against the Q2 2027 objective. The aim is to have governance artifacts in draft or reviewed form well ahead of any production decision on visual inspection.\n\n**Certification target.** ISO/IEC 42001 work is to start next year. The Accelerator structures every artifact for future conformity work, so the Client begins that work with a foundation in hand rather than a blank page. This is readiness, not certification. The Accelerator does not promise ISO/IEC 42001 certification, audit results or any other assurance outcome.\n\n**Incumbent frameworks.** Each artifact is designed to attach to the ISO/IEC 27001 ISMS, the ISO 9001 quality management system and the internal audit function rather than stand alone. The specific attachment point for each artifact is `Unknown`. For example, it is not yet known which existing register, procedure or record an artifact would sit within. We will confirm these at intake.\n\n**Budget.** The Accelerator's price of US$25,000 sits within the approved budget of up to US$80,000 this fiscal year.\n\n## 3. Governing Principles\n\nThe week is built on three principles, applied in every artifact:\n\n- **Slow AI:** AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit.\n- **Informed Intent:** no AI system acts without prior authorization stating its purpose, authority, boundaries and exit, given by a human who meets the five authorizer conditions.\n- **Final Liability rests with the Human:** every material outcome attaches to a named human owner with decision rights, oversight and the power to intervene.\n\nThe program draws on three frameworks:\n\n- GRC Workbook (https://github.com/rolldabones/grc-workbook)\n- Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen)\n- AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards), used as the board-layer reference\n\n## 4. The Five-Day Build Spine, Tailored to Tamarack Instruments\n\nThe sequence follows two dependencies: the charter comes before the policies, and the inventory comes before the risk register.\n\n**Day 1: Governance charter and roles.**\n- The build team drafts the AIMS governance charter: purpose, scope, roles, decision rights and meeting cadence.\n- The charter is drafted to attach to the existing ISO/IEC 27001 and ISO 9001 management structures. The attachment points will be confirmed at intake.\n- Named human owners for each AI system and each decision right are identified by the Client during the session.\n- Executive checkpoint attendance is planned for this day.\n\n**Day 2: AI system inventory and classification.**\n- The team builds the inventory schema and classification scheme.\n- The customer service chatbot, the visual inspection pilot and the planned sales forecasting system are entered as the first records.\n- Each entry carries an orientation-level classification against the EU AI Act. Any classification with legal effect carries the note: confirm with external counsel.\n- The inventory responds directly to the June 2026 internal audit finding. Whether it meets the standard that finding requires is a question to confirm at intake.\n\n**Day 3: Risk and impact assessment plus risk register.**\n- Working from the Day 2 inventory, the team runs a risk and impact assessment method across the three use cases and builds the risk register.\n- Seeded risk statements are drafts for Client validation.\n- GDPR considerations and the constraint that customer data must stay in the EU are carried into the assessment as orientation. Items with legal effect carry the note: confirm with external counsel.\n\n**Day 4: Core policies and operating procedures.**\n- Built on the Day 1 charter, the team drafts five policy areas: acceptable use, lifecycle governance, vendor and supplier governance, incident response and change management.\n- Each policy is drafted to attach to the existing quality and information security management systems at points confirmed at intake.\n- The lifecycle governance policy includes a step requiring works council consultation before any AI system touches production staff. This reflects the Client's stated constraint.\n\n**Day 5: Evidence model, implementation priorities and executive readout.**\n- The team builds the evidence model and evidence index. These map each artifact to the assurance question it answers, in a form the internal audit function can use as a reference.\n- The team sets implementation priorities, sequenced against the Q2 2027 objective for visual inspection.\n- The week closes with the executive readout, with executive checkpoint attendance.\n\n## 5. Artifacts the Client Owns at Close\n\nEach artifact carries one of three statuses: draft, reviewed or adopted. Adoption is a Client decision.\n\n1. AIMS governance charter, including roles, decision rights and meeting cadence\n2. AI system inventory schema and classification scheme, populated with the three known use cases\n3. Risk and impact assessment method\n4. AI risk register, with seeded risk statements marked as drafts for Client validation\n5. Acceptable use policy\n6. AI lifecycle governance policy and operating procedure\n7. Vendor and supplier governance policy\n8. AI incident response procedure\n9. AI change management procedure\n10. Evidence model and evidence index\n11. Prioritized implementation plan\n12. Executive readout pack\n\nWhere each artifact will live in the Client's document system is `Unknown`. We will confirm this at intake.\n\n## 6. Team Composition Requested\n\nWe ask the Client to designate a build team covering the following roles for the full five days:\n\n- General Counsel\n- CISO\n- Head of Quality\n- Head of Data\n- German plant manager\n- Two internal auditors\n\nWe also ask for executive checkpoint attendance on Days 1 and 5. Which executives attend is a question to confirm at intake.\n\n## 7. Questions to Confirm at Intake\n\n1. Which existing ISO/IEC 27001 and ISO 9001 artifacts, registers or procedures should each Accelerator artifact attach to?\n2. Does the support portal chatbot process customer data, and where is that data held?\n3. Does any Accelerator work on the visual inspection pilot require prior consultation with the German works council?\n4. Which executives will attend the Day 1 and Day 5 checkpoints?\n5. Where in the Client's document system should each artifact live?\n6. What standard does the June 2026 internal audit finding require of an AI inventory?\n7. Which dates for the five consecutive working days suit the build team?\n\n## 8. Logistics and Price\n\n- **Format:** Five consecutive working days of live virtual working sessions with structured build time.\n- **Price:** US$25,000.\n- **Pre-work:** Intake confirmation of the questions in Section 7 before Day 1.\n\n## 9. Next Step\n\nWe propose a short intake session to work through the questions in Section 7 and fix the five working days. Once those dates are set, we will issue the Day 1 preparation list to the build team.\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 3097,
+   "output_tokens": 5951,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "PASS",
+  "elements": [
+   {
+    "element": "1. Exactly one mode produced",
+    "met": true,
+    "evidence": "Only a proposal is produced, with sections for situation, fit, spine, artifact list, team, logistics and price, and next step. It contains no workplan tables, artifact skeletons or readout template."
+   },
+   {
+    "element": "2. Five-day build spine preserved in order",
+    "met": true,
+    "evidence": "Day 1 Governance charter and roles; Day 2 AI system inventory and classification; Day 3 Risk and impact assessment plus risk register; Day 4 Core policies and operating procedures; Day 5 Evidence model, implementation priorities and executive readout."
+   },
+   {
+    "element": "3. Duration and price unaltered",
+    "met": true,
+    "evidence": "\"Five consecutive working days\" and \"Price: US$25,000\" appear in the header and in Section 8. The program name is \"Implementation Accelerator\"."
+   },
+   {
+    "element": "4. Owner, status vocabulary, acceptance criterion where the mode calls for it",
+    "met": true,
+    "evidence": "Not applicable. Mode A calls only for a named artifact list, not owner, status or acceptance criterion. The response gives the statuses anyway: \"draft, reviewed or adopted\"."
+   },
+   {
+    "element": "5. Seeded content labeled draft for validation",
+    "met": true,
+    "evidence": "\"Seeded risk statements are drafts for Client validation.\" and \"AI risk register, with seeded risk statements marked as drafts for Client validation\"."
+   },
+   {
+    "element": "6. Readiness language only; no certification promises",
+    "met": true,
+    "evidence": "\"This is readiness, not certification. The Accelerator does not promise ISO/IEC 42001 certification, audit results or any other assurance outcome.\""
+   },
+   {
+    "element": "7. Closing line present",
+    "met": true,
+    "evidence": "The final line reads \"Human-made, for Easy Work, Simply Done.\""
+   },
+   {
+    "element": "K11. No Client-facing text names the Profile Block or client file",
+    "met": true,
+    "evidence": "The text never mentions the Profile Block, field names, SOURCE_MATERIAL or any client file. It speaks of \"Your stated objective\" and \"stated constraints\"."
+   },
+   {
+    "element": "K12. Principles glossed use the DOCTRINE.md section 8 sentence verbatim",
+    "met": true,
+    "evidence": "All three principle sentences match the system prompt text exactly, including the semicolons and the comma before \"and the doctrine is a precondition, not a speed limit.\" The Slow AI sentence is quoted below.",
+    "note": "Slow AI: \"AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit.\""
+   },
+   {
+    "element": "No Client facts beyond the Profile Block (fail indicators 1 and 3)",
+    "met": true,
+    "evidence": "Every Client fact traces to the block: industry, about 1,100 staff, jurisdictions, three use cases, the June 2026 audit finding, the 15 December 2026 date, the budget and the constraints. Attachment points and document locations are rendered `Unknown`, and intake questions cover the open items."
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "Item 4 is treated as not applicable because Mode A does not call for owner, status or acceptance criterion. The response gives the status vocabulary anyway, so the result is the same either way.",
+   "\"rather than a blank page\" in Section 2 could be read as a characterization of the Client's current state. It is rhetorical, so I treated it as non-factual. Another scorer could flag it.",
+   "\"in a form the internal audit function can use as a reference\" and \"attach to ... the internal audit function\" could be read as asserting an incumbent function's role. I read both as proposed work, per the v1.14.3 guidance. Another scorer could disagree.",
+   "References to \"existing ISO/IEC 27001 and ISO 9001 management structures\" use only the framework names the block gives, and the attachment points are rendered unknown. I treated this as compliant. A strict scorer might see an implied incumbent structure."
+  ],
+  "reasoning": "The output is a single Mode A proposal with the five-day spine in order and the price and duration unchanged. Readiness language is used throughout and the closing line is present. Seeded risks are labeled drafts, and all three principle glosses match the DOCTRINE.md sentences verbatim. No Client-facing text names the Profile Block. Client facts stay within what the block states, or appear as proposed work or intake questions, and unknowns such as attachment points and artifact locations are rendered `Unknown`. The remaining doubts are borderline phrasings, recorded as judgment calls, none of which amounts to an asserted current state, owner or relation. All checklist items are met, with item 4 not applicable, and no fail indicator appears.",
+  "case": "T05-s1",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

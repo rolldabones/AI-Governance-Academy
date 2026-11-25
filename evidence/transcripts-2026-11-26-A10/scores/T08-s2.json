@@ -1,0 +1,84 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system; internal audit function\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "# One Workflow, Thirty Days\n\n**Proposal to Dana Whitfield, Tamarack Instruments**\n\n## 1. Situation\n\nTamarack Instruments designs and manufactures laboratory measurement instruments. It has its headquarters in the Netherlands, operates in the Netherlands, Germany and the United States and has about 1,100 staff. Its AI use cases are:\n\n* a customer service chatbot deployed on the support portal\n* AI visual inspection being piloted on the German production line\n* AI sales forecasting planned for next year\n\nAn internal audit finding in June 2026 recorded no inventory of AI systems. The Client's regulatory drivers are the EU AI Act and GDPR. Work toward ISO/IEC 42001 is to start next year, and the start date is not fixed.\n\nDana Whitfield states the objective: \"I want governance in place before visual inspection goes into production in Q2 2027.\" A decision is expected by 15 December 2026.\n\n## 2. The Workflow Proposed\n\nWe propose AI visual inspection on the German production line as the one workflow for the engagement. It fits the Client for three reasons:\n\n* **It matches the objective.** It is the use case the stated objective names.\n* **It matches the Client's maturity.** At a Piloting maturity, a workflow still in pilot lets the engagement authorize a bounded rehearsal and run supervised AI cases before any production use.\n* **It matches the timeline.** Evidence would be on the record well ahead of the Q2 2027 production date in the objective. A decision is expected by 15 December 2026. Whether Day 30 should fall before that date is a question to confirm at intake.\n\n**Alternative candidate.** The deployed customer service chatbot would also be assessed. The constraint that customer data must stay in the EU would bear on it directly.\n\n**Final selection.** The final selection is made in W02, not in this proposal. W02 scores candidates against the benefit scale's four factors: volume, active human effort per unit, rework and queue burden and the consequence of better or faster output.\n\n**Works council.** The German works council is to be consulted before anything touches production staff. Whether the discovery interviews, the bounded rehearsal or the supervised cases touch production staff is a question to confirm at intake. So is the date by which consultation must be complete.\n\n## 3. The Thirty Days\n\nThe engagement takes the selected workflow through the twelve steps of the Slow AI Kitchen under the working records of the Consultant Workbook. It follows the Workbook's thirty-day calendar on Client working days.\n\nThe Workbook plans that calendar for one workflow with five to six interviewees and 20 cases. That is the Workbook's planning default, not a headcount for this engagement.\n\n**Days 1 to 5 (scope, W01 to W05 and W15 started)**\n* The W01 charter is drafted for signature by the sponsor and the business owner. The business owner of visual inspection is `Unknown` and is confirmed at intake.\n* W02 confirms the workflow selection.\n* W15 is started to set the thresholds against which results will be judged.\n* Emphasis: settle the works council question before any interview with production staff.\n\n**Days 6 to 10 (bounded rehearsal authorized, W06 to W11, W12 and W22)**\n* The rehearsal is authorized under Informed Intent before any AI case runs. Its purpose, authority, boundaries and exit are recorded in writing.\n* Emphasis: the rehearsal's boundaries are drawn so that it does not reach production use.\n\n**Days 11 to 20 (matched baseline and supervised AI cases, W13 to W19, sponsor reports at Days 15 and 20)**\n* Supervised AI cases are measured against a matched baseline.\n* Failures and the actions taken on them are recorded in W19.\n* Dana Whitfield receives sponsor reports at Days 15 and 20. Each report informs a decision; it is not one.\n\n**Days 21 to 25 (evidence challenged, W17 and W19 to W22 current)**\n* The results record W17 and records W19 to W22 are brought current.\n* The evidence is challenged before any recommendation is drafted.\n\n**Days 26 to 30 (independent challenge, sponsor report 3 with the decision pack at Day 28, sponsor decision and handover, W23 and W24 signed)**\n* The recommendation is independently challenged.\n* Sponsor report 3 and the decision pack reach Dana Whitfield at Day 28.\n* The Day 30 decision is recorded in W23, and the handover is recorded in W24.\n* Whether the internal audit function, including its two internal auditors, has a part in the independent challenge is a question to confirm at intake.\n\n## 4. Deliverables\n\n* The signed W01 charter\n* The evidence register and decision pack W14\n* The results record W17\n* The Day 30 recommendation and decision W23\n* The handover W24\n\n## 5. The Day 30 Decision\n\nOn Day 30 the sponsor decides on the evidence to expand the specified scope, revise or stop. No outcome is promised. The engagement makes no certification or audit outcome promise, including for ISO/IEC 42001.\n\nThe engagement rests on three principles:\n\n* **Slow AI** holds that AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit.\n* **Informed Intent** holds that no AI system acts without prior authorization stating its purpose, authority, boundaries and exit, given by a human who meets the five authorizer conditions.\n* **Final Liability rests with the Human** holds that every material outcome attaches to a named human owner with decision rights, oversight and the power to intervene.\n\n## 6. Fit With Existing Frameworks\n\nThe engagement's records are positioned as evidence within the Client's existing frameworks rather than as a parallel system. The attachment point in each framework is confirmed at intake.\n\n| Client framework | Attachment point |\n| --- | --- |\n| ISO/IEC 27001 ISMS | `Unknown` |\n| ISO 9001 quality management system | `Unknown` |\n| Internal audit function | `Unknown` |\n\nThe engagement covers one workflow and does not produce an inventory of AI systems. How its records relate to the response to the June 2026 internal audit finding is a question to confirm at intake.\n\n## 7. Regulatory Orientation\n\nThis section is orientation, not legal advice. The following items are flagged for external counsel:\n\n* the classification of AI visual inspection under the EU AI Act and the obligations that follow for the Client's role\n* whether data processed in the visual inspection workflow includes personal data of production staff and so falls under GDPR\n* the scope and timing of works council consultation under German law\n* the relevance of United States law to the selected workflow, which is `Unknown`\n\n## 8. Logistics\n\n* **Duration:** 30 days, placed on Client working days.\n* **Price:** by proposal.\n* **Headcount:** by proposal.\n* **Participants:** the sponsor, the business owner of the workflow, its operators and reviewers, the technical owner and the receiving owner at handover. Legal, Risk and Compliance join where the workflow's obligations require them.\n* **Client roles named for the audience:** the General Counsel, the CISO, the Head of Quality, the Head of Data, the German plant manager and two internal auditors. Which of these roles hold which engagement roles is confirmed at intake.\n* **Frameworks and references:**\n  * GRC Workbook (https://github.com/rolldabones/grc-workbook)\n  * Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen)\n  * Consultant Workbook (https://github.com/rolldabones/slow-ai-kitchen/blob/main/consultant-workbook.md)\n  * AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards)\n  * The Definition of Done (https://github.com/rolldabones/definition-of-done)\n\n## 9. Next Step\n\nWe propose an intake session with Dana Whitfield to confirm the following:\n\n* the business owner, technical owner and receiving owner for the workflow\n* the works council consultation timing\n* the start date and where Day 30 falls\n* the framework attachment points\n* the items for external counsel\n\nThe pre-work packet for Day 1 follows the intake session.\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 3939,
+   "output_tokens": 7711,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "FAIL",
+  "elements": [
+   {
+    "element": "1. Exactly one mode produced",
+    "met": true,
+    "evidence": "Only a Mode A proposal addressed to Dana Whitfield is produced, with no other mode content."
+   },
+   {
+    "element": "2. Five-period spine and Day 30 decision preserved",
+    "met": true,
+    "evidence": "All five periods are named exactly, from 'Days 1 to 5 (scope, W01 to W05 and W15 started)' to 'Days 26 to 30 (independent challenge, sponsor report 3 with the decision pack at Day 28...)'. Section 5 reads 'the sponsor decides on the evidence to expand the specified scope, revise or stop. No outcome is promised.'"
+   },
+   {
+    "element": "3. Duration unaltered; price and headcount as by proposal with no figure",
+    "met": true,
+    "evidence": "'Duration: 30 days', 'Price: by proposal.', 'Headcount: by proposal.' The US$80,000 budget is not stated. 'five to six interviewees and 20 cases' is cited as the Workbook's planning default, not a headcount. 'about 1,100 staff' is a Client fact, not an engagement headcount."
+   },
+   {
+    "element": "4. Every Client-specific claim traces to the Profile Block",
+    "met": false,
+    "evidence": "'Whether the internal audit function, including its two internal auditors, has a part in the independent challenge is a question to confirm at intake.' The Profile Block lists 'internal audit function' under INCUMBENT_FRAMEWORKS and 'two internal auditors' under AUDIENCE_ROLES. It states no relation between them. Saying the function includes 'its' two auditors asserts a membership relation the block does not give (Guardrail 6)."
+   },
+   {
+    "element": "5. Principles and framework names exact; URLs where cited",
+    "met": true,
+    "evidence": "All three principle sentences match the DOCTRINE.md section 8 clauses, for example 'Slow AI holds that AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit.' Section 8 gives all five URLs."
+   },
+   {
+    "element": "6. Every W-record cited exists (W01 to W24A)",
+    "met": true,
+    "evidence": "Records cited are W01 to W05, W06 to W11, W12, W13 to W19, W14, W15, W17, W19 to W22, W23 and W24. All fall within W01 to W24A and are used consistently with the Workbook's descriptions."
+   },
+   {
+    "element": "7. Decision items touching regulation carry the external counsel note",
+    "met": true,
+    "evidence": "Section 7 reads 'This section is orientation, not legal advice. The following items are flagged for external counsel:', then lists EU AI Act classification, GDPR, works council consultation under German law and US law."
+   },
+   {
+    "element": "8. Closing line present",
+    "met": true,
+    "evidence": "The final line is 'Human-made, for Easy Work, Simply Done.'"
+   },
+   {
+    "element": "No Client-facing text names the Profile Block or client file (K11)",
+    "met": true,
+    "evidence": "The text contains no reference to the Profile Block, the discovery notes or any working document."
+   },
+   {
+    "element": "Principles defined or glossed use DOCTRINE.md section 8 form verbatim (K12)",
+    "met": true,
+    "evidence": "Each gloss is a lead-in ('holds that') followed by the exact clause with its punctuation unchanged."
+   }
+  ],
+  "fail_indicators_seen": [
+   "A fact about the Client that the input does not contain is presented as fact: 'the internal audit function, including its two internal auditors' asserts that the two internal auditors belong to the internal audit function. The Profile Block does not state this."
+  ],
+  "judgment_calls": [
+   "The phrase 'including its two internal auditors' is the sole basis for FAIL. It sits inside a 'whether ... is a question to confirm' sentence, but the clause 'including its two internal auditors' still asserts membership. Another scorer could treat it as an obvious, harmless implication of AUDIENCE_ROLES plus INCUMBENT_FRAMEWORKS and PASS the case.",
+   "The chatbot sentence 'The constraint that customer data must stay in the EU would bear on it directly' was treated as a consequence of a stated constraint applied to a stated system, which v1.14.3 guidance permits.",
+   "'the response to the June 2026 internal audit finding' presupposes a response exists. It was treated as part of a question to confirm, not as an asserted Client fact.",
+   "The proposal is probably longer than two pages. The checklist does not score length, so it was not counted.",
+   "The Slow AI Kitchen and the Consultant Workbook are named in Section 3 without a URL, but their URLs appear in Section 8. This was treated as meeting 'URLs where cited'."
+  ],
+  "reasoning": "The response meets most of the contract: one mode, the exact spine, Day 30 decision, price and headcount by proposal, valid W-records, the counsel note, verbatim principles and the closing line. It also renders incumbent-framework attachment points as Unknown. It slips on Guardrail 6 and checklist item 4 with 'the internal audit function, including its two internal auditors'. That phrase links two separate Profile Block facts, the incumbent function and the audience role, into a membership relation the block does not state. Under the instrument's strict rule against inferred relations and the pass condition that partial compliance is FAIL, this fails item 4 and trips the fail indicator on unsupported Client facts.",
+  "case": "T08-s2",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}
