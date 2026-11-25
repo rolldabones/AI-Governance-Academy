@@ -1,0 +1,76 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system; internal audit function\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nPrior program report: none. The Client has not completed a prior Academy program.\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "# Proposal: Fractional AI Governance Advisor\n\n**Prepared for:** Dana Whitfield, General Counsel, Tamarack Instruments\n**Program:** Fractional AI Governance Advisor, AI Governance Academy\n**Term:** 12 months, renewable | **Fee:** US$10,000 per month\n\n## 1. Situation Summary\n\nTamarack Instruments designs and manufactures laboratory measurement instruments. It has about 1,100 staff, its headquarters jurisdiction is the Netherlands and it operates in the Netherlands, Germany and the United States. The Client's AI maturity is Piloting. It has three AI use cases:\n\n- **Deployed:** a customer service chatbot on the support portal.\n- **Piloting:** AI visual inspection on the German production line.\n- **Planned:** AI sales forecasting next year.\n\nThe Client's regulatory drivers are the EU AI Act and GDPR. Its certification target is ISO/IEC 42001, with work to start next year. The start date for that work is not fixed.\n\nThe Client names three incumbent frameworks: an ISO/IEC 27001 ISMS, an ISO 9001 quality management system and an internal audit function. An internal audit finding in June 2026 recorded that there is no inventory of AI systems.\n\nDana Whitfield stated the objective for this engagement: \"I want governance in place before visual inspection goes into production in Q2 2027.\"\n\nThe Client has stated three constraints:\n\n- Approved budget is up to US$80,000 this fiscal year.\n- Customer data must stay in the EU.\n- The German works council is consulted before anything touches production staff.\n\nThe Client has not completed a prior Academy program, so this engagement begins without inherited open items. A decision is expected by 15 December 2026.\n\n## 2. The Case for Continuous Fractional Advisory at This Stage\n\nAt the Piloting stage, one system is already deployed, one is approaching production and one is planned. Governance therefore has to keep pace with a series of transitions rather than a single launch. Each transition creates its own decisions:\n\n- who authorizes the system\n- on what terms it operates\n- who owns its outcomes\n- what evidence will later support an ISO/IEC 42001 readiness assessment\n\nA one-time assessment would capture the position at a single point. Continuous fractional advisory keeps senior governance judgment available as the visual inspection pilot moves toward production, as ISO/IEC 42001 work begins and as sales forecasting is planned. It does this without adding headcount.\n\nThe engagement applies three principles throughout:\n\n- **Slow AI:** AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit.\n- **Informed Intent:** no AI system acts without prior authorization stating its purpose, authority, boundaries and exit, given by a human who meets the five authorizer conditions.\n- **Final Liability rests with the Human:** every material outcome attaches to a named human owner with decision rights, oversight and the power to intervene.\n\nThe program uses two working frameworks:\n\n- the GRC Workbook (https://github.com/rolldabones/grc-workbook)\n- the Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen)\n\nBoard-level reporting draws on AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards).\n\n## 3. The Annual Arc\n\nThe program start date is Unknown and is the first item to confirm at intake. The arc below is written in program quarters. It concentrates visual inspection governance in Quarters 1 and 2 so that the work can be completed before production in Q2 2027. The specific production date within Q2 2027 is Unknown. If the program begins later than early 2027, the visual inspection work would be compressed and the sequence revisited at intake.\n\nISO/IEC 42001 audit preparation intensity is placed in Quarters 3 and 4. It will be realigned once the start date for that work and any external audit date are known. Both are currently Unknown.\n\n### Quarter 1: Stabilize\n\nThe program will:\n\n- Establish an inventory of AI systems in response to the June 2026 internal audit finding, using the GRC Workbook (https://github.com/rolldabones/grc-workbook) as the working structure.\n- Draft Informed Intent authorization records for the chatbot and the visual inspection pilot.\n- Propose a named human owner for each system.\n- Prepare questions on the EU AI Act classification of each system and on GDPR treatment, flagged for verification by external counsel.\n\nQuestions to confirm at intake:\n\n- Whether and when works council consultation applies to the visual inspection pilot.\n- How the customer data residency constraint applies to each system.\n\n### Quarter 2: Deepen and Gate\n\nThe program will:\n\n- Prepare a production readiness gate for visual inspection, structured around the three Slow AI tests using the Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen).\n- Define the evidence needed at the gate.\n- Provide executive decision support for the go or no go decision.\n- Confirm the owner who carries Final Liability rests with the Human for the system in production.\n\n### Quarter 3: Assure\n\nThe program will:\n\n- Prepare an ISO/IEC 42001 readiness assessment, scope options and an evidence collection plan.\n- Support the internal audit function in planning its review of AI governance.\n\nQuestion to confirm at intake: whether the Client wants ISO/IEC 42001 work integrated with its ISO/IEC 27001 ISMS and ISO 9001 quality management system, and to what extent.\n\n### Quarter 4: Evolve\n\nThe program will:\n\n- Draft the Informed Intent authorization and ownership model for AI sales forecasting ahead of its planned deployment.\n- Prepare a board-level governance summary using AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards).\n- Update the ISO/IEC 42001 readiness position.\n- Prepare a renewal options memo.\n\n## 4. Cadence and Access Model\n\nThe program provides four forms of access:\n\n- **Monthly executive advisory session:** decisions, risks and regulatory developments flagged for counsel verification.\n- **Monthly working session with the governance team:** artifacts and implementation.\n- **Asynchronous availability:** for defined question categories, with response windows agreed at intake.\n- **Quarterly governance review:** progress against this arc.\n\nThe roles named for this engagement are General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors. Which roles attend each session is Unknown and will be confirmed at intake.\n\n## 5. Scope\n\n**In scope:**\n\n- governance evolution\n- implementation guidance\n- audit preparation\n- AI strategy\n- executive decision support\n\n**Out of scope:**\n\n- legal advice\n- certification body functions\n- staff augmentation\n- incident command\n\nThe advisor is not counsel of record. Legal questions, including EU AI Act classification and GDPR interpretation, route to external counsel. Audit preparation is expressed in readiness terms. The program does not promise any certification or audit outcome.\n\n## 6. Investment\n\nThe fee is US$10,000 per month for 12 months, a total of US$120,000 over the term.\n\nThe Client's stated approved budget is up to US$80,000 this fiscal year. The Client's fiscal year dates are Unknown. At intake, the program will confirm two points:\n\n- how the program months fall across fiscal years\n- how the months beyond the current approval are to be authorized\n\n## 7. Renewal and Exit Terms\n\n[Placeholder for counsel: renewal mechanism, notice period, termination for convenience, handover obligations and data handling consistent with the Client's EU data residency constraint.]\n\n## 8. Next Step\n\nA decision is expected by 15 December 2026. To prepare for that date, we propose a 45-minute intake confirmation call to settle the following items:\n\n1. Program start date.\n2. Specific production date for visual inspection within Q2 2027.\n3. ISO/IEC 42001 start date and any external audit date.\n4. Fiscal year dates and funding across fiscal years.\n5. Whether works council consultation applies to the visual inspection pilot.\n6. Attendance for each session.\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 3046,
+   "output_tokens": 5671,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "PASS",
+  "elements": [
+   {
+    "element": "1. Exactly one mode produced",
+    "met": true,
+    "evidence": "The output is a single Mode A proposal with sections 1 to 8: situation, case, annual arc, cadence, scope, investment, renewal placeholder and next step. It contains no Mode B to E content."
+   },
+   {
+    "element": "2. Cadence baseline and out-of-scope list preserved in substance",
+    "met": true,
+    "evidence": "Section 4 lists the monthly executive advisory session, the monthly working session with the governance team, asynchronous availability for defined question categories and the quarterly governance review. Section 5 lists out of scope as legal advice, certification body functions, staff augmentation and incident command."
+   },
+   {
+    "element": "3. Duration and monthly price unaltered",
+    "met": true,
+    "evidence": "\"Term: 12 months, renewable | Fee: US$10,000 per month\" and \"The fee is US$10,000 per month for 12 months, a total of US$120,000 over the term.\" The total is arithmetic only."
+   },
+   {
+    "element": "4. Prior program open items",
+    "met": true,
+    "evidence": "Not applicable: no prior report exists. The output says \"The Client has not completed a prior Academy program, so this engagement begins without inherited open items.\""
+   },
+   {
+    "element": "5. Scorecard of ten indicators or fewer",
+    "met": true,
+    "evidence": "Not applicable: this item is Mode B only, and the output is Mode A."
+   },
+   {
+    "element": "6. Legal routing note wherever regulatory content appears",
+    "met": true,
+    "evidence": "Q1 says \"Prepare questions on the EU AI Act classification... and on GDPR treatment, flagged for verification by external counsel.\" Section 5 says \"The advisor is not counsel of record. Legal questions, including EU AI Act classification and GDPR interpretation, route to external counsel.\""
+   },
+   {
+    "element": "7. Closing line present in Client-facing mode",
+    "met": true,
+    "evidence": "The final line is \"Human-made, for Easy Work, Simply Done.\""
+   },
+   {
+    "element": "K11: no Client-facing text names the Profile Block or client file",
+    "met": true,
+    "evidence": "No phrase such as \"Profile Block\", \"client file\", \"discovery notes\" or \"intake form\" appears. Facts are written directly as information about the Client."
+   },
+   {
+    "element": "K12: principles glossed use DOCTRINE.md section 8 form verbatim",
+    "met": true,
+    "evidence": "The three glosses (\"AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit\"; the Informed Intent form; the Final Liability form) match the system prompt text exactly."
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "\"The roles named for this engagement are General Counsel, CISO...\" restates AUDIENCE_ROLES. It could be read as implying the roles are assigned to the engagement, but the next sentence renders attendance Unknown, so I treated it as a stated fact and not an inferred relation.",
+   "\"Support the internal audit function in planning its review of AI governance\" and \"one is approaching production\" are proposed work and a consequence of the stated Q2 2027 objective. I treated them as permitted under the v1.14.3 guidance. Another scorer could read them as implying an incumbent function or system state.",
+   "\"Without adding headcount\" is generic advisory rationale, not a Client fact. I did not count it as an invented fact.",
+   "The two-page length is not in the pass condition or the checklist, so I did not score it."
+  ],
+  "reasoning": "Checklist items 1, 2, 3, 6 and 7 are met, 4 and 5 are not applicable for the stated reasons, and K11 and K12 hold. Client facts match the Profile Block: the Q2 2027 objective, the June 2026 audit finding, the constraints, \"a decision is expected by 15 December 2026\" and the Unknown rendering of the program start date, fiscal year dates and ISO/IEC 42001 start date. No incumbent register, process or control is asserted beyond the framework names. Proposed work is framed as proposed work or as questions to confirm. Program name, duration and price are unaltered. No fail indicator appears.",
+  "case": "T07-s3",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: Unknown\nRISK_EVENTS: Unknown\nDECISION_TIMELINE: Unknown\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "**Subject: Executive Briefing proposal for Tamarack Instruments**\n\nDear Dana Whitfield,\n\n**Situation**\n\nTamarack Instruments designs and manufactures laboratory measurement instruments. It has about 1,100 staff and operations in the Netherlands, Germany and the United States. The Client has deployed a customer service chatbot on its support portal, is piloting AI visual inspection on its German production line and plans AI sales forecasting next year. Your stated objective is: \"I want governance in place before visual inspection goes into production in Q2 2027.\" Two constraints apply. Customer data must stay in the EU. The German works council is consulted before anything touches production staff.\n\n**What the Briefing covers for Tamarack Instruments**\n\nThe Briefing maps the EU AI Act and GDPR to your three use cases. These are presented as expectations to verify with counsel, not legal advice. For the chatbot, we will review the EU AI Act expectation that people are informed when they interact with an AI system. For visual inspection, we will set out the questions that determine its risk classification. We will also cover whether GDPR obligations such as a data protection impact assessment apply. For sales forecasting, we will outline the governance to establish before build. United States obligations appear as general landscape items only.\n\nWe will present a governance operating model using the GRC Workbook (https://github.com/rolldabones/grc-workbook) and the Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen). Board-layer oversight will draw on AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards). The session is grounded in three principles: Slow AI, Informed Intent and Final Liability rests with the Human. We will show where the works council consultation and EU data residency constraints sit in the governance sequence. We will also show how this work relates to ISO/IEC 42001 preparation, whose start date is not yet fixed. The Briefing does not promise certification, audit outcomes or regulatory approval.\n\n**Logistics and price**\n\nThe Executive Briefing is a two-hour live virtual session for executive leadership and board-level attendees. The price is US$3,000. The roles identified so far are General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors. Attendance and the session date are confirmed at intake.\n\n**What you receive afterward**\n\nYou will receive a written follow-up memo. It records the decisions surfaced, readiness observations and three prioritized recommendations. Each recommendation is mapped to a next program option with its price, duration and a proposed timeline.\n\n**Next step**\n\nPlease reply to confirm a session date and attendees. At intake we will also confirm whether the chatbot handles personal data of EU customers and which governance frameworks, if any, the Client already uses. The decision timeline is not yet known.\n\nKind regards,\n\nAI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2634,
+   "output_tokens": 5568,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "PASS",
+  "elements": [
+   {
+    "element": "Checklist 1: exactly one mode produced",
+    "met": true,
+    "evidence": "Only a Mode A proposal letter appears, with subject line, Situation, What the Briefing covers, Logistics and price, What you receive afterward, Next step, sign-off and closing line. No agenda, talking points or memo template is included."
+   },
+   {
+    "element": "Checklist 2: duration and price unaltered",
+    "met": true,
+    "evidence": "\"The Executive Briefing is a two-hour live virtual session...\" and \"The price is US$3,000.\""
+   },
+   {
+    "element": "Checklist 3: every Client-specific claim traces to the Profile Block",
+    "met": true,
+    "evidence": "Each Client claim maps to a profile field. Examples: \"about 1,100 staff\", the Netherlands, Germany and United States operations, the three use cases, the Q2 2027 quote, \"Customer data must stay in the EU\", the works council constraint, and the ISO/IEC 42001 start date \"not yet fixed\". The attendee roles match AUDIENCE_ROLES."
+   },
+   {
+    "element": "No statement of incumbent frameworks, management systems, registers, processes or functions",
+    "met": true,
+    "evidence": "The only mention is a question for intake: \"which governance frameworks, if any, the Client already uses.\" No incumbent is asserted."
+   },
+   {
+    "element": "No statement of risk events, incidents or audit findings",
+    "met": true,
+    "evidence": "None are mentioned anywhere in the letter."
+   },
+   {
+    "element": "No statement of decision date or decision-maker other than not known",
+    "met": true,
+    "evidence": "\"The decision timeline is not yet known.\" No decider is named. Dana is addressed as the recipient, and the letter does not say she decides."
+   },
+   {
+    "element": "No Client-facing text names the Profile Block or the client file (K11)",
+    "met": true,
+    "evidence": "The letter says \"The roles identified so far are...\" and never names the Profile Block, the discovery notes or any other working document."
+   },
+   {
+    "element": "Academy frameworks and program constants are not treated as Client facts",
+    "met": true,
+    "evidence": "The GRC Workbook, Slow AI Kitchen and AI Governance for Boards appear with their URLs as Academy material. The program description is presented as program content, not as Client facts."
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "The word count is about 447 against the 450 maximum, counting hyphenated terms and URLs as one word each. A scorer who counts differently could land at or over 450. The pass condition requires only checklist items 1 to 3 plus the no-invention test, so I did not treat the word limit as decisive.",
+   "\"The German works council is consulted before anything touches production staff\" is the stated constraint restated in the present tense. Under the v1.14.3 guidance a stated constraint is not a new fact, so I did not treat it as an asserted current practice. Another scorer could read it as a stated practice.",
+   "\"The roles identified so far\" and \"Attendance... confirmed at intake\" assert no owner or attendance relation. I read them as AUDIENCE_ROLES restated plus proposed work.",
+   "The intake question about whether the chatbot handles personal data of EU customers is a question to confirm, which Method step 3 permits. It is not an asserted fact."
+  ],
+  "reasoning": "The letter follows Mode A and states the program constants unaltered. Every Client-specific statement traces to the Profile Block as a fact, proposed work or an intake question. The three Unknown fields are handled as the pass condition allows: incumbent frameworks appear only as an intake question, risk events are not mentioned, and the decision timeline is stated as \"not yet known\". No incumbent function, risk event, audit finding or decision-maker is asserted, and the Profile Block is never named. No fail indicator is present, so the case passes.",
+  "case": "T09-s3",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

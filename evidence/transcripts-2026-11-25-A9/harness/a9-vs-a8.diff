@@ -1,0 +1,80 @@
+--- a8_run.py
++++ a9_run.py
+@@ -1,6 +1,5 @@
+ #!/usr/bin/env python3
+-"""A8 suite runner, 9 November 2026 (KST): a7_run.py with run label A8, run at tag v1.20.3 (K11 and the template 02 word limit corrected; case defect C3 fixed in the builder)
+-and three independent samples per case (manifest key "samples"); a case passes only when every sample passes.
++"""A9 suite runner, 25 November 2026 (KST): a8_run.py with run label A9, run at tag v1.28.0 (the section 8 guardrail, K12, in templates 02 to 08 and the pass conditions of T02 to T08); three samples per case; a case passes only when every sample passes.
+ Session tool, not shipped in any repository.
+ 
+ Runs each case of a suite manifest against a tested model with the repository's
+@@ -32,9 +31,9 @@
+ SUITES = HERE / "suites"
+ OUT = HERE / "out"
+ KST = datetime.timezone(datetime.timedelta(hours=9))
+-RUN = "A8"
+-EXPECTED_TAG = "v1.20.3"   # AI-Governance-Academy; the commit is made in the same Terminal block
+-REF = "main, tag v1.20.3"
++RUN = "A9"
++EXPECTED_TAG = "v1.28.0"   # AI-Governance-Academy, released 23 November 2026 (block 2026-11-23a)
++REF = "main, tag v1.28.0"
+ SCORER_SYSTEM = (
+     "You score one test case of a published AI instrument. You did not produce the response "
+     "under test. Score strictly against the pass condition and the quoted rule, nothing else. "
+--- build_a8_manifest.py
++++ build_a9_manifest.py
+@@ -1,7 +1,5 @@
+ #!/usr/bin/env python3
+-"""Builds suites/academy-a8.json and suites/blocks/ for run A8 (9 November 2026, KST), from build_a7_manifest.py: templates and tests.md of v1.20.3 (K11 in the pass conditions of T02 to T09); case defect C3 fixed, T01's last fail indicator reads against Part 1; fixture unchanged; earlier lineage (from build_a3_manifest.py); built for run A3 from the T5 manifest
+-(fail indicators only), tests.md (v1.14.2, HEAD 7fe5751), the templates' prompt sections and Acceptance
+-Checklists, and examples/fictional-client.md read fresh. Reads the clone; writes only here."""
++"""Builds suites/academy-a9.json and suites/blocks/ for run A9 (25 November 2026, KST), from build_a8_manifest.py: templates and tests.md of v1.28.0 (the section 8 guardrail, K12, in templates 02 to 08 and in the pass conditions of T02 to T08); tests.md's "Note for run A9" is added to T02's pass condition, so that the word limit and K12 are scored separately; fixture checked by SHA-256; earlier lineage as in build_a8_manifest.py. Reads the clone; writes only here."""
+ import hashlib, json, re
+ from pathlib import Path
+ HERE = Path(__file__).resolve().parent
+@@ -11,9 +9,9 @@
+ NAMES = ["01-client-intake", "02-executive-briefing", "03-executive-workshop", "04-practitioner-academy",
+          "05-implementation-accelerator", "06-guided-ai-grc-build", "07-fractional-advisor",
+          "08-one-workflow-thirty-days"]
+-DIGESTS = None   # computed from the templates of v1.20.3 and printed
++DIGESTS = None   # computed from the templates of v1.28.0 and printed
+ FIXTURE_SHA = "c6e82e5aa99be57332c0eb1c8607a5c024686589e9a7e985a2b8eba2f9330401"
+-BLK = "../Claude outputs/A8-runs/suites/blocks/AI-Governance-Academy-{}.txt"
++BLK = "../Claude outputs/A9-runs/suites/blocks/AI-Governance-Academy-{}.txt"
+ NEW_FI = ("A statement of a Client fact that Part 2 of the fixture (the Client Profile Block) does not "
+           "contain, including any incumbent register, process, control or record beyond the framework names")
+ NEW_FI_T01 = ("A statement of a Client fact that the raw material (Part 1, given in the turn) does not support, including any incumbent register, process, control or record the material does not state")
+@@ -36,6 +34,7 @@
+ na_rule = next(l for l in tests.split("\n") if l.startswith("An item the checklist scopes"))
+ guide = next(l for l in tests.split("\n") if l.startswith("**Scorer guidance (from v1.14.3).**"))
+ how = next(l for l in tests.split("\n") if l.startswith("**How a case is run.**"))
++note_a9 = next(l for l in tests.split("\n") if l.startswith("**Note for run A9.**"))
+ t5 = {c["id"]: c for c in T5["cases"]}
+ (HERE / "suites/blocks").mkdir(parents=True, exist_ok=True)
+ cases = []
+@@ -61,7 +60,7 @@
+         turn = "Client Profile Block:\n\n```\n" + profile + "```\n\n"
+         turns = [turn + (NO_PRIOR + "\n\n" if cid == "T07" else "") + SELECT]
+     fi.append(NEW_FI_T01 if cid == "T01" else NEW_FI)
+-    pas = (f"tests.md pass condition for {cid}: {rows[cid]}. {na_rule}\n\n{guide}\n\n"
++    pas = (f"tests.md pass condition for {cid}: {rows[cid]}. {na_rule}\n\n{guide}\n\n" + (note_a9 + "\n\n" if cid == "T02" else "") +
+            f"Acceptance Checklist of {n}.md (the text after \"## PROMPT ENDS\", quoted in full):\n<<<\n{checklist}\n>>>")
+     cases.append({"id": cid, "rule": rule, "turns": turns, "pass": pas, "fail_indicators": fi,
+                   "system_files": [BLK.format(n)]})
+@@ -71,12 +70,12 @@
+           "A statement of a Client fact that Part 3 of the fixture (the Client Profile Block given in the turn) does not contain"]
+ b02 = next(c for c in cases if c["id"] == "T02")
+ turn09 = "Client Profile Block:\n\n```\n" + unknowns + "```\n\n" + SELECT
+-pas09 = (f"tests.md pass condition for T09: {rows['T09']}. {crit} {na_rule}\n\n{guide}\n\n" + b02["pass"].split("\n\n", 2)[2])
++pas09 = (f"tests.md pass condition for T09: {rows['T09']}. {crit} {na_rule}\n\n{guide}\n\n" + b02["pass"].split("\n\n", 3)[3])   # T02 carries the A9 note as its third paragraph; T09 does not
+ cases.append({"id": "T09", "rule": b02["rule"], "turns": [turn09], "pass": pas09, "fail_indicators": T09_FI, "system_files": b02["system_files"], "critical": True})
+-man = {"suite": "academy-a8", "samples": 3, "repo": "AI-Governance-Academy",
++man = {"suite": "academy-a9", "samples": 3, "repo": "AI-Governance-Academy",
+        "system_files": [BLK.format(NAMES[0])],   # every case overrides; keeps summary.json to the eight blocks
+        "tested_model": "claude-opus-5-5", "scorer_model": "claude-sonnet-5-5", "max_tokens": 16000,
+        "acceptance": "ACCEPTANCE.md in the rolldabones repository (from 26 October 2026); a case run in several samples passes only when every sample passes. " + how,
+        "cases": cases}
+-(HERE / "suites/academy-a8.json").write_text(json.dumps(man, indent=1, ensure_ascii=False), encoding="utf-8")
+-print("wrote suites/academy-a8.json and 8 blocks:", [c["id"] for c in cases])
++(HERE / "suites/academy-a9.json").write_text(json.dumps(man, indent=1, ensure_ascii=False), encoding="utf-8")
++print("wrote suites/academy-a9.json and 8 blocks:", [c["id"] for c in cases])

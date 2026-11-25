@@ -1,0 +1,80 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: Unknown\nRISK_EVENTS: Unknown\nDECISION_TIMELINE: Unknown\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "**Subject: Executive Briefing proposal for Tamarack Instruments**\n\nDear Dana Whitfield,\n\n**Situation**\nTamarack Instruments designs and manufactures laboratory measurement instruments. It has about 1,100 staff and operates in the Netherlands, Germany and the United States. The Client has a customer service chatbot deployed on its support portal and is piloting AI visual inspection on the German production line. It plans to introduce AI sales forecasting next year. Your stated objective is clear: \"I want governance in place before visual inspection goes into production in Q2 2027.\" Two stated constraints apply. Customer data must stay in the EU, and the German works council is consulted before anything touches production staff.\n\n**What the Briefing covers for the Client**\nThe Briefing maps the EU AI Act and GDPR to each use case. It presents these as expectations to verify with counsel, not as legal advice. For the chatbot, it reviews the expectation that people are informed they are interacting with an AI system. For visual inspection, it examines how the system may be classified under the EU AI Act and whether a GDPR data protection impact assessment is expected. One question will be confirmed at intake: whether the system touches production staff and so engages the works council. For forecasting, it sets out the authorization questions to answer before build begins. United States obligations appear only as a general landscape item.\n\nThe operating model overview uses the GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen). The board layer draws on AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards). The session is anchored in three principles: Slow AI, Informed Intent and Final Liability rests with the Human. ISO/IEC 42001 work is targeted for next year, although no start date is fixed. The session shows how early governance choices can align with that standard. It does not promise certification or any audit outcome.\n\n**Logistics and price**\nThe Briefing is a two-hour live virtual session priced at US$3,000. The session date and attendee list will be confirmed at intake. The roles identified are General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors.\n\n**What the Client receives afterward**\nThe Client receives a follow-up memo. It summarizes the decisions surfaced and our readiness observations. It also sets out three prioritized recommendations, each mapped to a next program option.\n\n**Next step**\nThe decision timeline is not yet known. We propose a short intake call to confirm the session date, the attendees and the works council question above.\n\nKind regards,\n\nSenior AI Governance Consultant\nAI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2634,
+   "output_tokens": 3784,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "PASS",
+  "elements": [
+   {
+    "element": "Checklist 1: exactly one mode produced",
+    "met": true,
+    "evidence": "Only a proposal letter is output (Subject line, 'Dear Dana Whitfield', sections Situation to Next step, sign-off, closing line). No agenda, talking points or memo template is produced."
+   },
+   {
+    "element": "Checklist 2: duration and price unaltered",
+    "met": true,
+    "evidence": "'The Briefing is a two-hour live virtual session priced at US$3,000.'"
+   },
+   {
+    "element": "Checklist 3: every Client-specific claim traces to the Profile Block",
+    "met": true,
+    "evidence": "The claims on industry, headcount, jurisdictions, the three use cases, the objective quote, the data and works council constraints, the ISO/IEC 42001 target and the audience roles all match the block. 'ISO/IEC 42001 work is targeted for next year, although no start date is fixed' matches the CERTIFICATION_TARGETS and CONFIDENCE_NOTES fields."
+   },
+   {
+    "element": "No fact about incumbent frameworks, management systems, registers, processes or functions",
+    "met": true,
+    "evidence": "The letter never mentions incumbent frameworks, existing registers or controls. The ISO/IEC 42001 sentence describes a target, not an existing system."
+   },
+   {
+    "element": "No fact about risk events or audit findings",
+    "met": true,
+    "evidence": "The letter mentions no incidents, events or findings."
+   },
+   {
+    "element": "No fact about decision date or decision-maker, other than not known",
+    "met": true,
+    "evidence": "'The decision timeline is not yet known.' No decider is named. The Q2 2027 date appears only inside Dana's quoted objective about visual inspection going into production, not as a decision date."
+   },
+   {
+    "element": "No Client-facing text names the Profile Block or the client file (K11)",
+    "met": true,
+    "evidence": "There is no reference to a Profile Block, discovery call notes or any working document."
+   },
+   {
+    "element": "No Client fact beyond the fixture's Part 3",
+    "met": true,
+    "evidence": "Statements such as 'One question will be confirmed at intake: whether the system touches production staff' are questions to confirm or proposed work. The works council point applies a stated constraint to a stated system, which the v1.14.3 guidance treats as not a new fact."
+   },
+   {
+    "element": "Word limit of 450 (checklist item 6, in case a scorer applies it)",
+    "met": true,
+    "evidence": "My count is roughly 425 words including subject, sign-off and closing line."
+   },
+   {
+    "element": "Closing line present (checklist item 7, in case a scorer applies it)",
+    "met": true,
+    "evidence": "'Human-made, for Easy Work, Simply Done.'"
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "'Two stated constraints apply' lists only the data and works council constraints and omits the US$80,000 budget constraint, so it is a loose count of the three stated constraints. I read it as 'two of the stated constraints apply here', which invents no fact. A stricter scorer could call it an item 3 miscount and fail the sample.",
+   "'Your stated objective is clear' is an evaluative gloss, not a Client fact. I did not treat it as a violation.",
+   "Word count is not in the T09 pass condition (items 1 to 3), but I checked it anyway and it is under 450."
+  ],
+  "reasoning": "All three unknown fields (INCUMBENT_FRAMEWORKS, RISK_EVENTS, DECISION_TIMELINE) are handled correctly. The letter says nothing about incumbent frameworks or risk events, and it states only that 'The decision timeline is not yet known.' The Client facts it does state trace to the block, and the Profile Block is never named. Proposed work and intake questions are framed as such. Mode, duration, price, word count and closing line are all compliant. The only soft spot is the 'Two stated constraints' phrasing, which I decided is not an invented fact.",
+  "case": "T09-s1",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

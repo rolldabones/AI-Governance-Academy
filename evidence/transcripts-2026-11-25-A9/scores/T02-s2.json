@@ -1,0 +1,77 @@
+{
+ "log": [
+  {
+   "turn": 1,
+   "user": "Client Profile Block:\n\n```\nCLIENT PROFILE BLOCK v1.0\nCLIENT_NAME: Tamarack Instruments (fictional)\nINDUSTRY: Laboratory measurement instruments, design and manufacture\nHEADQUARTERS_JURISDICTION: Netherlands\nOPERATING_JURISDICTIONS: Netherlands, Germany, United States\nCOMPANY_SIZE: About 1,100 staff; revenue \"in the US$200 to 300 million range\"\nAI_USE_CASES: Deployed: customer service chatbot on the support portal. Piloting: AI visual inspection on the German production line. Planned: AI sales forecasting next year.\nAI_MATURITY: Piloting\nREGULATORY_DRIVERS: EU AI Act; GDPR\nCERTIFICATION_TARGETS: ISO/IEC 42001 (work to start next year)\nAUDIENCE_ROLES: General Counsel; CISO; Head of Quality; Head of Data; German plant manager; two internal auditors\nSPONSOR: Dana Whitfield, General Counsel (stated as budget holder)\nSTATED_OBJECTIVES: \"I want governance in place before visual inspection goes into production in Q2 2027.\" (Dana Whitfield)\nSTATED_CONSTRAINTS: Budget approved up to US$80,000 this fiscal year; customer data must stay in the EU; German works council consulted before anything touches production staff\nINCUMBENT_FRAMEWORKS: ISO/IEC 27001 ISMS; ISO 9001 quality management system; internal audit function\nRISK_EVENTS: Internal audit finding, June 2026: no inventory of AI systems\nDECISION_TIMELINE: Decision expected by 15 December 2026\nSOURCE_MATERIAL: Discovery call notes of 6 October 2026, with Dana Whitfield, Ravi Okafor and Ingrid Solberg\nCONFIDENCE_NOTES: Revenue band as spoken, not from filings; ISO/IEC 42001 start date not fixed\n```\n\nSelect exactly one OUTPUT MODE: MODE A – PROPOSAL.",
+   "reply": "**Subject: Executive Briefing proposal for Tamarack Instruments (fictional)**\n\nDear Dana Whitfield,\n\n**Situation**\n\nTamarack Instruments designs and manufactures laboratory measurement instruments. It is headquartered in the Netherlands, operates in the Netherlands, Germany and the United States and has about 1,100 staff. The Client has a customer service chatbot deployed on its support portal, is piloting AI visual inspection on its German production line and plans AI sales forecasting next year. An internal audit finding in June 2026 recorded no inventory of AI systems. Your stated objective is: \"I want governance in place before visual inspection goes into production in Q2 2027.\"\n\n**What the Briefing covers for the Client**\n\nThe Briefing maps the EU AI Act and GDPR to these three use cases. It frames them as expectations to verify with counsel rather than legal advice. This includes transparency expectations for the chatbot and questions about how the visual inspection pilot may be classified. United States requirements appear only as a general landscape item. The readiness discussion is anchored to the Client's piloting maturity and to establishing an AI system inventory.\n\nThe operating model overview uses the GRC Workbook (https://github.com/rolldabones/grc-workbook) and Slow AI Kitchen (https://github.com/rolldabones/slow-ai-kitchen). AI Governance for Boards (https://github.com/rolldabones/ai-governance-for-boards) serves as the board-layer reference. All three rest on three principles: Slow AI, Informed Intent and Final Liability rests with the Human.\n\nWe will discuss how the intended ISO/IEC 42001 work could relate to the Client's ISO/IEC 27001, ISO 9001 and internal audit arrangements. The Briefing does not promise certification, audit outcomes or regulatory approval. Implementation priorities will respect two stated constraints. Customer data must stay in the EU, and the German works council is consulted before anything touches production staff.\n\n**Logistics and price**\n\nThe Briefing runs for two hours, live virtual, at US$3,000. It is designed for executive leadership and board-level attendees. The audience roles are General Counsel, CISO, Head of Quality, Head of Data, German plant manager and two internal auditors.\n\n**What you receive afterward**\n\nYou will receive a written follow-up memo. It summarizes the decisions surfaced and our readiness observations. It also sets out three prioritized recommendations, each mapped to a next program option with a proposed timeline.\n\n**Next step**\n\nA decision is expected by 15 December 2026. We propose a short intake call to confirm:\n\n1. The Briefing date and attendees.\n2. Whether the chatbot processes personal data.\n3. The current scope of the visual inspection pilot.\n4. The ISO/IEC 42001 start date, which is not yet fixed.\n\nKind regards,\n\nAI Governance Academy\n\nHuman-made, for Easy Work, Simply Done.",
+   "stop_reason": "end_turn",
+   "input_tokens": 2690,
+   "output_tokens": 5311,
+   "model_returned": "claude-opus-5-5"
+  }
+ ],
+ "score": {
+  "verdict": "PASS",
+  "elements": [
+   {
+    "element": "Checklist 1: exactly one mode produced",
+    "met": true,
+    "evidence": "The output is a single proposal letter with a subject line, salutation, five sections and a sign-off. No agenda, talking points or memo template is included."
+   },
+   {
+    "element": "Checklist 2: duration and price unaltered",
+    "met": true,
+    "evidence": "\"The Briefing runs for two hours, live virtual, at US$3,000.\""
+   },
+   {
+    "element": "Checklist 3: every Client-specific claim traces to the Profile Block (no fail-indicator facts)",
+    "met": true,
+    "evidence": "The Client facts match the block. These are the three use cases, the June 2026 audit finding of \"no inventory of AI systems\", the quoted objective, the two constraints, the audience roles and \"A decision is expected by 15 December 2026.\" Unstated items appear only as intake questions: \"Whether the chatbot processes personal data\" and \"The current scope of the visual inspection pilot.\" The incumbent frameworks are named but no register, process or control is described."
+   },
+   {
+    "element": "Checklist 4: principles and framework names rendered exactly, with URLs where cited",
+    "met": true,
+    "evidence": "\"Slow AI, Informed Intent and Final Liability rests with the Human.\" GRC Workbook, Slow AI Kitchen and AI Governance for Boards each appear with the correct URL."
+   },
+   {
+    "element": "Checklist 5: no legal advice or certification guarantees",
+    "met": true,
+    "evidence": "\"It frames them as expectations to verify with counsel rather than legal advice.\" and \"The Briefing does not promise certification, audit outcomes or regulatory approval.\""
+   },
+   {
+    "element": "Checklist 6: Mode A limit of 450 words in all, including subject line, sign-off and closing line, and required sections present",
+    "met": true,
+    "evidence": "My count is about 415 words, including the subject line, \"Kind regards,\", \"AI Governance Academy\" and the closing line. That is under 450 even if the URLs are counted generously. All five required sections are present."
+   },
+   {
+    "element": "Checklist 7: closing line present",
+    "met": true,
+    "evidence": "\"Human-made, for Easy Work, Simply Done.\""
+   },
+   {
+    "element": "K11: Client-facing text does not name the Profile Block or the client file",
+    "met": true,
+    "evidence": "Neither \"Profile Block\" nor any client file or working document is named anywhere in the letter."
+   },
+   {
+    "element": "K12: any principle defined or glossed uses the DOCTRINE.md section 8 form verbatim",
+    "met": true,
+    "evidence": "The principles are only named and are not defined or glossed, so K12 is not triggered. The word limit was scored separately and is also met."
+   }
+  ],
+  "fail_indicators_seen": [],
+  "judgment_calls": [
+   "\"The audience roles are General Counsel, CISO...\" restates AUDIENCE_ROLES as a field and does not say who attends. I treated it as a stated fact and not an inferred relation. Another scorer could read it as implying attendance.",
+   "\"the Client's ISO/IEC 27001, ISO 9001 and internal audit arrangements\" uses \"arrangements\" for the incumbent frameworks. I read it as naming the frameworks without asserting any register or control, and as proposed discussion work. A strict scorer could object to the word.",
+   "\"All three rest on three principles\" is a statement about the frameworks and not a Client fact, so I did not treat it as a violation.",
+   "\"the German works council is consulted before anything touches production staff\" restates a stated constraint in the present tense. I treated it as a block fact and not as an asserted practice.",
+   "\"What you receive afterward\" describes a memo drawn from Mode D. I treated it as proposed program work and not an invented Client fact."
+  ],
+  "reasoning": "All seven checklist items are met. The letter is one mode, uses the constant duration and price, and keeps Client claims to block facts, proposed work or intake questions. Principles and frameworks are rendered exactly with URLs. Regulatory points are framed as expectations to verify with counsel, and the closing line is present. The word count is about 415 against the 450 limit. K11 is met, and K12 is not triggered because no principle is glossed. No fail indicator appears. The remaining ambiguities are minor wording points that I resolved in favour of the response.",
+  "case": "T02-s2",
+  "scorer_model": "claude-sonnet-5-5",
+  "scorer_model_returned": "claude-sonnet-5-5",
+  "scorer_stop_reason": "end_turn",
+  "truncated": false
+ }
+}

@@ -2,6 +2,15 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.28.1] – 2026-11-25
+
+Patch release, records only. Run A9 of the v1.28.0 text, read and reviewed on Michael Paik's rulings of 25 November 2026 (KST), the first Test Thursday session: **not accepted**; last accepted run A8, with residuals. No template, publication or case changes. Prepared with Claude, approved by Michael Paik.
+
+- **`tests.md`:** run A9 is the Last run (the critical case T09 and 5 of the 8 other cases passed after review, 62.5 percent; T03 and T08 failed on K12, a section 8 form split into two sentences; T05 on K5, a Client process the Profile Block does not state); A8 the Previous run; K5 and K12 with the A9 counts; the status.
+- **`evidence/transcripts-2026-11-25-A9/`** and **`examples/transcripts-2026-11-25-A9/`** (new): the 27 transcripts, scores, summary and harness with the diff from run A8; the 27 outputs, labeled, with an index README.
+- **README:** acceptance status and test status after run A9; the evidence paragraph names ten runs.
+- Every template masthead, the README masthead and How to Cite, `PUBLICATIONS.md` (17 citations and its masthead), the `tests.md` masthead and `CITATION.cff` to v1.28.1. The prompt sections are unchanged (their digests are those run A9 ran).
+
 ## [1.28.0] – 2026-11-23
 
 Minor release: the doctrine items of the account review of 10 November 2026, findings #9 to #41 as ruled that day, worked as rotation slot T-B in the Monday run of 23 November 2026 and approved by Michael Paik at Gate 1 of that day, every recommendation as written, rows R18 to R23 included. Templates 02 to 08 gain a rule in their prompt sections, so acceptance does not carry forward under `ACCEPTANCE.md` (f): the templates are not accepted, the last accepted run is A8, with residuals, and run A9 is due on Test Thursday, 26 November 2026. No transcript body is edited and no logged verdict is reopened. Prepared with Claude, approved by Michael Paik.
