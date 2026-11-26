@@ -1,8 +1,8 @@
 # AI Governance Academy
 
-Version 1.29.1 | 2026-11-26 | Status: published; templates accepted with residuals, run A10 (see Acceptance status) | Model-agnostic
+Version 1.29.2 | 2026-11-26 | Status: published; templates accepted with residuals, run A10 (see Acceptance status) | Model-agnostic
 
-**Acceptance status at version 1.29.1 ([ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md), 26 November 2026, KST):** Accepted with residuals. Run A10 (26 November 2026) of the templates at this version passed the critical case, which tests the no-invention rule on its own, and 7 of the 8 other cases after review (87.5 percent): every output of templates 03 to 08 quoted the [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md) section 8 forms verbatim, each as one sentence, and one of three samples of template 04 stated a status of the Client's audit finding that the Client Profile Block does not give. The residual defects are controlled at Workflow item 5. Run A9 (25 November 2026) of the text before it was not accepted (62.5 percent): two outputs split a section 8 form into two sentences. The account's status table is in [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md#instrument-status).
+**Acceptance status at version 1.29.2 ([ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md), 26 November 2026, KST):** Accepted with residuals. Run A10 (26 November 2026) of the templates at this version passed the critical case, which tests the no-invention rule on its own, and 7 of the 8 other cases after review (87.5 percent): every output of templates 03 to 08 quoted the [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md) section 8 forms verbatim, each as one sentence, and one of three samples of template 04 stated a status of the Client's audit finding that the Client Profile Block does not give. The residual defects are controlled at Workflow item 5. Run A9 (25 November 2026) of the text before it was not accepted (62.5 percent): two outputs split a section 8 form into two sentences. The account's status table is in [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md#instrument-status).
 
 **Caution.** The templates were last accepted with residuals under [tests.md](tests.md), not without them: in 1 of 27 samples of the accepting run the model still stated a Client fact the Profile Block does not give, two samples of that run glossed the principles outside their canonical forms, and the program spines have not been checked against a delivered program. Every output rests on the human check at Workflow item 5.
 
@@ -40,14 +40,14 @@ The ladder is shared with the profile README (github.com/rolldabones) and is wri
 | 2 hours | Executive Briefing | [AI-Governance-Academy, template 02](02-executive-briefing.md) | US$3,000 |
 | Half day | Executive Workshop, half day (executive leadership) | none published | by proposal |
 | 1 day | Executive Workshop (executive leadership) | [AI-Governance-Academy, template 03](03-executive-workshop.md) | US$7,500 |
-| 1 day | The AI Generalist (working professionals) | [the-ai-generalist](https://github.com/rolldabones/the-ai-generalist) | by proposal |
+| 1 day | The AI Generalist (working professionals) | [the-ai-generalist](https://github.com/rolldabones/the-ai-generalist), an archived edition brought current for each engagement | by proposal |
 | 2 days | Practitioner Academy (the Slow AI Kitchen workshop is Day 2) | [AI-Governance-Academy, template 04](04-practitioner-academy.md) | US$12,500 |
 | 5 days | Implementation Accelerator | [AI-Governance-Academy, template 05](05-implementation-accelerator.md) | US$25,000 |
 | 30 days | One Workflow, Thirty Days (the Consultant Workbook engagement) | [slow-ai-kitchen/consultant-workbook.md](https://github.com/rolldabones/slow-ai-kitchen/blob/main/consultant-workbook.md); [AI-Governance-Academy, template 08](08-one-workflow-thirty-days.md) | by proposal |
 | 12 weeks | Guided AI GRC Build | [AI-Governance-Academy, template 06](06-guided-ai-grc-build.md) | US$60,000 |
 | 12 months | Fractional AI Governance Advisor | [AI-Governance-Academy, template 07](07-fractional-advisor.md) | US$10,000 per month |
 
-GRCnext™: [GRCnext-Copilot](https://github.com/rolldabones/GRCnext-Copilot) and [RedCap-00](https://github.com/rolldabones/RedCap-00) are public and free; GRCnext™ advisory is on inquiry.
+GRCnext™: [GRCnext-Copilot](https://github.com/rolldabones/GRCnext-Copilot) is public, free and maintained; [RedCap-00](https://github.com/rolldabones/RedCap-00) is public and free as an archived edition; GRCnext™ advisory is on inquiry.
 
 An engagement on this ladder licenses the Client to use the materials it delivers in the Client's own operations, on the terms of the engagement agreement; any other commercial use is set out in [LICENSING.md](https://github.com/rolldabones/rolldabones/blob/main/LICENSING.md).
 
@@ -124,12 +124,14 @@ Nearest neighbors:
 - [grc-workbook](https://github.com/rolldabones/grc-workbook): framework constant in every program template; the build instrument the Guided AI GRC Build program delivers
 - [slow-ai-kitchen](https://github.com/rolldabones/slow-ai-kitchen): framework constant; the method the Practitioner Academy teaches. Its Consultant Workbook engagement, One Workflow, Thirty Days, is template 08 of this pack and carries no published price
 - [ai-governance-for-boards](https://github.com/rolldabones/ai-governance-for-boards): framework constant; the board-layer handbook cited where the audience includes directors
-- [definition-of-done](https://github.com/rolldabones/definition-of-done): framework constant; the acceptance-layer doctrine cited where the engagement covers task-level acceptance discipline
-- [the-ai-generalist](https://github.com/rolldabones/the-ai-generalist): the one-day corporate workshop on the same doctrines and the AI GRC minimum control set; it is not a program option of this pack and carries no price constant here
+- [definition-of-done](https://github.com/rolldabones/definition-of-done) (archived edition): framework constant; the acceptance-layer doctrine cited where the engagement covers task-level acceptance discipline
+- [the-ai-generalist](https://github.com/rolldabones/the-ai-generalist) (archived edition): the one-day corporate workshop on the same doctrines and the AI GRC minimum control set; it is not a program option of this pack and carries no price constant here
+
+Entries marked archived edition are dated editions that receive no corrections; [DISPOSITION.md](https://github.com/rolldabones/rolldabones/blob/main/DISPOSITION.md) lists them.
 
 ## How to Cite
 
-> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.29.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
+> Paik, Son-U Michael. *AI Governance Academy: Client Content Prompt Pack and Publications*, v1.29.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/AI-Governance-Academy
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

@@ -2,6 +2,15 @@
 
 All notable changes to the AI Governance Academy Client Content Prompt Pack and Publications are documented here. Format follows Keep a Changelog conventions. Versioning is semantic.
 
+## [1.29.2] – 2026-11-26
+
+Patch release: pointers and wording. On Michael Paik's rulings of 26 November 2026, recorded in DISPOSITION.md in the profile repository: thirteen repositories of the account were archived that day as dated editions. Prepared with Claude, approved by Michael Paik.
+
+- **README, Offerings ladder:** The AI Generalist row and the GRCnext™ line say which instruments are archived editions, as the profile's ladder does. **Part of the ecosystem:** the 2 archived neighbors are marked "archived edition".
+- **`PUBLICATIONS.md`:** the Korean edition of *The Evidence and the Exit* is in a repository archived on 26 November 2026 as a machine draft whose line review was not completed.
+- **No template text changes.** Templates 01 to 08 change only in the version on their masthead line, which is outside the tested text; the acceptance status is the one run A10 set and reads as it did. The run evidence stays in this repository, and no new evidence is added.
+- README, the template mastheads, `PUBLICATIONS.md` and `CITATION.cff` to v1.29.2. No file is added, removed, renamed or moved.
+
 ## [1.29.1] – 2026-11-26
 
 Patch release, records only. Run A10 of the v1.29.0 text, the retry the queue placed on Test Thursday, read and reviewed on Michael Paik's rulings of 26 November 2026 (KST): **accepted with residuals**. No template, publication or case changes. Prepared with Claude, approved by Michael Paik.
